@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  font-family: "DM Sans", system-ui, sans-serif;
+  color: #17241c;
+  background: #f4f1e9;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; min-height: 100%; height: 100%; }
+button, input { font: inherit; }
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  background: #f4f1e9;
+  overflow: hidden;
+}
+.sidebar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #173c2b;
+  color: #eef4e9;
+  border-right: 1px solid rgba(0,0,0,.12);
+  min-width: 0;
+  z-index: 20;
+}
+.brand {
+  display: flex; align-items: center; gap: 11px;
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.09);
+}
+.brandHome {
+  display: flex; align-items: center; gap: 11px; border: 0; padding: 0;
+  background: transparent; color: inherit; text-align: left; cursor: pointer;
+}
+.brandHome:hover .brandTitle { text-decoration: underline; }
+.homeCover {
+  flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 18px; padding: 20px 24px 24px;
+}
+.homeTitle { max-width: none; text-align: center; }
+.homeCover img {
+  max-width: 100%; min-height: 0; flex: 0 1 auto; object-fit: contain;
+  border-radius: 14px; box-shadow: 0 10px 35px rgba(40,46,38,.15);
+}
+.brandMark {
+  width: 38px; height: 38px; border-radius: 11px;
+  display: grid; place-items: center;
+  background: #e6b85c; color: #173c2b;
+}
+.brandEyebrow { font-size: 10px; letter-spacing: .18em; font-weight: 700; opacity: .68; }
+.brandTitle { margin-top: 2px; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.tocIntro { padding: 20px 20px 13px; }
+.tocTitle { font: 700 27px/1 "Playfair Display", Georgia, serif; }
+.search {
+  margin: 0 14px 12px; display: flex; align-items: center; gap: 9px;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.10);
+  border-radius: 10px; padding: 9px 11px; color: rgba(255,255,255,.65);
+}
+.search input { width: 100%; border: 0; outline: 0; background: transparent; color: white; font-size: 13px; }
+.search input::placeholder { color: rgba(255,255,255,.45); }
+.searchClear { border: 0; background: transparent; color: rgba(255,255,255,.55); cursor: pointer; padding: 2px; }
+.toc { overflow: auto; padding: 0 10px 14px; scrollbar-width: thin; }
+.tocBook + .tocBook { margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.12); }
+.bookButton {
+  width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  border: 0; background: transparent; cursor: pointer; text-align: left;
+  padding: 8px 9px; border-radius: 8px;
+  font: 700 17px/1.2 "Playfair Display", Georgia, serif; color: #e6b85c;
+}
+.bookButton:hover { background: rgba(255,255,255,.06); }
+.tocBook .tocSection { padding-left: 10px; }
+.tocSection { margin-bottom: 7px; }
+.sectionButton {
+  width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  border: 0; color: #f2ead9; background: transparent; padding: 10px 9px 8px;
+  text-align: left; font-size: 10.5px; text-transform: uppercase; letter-spacing: .12em;
+  font-weight: 700; cursor: pointer;
+}
+.chevron { opacity: .55; transition: transform .2s ease; }
+.chevron.open { transform: rotate(180deg); }
+.recipeList { display: grid; gap: 2px; }
+.recipeItem {
+  width: 100%; display: grid; grid-template-columns: 27px minmax(0,1fr); align-items: start;
+  gap: 7px; text-align: left; border: 0; border-radius: 8px; padding: 8px 9px;
+  color: rgba(255,255,255,.72); background: transparent; cursor: pointer;
+}
+.recipeItem:hover { background: rgba(255,255,255,.08); color: white; }
+.recipeItem.active { background: #f2e8d2; color: #173c2b; }
+.recipeNumber { font-size: 10px; opacity: .45; padding-top: 2px; text-align: right; }
+.recipeName { font-size: 12.5px; line-height: 1.3; }
+.sidebarFoot {
+  margin-top: auto; padding: 12px 20px 16px; border-top: 1px solid rgba(255,255,255,.08);
+  font-size: 10px; line-height: 1.4; opacity: .42;
+}
+.content {
+  min-width: 0; height: 100vh; display: flex; flex-direction: column;
+  background: radial-gradient(circle at 80% 0%, rgba(230,184,92,.10), transparent 30%), #f4f1e9;
+}
+.topbar {
+  height: 44px; flex: 0 0 44px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 26px; border-bottom: 1px solid #ddd8cc; background: rgba(250,248,242,.88);
+  backdrop-filter: blur(10px);
+}
+.openPdf { margin-left: auto; display: inline-flex; align-items: center; gap: 7px; color: #27553d; text-decoration: none; font-size: 12px; font-weight: 700; }
+.openPdf:hover { text-decoration: underline; }
+.recipeHeader { padding: 12px 30px 10px; max-width: 1120px; width: 100%; margin: 0 auto; }
+h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfair Display", Georgia, serif; color: #1c2b20; }
+.viewerCard {
+  min-height: 0; flex: 1; display: flex; flex-direction: column;
+  margin: 0 24px 22px; border: 1px solid #ddd8cc; border-radius: 14px; overflow: hidden;
+  background: #d9d5ca; box-shadow: 0 10px 35px rgba(40,46,38,.08);
+}
+.pdfPageWrap { flex: 1; min-height: 0; overflow: auto; padding: 16px; display: flex; justify-content: center; align-items: flex-start; }
+.pdfPageImage { display: block; width: 100%; max-width: 900px; height: auto; background: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.15); border-radius: 4px; }
+.iconButton { border: 0; background: transparent; color: inherit; cursor: pointer; display: grid; place-items: center; }
+.mobileMenu, .mobileClose { display: none; }
+
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; }
+  .sidebar {
+    position: fixed; inset: 0 auto 0 0; width: min(380px, 92vw);
+    transform: translateX(-102%); box-shadow: 15px 0 45px rgba(0,0,0,.2);
+    transition: transform .22s ease;
+  }
+  .sidebar--open { transform: translateX(0); }
+  .mobileClose { display: grid; margin-left: auto; opacity: .7; }
+  .mobileMenu { display: grid; }
+  .topbar { padding: 0 16px; gap: 10px; }
+  .recipeHeader { padding: 10px 18px 8px; }
+  .viewerCard { margin: 0 12px 12px; border-radius: 10px; }
+}

@@ -1,8 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { Search, ChevronDown, BookOpen, ExternalLink, Menu, X, Calculator } from "lucide-react";
+import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple } from "lucide-react";
 import { recipes } from "./recipes";
 import CalorieCalculator from "./CalorieCalculator";
+import MenuCalendar from "./MenuCalendar";
+import WaterTracker from "./WaterTracker";
+import FruitGrid from "./FruitGrid";
 import "./styles.css";
 
 // Cărți → secțiuni → rețete, în ordinea din recipes.js
@@ -22,8 +25,14 @@ const sectionKey = (book, section) => `${book}|${section}`;
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
-  // linkul …/#calculator deschide direct calculatorul
-  const [showCalculator, setShowCalculator] = useState(() => window.location.hash === "#calculator");
+  // "calculator" / "calendar" / "apa" / "fructe" / null (rețetă sau pagina de start);
+  // linkurile …/#calculator, …/#calendar, …/#apa și …/#fructe deschid direct pagina
+  const [tool, setTool] = useState(
+    () => ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe" })[window.location.hash] ?? null
+  );
+  const [planDay, setPlanDay] = useState(null);   // ziua aleasă din calendar pentru un meniu nou
+  const [visit, setVisit] = useState(0);          // la fiecare apăsare în meniu, pagina pornește de la început
+  const [fruitId, setFruitId] = useState(null);   // fructul de deschis în „Fructe crude”
   const [query, setQuery] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
   // Cărțile și secțiunile pornesc închise; la căutare se deschid toate
@@ -40,24 +49,34 @@ function App() {
       r.title.toLocaleLowerCase("ro").includes(q)
     );
   }, [query]);
-
   const grouped = useMemo(() => groupRecipes(filtered), [filtered]);
 
   function choose(recipe) {
-    setSelectedId(recipe.id);
-    setShowCalculator(false);
     setMobileOpen(false);
+    if (recipe.isFruit) {
+      // un fruct din meniu / calendar deschide pagina lui din „Fructe crude”
+      setFruitId(recipe.id);
+      setSelectedId(null);
+      setTool("fructe");
+      setVisit((v) => v + 1);
+      return;
+    }
+    setSelectedId(recipe.id);
+    setTool(null);
   }
 
   function goHome() {
     setSelectedId(null);
-    setShowCalculator(false);
+    setTool(null);
     setMobileOpen(false);
   }
 
-  function openCalculator() {
+  function openTool(name, day = null) {
     setSelectedId(null);
-    setShowCalculator(true);
+    setFruitId(null);
+    setTool(name);
+    setPlanDay(day);
+    setVisit((v) => v + 1);
     setMobileOpen(false);
   }
 
@@ -75,8 +94,8 @@ function App() {
           <button className="brandHome" onClick={goHome} aria-label="Pagina de start">
             <div className="brandMark"><BookOpen size={19} /></div>
             <div>
-              <div className="brandEyebrow">BT FIT</div>
-              <div className="brandTitle">Cărți de rețete</div>
+              <div className="brandTitle">Be Fit From Home</div>
+              <div className="brandEyebrow">Rețete Sănătoase</div>
             </div>
           </button>
           <button className="iconButton mobileClose" onClick={() => setMobileOpen(false)} aria-label="Închide meniul">
@@ -139,18 +158,35 @@ function App() {
             </div>
           ))}
 
-          <button className={`calcNav ${showCalculator ? "active" : ""}`} onClick={openCalculator}>
+          <div className="tocBook">
+            <button className={`bookButton ${tool === "fructe" ? "bookActive" : ""}`} onClick={() => openTool("fructe")}>
+              <span>Fructe crude</span>
+              <Apple size={17} />
+            </button>
+          </div>
+
+          <button className={`calcNav ${tool === "calculator" ? "active" : ""}`} onClick={() => openTool("calculator")}>
             <span className="calcNavIcon"><Calculator size={18} /></span>
             <span>
               <strong>Calculator calorii</strong>
               <small>Câte calorii îți trebuie pe zi</small>
             </span>
           </button>
+          <button className={`calcNav calNav ${tool === "calendar" ? "active" : ""}`} onClick={() => openTool("calendar")}>
+            <span className="calcNavIcon"><CalendarDays size={18} /></span>
+            <span>
+              <strong>Calendarul meu</strong>
+              <small>Meniurile salvate pe zile</small>
+            </span>
+          </button>
+          <button className={`calcNav waterNav ${tool === "apa" ? "active" : ""}`} onClick={() => openTool("apa")}>
+            <span className="calcNavIcon"><Droplets size={18} /></span>
+            <span>
+              <strong>Jurnal de apă</strong>
+              <small>Câtă apă să bei și cât ai băut</small>
+            </span>
+          </button>
         </nav>
-
-        <div className="sidebarFoot">
-          <span>Conținutul este afișat direct din PDF.</span>
-        </div>
       </aside>
 
       <main className="content">
@@ -158,20 +194,21 @@ function App() {
           <button className="mobileMenu iconButton" onClick={() => setMobileOpen(true)} aria-label="Deschide cuprinsul">
             <Menu size={21} />
           </button>
-          {selected && (
-            <a
-              className="openPdf"
-              href={`/${selected.pdf}#page=${selected.pdfPage}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Deschide PDF <ExternalLink size={15} />
-            </a>
-          )}
         </header>
 
-        {showCalculator ? (
-          <CalorieCalculator onOpenRecipe={choose} />
+        {tool === "calculator" ? (
+          <CalorieCalculator
+            key={planDay ?? "azi"}
+            initialDay={planDay}
+            onOpenRecipe={choose}
+            onOpenCalendar={() => openTool("calendar")}
+          />
+        ) : tool === "apa" ? (
+          <WaterTracker />
+        ) : tool === "calendar" ? (
+          <MenuCalendar onOpenRecipe={choose} onOpenCalculator={(day) => openTool("calculator", day)} />
+        ) : tool === "fructe" ? (
+          <FruitGrid key={visit} initialFruitId={fruitId} />
         ) : selected ? (
           <>
             <section className="recipeHeader">
@@ -196,7 +233,7 @@ function App() {
             <h1 className="homeTitle">
               Carte de rețete online: „Gusturi Tradiționale și Moderne”
             </h1>
-            <img src="/cover.png" alt="Cărți de rețete" />
+            <img src="/cover.png" alt="Be Fit From Home — Rețete Sănătoase" />
           </section>
         )}
       </main>

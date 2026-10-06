@@ -115,7 +115,7 @@ function bmiInfo(bmi) {
   return { label: "Obezitate", color: "#ef6f5e" };
 }
 
-export default function CalorieCalculator({ onOpenRecipe }) {
+export default function CalorieCalculator({ onOpenRecipe, onOpenCalendar, initialDay }) {
   const [form, setForm] = useState(loadSaved);
   const set = (key) => (value) => setForm((f) => ({ ...f, [key]: value }));
 
@@ -335,6 +335,8 @@ export default function CalorieCalculator({ onOpenRecipe }) {
         target={r.target}
         macros={{ protein: r.proteinG, carbs: r.carbsG, fat: r.fatG }}
         onOpenRecipe={onOpenRecipe}
+        onOpenCalendar={onOpenCalendar}
+        initialDay={initialDay}
       />
     </div>
   );

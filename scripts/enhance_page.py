@@ -8,6 +8,7 @@ Rulare (o rulează și extract_pages.py la final):
     python scripts/enhance_page.py
 """
 import io
+import os
 import re
 from pathlib import Path
 
@@ -16,6 +17,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "public"
+# PDF-urile nu mai stau în proiect (aplicația folosește doar imaginile din public/pages);
+# scripturile le caută în folderul din variabila PDF_DIR sau, implicit, lângă proiect (Downloads)
+PDF_DIR = Path(os.environ.get("PDF_DIR", ROOT.parent))
 FONTS = Path(__file__).resolve().parent / "fonts"   # Poppins, de la Google Fonts (OFL)
 TEXT = (0, 0, 0)
 
@@ -245,7 +249,7 @@ def instructions(src, cfg):
 
 
 def enhance(cfg):
-    doc = pymupdf.open(PUBLIC / cfg["pdf"])
+    doc = pymupdf.open(PDF_DIR / cfg["pdf"])
     page = doc[cfg["page"] - 1]
     pix = page.get_pixmap(dpi=DPI)
     src = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)

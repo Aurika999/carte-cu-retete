@@ -10,7 +10,7 @@ from pathlib import Path
 
 import pymupdf
 
-from enhance_page import parse_macro
+from enhance_page import PDF_DIR, parse_macro
 
 ROOT = Path(__file__).resolve().parent.parent
 RECIPES = ROOT / "src" / "recipes.js"
@@ -21,7 +21,7 @@ recipes = json.loads(text[text.index("["):text.rindex("]") + 1])
 
 docs, missing = {}, []
 for r in recipes:
-    doc = docs.setdefault(r["pdf"], pymupdf.open(ROOT / "public" / r["pdf"]))
+    doc = docs.setdefault(r["pdf"], pymupdf.open(PDF_DIR / r["pdf"]))
     page = doc[r["pdfPage"] - 1]
     spans = [s for b in page.get_text("dict")["blocks"] for l in b.get("lines", []) for s in l["spans"]
              if s["text"].strip()]

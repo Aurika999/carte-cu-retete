@@ -1,0 +1,326 @@
+{
+  "mar": {
+    "source_spec": "wiki:Apple",
+    "credit": {
+      "author": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Sigma 150mm f/2.8",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Pink_lady_and_cross_section.jpg",
+      "file": "Pink_lady_and_cross_section.jpg"
+    }
+  },
+  "para": {
+    "source_spec": "wiki:Pear",
+    "credit": {
+      "author": "Keith Weller",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Pears.jpg",
+      "file": "Pears.jpg"
+    }
+  },
+  "banana": {
+    "source_spec": "wiki:Banana",
+    "credit": {
+      "author": "TimothyPilgrim",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bananavarieties.jpg",
+      "file": "Bananavarieties.jpg"
+    }
+  },
+  "portocala": {
+    "source_spec": "wiki:Orange (fruit)",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg",
+      "file": "Oranges_-_whole-halved-segment.jpg"
+    }
+  },
+  "mandarina": {
+    "source_spec": "file:Mandarins - whole and halved.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mandarins_-_whole_and_halved.jpg",
+      "file": "Mandarins - whole and halved.jpg"
+    }
+  },
+  "grapefruit": {
+    "source_spec": "wiki:Grapefruit",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grapefruits_-_whole-halved-segments.jpg",
+      "file": "Grapefruits_-_whole-halved-segments.jpg"
+    }
+  },
+  "lamaie": {
+    "source_spec": "file:Lemon - whole and split.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lemon_-_whole_and_split.jpg",
+      "file": "Lemon - whole and split.jpg"
+    }
+  },
+  "lime": {
+    "source_spec": "wiki:Key lime",
+    "credit": {
+      "author": "Dinesh Valke from Thane, India",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Citrus_%C3%97_aurantiifolia_(Christm.)_Swingle_(51906868474).jpg",
+      "file": "Citrus_×_aurantiifolia_(Christm.)_Swingle_(51906868474).jpg"
+    }
+  },
+  "kiwi": {
+    "source_spec": "file:Kiwifruit halved.jpg",
+    "credit": {
+      "author": "Tiia Monto",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kiwifruit_halved.jpg",
+      "file": "Kiwifruit halved.jpg"
+    }
+  },
+  "capsuni": {
+    "source_spec": "wiki:Strawberry",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg",
+      "file": "Garden_strawberry_(Fragaria_×_ananassa)_single2.jpg"
+    }
+  },
+  "zmeura": {
+    "source_spec": "wiki:Raspberry",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raspberry_-_halved_(Rubus_idaeus).jpg",
+      "file": "Raspberry_-_halved_(Rubus_idaeus).jpg"
+    }
+  },
+  "mure": {
+    "source_spec": "wiki:Blackberry",
+    "credit": {
+      "author": "Ragesoss",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ripe,_ripening,_and_green_blackberries.jpg",
+      "file": "Ripe,_ripening,_and_green_blackberries.jpg"
+    }
+  },
+  "afine": {
+    "source_spec": "wiki:Blueberry",
+    "credit": {
+      "author": "The original Uploader was Oven Fresh at English Wikipedia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Blueberries.jpg",
+      "file": "Blueberries.jpg"
+    }
+  },
+  "merisoare": {
+    "source_spec": "file:Cranberries20101210.jpg",
+    "credit": {
+      "author": "Cjboffoli",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cranberries20101210.jpg",
+      "file": "Cranberries20101210.jpg"
+    }
+  },
+  "coacaze-rosii": {
+    "source_spec": "file:Redcurrant (Ribes rubrum) fruits.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Redcurrant_(Ribes_rubrum)_fruits.jpg",
+      "file": "Redcurrant (Ribes rubrum) fruits.jpg"
+    }
+  },
+  "agrise": {
+    "source_spec": "file:Gooseberries.jpg",
+    "credit": {
+      "author": "neurovelho",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gooseberries.jpg",
+      "file": "Gooseberries.jpg"
+    }
+  },
+  "cirese": {
+    "source_spec": "wiki:Cherry",
+    "credit": {
+      "author": "spurekar",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cherry_season_(48216568227).jpg",
+      "file": "Cherry_season_(48216568227).jpg"
+    }
+  },
+  "visine": {
+    "source_spec": "file:Montmorency, one of Three best cherries (cropped).jpg",
+    "credit": {
+      "author": "Vredenburg &amp; Co., Rochester, NY",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Montmorency,_one_of_Three_best_cherries_(cropped).jpg",
+      "file": "Montmorency, one of Three best cherries (cropped).jpg"
+    }
+  },
+  "caise": {
+    "source_spec": "wiki:Apricot",
+    "credit": {
+      "author": "Fir0002",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Apricot_and_cross_section.jpg",
+      "file": "Apricot_and_cross_section.jpg"
+    }
+  },
+  "piersici": {
+    "source_spec": "file:Autumn Red peaches.jpg",
+    "credit": {
+      "author": "Jack Dykinga, USDA",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Autumn_Red_peaches.jpg",
+      "file": "Autumn Red peaches.jpg"
+    }
+  },
+  "nectarine": {
+    "source_spec": "file:Nectarines 1.jpg",
+    "credit": {
+      "author": "travel oriented",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nectarines_1.jpg",
+      "file": "Nectarines 1.jpg"
+    }
+  },
+  "prune": {
+    "source_spec": "wiki:Plum",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Plums_African_Rose_-_whole,_halved_and_slice.jpg",
+      "file": "Plums_African_Rose_-_whole,_halved_and_slice.jpg"
+    }
+  },
+  "struguri": {
+    "source_spec": "wiki:Grape",
+    "credit": {
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grapes,_Rostov-on-Don,_Russia.jpg",
+      "file": "Grapes,_Rostov-on-Don,_Russia.jpg"
+    }
+  },
+  "pepene-rosu": {
+    "source_spec": "file:Slice of Watermelon from Wilson Farm, Lexington MA.jpg",
+    "credit": {
+      "author": "John Phelan",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Slice_of_Watermelon_from_Wilson_Farm,_Lexington_MA.jpg",
+      "file": "Slice of Watermelon from Wilson Farm, Lexington MA.jpg"
+    }
+  },
+  "pepene-galben": {
+    "source_spec": "file:Cantaloupes.jpg",
+    "credit": {
+      "author": "USDA photo by Scott Bauer. Image Number K7355-11.",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_var._reticulatus_(photo_by_Scott_Bauer).jpg",
+      "file": "Cantaloupes.jpg"
+    }
+  },
+  "ananas": {
+    "source_spec": "file:Pineapple and cross section.jpg",
+    "credit": {
+      "author": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Sigma 150mm f/2.8",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Pineapple_and_cross_section.jpg",
+      "file": "Pineapple and cross section.jpg"
+    }
+  },
+  "mango": {
+    "source_spec": "wiki:Mango",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg",
+      "file": "Mangos_-_single_and_halved.jpg"
+    }
+  },
+  "papaya": {
+    "source_spec": "file:Papaya half.jpg",
+    "credit": {
+      "author": "OKJaguar",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Papaya_half.jpg",
+      "file": "Papaya half.jpg"
+    }
+  },
+  "rodie": {
+    "source_spec": "wiki:Pomegranate",
+    "credit": {
+      "author": "Augustus Binu : flickr",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pomegranate_Juice_(2019).jpg",
+      "file": "Pomegranate_Juice_(2019).jpg"
+    }
+  },
+  "smochine": {
+    "source_spec": "file:Fig (Ficus carica) fruit halved.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fig_(Ficus_carica)_fruit_halved.jpg",
+      "file": "Fig (Ficus carica) fruit halved.jpg"
+    }
+  },
+  "gutui": {
+    "source_spec": "file:Quince (10895s).jpg",
+    "credit": {
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Quince_(10895s).jpg",
+      "file": "Quince (10895s).jpg"
+    }
+  },
+  "kaki": {
+    "source_spec": "wiki:Diospyros kaki",
+    "credit": {
+      "author": "Sphl",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaki_20041002.jpg",
+      "file": "Kaki_20041002.jpg"
+    }
+  },
+  "litchi": {
+    "source_spec": "file:ARS Litchi chinensis.jpg",
+    "credit": {
+      "author": "Peggy Greb, USDA ARS",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:ARS_Litchi_chinensis.jpg",
+      "file": "ARS Litchi chinensis.jpg"
+    }
+  },
+  "fructul-pasiunii": {
+    "source_spec": "file:Passion fruits - whole and halved.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Passion_fruits_-_whole_and_halved.jpg",
+      "file": "Passion fruits - whole and halved.jpg"
+    }
+  },
+  "avocado": {
+    "source_spec": "file:Avocado Hass - single and halved.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Avocado_Hass_-_single_and_halved.jpg",
+      "file": "Avocado Hass - single and halved.jpg"
+    }
+  },
+  "cocos": {
+    "source_spec": "file:Coconut (halved) (3330701660).jpg",
+    "credit": {
+      "author": "Chandrika Nair from Cochin, India",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coconut_(halved)_(3330701660).jpg",
+      "file": "Coconut (halved) (3330701660).jpg"
+    }
+  }
+}

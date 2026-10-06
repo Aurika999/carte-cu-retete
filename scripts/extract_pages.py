@@ -29,7 +29,7 @@ docs = {}
 failed = []
 for pdf_name, page, image in entries:
     # fiecare PDF e redeschis curat pentru fiecare pagină, fiindcă layout modifică pagina în memorie
-    doc = pymupdf.open(PUBLIC / pdf_name)
+    doc = pymupdf.open(enhance_page.PDF_DIR / pdf_name)
     docs[pdf_name] = True
     out = PUBLIC / image.lstrip("/")
     out.parent.mkdir(parents=True, exist_ok=True)

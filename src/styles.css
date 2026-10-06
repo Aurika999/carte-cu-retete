@@ -493,6 +493,83 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 .fruitCredits a { color: inherit; }
 @media (max-width: 700px) { .fruitCredits ul { columns: 1; } }
 
+/* ---------- creează-ți rețeta ---------- */
+.rbNav { margin-top: 10px; background: linear-gradient(135deg, #4f9d3a, #e6b85c); box-shadow: 0 6px 18px rgba(79,157,58,.35); }
+.rbNav:hover { box-shadow: 0 9px 22px rgba(79,157,58,.45); }
+.rbHero { background: linear-gradient(120deg, #173c2b 0%, #4f9d3a 50%, #e6b85c 100%); }
+.rbGrid { display: grid; grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.2fr); gap: 18px; align-items: start; }
+.rbGrid > * { min-width: 0; }
+.rbPicker { position: sticky; top: 0; }
+.rbSearch {
+  display: flex; align-items: center; gap: 8px; width: 100%; border: 1.5px solid #e2dccd; border-radius: 999px;
+  padding: 8px 14px; background: #fff; color: #8a9189;
+}
+.rbSearch:focus-within { border-color: #4f9d3a; }
+.rbSearch input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: 13.5px; color: #1c2b20; }
+.rbSearch button { border: 0; background: none; color: #8a9189; cursor: pointer; display: grid; place-items: center; }
+.rbCats { margin: 12px 0; }
+.rbCats .mealBook { padding: 5px 10px; font-size: 12px; }
+.rbResults { display: grid; gap: 6px; max-height: 62vh; overflow-y: auto; padding-right: 4px; scrollbar-width: thin; }
+.rbResult {
+  display: flex; align-items: center; gap: 10px; padding: 6px 8px; border: 1.5px solid #ece6d8; border-radius: 12px;
+  background: #fff; cursor: pointer; text-align: left; color: inherit; transition: border-color .12s ease, transform .12s ease;
+}
+.rbResult:hover { border-color: #4f9d3a; transform: translateX(2px); }
+.rbResult.added { opacity: .55; cursor: default; transform: none; }
+.rbThumb { width: 38px; height: 38px; flex: 0 0 38px; border-radius: 10px; object-fit: cover; }
+.rbEmoji { display: grid; place-items: center; font-size: 21px; background: #f6f2e8; }
+.rbResultText { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.rbResultText strong { font-size: 13px; color: #1c2b20; }
+.rbResultText small { font-size: 11.5px; color: #8a9189; }
+.rbAdd { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; background: #e9f5e4; color: #4f9d3a; font-weight: 800; flex: 0 0 28px; }
+.rbRecipe { display: grid; gap: 16px; }
+.rbHead { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 14px; }
+.rbName {
+  flex: 1; min-width: 200px; border: 0; border-bottom: 2px solid #e2dccd; background: transparent; outline: 0;
+  font: 700 22px "Playfair Display", Georgia, serif; color: #1c2b20; padding: 4px 2px;
+}
+.rbName:focus { border-color: #4f9d3a; }
+.rbServings { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: #405045; }
+.rbServings button, .rbGrams button {
+  width: 26px; height: 26px; border-radius: 50%; border: 0; background: #f1ece0; color: #405045; display: grid; place-items: center; cursor: pointer;
+}
+.rbServings button:hover, .rbGrams button:hover { background: #e6dfcf; }
+.rbServings strong { min-width: 18px; text-align: center; font-size: 16px; color: #1c2b20; }
+.rbEmpty { margin: 6px 0; color: #7a8378; font-size: 14px; }
+.rbItems { display: grid; gap: 8px; }
+.rbItem { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 12px; background: #f9f6ee; }
+.rbItemName { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.rbItemName strong { font-size: 13.5px; color: #1c2b20; }
+.rbItemName small { font-size: 12px; color: #ef6f5e; font-weight: 700; }
+.rbGrams { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; color: #5b6559; }
+.rbGrams input { width: 58px; border: 1.5px solid #e2dccd; border-radius: 8px; padding: 4px 6px; font: inherit; text-align: right; background: #fff; }
+.rbRemove { border: 0; background: none; color: #c2405e; cursor: pointer; padding: 6px; border-radius: 8px; display: grid; place-items: center; }
+.rbRemove:hover { background: #fff0f3; }
+.rbKcal { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 12px; }
+.rbKcal > div { flex: 1; min-width: 160px; padding: 12px 14px; border-radius: 14px; background: #f6f2e8; }
+.rbKcal small { display: block; font-size: 12px; color: #7a8378; font-weight: 600; }
+.rbKcal strong { font-size: 34px; font-weight: 800; color: #1c2b20; letter-spacing: -.02em; }
+.rbKcal strong span { font-size: 14px; color: #7a8378; }
+.rbPerServing { background: linear-gradient(135deg, #fff1ee, #fff7e8) !important; }
+.rbPerServing strong { color: #ef6f5e; }
+.rbActions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 16px 0 8px; }
+.rbActions .mealBook { display: inline-flex; align-items: center; gap: 6px; }
+.rbSaved { display: grid; gap: 8px; }
+.rbSavedItem { display: flex; align-items: center; gap: 8px; border: 1.5px solid #ece6d8; border-radius: 12px; padding: 4px 6px 4px 12px; background: #fff; }
+.rbSavedItem.active { border-color: #4f9d3a; }
+.rbSavedOpen { flex: 1; border: 0; background: none; text-align: left; cursor: pointer; padding: 6px 0; display: flex; flex-direction: column; color: inherit; }
+.rbSavedOpen strong { font-size: 14px; color: #1c2b20; }
+.rbSavedOpen small { font-size: 12px; color: #8a9189; }
+@media (max-width: 1100px) {
+  .rbGrid { grid-template-columns: minmax(0, 1fr); }
+  .rbPicker { position: static; }
+  .rbResults { max-height: 360px; }
+}
+@media (max-width: 600px) {
+  .rbItem { flex-wrap: wrap; }
+  .rbGrams { margin-left: 48px; }
+}
+
 /* ---------- jurnal de apă ---------- */
 .waterNav { margin-top: 10px; background: linear-gradient(135deg, #3a8fd9, #5ec8e5); box-shadow: 0 6px 18px rgba(58,143,217,.35); }
 .waterNav:hover { box-shadow: 0 9px 22px rgba(58,143,217,.45); }

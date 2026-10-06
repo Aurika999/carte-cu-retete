@@ -1,11 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple, Carrot } from "lucide-react";
+import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple, Carrot, ChefHat } from "lucide-react";
 import { recipes } from "./recipes";
 import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
 import WaterTracker from "./WaterTracker";
 import ProduceGrid from "./ProduceGrid";
+import RecipeBuilder from "./RecipeBuilder";
 import RecipePage from "./RecipePage";
 import { hasDetail, detailPath, recipeFromPath, loadDetail } from "./recipeDetails";
 import "./styles.css";
@@ -31,7 +32,7 @@ function App({ onOpenDetail }) {
   // linkurile …/#calculator, …/#calendar, …/#apa, …/#fructe și …/#legume deschid direct pagina
   const [tool, setTool] = useState(
     () =>
-      ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe", "#legume": "legume" })[
+      ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe", "#legume": "legume", "#reteta": "reteta" })[
         window.location.hash
       ] ?? null
   );
@@ -202,6 +203,13 @@ function App({ onOpenDetail }) {
               <small>Câtă apă să bei și cât ai băut</small>
             </span>
           </button>
+          <button className={`calcNav rbNav ${tool === "reteta" ? "active" : ""}`} onClick={() => openTool("reteta")}>
+            <span className="calcNavIcon"><ChefHat size={18} /></span>
+            <span>
+              <strong>Creează-ți rețeta</strong>
+              <small>Alege ingredientele, vezi caloriile</small>
+            </span>
+          </button>
 
           <p className="slogan">Gătește smart, trăiește fit.</p>
         </nav>
@@ -225,6 +233,8 @@ function App({ onOpenDetail }) {
           <WaterTracker />
         ) : tool === "calendar" ? (
           <MenuCalendar onOpenRecipe={choose} onOpenCalculator={(day) => openTool("calculator", day)} />
+        ) : tool === "reteta" ? (
+          <RecipeBuilder />
         ) : tool === "fructe" || tool === "legume" ? (
           <ProduceGrid key={`${tool}-${visit}`} type={tool} initialId={fruitId} />
         ) : selected ? (

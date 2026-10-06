@@ -117,6 +117,142 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 }
 .pdfPageWrap { flex: 1; min-height: 0; overflow: auto; padding: 16px; display: flex; justify-content: center; align-items: flex-start; }
 .pdfPageImage { display: block; width: 100%; max-width: 900px; height: auto; background: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.15); border-radius: 4px; }
+/* ---------- buton calculator în meniu ---------- */
+.calcNav {
+  width: 100%; margin-top: 16px; display: flex; align-items: center; gap: 11px;
+  border: 0; border-radius: 12px; padding: 11px 12px; cursor: pointer; text-align: left;
+  color: #fff; background: linear-gradient(135deg, #ef6f5e, #f5a524);
+  box-shadow: 0 6px 18px rgba(239,111,94,.35); transition: transform .15s ease, box-shadow .15s ease;
+}
+.calcNav:hover { transform: translateY(-1px); box-shadow: 0 9px 22px rgba(239,111,94,.45); }
+.calcNav.active { outline: 2px solid #f2e8d2; outline-offset: 2px; }
+.calcNav strong { display: block; font-size: 13.5px; }
+.calcNav small { display: block; font-size: 11px; opacity: .85; }
+.calcNavIcon { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: rgba(255,255,255,.22); flex: 0 0 34px; }
+
+/* ---------- pagina calculatorului ---------- */
+.calcPage { flex: 1; min-height: 0; overflow: auto; padding: 18px 24px 28px; }
+.calcHero {
+  display: flex; align-items: center; gap: 16px; padding: 18px 22px; border-radius: 18px; margin-bottom: 18px;
+  color: #fff; background: linear-gradient(120deg, #173c2b 0%, #2bb3a3 55%, #7b6cf6 100%);
+  box-shadow: 0 12px 30px rgba(23,60,43,.18);
+}
+.calcHero h1 { color: #fff; font-size: clamp(22px, 2.4vw, 30px); }
+.calcHero p { margin: 6px 0 0; opacity: .9; font-size: 14px; line-height: 1.45; }
+.calcHeroIcon { width: 52px; height: 52px; flex: 0 0 52px; border-radius: 16px; display: grid; place-items: center; background: rgba(255,255,255,.18); animation: calcPulse 2.4s ease-in-out infinite; }
+@keyframes calcPulse { 50% { transform: scale(1.08); } }
+
+.calcGrid { display: grid; grid-template-columns: minmax(300px, 420px) minmax(0, 1fr); gap: 18px; align-items: start; }
+.calcResults { display: grid; gap: 16px; min-width: 0; }
+.calcCard { background: #fffdf8; border: 1px solid #e6e0d2; border-radius: 18px; padding: 18px; box-shadow: 0 8px 24px rgba(40,46,38,.06); }
+.calcCard h2 { margin: 0 0 14px; font-size: 15px; display: flex; align-items: center; gap: 7px; color: #1c2b20; }
+.calcInputs h3 { margin: 20px 0 10px; font-size: 13.5px; display: flex; align-items: center; gap: 7px; color: #405045; }
+.calcCardHead { display: flex; justify-content: space-between; align-items: center; }
+.calcCardHead h2 { margin: 0; }
+.calcReset { display: inline-flex; align-items: center; gap: 5px; border: 0; background: #f1ece0; color: #5b6559; border-radius: 999px; padding: 6px 11px; font-size: 12px; cursor: pointer; }
+.calcReset:hover { background: #e8e1d1; }
+.calcEmoji { font-size: 20px; line-height: 1; }
+
+.calcSex { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 16px 0 6px; }
+.calcSexBtn {
+  display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px; border-radius: 14px;
+  border: 2px solid #ece6d8; background: #fff; font-weight: 700; cursor: pointer; color: #405045; transition: all .15s ease;
+}
+.calcSexBtn.femeie.active { border-color: #ef6f8a; background: #fff0f3; color: #c2405e; }
+.calcSexBtn.barbat.active { border-color: #3a8fd9; background: #eef6fe; color: #2368a8; }
+
+.calcSlider { display: block; margin-top: 16px; }
+.calcSliderTop { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: #405045; margin-bottom: 8px; }
+.calcSliderValue { display: inline-flex; align-items: baseline; gap: 4px; font-weight: 700; }
+.calcSliderValue input { width: 56px; border: 0; background: transparent; font-weight: 800; font-size: 20px; color: inherit; text-align: right; outline: 0; -moz-appearance: textfield; }
+.calcSliderValue input::-webkit-inner-spin-button { -webkit-appearance: none; }
+.calcSlider input[type=range] {
+  width: 100%; height: 8px; border-radius: 999px; appearance: none; -webkit-appearance: none; cursor: pointer;
+  background: linear-gradient(90deg, var(--accent) var(--pct), #ece6d8 var(--pct));
+}
+.calcSlider input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 4px solid var(--accent); box-shadow: 0 2px 8px rgba(0,0,0,.2); transition: transform .1s; }
+.calcSlider input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+.calcSlider input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #fff; border: 4px solid var(--accent); }
+
+.calcActivity { display: grid; gap: 7px; }
+.calcChoice {
+  display: flex; align-items: center; gap: 11px; padding: 9px 12px; border-radius: 12px; cursor: pointer; text-align: left;
+  border: 2px solid #ece6d8; background: #fff; color: #405045; transition: all .15s ease;
+}
+.calcChoice:hover { border-color: #b8dcd6; }
+.calcChoice.active { border-color: #2bb3a3; background: #e9f8f5; }
+.calcChoiceText strong { display: block; font-size: 13px; }
+.calcChoiceText small { display: block; font-size: 11.5px; opacity: .7; }
+
+.calcGoals { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.calcGoal {
+  padding: 11px 10px; border-radius: 12px; cursor: pointer; border: 2px solid #ece6d8; background: #fff; color: #405045; transition: all .15s ease;
+}
+.calcGoal strong { display: block; font-size: 13px; }
+.calcGoal small { font-weight: 700; color: var(--goal); }
+.calcGoal.active { border-color: var(--goal); background: var(--goal); color: #fff; box-shadow: 0 6px 16px color-mix(in srgb, var(--goal) 40%, transparent); }
+.calcGoal.active small { color: #fff; }
+
+.calcMain { display: flex; align-items: center; gap: 22px; background: linear-gradient(135deg, #fffdf8 40%, color-mix(in srgb, var(--goal) 14%, #fffdf8)); }
+.calcRing { position: relative; width: 190px; height: 190px; flex: 0 0 190px; }
+.calcRing svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.calcRingTrack { fill: none; stroke: #efe9dc; stroke-width: 14; }
+.calcRingBar { fill: none; stroke-width: 14; stroke-linecap: round; transition: stroke-dashoffset .6s cubic-bezier(.2,.8,.2,1), stroke .3s; }
+.calcRingInner { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; }
+.calcBig { font-size: 38px; font-weight: 800; color: #1c2b20; letter-spacing: -.02em; }
+.calcBigUnit { font-size: 12px; color: #7a8378; font-weight: 600; }
+.calcMainText p { margin: 10px 0 14px; font-size: 14.5px; line-height: 1.5; color: #405045; }
+.calcPill { display: inline-block; color: #fff; font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 999px; }
+.calcMini { display: flex; gap: 10px; flex-wrap: wrap; }
+.calcMini div { background: #fff; border: 1px solid #ece6d8; border-radius: 12px; padding: 8px 12px; }
+.calcMini small { display: block; font-size: 11px; color: #7a8378; }
+.calcMini strong { font-size: 18px; color: #1c2b20; }
+
+.calcStack { display: flex; height: 14px; border-radius: 999px; overflow: hidden; gap: 3px; }
+.calcStack span { transition: width .5s ease; }
+.calcMacros { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+.calcMacro { display: flex; gap: 9px; align-items: flex-start; background: color-mix(in srgb, var(--c) 9%, #fff); border-radius: 12px; padding: 10px; }
+.calcMacro strong { display: block; font-size: 19px; color: var(--c); }
+.calcMacro small { font-size: 11.5px; color: #5b6559; }
+.calcDot { width: 10px; height: 10px; border-radius: 50%; background: var(--c); margin-top: 7px; flex: 0 0 10px; }
+
+.calcLevels { display: grid; gap: 6px; }
+.calcLevel {
+  display: grid; grid-template-columns: 150px 1fr 60px; align-items: center; gap: 10px; padding: 7px 8px;
+  border: 0; border-radius: 10px; background: transparent; cursor: pointer; text-align: left; color: #405045; font-size: 13px;
+}
+.calcLevel:hover { background: #f5f1e7; }
+.calcLevel.active { background: #e9f8f5; font-weight: 700; }
+.calcLevelBar { height: 10px; border-radius: 999px; background: #efe9dc; overflow: hidden; }
+.calcLevelBar span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, #2bb3a3, #7b6cf6); transition: width .5s ease; }
+.calcLevel.active .calcLevelBar span { background: linear-gradient(90deg, #ef6f5e, #f5a524); }
+.calcLevelKcal { text-align: right; font-weight: 700; }
+
+.calcTwo { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.calcBmi { display: flex; align-items: baseline; gap: 10px; }
+.calcBmi strong { font-size: 32px; font-weight: 800; }
+.calcBmi span { font-size: 13px; color: #5b6559; font-weight: 600; }
+.calcBmiScale { position: relative; height: 10px; margin-top: 14px; border-radius: 999px; background: linear-gradient(90deg, #5aa9e6 0 14%, #2bb3a3 14% 40%, #f5a524 40% 60%, #ef6f5e 60%); }
+.calcBmiMarker { position: absolute; top: 50%; width: 20px; height: 20px; border-radius: 50%; background: #fff; border: 4px solid; transform: translate(-50%, -50%); box-shadow: 0 2px 6px rgba(0,0,0,.25); transition: left .5s ease; }
+.calcBmiLabels { display: flex; justify-content: space-between; font-size: 10.5px; color: #8a9189; margin-top: 6px; }
+.calcGlasses { display: flex; flex-wrap: wrap; gap: 2px; margin-top: 12px; font-size: 18px; }
+.calcGlasses span { animation: calcDrop .4s ease both; }
+@keyframes calcDrop { from { opacity: 0; transform: translateY(-6px); } }
+.calcNote { display: flex; gap: 7px; align-items: flex-start; margin: 0; font-size: 12px; color: #7a8378; line-height: 1.45; }
+.calcNote svg { flex: 0 0 auto; margin-top: 2px; }
+
+@media (max-width: 1150px) {
+  .calcGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .calcPage { padding: 12px 12px 20px; }
+  .calcMain { flex-direction: column; text-align: center; }
+  .calcMini { justify-content: center; }
+  .calcMacros, .calcTwo { grid-template-columns: 1fr; }
+  .calcLevel { grid-template-columns: 1fr 60px; }
+  .calcLevelBar { grid-column: 1 / -1; grid-row: 2; }
+}
+
 .iconButton { border: 0; background: transparent; color: inherit; cursor: pointer; display: grid; place-items: center; }
 .mobileMenu, .mobileClose { display: none; }
 

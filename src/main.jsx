@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { Search, ChevronDown, BookOpen, ExternalLink, Menu, X } from "lucide-react";
+import { Search, ChevronDown, BookOpen, ExternalLink, Menu, X, Calculator } from "lucide-react";
 import { recipes } from "./recipes";
+import CalorieCalculator from "./CalorieCalculator";
 import "./styles.css";
 
 // Cărți → secțiuni → rețete, în ordinea din recipes.js
@@ -21,6 +22,8 @@ const sectionKey = (book, section) => `${book}|${section}`;
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
+  // linkul …/#calculator deschide direct calculatorul
+  const [showCalculator, setShowCalculator] = useState(() => window.location.hash === "#calculator");
   const [query, setQuery] = useState("");
   const [mobileOpen, setMobileOpen] = useState(false);
   // Cărțile și secțiunile pornesc închise; la căutare se deschid toate
@@ -42,11 +45,19 @@ function App() {
 
   function choose(recipe) {
     setSelectedId(recipe.id);
+    setShowCalculator(false);
     setMobileOpen(false);
   }
 
   function goHome() {
     setSelectedId(null);
+    setShowCalculator(false);
+    setMobileOpen(false);
+  }
+
+  function openCalculator() {
+    setSelectedId(null);
+    setShowCalculator(true);
     setMobileOpen(false);
   }
 
@@ -127,6 +138,14 @@ function App() {
               })}
             </div>
           ))}
+
+          <button className={`calcNav ${showCalculator ? "active" : ""}`} onClick={openCalculator}>
+            <span className="calcNavIcon"><Calculator size={18} /></span>
+            <span>
+              <strong>Calculator calorii</strong>
+              <small>Câte calorii îți trebuie pe zi</small>
+            </span>
+          </button>
         </nav>
 
         <div className="sidebarFoot">
@@ -151,7 +170,9 @@ function App() {
           )}
         </header>
 
-        {selected ? (
+        {showCalculator ? (
+          <CalorieCalculator />
+        ) : selected ? (
           <>
             <section className="recipeHeader">
               <div>

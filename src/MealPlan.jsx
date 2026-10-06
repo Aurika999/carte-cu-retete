@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Shuffle, RefreshCw, UtensilsCrossed, CalendarPlus, CalendarDays, Check } from "lucide-react";
 import { recipes } from "./recipes";
-import { fruitItems, amountLabel } from "./planItems";
+import { fruitItems, vegetableItems, amountLabel } from "./planItems";
 import { dateKey, formatDay, loadMenus, saveMenu } from "./menuStorage";
 
 // Ce secțiuni din cărți se potrivesc la fiecare masă.
@@ -55,6 +55,7 @@ const HOLIDAY_SWEETS = /cozonac|pască|mucenici|turte|colaci/i;
 
 function rolesOf(r) {
   if (r.isFruit) return ["fruit"];
+  if (r.isVeg) return ["veg"];
   if (r.section === "Sărbători „ușoare”" && HOLIDAY_SWEETS.test(r.title)) return ["snack"];
   return ROLES[r.book]?.[r.section] || [];
 }
@@ -126,7 +127,7 @@ function pickOne(candidates, random, used, minKcal = 0, maxKcal = Infinity) {
 
 export function buildPlan(total, book, round, seeds) {
   // fructele se potrivesc la orice carte aleasă (inclusiv „De post”)
-  const pool = [...recipes.filter((r) => book === "toate" || r.book === book), ...fruitItems];
+  const pool = [...recipes.filter((r) => book === "toate" || r.book === book), ...fruitItems, ...vegetableItems];
   const byRoles = (roles) => pool.filter((r) => rolesOf(r).some((role) => roles.includes(role)));
   const used = new Set();
 
@@ -144,12 +145,18 @@ export function buildPlan(total, book, round, seeds) {
     const main = pickOne(byRoles(MAIN_ROLES[meal.key]), random("main"), used, 0, (target - sumKcal()) * 1.1);
     if (main) items.push({ recipe: main, slot: "main" });
 
+    // la prânz și la cină, mereu o legumă crudă lângă mâncare (crudități / salată);
+    // caloriile ei contează la cât mai trebuie completat
+    const veg = meal.key === "lunch" || meal.key === "dinner" ? pickOne(byRoles(["veg"]), random("veg"), used) : null;
+    const vegKcal = veg ? veg.nutrition.kcal : 0;
+
     // primul fel are prea puține calorii → al doilea fel care completează diferența
-    const missing = target - sumKcal();
+    const missing = target - sumKcal() - vegKcal;
     if (missing > Math.max(90, target * 0.2)) {
       const extra = pickOne(byRoles(EXTRA_ROLES[meal.key]), random("extra"), used, missing * 0.45, missing * 1.15);
       if (extra) items.push({ recipe: extra, slot: "extra" });
     }
+    if (veg) items.push({ recipe: veg, slot: "veg" });
 
     // porțiile fiecărui fel (1 / 1,5 / 2), combinația cea mai apropiată de țintă;
     // la egalitate, cea cu mai puține porții
@@ -169,7 +176,7 @@ export function buildPlan(total, book, round, seeds) {
   });
 }
 
-const SLOT_LABELS = { soup: "Supă / ciorbă", main: "Fel principal", extra: "Al doilea fel" };
+const SLOT_LABELS = { soup: "Supă / ciorbă", main: "Fel principal", extra: "Al doilea fel", veg: "Legumă crudă" };
 const fmt = (n) => Math.round(n).toLocaleString("ro-RO");
 
 export default function MealPlan({ target, macros, onOpenRecipe, onOpenCalendar, initialDay }) {
@@ -198,7 +205,7 @@ export default function MealPlan({ target, macros, onOpenRecipe, onOpenCalendar,
   const reshuffle = (key) => {
     setSaved(null);
     if (!key) return setRound((r) => r + 1);
-    const slots = key.includes(":") ? [key] : ["soup", "main", "extra"].map((s) => `${key}:${s}`);
+    const slots = key.includes(":") ? [key] : ["soup", "main", "extra", "veg"].map((s) => `${key}:${s}`);
     setSeeds((s) => ({ ...s, ...Object.fromEntries(slots.map((k) => [k, (s[k] || 0) + 1])) }));
   };
 
@@ -238,7 +245,7 @@ export default function MealPlan({ target, macros, onOpenRecipe, onOpenCalendar,
             {meal.items.map(({ recipe, portions, slot }) => (
               <div key={recipe.id} className="mealRow">
                 <button className="mealItem" onClick={() => onOpenRecipe(recipe)}>
-                  <span className={`mealThumb ${recipe.isFruit ? "fruit" : ""}`}><img src={recipe.image} alt="" loading="lazy" /></span>
+                  <span className={`mealThumb ${recipe.isProduce ? "fruit" : ""}`}><img src={recipe.image} alt="" loading="lazy" /></span>
                   <span className="mealInfo">
                     <strong>{recipe.title}</strong>
                     <small>{recipe.isFruit ? "Fruct crud" : SLOT_LABELS[slot]} · {amountLabel(recipe, portions)}</small>

@@ -1,6 +1,19 @@
 import React, { useState } from "react";
-import { Apple, ArrowLeft, Info } from "lucide-react";
+import { Apple, ArrowLeft, Carrot, Info } from "lucide-react";
 import { fruits } from "./fruits";
+import { vegetables } from "./vegetables";
+
+// Fructe crude / Legume crude: aceeași pagină, alte date și alte texte
+export const PRODUCE = {
+  fructe: {
+    items: fruits, title: "Fructe crude", kicker: "Fruct crud", Icon: Apple, banner: "fruitHeroBanner",
+    all: "Toate fructele", count: (n) => `${n} fructe`, one: "un fruct", of: "fruct crud", note: "fructul crud",
+  },
+  legume: {
+    items: vegetables, title: "Legume crude", kicker: "Legumă crudă", Icon: Carrot, banner: "vegHeroBanner",
+    all: "Toate legumele", count: (n) => `${n} legume`, one: "o legumă", of: "legumă crudă", note: "leguma crudă",
+  },
+};
 
 const NUTRIENTS = [
   { key: "protein", label: "Proteine", color: "#ef6f5e", kcalPerG: 4 },
@@ -11,21 +24,22 @@ const NUTRIENTS = [
 const PRESETS = [100, 150, 200, 300];
 const num = (n) => (Math.round(n * 10) / 10).toLocaleString("ro-RO");
 
-function FruitDetail({ fruit, onBack }) {
+function Detail({ item, kind, onBack }) {
   const [grams, setGrams] = useState(100);
   const f = grams / 100;
-  const v = fruit.per100g;
+  const v = item.per100g;
+  const { Icon } = kind;
   // ponderea caloriilor din proteine / carbohidrați / grăsimi
   const macroKcal = NUTRIENTS.filter((n) => n.kcalPerG).reduce((s, n) => s + v[n.key] * n.kcalPerG, 0) || 1;
 
   return (
     <>
-      <button className="fruitBack" onClick={onBack}><ArrowLeft size={16} /> Toate fructele</button>
+      <button className="fruitBack" onClick={onBack}><ArrowLeft size={16} /> {kind.all}</button>
       <div className="fruitHero calcCard">
-        <img className="fruitPhoto" src={fruit.image} alt={fruit.name} />
+        <img className="fruitPhoto" src={item.image} alt={item.name} />
         <div className="fruitInfo">
-          <span className="fruitKicker"><Apple size={14} /> Fruct crud</span>
-          <h1>{fruit.name}</h1>
+          <span className="fruitKicker"><Icon size={14} /> {kind.kicker}</span>
+          <h1>{item.name}</h1>
 
           <div className="fruitGrams">
             <span>Cantitate:</span>
@@ -60,11 +74,11 @@ function FruitDetail({ fruit, onBack }) {
           </div>
 
           <p className="calcNote">
-            <Info size={14} /> Valori pentru fructul crud, partea comestibilă (sursa: USDA FoodData Central).
+            <Info size={14} /> Valori pentru {kind.note}, partea comestibilă (sursa: USDA FoodData Central).
           </p>
           <p className="fruitCredit">
-            Foto: {fruit.credit.author}{fruit.credit.license ? `, ${fruit.credit.license}` : ""} ·{" "}
-            <a href={fruit.credit.source} target="_blank" rel="noreferrer">Wikimedia Commons</a>
+            Foto: {item.credit.author}{item.credit.license ? `, ${item.credit.license}` : ""} ·{" "}
+            <a href={item.credit.source} target="_blank" rel="noreferrer">Wikimedia Commons</a>
           </p>
         </div>
       </div>
@@ -72,33 +86,35 @@ function FruitDetail({ fruit, onBack }) {
   );
 }
 
-export default function FruitGrid({ initialFruitId }) {
-  const [selected, setSelected] = useState(() => fruits.find((f) => f.id === initialFruitId) ?? null);
+export default function ProduceGrid({ type = "fructe", initialId }) {
+  const kind = PRODUCE[type];
+  const { items, Icon } = kind;
+  const [selected, setSelected] = useState(() => items.find((x) => x.id === initialId) ?? null);
 
-  function open(fruit) {
-    setSelected(fruit);
+  function open(item) {
+    setSelected(item);
     document.querySelector(".calcPage")?.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   return (
     <div className="calcPage">
       {selected ? (
-        <FruitDetail key={selected.id} fruit={selected} onBack={() => setSelected(null)} />
+        <Detail key={selected.id} item={selected} kind={kind} onBack={() => setSelected(null)} />
       ) : (
-        <header className="calcHero fruitHeroBanner">
-          <div className="calcHeroIcon"><Apple size={26} /></div>
+        <header className={`calcHero ${kind.banner}`}>
+          <div className="calcHeroIcon"><Icon size={26} /></div>
           <div>
-            <h1>Fructe crude</h1>
-            <p>Valorile nutriționale pentru {fruits.length} fructe, la 100 g. Apasă pe un fruct ca să vezi detalii și să alegi cantitatea.</p>
+            <h1>{kind.title}</h1>
+            <p>Valorile nutriționale pentru {kind.count(items.length)}, la 100 g. Apasă pe {kind.one} ca să vezi detalii și să alegi cantitatea.</p>
           </div>
         </header>
       )}
 
-      {/* grila cu toate fructele: singură pe pagina de start, sub fruct când e unul deschis */}
+      {/* grila: singură pe pagina de start, sub fruct / legumă când e unul deschis */}
       <section className={`calcCard ${selected ? "fruitOthers" : ""}`}>
-        {selected && <h2>Toate fructele <small>· valori la 100 g</small></h2>}
+        {selected && <h2>{kind.all} <small>· valori la 100 g</small></h2>}
         <div className="fruitGrid">
-          {fruits.map((x) => (
+          {items.map((x) => (
             <button key={x.id} className={`fruitCard ${selected?.id === x.id ? "active" : ""}`} onClick={() => open(x)}>
               <img src={x.image} alt={x.name} loading="lazy" />
               <strong>{x.name}</strong>
@@ -111,13 +127,13 @@ export default function FruitGrid({ initialFruitId }) {
         </div>
 
         <p className="calcNote" style={{ marginTop: 14 }}>
-          <Info size={14} /> P = proteine, C = carbohidrați, G = grăsimi, F = fibre (grame la 100 g de fruct crud,
+          <Info size={14} /> P = proteine, C = carbohidrați, G = grăsimi, F = fibre (grame la 100 g de {kind.of},
           partea comestibilă; sursa: USDA FoodData Central).
         </p>
         <details className="fruitCredits">
           <summary>Surse foto (Wikimedia Commons)</summary>
           <ul>
-            {fruits.map((x) => (
+            {items.map((x) => (
               <li key={x.id}>
                 {x.name}: {x.credit.author}{x.credit.license ? `, ${x.credit.license}` : ""} —{" "}
                 <a href={x.credit.source} target="_blank" rel="noreferrer">sursa</a>

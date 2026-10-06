@@ -140,7 +140,7 @@ export default function MenuCalendar({ onOpenRecipe, onOpenCalculator }) {
                     </div>
                     {meal.items.map(({ recipe, portions }) => (
                       <button key={recipe.id} className="mealItem" onClick={() => onOpenRecipe(recipe)}>
-                        <span className={`mealThumb ${recipe.isFruit ? "fruit" : ""}`}><img src={recipe.image} alt="" loading="lazy" /></span>
+                        <span className={`mealThumb ${recipe.isProduce ? "fruit" : ""}`}><img src={recipe.image} alt="" loading="lazy" /></span>
                         <span className="mealInfo">
                           <strong>{recipe.title}</strong>
                           <small>{amountLabel(recipe, portions)} · {fmt(recipe.nutrition.kcal * portions)} kcal</small>

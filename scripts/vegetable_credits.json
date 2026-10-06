@@ -1,0 +1,326 @@
+{
+  "rosii": {
+    "source_spec": "wiki:Tomato",
+    "credit": {
+      "author": "Softeis",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg",
+      "file": "Tomato_je.jpg"
+    }
+  },
+  "castravete": {
+    "source_spec": "wiki:Cucumber",
+    "credit": {
+      "author": "Stephen Ausmus, USDA ARS",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg",
+      "file": "ARS_cucumber.jpg"
+    }
+  },
+  "ardei-rosu": {
+    "source_spec": "file:Red bell pepper.jpg",
+    "credit": {
+      "author": "AntanO",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_bell_pepper.jpg",
+      "file": "Red bell pepper.jpg"
+    }
+  },
+  "ardei-verde": {
+    "source_spec": "file:Green Bell Pepper.jpg",
+    "credit": {
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_Bell_Pepper.jpg",
+      "file": "Green Bell Pepper.jpg"
+    }
+  },
+  "morcov": {
+    "source_spec": "wiki:Carrot",
+    "credit": {
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg",
+      "file": "Vegetable-Carrot-Bundle-wStalks.jpg"
+    }
+  },
+  "ceapa": {
+    "source_spec": "wiki:Onion",
+    "credit": {
+      "author": "Colin",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
+      "file": "Mixed_onions.jpg"
+    }
+  },
+  "ceapa-verde": {
+    "source_spec": "wiki:Scallion",
+    "credit": {
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:CSA-Red-Spring-Onions.jpg",
+      "file": "CSA-Red-Spring-Onions.jpg"
+    }
+  },
+  "usturoi": {
+    "source_spec": "file:Garlic bulbs and cloves.jpg",
+    "credit": {
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg",
+      "file": "Garlic bulbs and cloves.jpg"
+    }
+  },
+  "praz": {
+    "source_spec": "wiki:Leek",
+    "credit": {
+      "author": "Amada44",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Leek_on_white_background_-_0947.jpg",
+      "file": "Leek_on_white_background_-_0947.jpg"
+    }
+  },
+  "varza-alba": {
+    "source_spec": "wiki:Cabbage",
+    "credit": {
+      "author": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Sigma 150mm f/2.8",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Cabbage_and_cross_section_on_white.jpg",
+      "file": "Cabbage_and_cross_section_on_white.jpg"
+    }
+  },
+  "varza-rosie": {
+    "source_spec": "wiki:Red cabbage",
+    "credit": {
+      "author": "KENPEI",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_var_capitata_Rubyball.jpg",
+      "file": "Brassica_oleracea_var_capitata_Rubyball.jpg"
+    }
+  },
+  "varza-bruxelles": {
+    "source_spec": "wiki:Brussels sprout",
+    "credit": {
+      "author": "Eric Hunt",
+      "license": "CC BY 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Brussels_sprout_closeup.jpg",
+      "file": "Brussels_sprout_closeup.jpg"
+    }
+  },
+  "kale": {
+    "source_spec": "wiki:Kale",
+    "credit": {
+      "author": "Rasbak",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Boerenkool.jpg",
+      "file": "Boerenkool.jpg"
+    }
+  },
+  "conopida": {
+    "source_spec": "wiki:Cauliflower",
+    "credit": {
+      "author": "Coyau",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chou-fleur_02.jpg",
+      "file": "Chou-fleur_02.jpg"
+    }
+  },
+  "broccoli": {
+    "source_spec": "wiki:Broccoli",
+    "credit": {
+      "author": "Fir0002",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Broccoli_and_cross_section_edit.jpg",
+      "file": "Broccoli_and_cross_section_edit.jpg"
+    }
+  },
+  "spanac": {
+    "source_spec": "file:Red soil spinach.jpg",
+    "credit": {
+      "author": "Cut angles",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_soil_spinach.jpg",
+      "file": "Red soil spinach.jpg"
+    }
+  },
+  "salata-verde": {
+    "source_spec": "file:Head of lettuce (3010140038).jpg",
+    "credit": {
+      "author": "Geoff Peters from Vancouver, BC, Canada",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Head_of_lettuce_(3010140038).jpg",
+      "file": "Head of lettuce (3010140038).jpg"
+    }
+  },
+  "rucola": {
+    "source_spec": "file:Rucola Bestand erntefertig - 15-05-2023.jpg",
+    "credit": {
+      "author": "Schlaghecken Josef",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rucola_Bestand_erntefertig_-_15-05-2023.jpg",
+      "file": "Rucola Bestand erntefertig - 15-05-2023.jpg"
+    }
+  },
+  "telina-tulpina": {
+    "source_spec": "wiki:Celery",
+    "credit": {
+      "author": "Lombroso",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Celery_1.jpg",
+      "file": "Celery_1.jpg"
+    }
+  },
+  "telina-radacina": {
+    "source_spec": "wiki:Celeriac",
+    "credit": {
+      "author": "DocteurCosmos",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9leri-rave-fendu.jpg",
+      "file": "Céleri-rave-fendu.jpg"
+    }
+  },
+  "dovlecel": {
+    "source_spec": "wiki:Zucchini",
+    "credit": {
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:CSA-Striped-Zucchini.jpg",
+      "file": "CSA-Striped-Zucchini.jpg"
+    }
+  },
+  "vinete": {
+    "source_spec": "wiki:Eggplant",
+    "credit": {
+      "author": "Joydeep",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Solanum_melongena_24_08_2012_(1).JPG",
+      "file": "Solanum_melongena_24_08_2012_(1).JPG"
+    }
+  },
+  "dovleac": {
+    "source_spec": "wiki:Pumpkin",
+    "credit": {
+      "author": "Infrogmation of New Orleans",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:FrenchMarketPumpkinsB.jpg",
+      "file": "FrenchMarketPumpkinsB.jpg"
+    }
+  },
+  "sfecla-rosie": {
+    "source_spec": "wiki:Beetroot",
+    "credit": {
+      "author": "BriannaWalther",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Detroitdarkredbeets.png",
+      "file": "Detroitdarkredbeets.png"
+    }
+  },
+  "ridichi": {
+    "source_spec": "wiki:Radish",
+    "credit": {
+      "author": "Self, en:User:Jengod",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg",
+      "file": "Radish_3371103037_4ab07db0bf_o.jpg"
+    }
+  },
+  "gulie": {
+    "source_spec": "wiki:Kohlrabi",
+    "credit": {
+      "author": "Unknown",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_var._gongylodes_(kohlrabi).jpg",
+      "file": "Brassica_oleracea_var._gongylodes_(kohlrabi).jpg"
+    }
+  },
+  "pastarnac": {
+    "source_spec": "file:Parsnips on a shelf.jpg",
+    "credit": {
+      "author": "Jeffery Martin",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parsnips_on_a_shelf.jpg",
+      "file": "Parsnips on a shelf.jpg"
+    }
+  },
+  "cartof": {
+    "source_spec": "wiki:Potato",
+    "credit": {
+      "author": "Scott Bauer, USDA ARS",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Patates.jpg",
+      "file": "Patates.jpg"
+    }
+  },
+  "cartof-dulce": {
+    "source_spec": "wiki:Sweet potato",
+    "credit": {
+      "author": "Llez",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ipomoea_batatas_006.JPG",
+      "file": "Ipomoea_batatas_006.JPG"
+    }
+  },
+  "mazare-verde": {
+    "source_spec": "wiki:Pea",
+    "credit": {
+      "author": "Rasbak",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Doperwt_rijserwt_peulen_Pisum_sativum.jpg",
+      "file": "Doperwt_rijserwt_peulen_Pisum_sativum.jpg"
+    }
+  },
+  "fasole-verde": {
+    "source_spec": "wiki:Green bean",
+    "credit": {
+      "author": "necunoscut",
+      "license": "GFDL 1.2",
+      "source": "https://commons.wikimedia.org/wiki/File:Heaps_of_beans.jpg",
+      "file": "Heaps_of_beans.jpg"
+    }
+  },
+  "porumb-dulce": {
+    "source_spec": "wiki:Sweet corn",
+    "credit": {
+      "author": "The original Uploader was wstoakLL at English Wikipedia",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:VegCorn.jpg",
+      "file": "VegCorn.jpg"
+    }
+  },
+  "sparanghel": {
+    "source_spec": "file:Asparagus-Bundle.jpg",
+    "credit": {
+      "author": "Evan-Amos",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Asparagus-Bundle.jpg",
+      "file": "Asparagus-Bundle.jpg"
+    }
+  },
+  "ciuperci": {
+    "source_spec": "wiki:Agaricus bisporus",
+    "credit": {
+      "author": "chris_73",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg",
+      "file": "ChampignonMushroom.jpg"
+    }
+  },
+  "patrunjel": {
+    "source_spec": "file:Parsley leaves (89358).jpg",
+    "credit": {
+      "author": "SarKaLay စာကလေး",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Parsley_leaves_(89358).jpg",
+      "file": "Parsley leaves (89358).jpg"
+    }
+  },
+  "marar": {
+    "source_spec": "file:Fresh Dill Leaves.JPG",
+    "credit": {
+      "author": "Miansari66",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Fresh_Dill_Leaves.JPG",
+      "file": "Fresh Dill Leaves.JPG"
+    }
+  }
+}

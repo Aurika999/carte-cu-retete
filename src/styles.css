@@ -441,6 +441,7 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 /* ---------- fructe crude ---------- */
 .bookButton.bookActive { background: rgba(230,184,92,.16); }
 .fruitHeroBanner { background: linear-gradient(120deg, #173c2b 0%, #2bb3a3 50%, #f5a524 100%); }
+.vegHeroBanner { background: linear-gradient(120deg, #173c2b 0%, #4f9d3a 55%, #ef6f5e 100%); }
 .fruitGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
 .fruitCard {
   display: flex; flex-direction: column; gap: 2px; padding: 8px; border-radius: 14px; border: 1.5px solid #ece6d8;

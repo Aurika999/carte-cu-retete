@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple } from "lucide-react";
+import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple, Carrot } from "lucide-react";
 import { recipes } from "./recipes";
 import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
 import WaterTracker from "./WaterTracker";
-import FruitGrid from "./FruitGrid";
+import ProduceGrid from "./ProduceGrid";
 import RecipePage from "./RecipePage";
 import { hasDetail, detailPath, recipeFromPath, loadDetail } from "./recipeDetails";
 import "./styles.css";
@@ -27,10 +27,13 @@ const sectionKey = (book, section) => `${book}|${section}`;
 
 function App({ onOpenDetail }) {
   const [selectedId, setSelectedId] = useState(null);
-  // "calculator" / "calendar" / "apa" / "fructe" / null (rețetă sau pagina de start);
-  // linkurile …/#calculator, …/#calendar, …/#apa și …/#fructe deschid direct pagina
+  // "calculator" / "calendar" / "apa" / "fructe" / "legume" / null (rețetă sau pagina de start);
+  // linkurile …/#calculator, …/#calendar, …/#apa, …/#fructe și …/#legume deschid direct pagina
   const [tool, setTool] = useState(
-    () => ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe" })[window.location.hash] ?? null
+    () =>
+      ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe", "#legume": "legume" })[
+        window.location.hash
+      ] ?? null
   );
   const [planDay, setPlanDay] = useState(null);   // ziua aleasă din calendar pentru un meniu nou
   const [visit, setVisit] = useState(0);          // la fiecare apăsare în meniu, pagina pornește de la început
@@ -60,11 +63,11 @@ function App({ onOpenDetail }) {
       onOpenDetail(recipe);
       return;
     }
-    if (recipe.isFruit) {
-      // un fruct din meniu / calendar deschide pagina lui din „Fructe crude”
+    if (recipe.isProduce) {
+      // un fruct / o legumă din meniu sau calendar deschide pagina lui din „Fructe crude” / „Legume crude”
       setFruitId(recipe.id);
       setSelectedId(null);
-      setTool("fructe");
+      setTool(recipe.isVeg ? "legume" : "fructe");
       setVisit((v) => v + 1);
       return;
     }
@@ -171,6 +174,12 @@ function App({ onOpenDetail }) {
               <Apple size={17} />
             </button>
           </div>
+          <div className="tocBook">
+            <button className={`bookButton ${tool === "legume" ? "bookActive" : ""}`} onClick={() => openTool("legume")}>
+              <span>Legume crude</span>
+              <Carrot size={17} />
+            </button>
+          </div>
 
           <button className={`calcNav ${tool === "calculator" ? "active" : ""}`} onClick={() => openTool("calculator")}>
             <span className="calcNavIcon"><Calculator size={18} /></span>
@@ -216,8 +225,8 @@ function App({ onOpenDetail }) {
           <WaterTracker />
         ) : tool === "calendar" ? (
           <MenuCalendar onOpenRecipe={choose} onOpenCalculator={(day) => openTool("calculator", day)} />
-        ) : tool === "fructe" ? (
-          <FruitGrid key={visit} initialFruitId={fruitId} />
+        ) : tool === "fructe" || tool === "legume" ? (
+          <ProduceGrid key={`${tool}-${visit}`} type={tool} initialId={fruitId} />
         ) : selected ? (
           <>
             <section className="recipeHeader">

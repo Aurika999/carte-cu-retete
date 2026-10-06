@@ -117,32 +117,35 @@ def fetch(filename):
     return img, credit
 
 
-def main():
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
-    fruits = []
-    for slug, name, kcal, protein, carbs, fat, fiber, source in FRUITS:
+def build(items, folder, out_js, export_name, id_prefix, cache_path):
+    """Descarcă pozele (doar pe cele noi / schimbate) și scrie fișierul JS cu datele.
+    Folosit și de vegetables.py."""
+    out_dir = ROOT / "public" / folder
+    out_dir.mkdir(parents=True, exist_ok=True)
+    cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    result = []
+    for slug, name, kcal, protein, carbs, fat, fiber, source in items:
         cached = cache.get(slug)
-        if cached and cached.get("source_spec") == source and (OUT_DIR / f"{slug}.jpg").exists():
+        if cached and cached.get("source_spec") == source and (out_dir / f"{slug}.jpg").exists():
             credit = cached["credit"]
         else:
             filename = file_for(source)
             img, credit = fetch(filename)
             credit["file"] = filename
-            ImageOps.fit(img, (600, 600), Image.LANCZOS).save(OUT_DIR / f"{slug}.jpg", quality=85)
+            ImageOps.fit(img, (600, 600), Image.LANCZOS).save(out_dir / f"{slug}.jpg", quality=85)
             cache[slug] = {"source_spec": source, "credit": credit}
-            CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+            cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
             time.sleep(2)   # politicos cu serverele Wikimedia
-        fruits.append({
-            "id": f"f-{slug}", "name": name, "image": f"/fruits/{slug}.jpg",
+        result.append({
+            "id": f"{id_prefix}-{slug}", "name": name, "image": f"/{folder}/{slug}.jpg",
             "per100g": {"kcal": kcal, "protein": protein, "carbs": carbs, "fat": fat, "fiber": fiber},
             "credit": credit,
         })
         print(f"{name:24} {credit['file'][:60]:60} {credit['license']}")
-    OUT_JS.write_text("export const fruits = " + json.dumps(fruits, ensure_ascii=False, indent=2) + ";\n",
+    out_js.write_text(f"export const {export_name} = " + json.dumps(result, ensure_ascii=False, indent=2) + ";\n",
                       encoding="utf-8")
-    print(f"{len(fruits)} fructe salvate în {OUT_JS}")
+    print(f"{len(result)} salvate în {out_js}")
 
 
 if __name__ == "__main__":
-    main()
+    build(FRUITS, "fruits", OUT_JS, "fruits", "f", CACHE)

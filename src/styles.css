@@ -241,8 +241,75 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 .calcNote { display: flex; gap: 7px; align-items: flex-start; margin: 0; font-size: 12px; color: #7a8378; line-height: 1.45; }
 .calcNote svg { flex: 0 0 auto; margin-top: 2px; }
 
+/* ---------- meniul recomandat ---------- */
+.mealPlan { margin-top: 18px; }
+.mealHead { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; }
+.mealHead h2 { margin-bottom: 4px; }
+.mealHead p { margin: 0; font-size: 13.5px; color: #5b6559; }
+.mealShuffle {
+  display: inline-flex; align-items: center; gap: 7px; flex: 0 0 auto; border: 0; cursor: pointer;
+  padding: 10px 16px; border-radius: 999px; font-weight: 700; color: #fff;
+  background: linear-gradient(135deg, #2bb3a3, #7b6cf6); box-shadow: 0 6px 16px rgba(123,108,246,.3);
+  transition: transform .15s ease;
+}
+.mealShuffle:hover { transform: translateY(-1px) rotate(-1deg); }
+.mealShuffle:active svg { transform: rotate(180deg); }
+.mealShuffle svg { transition: transform .3s ease; }
+.mealBooks { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 16px; }
+.mealBook { border: 1.5px solid #e2dccd; background: #fff; color: #405045; border-radius: 999px; padding: 6px 13px; font-size: 12.5px; font-weight: 600; cursor: pointer; }
+.mealBook:hover { border-color: #2bb3a3; }
+.mealBook.active { background: #173c2b; border-color: #173c2b; color: #fff; }
+
+.mealList { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (min-width: 1750px) { .mealList { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .mealList { grid-template-columns: 1fr; } }
+.meal {
+  border-radius: 16px; padding: 12px; background: color-mix(in srgb, var(--meal) 7%, #fff);
+  border: 1.5px solid color-mix(in srgb, var(--meal) 30%, #fff); display: flex; flex-direction: column; gap: 8px;
+  animation: mealIn .35s ease both;
+}
+@keyframes mealIn { from { opacity: 0; transform: translateY(6px); } }
+.mealTop { display: flex; align-items: center; gap: 8px; }
+.mealLabel { font-weight: 800; color: var(--meal); display: inline-flex; align-items: center; gap: 6px; font-size: 14px; }
+.mealKcal { margin-left: auto; font-weight: 800; font-size: 14px; color: #1c2b20; }
+.mealKcal small { font-weight: 500; color: #8a9189; font-size: 11.5px; }
+.mealSwap { border: 0; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; background: #fff; color: var(--meal); box-shadow: 0 1px 4px rgba(0,0,0,.1); transition: transform .3s ease; }
+.mealSwap:hover { transform: rotate(180deg); }
+.mealEmpty { margin: 0; font-size: 12.5px; color: #8a9189; }
+.mealItem {
+  display: flex; gap: 10px; align-items: center; width: 100%; padding: 7px; border: 0; border-radius: 12px;
+  background: #fff; text-align: left; cursor: pointer; color: inherit; box-shadow: 0 1px 4px rgba(40,46,38,.07);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.mealItem:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(40,46,38,.12); }
+/* miniatura arată doar poza din colțul stânga-sus al paginii de rețetă */
+.mealThumb { width: 78px; flex: 0 0 78px; aspect-ratio: 138 / 122; overflow: hidden; border-radius: 10px; background: #eee; }
+.mealThumb img { display: block; width: 278%; margin-left: -10%; margin-top: -10.1%; }
+.mealInfo { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.mealInfo strong { font-size: 13px; line-height: 1.25; color: #1c2b20; }
+.mealInfo small { font-size: 11px; color: #8a9189; }
+.mealMacros { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.mealMacros b { font-size: 11.5px; color: #1c2b20; margin-right: 2px; }
+.mealMacros i { font-style: normal; font-size: 10.5px; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 12%, #fff); padding: 1px 6px; border-radius: 999px; }
+
+.mealTotal { margin-top: 16px; padding: 14px; border-radius: 14px; background: #f6f2e8; }
+.mealTotalRow { display: flex; justify-content: space-between; font-size: 14px; color: #405045; }
+.mealTotalRow strong { color: #1c2b20; }
+.mealBar { height: 10px; border-radius: 999px; background: #e6dfcf; overflow: hidden; margin-top: 8px; }
+.mealBar span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, #2bb3a3, #7b6cf6); transition: width .5s ease; }
+.mealBar.thin { height: 6px; margin-top: 4px; }
+.mealBar.thin span { background: var(--c); }
+.mealTotalMacros { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+.mealTotalMacros small { font-size: 11.5px; color: #7a8378; }
+.mealTotalMacros strong { display: block; font-size: 15px; color: var(--c); }
+.mealTotalMacros em { font-style: normal; font-size: 11.5px; color: #8a9189; font-weight: 500; }
+
 @media (max-width: 1150px) {
   .calcGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .mealHead { flex-direction: column; }
+  .mealTotalMacros { grid-template-columns: 1fr; }
 }
 @media (max-width: 600px) {
   .calcPage { padding: 12px 12px 20px; }

@@ -7,7 +7,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 25,
-    "image": "/pages/traditionale/page-25.jpg"
+    "image": "/pages/traditionale/page-25.jpg",
+    "nutrition": {
+      "kcal": 313.4,
+      "protein": 19.6,
+      "carbs": 32.6,
+      "fat": 11.2,
+      "fiber": 2.0
+    }
   },
   {
     "id": "t-2",
@@ -17,7 +24,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 26,
-    "image": "/pages/traditionale/page-26.jpg"
+    "image": "/pages/traditionale/page-26.jpg",
+    "nutrition": {
+      "kcal": 296.6,
+      "protein": 29.4,
+      "carbs": 3.7,
+      "fat": 18.1,
+      "fiber": 0.0
+    }
   },
   {
     "id": "t-3",
@@ -27,7 +41,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 27,
-    "image": "/pages/traditionale/page-27.jpg"
+    "image": "/pages/traditionale/page-27.jpg",
+    "nutrition": {
+      "kcal": 282.0,
+      "protein": 28.2,
+      "carbs": 7.8,
+      "fat": 16.1,
+      "fiber": 1.5
+    }
   },
   {
     "id": "t-4",
@@ -37,7 +58,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 28,
-    "image": "/pages/traditionale/page-28.jpg"
+    "image": "/pages/traditionale/page-28.jpg",
+    "nutrition": {
+      "kcal": 324.3,
+      "protein": 33.0,
+      "carbs": 10.1,
+      "fat": 17.4,
+      "fiber": 1.8
+    }
   },
   {
     "id": "t-5",
@@ -47,7 +75,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 29,
-    "image": "/pages/traditionale/page-29.jpg"
+    "image": "/pages/traditionale/page-29.jpg",
+    "nutrition": {
+      "kcal": 406.4,
+      "protein": 38.5,
+      "carbs": 39.7,
+      "fat": 10.7,
+      "fiber": 5.5
+    }
   },
   {
     "id": "t-6",
@@ -57,7 +92,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 30,
-    "image": "/pages/traditionale/page-30.jpg"
+    "image": "/pages/traditionale/page-30.jpg",
+    "nutrition": {
+      "kcal": 319.0,
+      "protein": 16.5,
+      "carbs": 48.6,
+      "fat": 6.5,
+      "fiber": 6.9
+    }
   },
   {
     "id": "t-7",
@@ -67,7 +109,14 @@ export const recipes = [
     "section": "Mic dejun și gustări",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 31,
-    "image": "/pages/traditionale/page-31.jpg"
+    "image": "/pages/traditionale/page-31.jpg",
+    "nutrition": {
+      "kcal": 112.8,
+      "protein": 20.0,
+      "carbs": 5.7,
+      "fat": 1.2,
+      "fiber": 0.2
+    }
   },
   {
     "id": "t-8",
@@ -77,7 +126,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 33,
-    "image": "/pages/traditionale/page-33.jpg"
+    "image": "/pages/traditionale/page-33.jpg",
+    "nutrition": {
+      "kcal": 362.4,
+      "protein": 37.6,
+      "carbs": 9.1,
+      "fat": 19.0
+    }
   },
   {
     "id": "t-9",
@@ -87,7 +142,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 34,
-    "image": "/pages/traditionale/page-34.jpg"
+    "image": "/pages/traditionale/page-34.jpg",
+    "nutrition": {
+      "kcal": 232.9,
+      "protein": 32.7,
+      "carbs": 9.1,
+      "fat": 6.8
+    }
   },
   {
     "id": "t-10",
@@ -97,7 +158,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 35,
-    "image": "/pages/traditionale/page-35.jpg"
+    "image": "/pages/traditionale/page-35.jpg",
+    "nutrition": {
+      "kcal": 262.5,
+      "protein": 31.0,
+      "carbs": 20.6,
+      "fat": 6.2
+    }
   },
   {
     "id": "t-11",
@@ -107,7 +174,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 36,
-    "image": "/pages/traditionale/page-36.jpg"
+    "image": "/pages/traditionale/page-36.jpg",
+    "nutrition": {
+      "kcal": 219.2,
+      "protein": 6.6,
+      "carbs": 36.1,
+      "fat": 6.1
+    }
   },
   {
     "id": "t-12",
@@ -117,7 +190,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 37,
-    "image": "/pages/traditionale/page-37.jpg"
+    "image": "/pages/traditionale/page-37.jpg",
+    "nutrition": {
+      "kcal": 372.5,
+      "protein": 30.8,
+      "carbs": 49.1,
+      "fat": 5.6
+    }
   },
   {
     "id": "t-13",
@@ -127,7 +206,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 38,
-    "image": "/pages/traditionale/page-38.jpg"
+    "image": "/pages/traditionale/page-38.jpg",
+    "nutrition": {
+      "kcal": 254.2,
+      "protein": 26.0,
+      "carbs": 24.3,
+      "fat": 5.9
+    }
   },
   {
     "id": "t-14",
@@ -137,7 +222,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 39,
-    "image": "/pages/traditionale/page-39.jpg"
+    "image": "/pages/traditionale/page-39.jpg",
+    "nutrition": {
+      "kcal": 198.0,
+      "protein": 8.9,
+      "carbs": 22.4,
+      "fat": 8.0,
+      "fiber": 6.3
+    }
   },
   {
     "id": "t-15",
@@ -147,7 +239,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 40,
-    "image": "/pages/traditionale/page-40.jpg"
+    "image": "/pages/traditionale/page-40.jpg",
+    "nutrition": {
+      "kcal": 203.0,
+      "protein": 9.4,
+      "carbs": 22.7,
+      "fat": 9.1,
+      "fiber": 8.4
+    }
   },
   {
     "id": "t-16",
@@ -157,7 +256,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 41,
-    "image": "/pages/traditionale/page-41.jpg"
+    "image": "/pages/traditionale/page-41.jpg",
+    "nutrition": {
+      "kcal": 136.0,
+      "protein": 3.4,
+      "carbs": 24.8,
+      "fat": 2.7,
+      "fiber": 4.0
+    }
   },
   {
     "id": "t-17",
@@ -167,7 +273,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 42,
-    "image": "/pages/traditionale/page-42.jpg"
+    "image": "/pages/traditionale/page-42.jpg",
+    "nutrition": {
+      "kcal": 236.1,
+      "protein": 33.8,
+      "carbs": 11.6,
+      "fat": 5.6
+    }
   },
   {
     "id": "t-18",
@@ -177,7 +289,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 43,
-    "image": "/pages/traditionale/page-43.jpg"
+    "image": "/pages/traditionale/page-43.jpg",
+    "nutrition": {
+      "kcal": 172.0,
+      "protein": 25.4,
+      "carbs": 9.0,
+      "fat": 3.3,
+      "fiber": 2.0
+    }
   },
   {
     "id": "t-19",
@@ -187,7 +306,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 44,
-    "image": "/pages/traditionale/page-44.jpg"
+    "image": "/pages/traditionale/page-44.jpg",
+    "nutrition": {
+      "kcal": 144.6,
+      "protein": 10.4,
+      "carbs": 17.2,
+      "fat": 5.2
+    }
   },
   {
     "id": "t-20",
@@ -197,7 +322,13 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 45,
-    "image": "/pages/traditionale/page-45.jpg"
+    "image": "/pages/traditionale/page-45.jpg",
+    "nutrition": {
+      "kcal": 336.3,
+      "protein": 22.8,
+      "carbs": 42.2,
+      "fat": 8.3
+    }
   },
   {
     "id": "t-21",
@@ -207,7 +338,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 47,
-    "image": "/pages/traditionale/page-47.jpg"
+    "image": "/pages/traditionale/page-47.jpg",
+    "nutrition": {
+      "kcal": 503.1,
+      "protein": 39.2,
+      "carbs": 66.4,
+      "fat": 6.6,
+      "fiber": 9.1
+    }
   },
   {
     "id": "t-22",
@@ -217,7 +355,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 48,
-    "image": "/pages/traditionale/page-48.jpg"
+    "image": "/pages/traditionale/page-48.jpg",
+    "nutrition": {
+      "kcal": 503.1,
+      "protein": 39.2,
+      "carbs": 66.4,
+      "fat": 6.6,
+      "fiber": 9.1
+    }
   },
   {
     "id": "t-23",
@@ -227,7 +372,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 49,
-    "image": "/pages/traditionale/page-49.jpg"
+    "image": "/pages/traditionale/page-49.jpg",
+    "nutrition": {
+      "kcal": 196.0,
+      "protein": 35.8,
+      "carbs": 1.7,
+      "fat": 4.4
+    }
   },
   {
     "id": "t-24",
@@ -237,7 +388,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 50,
-    "image": "/pages/traditionale/page-50.jpg"
+    "image": "/pages/traditionale/page-50.jpg",
+    "nutrition": {
+      "kcal": 350.6,
+      "protein": 30.3,
+      "carbs": 40.9,
+      "fat": 7.0,
+      "fiber": 1.9
+    }
   },
   {
     "id": "t-25",
@@ -247,7 +405,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 51,
-    "image": "/pages/traditionale/page-51.jpg"
+    "image": "/pages/traditionale/page-51.jpg",
+    "nutrition": {
+      "kcal": 380.8,
+      "protein": 36.8,
+      "carbs": 39.5,
+      "fat": 7.1
+    }
   },
   {
     "id": "t-26",
@@ -257,7 +421,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 52,
-    "image": "/pages/traditionale/page-52.jpg"
+    "image": "/pages/traditionale/page-52.jpg",
+    "nutrition": {
+      "kcal": 212.6,
+      "protein": 27.6,
+      "carbs": 10.4,
+      "fat": 5.6
+    }
   },
   {
     "id": "t-27",
@@ -267,7 +437,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 53,
-    "image": "/pages/traditionale/page-53.jpg"
+    "image": "/pages/traditionale/page-53.jpg",
+    "nutrition": {
+      "kcal": 239.0,
+      "protein": 26.6,
+      "carbs": 22.4,
+      "fat": 3.6,
+      "fiber": 5.5
+    }
   },
   {
     "id": "t-28",
@@ -277,7 +454,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 54,
-    "image": "/pages/traditionale/page-54.jpg"
+    "image": "/pages/traditionale/page-54.jpg",
+    "nutrition": {
+      "kcal": 292.8,
+      "protein": 36.9,
+      "carbs": 31.7,
+      "fat": 2.4
+    }
   },
   {
     "id": "t-29",
@@ -287,7 +470,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 55,
-    "image": "/pages/traditionale/page-55.jpg"
+    "image": "/pages/traditionale/page-55.jpg",
+    "nutrition": {
+      "kcal": 272.5,
+      "protein": 33.6,
+      "carbs": 21.4,
+      "fat": 6.3
+    }
   },
   {
     "id": "t-30",
@@ -297,7 +486,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 56,
-    "image": "/pages/traditionale/page-56.jpg"
+    "image": "/pages/traditionale/page-56.jpg",
+    "nutrition": {
+      "kcal": 249.0,
+      "protein": 36.5,
+      "carbs": 14.1,
+      "fat": 4.4,
+      "fiber": 0.6
+    }
   },
   {
     "id": "t-31",
@@ -307,7 +503,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 57,
-    "image": "/pages/traditionale/page-57.jpg"
+    "image": "/pages/traditionale/page-57.jpg",
+    "nutrition": {
+      "kcal": 326.5,
+      "protein": 39.3,
+      "carbs": 5.3,
+      "fat": 15.5
+    }
   },
   {
     "id": "t-32",
@@ -317,7 +519,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 58,
-    "image": "/pages/traditionale/page-58.jpg"
+    "image": "/pages/traditionale/page-58.jpg",
+    "nutrition": {
+      "kcal": 312.0,
+      "protein": 40.6,
+      "carbs": 29.7,
+      "fat": 3.3,
+      "fiber": 4.5
+    }
   },
   {
     "id": "t-33",
@@ -327,7 +536,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 59,
-    "image": "/pages/traditionale/page-59.jpg"
+    "image": "/pages/traditionale/page-59.jpg",
+    "nutrition": {
+      "kcal": 169.0,
+      "protein": 25.9,
+      "carbs": 4.3,
+      "fat": 4.8,
+      "fiber": 0.1
+    }
   },
   {
     "id": "t-34",
@@ -337,7 +553,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 60,
-    "image": "/pages/traditionale/page-60.jpg"
+    "image": "/pages/traditionale/page-60.jpg",
+    "nutrition": {
+      "kcal": 307.0,
+      "protein": 47.4,
+      "carbs": 12.9,
+      "fat": 6.4,
+      "fiber": 3.8
+    }
   },
   {
     "id": "t-35",
@@ -347,7 +570,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 61,
-    "image": "/pages/traditionale/page-61.jpg"
+    "image": "/pages/traditionale/page-61.jpg",
+    "nutrition": {
+      "kcal": 252.4,
+      "protein": 7.4,
+      "carbs": 49.7,
+      "fat": 3.7,
+      "fiber": 8.7
+    }
   },
   {
     "id": "t-36",
@@ -357,7 +587,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 62,
-    "image": "/pages/traditionale/page-62.jpg"
+    "image": "/pages/traditionale/page-62.jpg",
+    "nutrition": {
+      "kcal": 358.9,
+      "protein": 21.6,
+      "carbs": 61.5,
+      "fat": 2.9,
+      "fiber": 14.9
+    }
   },
   {
     "id": "t-37",
@@ -367,7 +604,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 63,
-    "image": "/pages/traditionale/page-63.jpg"
+    "image": "/pages/traditionale/page-63.jpg",
+    "nutrition": {
+      "kcal": 423.5,
+      "protein": 39.7,
+      "carbs": 39.7,
+      "fat": 11.3,
+      "fiber": 3.9
+    }
   },
   {
     "id": "t-38",
@@ -377,7 +621,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 64,
-    "image": "/pages/traditionale/page-64.jpg"
+    "image": "/pages/traditionale/page-64.jpg",
+    "nutrition": {
+      "kcal": 338.6,
+      "protein": 39.5,
+      "carbs": 7.4,
+      "fat": 15.4
+    }
   },
   {
     "id": "t-39",
@@ -387,7 +637,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 65,
-    "image": "/pages/traditionale/page-65.jpg"
+    "image": "/pages/traditionale/page-65.jpg",
+    "nutrition": {
+      "kcal": 417.0,
+      "protein": 41.3,
+      "carbs": 44.6,
+      "fat": 6.8,
+      "fiber": 10.5
+    }
   },
   {
     "id": "t-40",
@@ -397,7 +654,14 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 66,
-    "image": "/pages/traditionale/page-66.jpg"
+    "image": "/pages/traditionale/page-66.jpg",
+    "nutrition": {
+      "kcal": 225.0,
+      "protein": 28.5,
+      "carbs": 15.0,
+      "fat": 6.1,
+      "fiber": 5.2
+    }
   },
   {
     "id": "t-41",
@@ -407,7 +671,13 @@ export const recipes = [
     "section": "Feluri principale clasice, mai ușoare",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 67,
-    "image": "/pages/traditionale/page-67.jpg"
+    "image": "/pages/traditionale/page-67.jpg",
+    "nutrition": {
+      "kcal": 337.2,
+      "protein": 37.4,
+      "carbs": 43.1,
+      "fat": 2.4
+    }
   },
   {
     "id": "t-42",
@@ -417,7 +687,14 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 69,
-    "image": "/pages/traditionale/page-69.jpg"
+    "image": "/pages/traditionale/page-69.jpg",
+    "nutrition": {
+      "kcal": 220.6,
+      "protein": 35.7,
+      "carbs": 9.2,
+      "fat": 4.2,
+      "fiber": 2.4
+    }
   },
   {
     "id": "t-43",
@@ -427,7 +704,14 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 70,
-    "image": "/pages/traditionale/page-70.jpg"
+    "image": "/pages/traditionale/page-70.jpg",
+    "nutrition": {
+      "kcal": 247.5,
+      "protein": 36.8,
+      "carbs": 14.2,
+      "fat": 4.2,
+      "fiber": 3.3
+    }
   },
   {
     "id": "t-44",
@@ -437,7 +721,13 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 71,
-    "image": "/pages/traditionale/page-71.jpg"
+    "image": "/pages/traditionale/page-71.jpg",
+    "nutrition": {
+      "kcal": 563.6,
+      "protein": 38.5,
+      "carbs": 16.0,
+      "fat": 38.0
+    }
   },
   {
     "id": "t-45",
@@ -447,7 +737,14 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 72,
-    "image": "/pages/traditionale/page-72.jpg"
+    "image": "/pages/traditionale/page-72.jpg",
+    "nutrition": {
+      "kcal": 203.9,
+      "protein": 38.9,
+      "carbs": 1.8,
+      "fat": 3.9,
+      "fiber": 0.1
+    }
   },
   {
     "id": "t-46",
@@ -457,7 +754,13 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 73,
-    "image": "/pages/traditionale/page-73.jpg"
+    "image": "/pages/traditionale/page-73.jpg",
+    "nutrition": {
+      "kcal": 184.3,
+      "protein": 27.5,
+      "carbs": 8.5,
+      "fat": 4.2
+    }
   },
   {
     "id": "t-47",
@@ -467,7 +770,14 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 74,
-    "image": "/pages/traditionale/page-74.jpg"
+    "image": "/pages/traditionale/page-74.jpg",
+    "nutrition": {
+      "kcal": 162.4,
+      "protein": 25.0,
+      "carbs": 7.7,
+      "fat": 2.8,
+      "fiber": 1.4
+    }
   },
   {
     "id": "t-48",
@@ -477,7 +787,14 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 75,
-    "image": "/pages/traditionale/page-75.jpg"
+    "image": "/pages/traditionale/page-75.jpg",
+    "nutrition": {
+      "kcal": 266.2,
+      "protein": 36.9,
+      "carbs": 18.5,
+      "fat": 5.4,
+      "fiber": 5.0
+    }
   },
   {
     "id": "t-49",
@@ -487,7 +804,13 @@ export const recipes = [
     "section": "Pește — Dunăre și Marea Neagră",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 76,
-    "image": "/pages/traditionale/page-76.jpg"
+    "image": "/pages/traditionale/page-76.jpg",
+    "nutrition": {
+      "kcal": 308.6,
+      "protein": 36.5,
+      "carbs": 18.5,
+      "fat": 10.2
+    }
   },
   {
     "id": "t-50",
@@ -497,7 +820,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 78,
-    "image": "/pages/traditionale/page-78.jpg"
+    "image": "/pages/traditionale/page-78.jpg",
+    "nutrition": {
+      "kcal": 285.4,
+      "protein": 21.4,
+      "carbs": 37.0,
+      "fat": 5.7,
+      "fiber": 0.4
+    }
   },
   {
     "id": "t-51",
@@ -507,7 +837,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 79,
-    "image": "/pages/traditionale/page-79.jpg"
+    "image": "/pages/traditionale/page-79.jpg",
+    "nutrition": {
+      "kcal": 342.1,
+      "protein": 24.8,
+      "carbs": 43.2,
+      "fat": 7.7,
+      "fiber": 0.4
+    }
   },
   {
     "id": "t-52",
@@ -517,7 +854,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 80,
-    "image": "/pages/traditionale/page-80.jpg"
+    "image": "/pages/traditionale/page-80.jpg",
+    "nutrition": {
+      "kcal": 143.4,
+      "protein": 4.3,
+      "carbs": 25.4,
+      "fat": 4.5,
+      "fiber": 11.0
+    }
   },
   {
     "id": "t-53",
@@ -527,7 +871,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 81,
-    "image": "/pages/traditionale/page-81.jpg"
+    "image": "/pages/traditionale/page-81.jpg",
+    "nutrition": {
+      "kcal": 369.0,
+      "protein": 12.9,
+      "carbs": 74.0,
+      "fat": 5.2,
+      "fiber": 9.5
+    }
   },
   {
     "id": "t-54",
@@ -537,7 +888,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 82,
-    "image": "/pages/traditionale/page-82.jpg"
+    "image": "/pages/traditionale/page-82.jpg",
+    "nutrition": {
+      "kcal": 235.6,
+      "protein": 6.6,
+      "carbs": 42.1,
+      "fat": 5.5,
+      "fiber": 4.3
+    }
   },
   {
     "id": "t-55",
@@ -547,7 +905,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 83,
-    "image": "/pages/traditionale/page-83.jpg"
+    "image": "/pages/traditionale/page-83.jpg",
+    "nutrition": {
+      "kcal": 232.3,
+      "protein": 6.1,
+      "carbs": 34.3,
+      "fat": 10.1,
+      "fiber": 15.4
+    }
   },
   {
     "id": "t-56",
@@ -557,7 +922,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 84,
-    "image": "/pages/traditionale/page-84.jpg"
+    "image": "/pages/traditionale/page-84.jpg",
+    "nutrition": {
+      "kcal": 224.0,
+      "protein": 11.3,
+      "carbs": 31.5,
+      "fat": 6.0,
+      "fiber": 11.5
+    }
   },
   {
     "id": "t-57",
@@ -567,7 +939,13 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 85,
-    "image": "/pages/traditionale/page-85.jpg"
+    "image": "/pages/traditionale/page-85.jpg",
+    "nutrition": {
+      "kcal": 150.6,
+      "protein": 9.4,
+      "carbs": 5.7,
+      "fat": 10.0
+    }
   },
   {
     "id": "t-58",
@@ -577,7 +955,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 86,
-    "image": "/pages/traditionale/page-86.jpg"
+    "image": "/pages/traditionale/page-86.jpg",
+    "nutrition": {
+      "kcal": 199.3,
+      "protein": 4.1,
+      "carbs": 40.0,
+      "fat": 2.9,
+      "fiber": 4.5
+    }
   },
   {
     "id": "t-59",
@@ -587,7 +972,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 87,
-    "image": "/pages/traditionale/page-87.jpg"
+    "image": "/pages/traditionale/page-87.jpg",
+    "nutrition": {
+      "kcal": 78.4,
+      "protein": 2.4,
+      "carbs": 11.2,
+      "fat": 2.8,
+      "fiber": 3.5
+    }
   },
   {
     "id": "t-60",
@@ -597,7 +989,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 88,
-    "image": "/pages/traditionale/page-88.jpg"
+    "image": "/pages/traditionale/page-88.jpg",
+    "nutrition": {
+      "kcal": 129.0,
+      "protein": 5.8,
+      "carbs": 27.4,
+      "fat": 0.7,
+      "fiber": 7.2
+    }
   },
   {
     "id": "t-61",
@@ -607,7 +1006,14 @@ export const recipes = [
     "section": "Garnituri inteligente",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 89,
-    "image": "/pages/traditionale/page-89.jpg"
+    "image": "/pages/traditionale/page-89.jpg",
+    "nutrition": {
+      "kcal": 115.7,
+      "protein": 3.2,
+      "carbs": 16.3,
+      "fat": 4.7,
+      "fiber": 4.9
+    }
   },
   {
     "id": "t-62",
@@ -617,7 +1023,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 91,
-    "image": "/pages/traditionale/page-91.jpg"
+    "image": "/pages/traditionale/page-91.jpg",
+    "nutrition": {
+      "kcal": 121.3,
+      "protein": 13.3,
+      "carbs": 10.5,
+      "fat": 2.8,
+      "fiber": 0.5
+    }
   },
   {
     "id": "t-63",
@@ -627,7 +1040,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 92,
-    "image": "/pages/traditionale/page-92.jpg"
+    "image": "/pages/traditionale/page-92.jpg",
+    "nutrition": {
+      "kcal": 194.3,
+      "protein": 3.0,
+      "carbs": 37.9,
+      "fat": 2.3,
+      "fiber": 1.2
+    }
   },
   {
     "id": "t-64",
@@ -637,7 +1057,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 93,
-    "image": "/pages/traditionale/page-93.jpg"
+    "image": "/pages/traditionale/page-93.jpg",
+    "nutrition": {
+      "kcal": 270.0,
+      "protein": 7.8,
+      "carbs": 47.2,
+      "fat": 5.5,
+      "fiber": 2.8
+    }
   },
   {
     "id": "t-65",
@@ -647,7 +1074,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 94,
-    "image": "/pages/traditionale/page-94.jpg"
+    "image": "/pages/traditionale/page-94.jpg",
+    "nutrition": {
+      "kcal": 194.7,
+      "protein": 4.0,
+      "carbs": 39.7,
+      "fat": 2.3,
+      "fiber": 2.0
+    }
   },
   {
     "id": "t-66",
@@ -657,7 +1091,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 95,
-    "image": "/pages/traditionale/page-95.jpg"
+    "image": "/pages/traditionale/page-95.jpg",
+    "nutrition": {
+      "kcal": 190.8,
+      "protein": 5.2,
+      "carbs": 33.2,
+      "fat": 3.9,
+      "fiber": 6.3
+    }
   },
   {
     "id": "t-67",
@@ -667,7 +1108,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 96,
-    "image": "/pages/traditionale/page-96.jpg"
+    "image": "/pages/traditionale/page-96.jpg",
+    "nutrition": {
+      "kcal": 191.1,
+      "protein": 11.1,
+      "carbs": 27.1,
+      "fat": 4.1,
+      "fiber": 0.7
+    }
   },
   {
     "id": "t-68",
@@ -677,7 +1125,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 97,
-    "image": "/pages/traditionale/page-97.jpg"
+    "image": "/pages/traditionale/page-97.jpg",
+    "nutrition": {
+      "kcal": 267.0,
+      "protein": 27.8,
+      "carbs": 23.4,
+      "fat": 6.8,
+      "fiber": 0.1
+    }
   },
   {
     "id": "t-69",
@@ -687,7 +1142,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 98,
-    "image": "/pages/traditionale/page-98.jpg"
+    "image": "/pages/traditionale/page-98.jpg",
+    "nutrition": {
+      "kcal": 194.6,
+      "protein": 7.1,
+      "carbs": 36.5,
+      "fat": 2.2,
+      "fiber": 6.2
+    }
   },
   {
     "id": "t-70",
@@ -697,7 +1159,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 99,
-    "image": "/pages/traditionale/page-99.jpg"
+    "image": "/pages/traditionale/page-99.jpg",
+    "nutrition": {
+      "kcal": 325.3,
+      "protein": 10.3,
+      "carbs": 51.4,
+      "fat": 8.7,
+      "fiber": 0.6
+    }
   },
   {
     "id": "t-71",
@@ -707,7 +1176,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 100,
-    "image": "/pages/traditionale/page-100.jpg"
+    "image": "/pages/traditionale/page-100.jpg",
+    "nutrition": {
+      "kcal": 249.8,
+      "protein": 7.3,
+      "carbs": 48.9,
+      "fat": 2.5,
+      "fiber": 1.2
+    }
   },
   {
     "id": "t-72",
@@ -717,7 +1193,14 @@ export const recipes = [
     "section": "Pâine și aluaturi românești",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 101,
-    "image": "/pages/traditionale/page-101.jpg"
+    "image": "/pages/traditionale/page-101.jpg",
+    "nutrition": {
+      "kcal": 194.7,
+      "protein": 7.2,
+      "carbs": 33.3,
+      "fat": 3.5,
+      "fiber": 0.8
+    }
   },
   {
     "id": "t-73",
@@ -727,7 +1210,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 103,
-    "image": "/pages/traditionale/page-103.jpg"
+    "image": "/pages/traditionale/page-103.jpg",
+    "nutrition": {
+      "kcal": 289.1,
+      "protein": 32.0,
+      "carbs": 29.4,
+      "fat": 4.8,
+      "fiber": 1.2
+    }
   },
   {
     "id": "t-74",
@@ -737,7 +1227,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 104,
-    "image": "/pages/traditionale/page-104.jpg"
+    "image": "/pages/traditionale/page-104.jpg",
+    "nutrition": {
+      "kcal": 239.4,
+      "protein": 7.8,
+      "carbs": 38.1,
+      "fat": 6.0,
+      "fiber": 0.9
+    }
   },
   {
     "id": "t-75",
@@ -747,7 +1244,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 105,
-    "image": "/pages/traditionale/page-105.jpg"
+    "image": "/pages/traditionale/page-105.jpg",
+    "nutrition": {
+      "kcal": 227.6,
+      "protein": 12.0,
+      "carbs": 30.5,
+      "fat": 6.6,
+      "fiber": 4.7
+    }
   },
   {
     "id": "t-76",
@@ -757,7 +1261,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 106,
-    "image": "/pages/traditionale/page-106.jpg"
+    "image": "/pages/traditionale/page-106.jpg",
+    "nutrition": {
+      "kcal": 209.4,
+      "protein": 20.9,
+      "carbs": 17.6,
+      "fat": 6.0,
+      "fiber": 0.5
+    }
   },
   {
     "id": "t-77",
@@ -767,7 +1278,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 107,
-    "image": "/pages/traditionale/page-107.jpg"
+    "image": "/pages/traditionale/page-107.jpg",
+    "nutrition": {
+      "kcal": 195.7,
+      "protein": 4.9,
+      "carbs": 30.0,
+      "fat": 6.1,
+      "fiber": 0.6
+    }
   },
   {
     "id": "t-78",
@@ -777,7 +1295,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 108,
-    "image": "/pages/traditionale/page-108.jpg"
+    "image": "/pages/traditionale/page-108.jpg",
+    "nutrition": {
+      "kcal": 116.7,
+      "protein": 2.7,
+      "carbs": 8.2,
+      "fat": 8.0,
+      "fiber": 1.1
+    }
   },
   {
     "id": "t-79",
@@ -787,7 +1312,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 109,
-    "image": "/pages/traditionale/page-109.jpg"
+    "image": "/pages/traditionale/page-109.jpg",
+    "nutrition": {
+      "kcal": 243.4,
+      "protein": 7.6,
+      "carbs": 25.9,
+      "fat": 12.3,
+      "fiber": 0.5
+    }
   },
   {
     "id": "t-80",
@@ -797,7 +1329,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 110,
-    "image": "/pages/traditionale/page-110.jpg"
+    "image": "/pages/traditionale/page-110.jpg",
+    "nutrition": {
+      "kcal": 160.8,
+      "protein": 7.0,
+      "carbs": 11.8,
+      "fat": 9.5,
+      "fiber": 1.5
+    }
   },
   {
     "id": "t-81",
@@ -807,7 +1346,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 111,
-    "image": "/pages/traditionale/page-111.jpg"
+    "image": "/pages/traditionale/page-111.jpg",
+    "nutrition": {
+      "kcal": 247.3,
+      "protein": 10.7,
+      "carbs": 16.1,
+      "fat": 15.6,
+      "fiber": 2.4
+    }
   },
   {
     "id": "t-82",
@@ -817,7 +1363,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 112,
-    "image": "/pages/traditionale/page-112.jpg"
+    "image": "/pages/traditionale/page-112.jpg",
+    "nutrition": {
+      "kcal": 156.4,
+      "protein": 7.6,
+      "carbs": 17.9,
+      "fat": 6.0,
+      "fiber": 0.4
+    }
   },
   {
     "id": "t-83",
@@ -827,7 +1380,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 113,
-    "image": "/pages/traditionale/page-113.jpg"
+    "image": "/pages/traditionale/page-113.jpg",
+    "nutrition": {
+      "kcal": 161.9,
+      "protein": 10.8,
+      "carbs": 21.4,
+      "fat": 3.5,
+      "fiber": 0.7
+    }
   },
   {
     "id": "t-84",
@@ -837,7 +1397,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 114,
-    "image": "/pages/traditionale/page-114.jpg"
+    "image": "/pages/traditionale/page-114.jpg",
+    "nutrition": {
+      "kcal": 163.2,
+      "protein": 12.6,
+      "carbs": 9.9,
+      "fat": 7.9,
+      "fiber": 0.0
+    }
   },
   {
     "id": "t-85",
@@ -847,7 +1414,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 115,
-    "image": "/pages/traditionale/page-115.jpg"
+    "image": "/pages/traditionale/page-115.jpg",
+    "nutrition": {
+      "kcal": 154.9,
+      "protein": 6.9,
+      "carbs": 24.9,
+      "fat": 2.9,
+      "fiber": 0.8
+    }
   },
   {
     "id": "t-86",
@@ -857,7 +1431,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 116,
-    "image": "/pages/traditionale/page-116.jpg"
+    "image": "/pages/traditionale/page-116.jpg",
+    "nutrition": {
+      "kcal": 233.7,
+      "protein": 6.6,
+      "carbs": 28.4,
+      "fat": 10.3,
+      "fiber": 0.5
+    }
   },
   {
     "id": "t-87",
@@ -867,7 +1448,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 117,
-    "image": "/pages/traditionale/page-117.jpg"
+    "image": "/pages/traditionale/page-117.jpg",
+    "nutrition": {
+      "kcal": 212.3,
+      "protein": 11.7,
+      "carbs": 20.4,
+      "fat": 9.2,
+      "fiber": 1.0
+    }
   },
   {
     "id": "t-88",
@@ -877,7 +1465,14 @@ export const recipes = [
     "section": "Deserturi cu mai puțin zahăr",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 118,
-    "image": "/pages/traditionale/page-118.jpg"
+    "image": "/pages/traditionale/page-118.jpg",
+    "nutrition": {
+      "kcal": 340.2,
+      "protein": 8.7,
+      "carbs": 33.5,
+      "fat": 18.9,
+      "fiber": 1.8
+    }
   },
   {
     "id": "t-89",
@@ -887,7 +1482,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 120,
-    "image": "/pages/traditionale/page-120.jpg"
+    "image": "/pages/traditionale/page-120.jpg",
+    "nutrition": {
+      "kcal": 153.1,
+      "protein": 17.8,
+      "carbs": 4.9,
+      "fat": 7.0
+    }
   },
   {
     "id": "t-90",
@@ -897,7 +1498,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 121,
-    "image": "/pages/traditionale/page-121.jpg"
+    "image": "/pages/traditionale/page-121.jpg",
+    "nutrition": {
+      "kcal": 336.1,
+      "protein": 44.8,
+      "carbs": 7.2,
+      "fat": 13.2
+    }
   },
   {
     "id": "t-91",
@@ -907,7 +1514,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 122,
-    "image": "/pages/traditionale/page-122.jpg"
+    "image": "/pages/traditionale/page-122.jpg",
+    "nutrition": {
+      "kcal": 157.3,
+      "protein": 16.5,
+      "carbs": 17.2,
+      "fat": 2.6
+    }
   },
   {
     "id": "t-92",
@@ -917,7 +1530,14 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 123,
-    "image": "/pages/traditionale/page-123.jpg"
+    "image": "/pages/traditionale/page-123.jpg",
+    "nutrition": {
+      "kcal": 438.2,
+      "protein": 10.5,
+      "carbs": 59.0,
+      "fat": 17.7,
+      "fiber": 2.4
+    }
   },
   {
     "id": "t-93",
@@ -927,7 +1547,14 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 124,
-    "image": "/pages/traditionale/page-124.jpg"
+    "image": "/pages/traditionale/page-124.jpg",
+    "nutrition": {
+      "kcal": 235.2,
+      "protein": 17.5,
+      "carbs": 28.4,
+      "fat": 5.5,
+      "fiber": 0.7
+    }
   },
   {
     "id": "t-94",
@@ -937,7 +1564,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 125,
-    "image": "/pages/traditionale/page-125.jpg"
+    "image": "/pages/traditionale/page-125.jpg",
+    "nutrition": {
+      "kcal": 756.8,
+      "protein": 22.1,
+      "carbs": 109.5,
+      "fat": 25.2
+    }
   },
   {
     "id": "t-95",
@@ -947,7 +1580,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 126,
-    "image": "/pages/traditionale/page-126.jpg"
+    "image": "/pages/traditionale/page-126.jpg",
+    "nutrition": {
+      "kcal": 351.2,
+      "protein": 9.3,
+      "carbs": 38.7,
+      "fat": 17.8
+    }
   },
   {
     "id": "t-96",
@@ -957,7 +1596,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 127,
-    "image": "/pages/traditionale/page-127.jpg"
+    "image": "/pages/traditionale/page-127.jpg",
+    "nutrition": {
+      "kcal": 228.3,
+      "protein": 30.8,
+      "carbs": 13.4,
+      "fat": 5.0
+    }
   },
   {
     "id": "t-97",
@@ -967,7 +1612,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 128,
-    "image": "/pages/traditionale/page-128.jpg"
+    "image": "/pages/traditionale/page-128.jpg",
+    "nutrition": {
+      "kcal": 143.1,
+      "protein": 18.4,
+      "carbs": 3.2,
+      "fat": 5.5
+    }
   },
   {
     "id": "t-98",
@@ -977,7 +1628,13 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 129,
-    "image": "/pages/traditionale/page-129.jpg"
+    "image": "/pages/traditionale/page-129.jpg",
+    "nutrition": {
+      "kcal": 201.3,
+      "protein": 30.1,
+      "carbs": 1.7,
+      "fat": 7.1
+    }
   },
   {
     "id": "t-99",
@@ -987,7 +1644,14 @@ export const recipes = [
     "section": "Sărbători „ușoare”",
     "pdf": "RETETE-TRADITIONALE-.pdf",
     "pdfPage": 130,
-    "image": "/pages/traditionale/page-130.jpg"
+    "image": "/pages/traditionale/page-130.jpg",
+    "nutrition": {
+      "kcal": 191.6,
+      "protein": 6.0,
+      "carbs": 34.0,
+      "fat": 3.5,
+      "fiber": 4.2
+    }
   },
   {
     "id": "r-1",
@@ -997,7 +1661,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 24,
-    "image": "/pages/rapide/page-24.jpg"
+    "image": "/pages/rapide/page-24.jpg",
+    "nutrition": {
+      "kcal": 271.3,
+      "protein": 14.8,
+      "carbs": 24.7,
+      "fat": 13.0,
+      "fiber": 8.2
+    }
   },
   {
     "id": "r-2",
@@ -1007,7 +1678,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 25,
-    "image": "/pages/rapide/page-25.jpg"
+    "image": "/pages/rapide/page-25.jpg",
+    "nutrition": {
+      "kcal": 218.8,
+      "protein": 12.6,
+      "carbs": 24.4,
+      "fat": 8.3,
+      "fiber": 5.4
+    }
   },
   {
     "id": "r-3",
@@ -1017,7 +1695,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 26,
-    "image": "/pages/rapide/page-26.jpg"
+    "image": "/pages/rapide/page-26.jpg",
+    "nutrition": {
+      "kcal": 308.1,
+      "protein": 17.4,
+      "carbs": 29.3,
+      "fat": 13.9,
+      "fiber": 8.2
+    }
   },
   {
     "id": "r-4",
@@ -1027,7 +1712,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 27,
-    "image": "/pages/rapide/page-27.jpg"
+    "image": "/pages/rapide/page-27.jpg",
+    "nutrition": {
+      "kcal": 269.4,
+      "protein": 14.2,
+      "carbs": 23.6,
+      "fat": 13.5,
+      "fiber": 8.6
+    }
   },
   {
     "id": "r-5",
@@ -1037,7 +1729,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 28,
-    "image": "/pages/rapide/page-28.jpg"
+    "image": "/pages/rapide/page-28.jpg",
+    "nutrition": {
+      "kcal": 280.6,
+      "protein": 15.9,
+      "carbs": 34.4,
+      "fat": 9.6,
+      "fiber": 7.3
+    }
   },
   {
     "id": "r-6",
@@ -1047,7 +1746,14 @@ export const recipes = [
     "section": "Shake-uri proteice",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 29,
-    "image": "/pages/rapide/page-29.jpg"
+    "image": "/pages/rapide/page-29.jpg",
+    "nutrition": {
+      "kcal": 237.1,
+      "protein": 14.2,
+      "carbs": 25.6,
+      "fat": 8.8,
+      "fiber": 7.5
+    }
   },
   {
     "id": "r-7",
@@ -1057,7 +1763,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 31,
-    "image": "/pages/rapide/page-31.jpg"
+    "image": "/pages/rapide/page-31.jpg",
+    "nutrition": {
+      "kcal": 281.4,
+      "protein": 15.9,
+      "carbs": 30.7,
+      "fat": 11.2,
+      "fiber": 7.8
+    }
   },
   {
     "id": "r-8",
@@ -1067,7 +1780,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 32,
-    "image": "/pages/rapide/page-32.jpg"
+    "image": "/pages/rapide/page-32.jpg",
+    "nutrition": {
+      "kcal": 229.0,
+      "protein": 15.2,
+      "carbs": 23.7,
+      "fat": 8.8,
+      "fiber": 7.7
+    }
   },
   {
     "id": "r-9",
@@ -1077,7 +1797,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 33,
-    "image": "/pages/rapide/page-33.jpg"
+    "image": "/pages/rapide/page-33.jpg",
+    "nutrition": {
+      "kcal": 196.4,
+      "protein": 12.2,
+      "carbs": 22.6,
+      "fat": 6.8,
+      "fiber": 5.8
+    }
   },
   {
     "id": "r-10",
@@ -1087,7 +1814,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 34,
-    "image": "/pages/rapide/page-34.jpg"
+    "image": "/pages/rapide/page-34.jpg",
+    "nutrition": {
+      "kcal": 273.2,
+      "protein": 16.4,
+      "carbs": 30.4,
+      "fat": 10.2,
+      "fiber": 7.8
+    }
   },
   {
     "id": "r-11",
@@ -1097,7 +1831,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 35,
-    "image": "/pages/rapide/page-35.jpg"
+    "image": "/pages/rapide/page-35.jpg",
+    "nutrition": {
+      "kcal": 309.8,
+      "protein": 32.2,
+      "carbs": 24.6,
+      "fat": 9.5,
+      "fiber": 8.0
+    }
   },
   {
     "id": "r-12",
@@ -1107,7 +1848,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 36,
-    "image": "/pages/rapide/page-36.jpg"
+    "image": "/pages/rapide/page-36.jpg",
+    "nutrition": {
+      "kcal": 380.1,
+      "protein": 30.9,
+      "carbs": 33.6,
+      "fat": 14.2,
+      "fiber": 7.8
+    }
   },
   {
     "id": "r-13",
@@ -1117,7 +1865,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 37,
-    "image": "/pages/rapide/page-37.jpg"
+    "image": "/pages/rapide/page-37.jpg",
+    "nutrition": {
+      "kcal": 312.6,
+      "protein": 27.7,
+      "carbs": 31.6,
+      "fat": 9.1,
+      "fiber": 8.1
+    }
   },
   {
     "id": "r-14",
@@ -1127,7 +1882,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 38,
-    "image": "/pages/rapide/page-38.jpg"
+    "image": "/pages/rapide/page-38.jpg",
+    "nutrition": {
+      "kcal": 196.3,
+      "protein": 12.5,
+      "carbs": 21.9,
+      "fat": 7.0,
+      "fiber": 8.1
+    }
   },
   {
     "id": "r-15",
@@ -1137,7 +1899,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 39,
-    "image": "/pages/rapide/page-39.jpg"
+    "image": "/pages/rapide/page-39.jpg",
+    "nutrition": {
+      "kcal": 245.3,
+      "protein": 14.7,
+      "carbs": 16.0,
+      "fat": 13.7,
+      "fiber": 5.8
+    }
   },
   {
     "id": "r-16",
@@ -1147,7 +1916,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 40,
-    "image": "/pages/rapide/page-40.jpg"
+    "image": "/pages/rapide/page-40.jpg",
+    "nutrition": {
+      "kcal": 234.2,
+      "protein": 13.2,
+      "carbs": 26.1,
+      "fat": 9.2,
+      "fiber": 6.5
+    }
   },
   {
     "id": "r-17",
@@ -1157,7 +1933,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 41,
-    "image": "/pages/rapide/page-41.jpg"
+    "image": "/pages/rapide/page-41.jpg",
+    "nutrition": {
+      "kcal": 262.2,
+      "protein": 13.4,
+      "carbs": 31.4,
+      "fat": 9.2,
+      "fiber": 7.0
+    }
   },
   {
     "id": "r-18",
@@ -1167,7 +1950,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 42,
-    "image": "/pages/rapide/page-42.jpg"
+    "image": "/pages/rapide/page-42.jpg",
+    "nutrition": {
+      "kcal": 204.4,
+      "protein": 11.8,
+      "carbs": 23.2,
+      "fat": 6.7,
+      "fiber": 4.8
+    }
   },
   {
     "id": "r-19",
@@ -1177,7 +1967,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 43,
-    "image": "/pages/rapide/page-43.jpg"
+    "image": "/pages/rapide/page-43.jpg",
+    "nutrition": {
+      "kcal": 243.4,
+      "protein": 12.2,
+      "carbs": 23.9,
+      "fat": 11.5,
+      "fiber": 5.3
+    }
   },
   {
     "id": "r-20",
@@ -1187,7 +1984,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 44,
-    "image": "/pages/rapide/page-44.jpg"
+    "image": "/pages/rapide/page-44.jpg",
+    "nutrition": {
+      "kcal": 194.7,
+      "protein": 13.5,
+      "carbs": 18.2,
+      "fat": 8.0,
+      "fiber": 6.7
+    }
   },
   {
     "id": "r-21",
@@ -1197,7 +2001,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 45,
-    "image": "/pages/rapide/page-45.jpg"
+    "image": "/pages/rapide/page-45.jpg",
+    "nutrition": {
+      "kcal": 166.8,
+      "protein": 12.2,
+      "carbs": 12.5,
+      "fat": 7.6,
+      "fiber": 4.9
+    }
   },
   {
     "id": "r-22",
@@ -1207,7 +2018,14 @@ export const recipes = [
     "section": "Budinci de chia",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 46,
-    "image": "/pages/rapide/page-46.jpg"
+    "image": "/pages/rapide/page-46.jpg",
+    "nutrition": {
+      "kcal": 231.1,
+      "protein": 22.7,
+      "carbs": 21.2,
+      "fat": 6.5,
+      "fiber": 5.8
+    }
   },
   {
     "id": "r-23",
@@ -1217,7 +2035,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 48,
-    "image": "/pages/rapide/page-48.jpg"
+    "image": "/pages/rapide/page-48.jpg",
+    "nutrition": {
+      "kcal": 271.6,
+      "protein": 16.7,
+      "carbs": 28.9,
+      "fat": 9.9,
+      "fiber": 5.2
+    }
   },
   {
     "id": "r-24",
@@ -1227,7 +2052,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 49,
-    "image": "/pages/rapide/page-49.jpg"
+    "image": "/pages/rapide/page-49.jpg",
+    "nutrition": {
+      "kcal": 415.4,
+      "protein": 33.9,
+      "carbs": 46.3,
+      "fat": 10.9,
+      "fiber": 7.7
+    }
   },
   {
     "id": "r-25",
@@ -1237,7 +2069,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 50,
-    "image": "/pages/rapide/page-50.jpg"
+    "image": "/pages/rapide/page-50.jpg",
+    "nutrition": {
+      "kcal": 340.1,
+      "protein": 20.9,
+      "carbs": 46.5,
+      "fat": 8.4,
+      "fiber": 12.0
+    }
   },
   {
     "id": "r-26",
@@ -1247,7 +2086,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 51,
-    "image": "/pages/rapide/page-51.jpg"
+    "image": "/pages/rapide/page-51.jpg",
+    "nutrition": {
+      "kcal": 393.7,
+      "protein": 22.5,
+      "carbs": 38.9,
+      "fat": 16.4,
+      "fiber": 7.5
+    }
   },
   {
     "id": "r-27",
@@ -1257,7 +2103,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 52,
-    "image": "/pages/rapide/page-52.jpg"
+    "image": "/pages/rapide/page-52.jpg",
+    "nutrition": {
+      "kcal": 373.1,
+      "protein": 20.1,
+      "carbs": 51.2,
+      "fat": 9.0,
+      "fiber": 6.2
+    }
   },
   {
     "id": "r-28",
@@ -1267,7 +2120,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 53,
-    "image": "/pages/rapide/page-53.jpg"
+    "image": "/pages/rapide/page-53.jpg",
+    "nutrition": {
+      "kcal": 429.1,
+      "protein": 22.4,
+      "carbs": 50.4,
+      "fat": 16.1,
+      "fiber": 10.4
+    }
   },
   {
     "id": "r-29",
@@ -1277,7 +2137,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 54,
-    "image": "/pages/rapide/page-54.jpg"
+    "image": "/pages/rapide/page-54.jpg",
+    "nutrition": {
+      "kcal": 401.4,
+      "protein": 22.1,
+      "carbs": 37.6,
+      "fat": 17.6,
+      "fiber": 7.4
+    }
   },
   {
     "id": "r-30",
@@ -1287,7 +2154,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 55,
-    "image": "/pages/rapide/page-55.jpg"
+    "image": "/pages/rapide/page-55.jpg",
+    "nutrition": {
+      "kcal": 262.9,
+      "protein": 17.5,
+      "carbs": 28.6,
+      "fat": 8.8,
+      "fiber": 4.8
+    }
   },
   {
     "id": "r-31",
@@ -1297,7 +2171,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 56,
-    "image": "/pages/rapide/page-56.jpg"
+    "image": "/pages/rapide/page-56.jpg",
+    "nutrition": {
+      "kcal": 260.6,
+      "protein": 14.2,
+      "carbs": 38.4,
+      "fat": 5.1,
+      "fiber": 4.7
+    }
   },
   {
     "id": "r-32",
@@ -1307,7 +2188,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 57,
-    "image": "/pages/rapide/page-57.jpg"
+    "image": "/pages/rapide/page-57.jpg",
+    "nutrition": {
+      "kcal": 225.1,
+      "protein": 11.7,
+      "carbs": 33.1,
+      "fat": 4.6,
+      "fiber": 10.0
+    }
   },
   {
     "id": "r-33",
@@ -1317,7 +2205,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 58,
-    "image": "/pages/rapide/page-58.jpg"
+    "image": "/pages/rapide/page-58.jpg",
+    "nutrition": {
+      "kcal": 265.8,
+      "protein": 13.4,
+      "carbs": 41.3,
+      "fat": 4.7,
+      "fiber": 4.7
+    }
   },
   {
     "id": "r-34",
@@ -1327,7 +2222,14 @@ export const recipes = [
     "section": "Budinci de ovăz",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 59,
-    "image": "/pages/rapide/page-59.jpg"
+    "image": "/pages/rapide/page-59.jpg",
+    "nutrition": {
+      "kcal": 305.4,
+      "protein": 17.2,
+      "carbs": 38.8,
+      "fat": 9.5,
+      "fiber": 8.6
+    }
   },
   {
     "id": "r-35",
@@ -1337,7 +2239,14 @@ export const recipes = [
     "section": "Smoothie-uri",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 61,
-    "image": "/pages/rapide/page-61.jpg"
+    "image": "/pages/rapide/page-61.jpg",
+    "nutrition": {
+      "kcal": 252.1,
+      "protein": 11.1,
+      "carbs": 32.8,
+      "fat": 9.7,
+      "fiber": 6.7
+    }
   },
   {
     "id": "r-36",
@@ -1347,7 +2256,14 @@ export const recipes = [
     "section": "Smoothie-uri",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 62,
-    "image": "/pages/rapide/page-62.jpg"
+    "image": "/pages/rapide/page-62.jpg",
+    "nutrition": {
+      "kcal": 276.6,
+      "protein": 10.7,
+      "carbs": 39.9,
+      "fat": 9.6,
+      "fiber": 5.2
+    }
   },
   {
     "id": "r-37",
@@ -1357,7 +2273,14 @@ export const recipes = [
     "section": "Smoothie-uri",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 63,
-    "image": "/pages/rapide/page-63.jpg"
+    "image": "/pages/rapide/page-63.jpg",
+    "nutrition": {
+      "kcal": 212.9,
+      "protein": 12.0,
+      "carbs": 25.9,
+      "fat": 7.8,
+      "fiber": 6.8
+    }
   },
   {
     "id": "r-38",
@@ -1367,7 +2290,14 @@ export const recipes = [
     "section": "Smoothie-uri",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 64,
-    "image": "/pages/rapide/page-64.jpg"
+    "image": "/pages/rapide/page-64.jpg",
+    "nutrition": {
+      "kcal": 251.8,
+      "protein": 13.9,
+      "carbs": 25.6,
+      "fat": 10.9,
+      "fiber": 7.0
+    }
   },
   {
     "id": "r-39",
@@ -1377,7 +2307,14 @@ export const recipes = [
     "section": "Smoothie-uri",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 65,
-    "image": "/pages/rapide/page-65.jpg"
+    "image": "/pages/rapide/page-65.jpg",
+    "nutrition": {
+      "kcal": 188.9,
+      "protein": 10.8,
+      "carbs": 27.4,
+      "fat": 5.2,
+      "fiber": 6.1
+    }
   },
   {
     "id": "r-40",
@@ -1387,7 +2324,14 @@ export const recipes = [
     "section": "Mic dejun / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 67,
-    "image": "/pages/rapide/page-67.jpg"
+    "image": "/pages/rapide/page-67.jpg",
+    "nutrition": {
+      "kcal": 310.1,
+      "protein": 17.7,
+      "carbs": 39.5,
+      "fat": 9.4,
+      "fiber": 5.2
+    }
   },
   {
     "id": "r-41",
@@ -1397,7 +2341,14 @@ export const recipes = [
     "section": "Mic dejun / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 68,
-    "image": "/pages/rapide/page-68.jpg"
+    "image": "/pages/rapide/page-68.jpg",
+    "nutrition": {
+      "kcal": 417.5,
+      "protein": 16.3,
+      "carbs": 41.0,
+      "fat": 21.0,
+      "fiber": 11.1
+    }
   },
   {
     "id": "r-42",
@@ -1407,7 +2358,14 @@ export const recipes = [
     "section": "Mic dejun / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 69,
-    "image": "/pages/rapide/page-69.jpg"
+    "image": "/pages/rapide/page-69.jpg",
+    "nutrition": {
+      "kcal": 263.2,
+      "protein": 16.4,
+      "carbs": 28.0,
+      "fat": 10.1,
+      "fiber": 4.4
+    }
   },
   {
     "id": "r-43",
@@ -1417,7 +2375,14 @@ export const recipes = [
     "section": "Mic dejun / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 70,
-    "image": "/pages/rapide/page-70.jpg"
+    "image": "/pages/rapide/page-70.jpg",
+    "nutrition": {
+      "kcal": 248.4,
+      "protein": 16.3,
+      "carbs": 31.9,
+      "fat": 6.8,
+      "fiber": 4.7
+    }
   },
   {
     "id": "r-44",
@@ -1427,7 +2392,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 72,
-    "image": "/pages/rapide/page-72.jpg"
+    "image": "/pages/rapide/page-72.jpg",
+    "nutrition": {
+      "kcal": 352.2,
+      "protein": 21.4,
+      "carbs": 43.8,
+      "fat": 11.4
+    }
   },
   {
     "id": "r-45",
@@ -1437,7 +2408,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 73,
-    "image": "/pages/rapide/page-73.jpg"
+    "image": "/pages/rapide/page-73.jpg",
+    "nutrition": {
+      "kcal": 342.3,
+      "protein": 22.2,
+      "carbs": 41.1,
+      "fat": 10.5
+    }
   },
   {
     "id": "r-46",
@@ -1447,7 +2424,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 74,
-    "image": "/pages/rapide/page-74.jpg"
+    "image": "/pages/rapide/page-74.jpg",
+    "nutrition": {
+      "kcal": 327.6,
+      "protein": 20.4,
+      "carbs": 26.1,
+      "fat": 17.4
+    }
   },
   {
     "id": "r-47",
@@ -1457,7 +2440,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 75,
-    "image": "/pages/rapide/page-75.jpg"
+    "image": "/pages/rapide/page-75.jpg",
+    "nutrition": {
+      "kcal": 296.1,
+      "protein": 25.6,
+      "carbs": 16.3,
+      "fat": 14.5
+    }
   },
   {
     "id": "r-48",
@@ -1467,7 +2456,14 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 76,
-    "image": "/pages/rapide/page-76.jpg"
+    "image": "/pages/rapide/page-76.jpg",
+    "nutrition": {
+      "kcal": 179.7,
+      "protein": 13.1,
+      "carbs": 5.0,
+      "fat": 12.3,
+      "fiber": 1.8
+    }
   },
   {
     "id": "r-49",
@@ -1477,7 +2473,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 77,
-    "image": "/pages/rapide/page-77.jpg"
+    "image": "/pages/rapide/page-77.jpg",
+    "nutrition": {
+      "kcal": 340.2,
+      "protein": 40.6,
+      "carbs": 23.6,
+      "fat": 9.4
+    }
   },
   {
     "id": "r-50",
@@ -1487,7 +2489,13 @@ export const recipes = [
     "section": "Salate",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 78,
-    "image": "/pages/rapide/page-78.jpg"
+    "image": "/pages/rapide/page-78.jpg",
+    "nutrition": {
+      "kcal": 238.4,
+      "protein": 30.2,
+      "carbs": 13.8,
+      "fat": 6.9
+    }
   },
   {
     "id": "r-51",
@@ -1497,7 +2505,14 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 80,
-    "image": "/pages/rapide/page-80.jpg"
+    "image": "/pages/rapide/page-80.jpg",
+    "nutrition": {
+      "kcal": 311.0,
+      "protein": 27.3,
+      "carbs": 4.3,
+      "fat": 20.4,
+      "fiber": 0.4
+    }
   },
   {
     "id": "r-52",
@@ -1507,7 +2522,14 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 81,
-    "image": "/pages/rapide/page-81.jpg"
+    "image": "/pages/rapide/page-81.jpg",
+    "nutrition": {
+      "kcal": 360.0,
+      "protein": 27.0,
+      "carbs": 7.9,
+      "fat": 24.4,
+      "fiber": 4.4
+    }
   },
   {
     "id": "r-53",
@@ -1517,7 +2539,14 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 82,
-    "image": "/pages/rapide/page-82.jpg"
+    "image": "/pages/rapide/page-82.jpg",
+    "nutrition": {
+      "kcal": 444.4,
+      "protein": 32.5,
+      "carbs": 43.1,
+      "fat": 16.1,
+      "fiber": 9.3
+    }
   },
   {
     "id": "r-54",
@@ -1527,7 +2556,13 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 83,
-    "image": "/pages/rapide/page-83.jpg"
+    "image": "/pages/rapide/page-83.jpg",
+    "nutrition": {
+      "kcal": 420.0,
+      "protein": 27.5,
+      "carbs": 39.2,
+      "fat": 16.5
+    }
   },
   {
     "id": "r-55",
@@ -1537,7 +2572,14 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 84,
-    "image": "/pages/rapide/page-84.jpg"
+    "image": "/pages/rapide/page-84.jpg",
+    "nutrition": {
+      "kcal": 421.7,
+      "protein": 26.7,
+      "carbs": 38.8,
+      "fat": 17.9,
+      "fiber": 5.0
+    }
   },
   {
     "id": "r-56",
@@ -1547,7 +2589,14 @@ export const recipes = [
     "section": "Wrap-uri & omlete",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 85,
-    "image": "/pages/rapide/page-85.jpg"
+    "image": "/pages/rapide/page-85.jpg",
+    "nutrition": {
+      "kcal": 261.7,
+      "protein": 25.2,
+      "carbs": 20.4,
+      "fat": 8.6,
+      "fiber": 0.6
+    }
   },
   {
     "id": "r-57",
@@ -1557,7 +2606,14 @@ export const recipes = [
     "section": "Gustări sărate / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 87,
-    "image": "/pages/rapide/page-87.jpg"
+    "image": "/pages/rapide/page-87.jpg",
+    "nutrition": {
+      "kcal": 297.7,
+      "protein": 27.9,
+      "carbs": 23.8,
+      "fat": 10.1,
+      "fiber": 1.8
+    }
   },
   {
     "id": "r-58",
@@ -1567,7 +2623,14 @@ export const recipes = [
     "section": "Gustări sărate / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 88,
-    "image": "/pages/rapide/page-88.jpg"
+    "image": "/pages/rapide/page-88.jpg",
+    "nutrition": {
+      "kcal": 279.1,
+      "protein": 33.6,
+      "carbs": 22.9,
+      "fat": 6.0,
+      "fiber": 2.1
+    }
   },
   {
     "id": "r-59",
@@ -1577,7 +2640,14 @@ export const recipes = [
     "section": "Gustări sărate / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 89,
-    "image": "/pages/rapide/page-89.jpg"
+    "image": "/pages/rapide/page-89.jpg",
+    "nutrition": {
+      "kcal": 465.6,
+      "protein": 25.8,
+      "carbs": 45.7,
+      "fat": 19.9,
+      "fiber": 12.3
+    }
   },
   {
     "id": "r-60",
@@ -1587,7 +2657,14 @@ export const recipes = [
     "section": "Gustări sărate / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 90,
-    "image": "/pages/rapide/page-90.jpg"
+    "image": "/pages/rapide/page-90.jpg",
+    "nutrition": {
+      "kcal": 379.6,
+      "protein": 14.2,
+      "carbs": 41.7,
+      "fat": 17.7,
+      "fiber": 9.1
+    }
   },
   {
     "id": "r-61",
@@ -1597,7 +2674,14 @@ export const recipes = [
     "section": "Gustări sărate / mese rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 91,
-    "image": "/pages/rapide/page-91.jpg"
+    "image": "/pages/rapide/page-91.jpg",
+    "nutrition": {
+      "kcal": 203.1,
+      "protein": 2.6,
+      "carbs": 11.4,
+      "fat": 16.4,
+      "fiber": 7.0
+    }
   },
   {
     "id": "r-62",
@@ -1607,7 +2691,14 @@ export const recipes = [
     "section": "Gustări dulci rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 93,
-    "image": "/pages/rapide/page-93.jpg"
+    "image": "/pages/rapide/page-93.jpg",
+    "nutrition": {
+      "kcal": 334.5,
+      "protein": 11.5,
+      "carbs": 26.1,
+      "fat": 20.5,
+      "fiber": 7.0
+    }
   },
   {
     "id": "r-63",
@@ -1617,7 +2708,14 @@ export const recipes = [
     "section": "Gustări dulci rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 94,
-    "image": "/pages/rapide/page-94.jpg"
+    "image": "/pages/rapide/page-94.jpg",
+    "nutrition": {
+      "kcal": 214.3,
+      "protein": 17.7,
+      "carbs": 17.2,
+      "fat": 8.3,
+      "fiber": 1.2
+    }
   },
   {
     "id": "r-64",
@@ -1627,7 +2725,14 @@ export const recipes = [
     "section": "Gustări dulci rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 95,
-    "image": "/pages/rapide/page-95.jpg"
+    "image": "/pages/rapide/page-95.jpg",
+    "nutrition": {
+      "kcal": 186.9,
+      "protein": 11.4,
+      "carbs": 23.1,
+      "fat": 5.9,
+      "fiber": 3.0
+    }
   },
   {
     "id": "r-65",
@@ -1637,7 +2742,14 @@ export const recipes = [
     "section": "Gustări dulci rapide",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 96,
-    "image": "/pages/rapide/page-96.jpg"
+    "image": "/pages/rapide/page-96.jpg",
+    "nutrition": {
+      "kcal": 115.3,
+      "protein": 2.2,
+      "carbs": 12.8,
+      "fat": 6.1,
+      "fiber": 2.4
+    }
   },
   {
     "id": "r-66",
@@ -1647,7 +2759,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 98,
-    "image": "/pages/rapide/page-98.jpg"
+    "image": "/pages/rapide/page-98.jpg",
+    "nutrition": {
+      "kcal": 236.3,
+      "protein": 29.1,
+      "carbs": 16.0,
+      "fat": 6.3
+    }
   },
   {
     "id": "r-67",
@@ -1657,7 +2775,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 99,
-    "image": "/pages/rapide/page-99.jpg"
+    "image": "/pages/rapide/page-99.jpg",
+    "nutrition": {
+      "kcal": 342.3,
+      "protein": 33.5,
+      "carbs": 37.5,
+      "fat": 5.6
+    }
   },
   {
     "id": "r-68",
@@ -1667,7 +2791,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 100,
-    "image": "/pages/rapide/page-100.jpg"
+    "image": "/pages/rapide/page-100.jpg",
+    "nutrition": {
+      "kcal": 408.6,
+      "protein": 21.2,
+      "carbs": 41.3,
+      "fat": 18.7
+    }
   },
   {
     "id": "r-69",
@@ -1677,7 +2807,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 101,
-    "image": "/pages/rapide/page-101.jpg"
+    "image": "/pages/rapide/page-101.jpg",
+    "nutrition": {
+      "kcal": 356.0,
+      "protein": 29.3,
+      "carbs": 32.5,
+      "fat": 12.5
+    }
   },
   {
     "id": "r-70",
@@ -1687,7 +2823,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 102,
-    "image": "/pages/rapide/page-102.jpg"
+    "image": "/pages/rapide/page-102.jpg",
+    "nutrition": {
+      "kcal": 229.4,
+      "protein": 33.0,
+      "carbs": 3.3,
+      "fat": 8.8
+    }
   },
   {
     "id": "r-71",
@@ -1697,7 +2839,13 @@ export const recipes = [
     "section": "Mese rapide din supermarket (fără gătit)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 103,
-    "image": "/pages/rapide/page-103.jpg"
+    "image": "/pages/rapide/page-103.jpg",
+    "nutrition": {
+      "kcal": 430.9,
+      "protein": 30.5,
+      "carbs": 30.5,
+      "fat": 20.1
+    }
   },
   {
     "id": "r-72",
@@ -1707,7 +2855,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 105,
-    "image": "/pages/rapide/page-105.jpg"
+    "image": "/pages/rapide/page-105.jpg",
+    "nutrition": {
+      "kcal": 272.9,
+      "protein": 22.3,
+      "carbs": 30.7,
+      "fat": 6.3,
+      "fiber": 2.5
+    }
   },
   {
     "id": "r-73",
@@ -1717,7 +2872,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 106,
-    "image": "/pages/rapide/page-106.jpg"
+    "image": "/pages/rapide/page-106.jpg",
+    "nutrition": {
+      "kcal": 271.5,
+      "protein": 9.2,
+      "carbs": 21.6,
+      "fat": 16.9,
+      "fiber": 2.9
+    }
   },
   {
     "id": "r-74",
@@ -1727,7 +2889,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 107,
-    "image": "/pages/rapide/page-107.jpg"
+    "image": "/pages/rapide/page-107.jpg",
+    "nutrition": {
+      "kcal": 368.2,
+      "protein": 16.9,
+      "carbs": 26.9,
+      "fat": 21.7,
+      "fiber": 1.6
+    }
   },
   {
     "id": "r-75",
@@ -1737,7 +2906,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 108,
-    "image": "/pages/rapide/page-108.jpg"
+    "image": "/pages/rapide/page-108.jpg",
+    "nutrition": {
+      "kcal": 312.8,
+      "protein": 7.3,
+      "carbs": 33.5,
+      "fat": 18.2,
+      "fiber": 6.3
+    }
   },
   {
     "id": "r-76",
@@ -1747,7 +2923,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 109,
-    "image": "/pages/rapide/page-109.jpg"
+    "image": "/pages/rapide/page-109.jpg",
+    "nutrition": {
+      "kcal": 218.6,
+      "protein": 13.4,
+      "carbs": 26.8,
+      "fat": 7.3,
+      "fiber": 4.9
+    }
   },
   {
     "id": "r-77",
@@ -1757,7 +2940,14 @@ export const recipes = [
     "section": "Deserturi",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 110,
-    "image": "/pages/rapide/page-110.jpg"
+    "image": "/pages/rapide/page-110.jpg",
+    "nutrition": {
+      "kcal": 151.7,
+      "protein": 14.1,
+      "carbs": 9.4,
+      "fat": 6.5,
+      "fiber": 0.4
+    }
   },
   {
     "id": "r-78",
@@ -1767,7 +2957,14 @@ export const recipes = [
     "section": "Vegane / vegetariene (rapide)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 112,
-    "image": "/pages/rapide/page-112.jpg"
+    "image": "/pages/rapide/page-112.jpg",
+    "nutrition": {
+      "kcal": 164.3,
+      "protein": 6.5,
+      "carbs": 25.7,
+      "fat": 6.0,
+      "fiber": 13.7
+    }
   },
   {
     "id": "r-79",
@@ -1777,7 +2974,14 @@ export const recipes = [
     "section": "Vegane / vegetariene (rapide)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 113,
-    "image": "/pages/rapide/page-113.jpg"
+    "image": "/pages/rapide/page-113.jpg",
+    "nutrition": {
+      "kcal": 182.3,
+      "protein": 6.5,
+      "carbs": 12.2,
+      "fat": 12.5,
+      "fiber": 5.4
+    }
   },
   {
     "id": "r-80",
@@ -1787,7 +2991,14 @@ export const recipes = [
     "section": "Vegane / vegetariene (rapide)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 114,
-    "image": "/pages/rapide/page-114.jpg"
+    "image": "/pages/rapide/page-114.jpg",
+    "nutrition": {
+      "kcal": 299.3,
+      "protein": 16.8,
+      "carbs": 30.7,
+      "fat": 12.6,
+      "fiber": 6.5
+    }
   },
   {
     "id": "r-81",
@@ -1797,7 +3008,14 @@ export const recipes = [
     "section": "Vegane / vegetariene (rapide)",
     "pdf": "80-de-retete-gata-in-10-minute.pdf",
     "pdfPage": 115,
-    "image": "/pages/rapide/page-115.jpg"
+    "image": "/pages/rapide/page-115.jpg",
+    "nutrition": {
+      "kcal": 371.2,
+      "protein": 22.1,
+      "carbs": 28.7,
+      "fat": 19.9,
+      "fiber": 7.2
+    }
   },
   {
     "id": "i-1",
@@ -1807,7 +3025,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 26,
-    "image": "/pages/internationale/page-26.jpg"
+    "image": "/pages/internationale/page-26.jpg",
+    "nutrition": {
+      "kcal": 157.3,
+      "protein": 16.5,
+      "carbs": 17.2,
+      "fat": 2.6
+    }
   },
   {
     "id": "i-2",
@@ -1817,7 +3041,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 27,
-    "image": "/pages/internationale/page-27.jpg"
+    "image": "/pages/internationale/page-27.jpg",
+    "nutrition": {
+      "kcal": 232.3,
+      "protein": 6.1,
+      "carbs": 34.3,
+      "fat": 10.1,
+      "fiber": 15.4
+    }
   },
   {
     "id": "i-3",
@@ -1827,7 +3058,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 28,
-    "image": "/pages/internationale/page-28.jpg"
+    "image": "/pages/internationale/page-28.jpg",
+    "nutrition": {
+      "kcal": 179.7,
+      "protein": 13.1,
+      "carbs": 5.0,
+      "fat": 12.3,
+      "fiber": 1.8
+    }
   },
   {
     "id": "i-4",
@@ -1837,7 +3075,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 29,
-    "image": "/pages/internationale/page-29.jpg"
+    "image": "/pages/internationale/page-29.jpg",
+    "nutrition": {
+      "kcal": 374.2,
+      "protein": 43.8,
+      "carbs": 22.9,
+      "fat": 11.0,
+      "fiber": 5.7
+    }
   },
   {
     "id": "i-5",
@@ -1847,7 +3092,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 30,
-    "image": "/pages/internationale/page-30.jpg"
+    "image": "/pages/internationale/page-30.jpg",
+    "nutrition": {
+      "kcal": 272.1,
+      "protein": 18.6,
+      "carbs": 20.2,
+      "fat": 13.8
+    }
   },
   {
     "id": "i-6",
@@ -1857,7 +3108,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 31,
-    "image": "/pages/internationale/page-31.jpg"
+    "image": "/pages/internationale/page-31.jpg",
+    "nutrition": {
+      "kcal": 340.2,
+      "protein": 40.6,
+      "carbs": 23.6,
+      "fat": 9.4
+    }
   },
   {
     "id": "i-7",
@@ -1867,7 +3124,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 32,
-    "image": "/pages/internationale/page-32.jpg"
+    "image": "/pages/internationale/page-32.jpg",
+    "nutrition": {
+      "kcal": 263.3,
+      "protein": 35.8,
+      "carbs": 3.0,
+      "fat": 12.1
+    }
   },
   {
     "id": "i-8",
@@ -1877,7 +3140,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 33,
-    "image": "/pages/internationale/page-33.jpg"
+    "image": "/pages/internationale/page-33.jpg",
+    "nutrition": {
+      "kcal": 304.8,
+      "protein": 45.3,
+      "carbs": 2.0,
+      "fat": 7.1
+    }
   },
   {
     "id": "i-9",
@@ -1887,7 +3156,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 34,
-    "image": "/pages/internationale/page-34.jpg"
+    "image": "/pages/internationale/page-34.jpg",
+    "nutrition": {
+      "kcal": 238.4,
+      "protein": 30.2,
+      "carbs": 13.8,
+      "fat": 6.9
+    }
   },
   {
     "id": "i-10",
@@ -1897,7 +3172,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 35,
-    "image": "/pages/internationale/page-35.jpg"
+    "image": "/pages/internationale/page-35.jpg",
+    "nutrition": {
+      "kcal": 387.5,
+      "protein": 46.3,
+      "carbs": 28.7,
+      "fat": 9.7,
+      "fiber": 3.2
+    }
   },
   {
     "id": "i-11",
@@ -1907,7 +3189,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 36,
-    "image": "/pages/internationale/page-36.jpg"
+    "image": "/pages/internationale/page-36.jpg",
+    "nutrition": {
+      "kcal": 420.0,
+      "protein": 27.5,
+      "carbs": 39.2,
+      "fat": 16.5
+    }
   },
   {
     "id": "i-12",
@@ -1917,7 +3205,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 37,
-    "image": "/pages/internationale/page-37.jpg"
+    "image": "/pages/internationale/page-37.jpg",
+    "nutrition": {
+      "kcal": 369.9,
+      "protein": 21.8,
+      "carbs": 37.7,
+      "fat": 14.6
+    }
   },
   {
     "id": "i-13",
@@ -1927,7 +3221,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 38,
-    "image": "/pages/internationale/page-38.jpg"
+    "image": "/pages/internationale/page-38.jpg",
+    "nutrition": {
+      "kcal": 300.4,
+      "protein": 16.4,
+      "carbs": 39.1,
+      "fat": 8.8
+    }
   },
   {
     "id": "i-14",
@@ -1937,7 +3237,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 39,
-    "image": "/pages/internationale/page-39.jpg"
+    "image": "/pages/internationale/page-39.jpg",
+    "nutrition": {
+      "kcal": 421.7,
+      "protein": 26.7,
+      "carbs": 38.8,
+      "fat": 17.9,
+      "fiber": 5.0
+    }
   },
   {
     "id": "i-15",
@@ -1947,7 +3254,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 40,
-    "image": "/pages/internationale/page-40.jpg"
+    "image": "/pages/internationale/page-40.jpg",
+    "nutrition": {
+      "kcal": 340.6,
+      "protein": 23.7,
+      "carbs": 40.5,
+      "fat": 9.2
+    }
   },
   {
     "id": "i-16",
@@ -1957,7 +3270,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 41,
-    "image": "/pages/internationale/page-41.jpg"
+    "image": "/pages/internationale/page-41.jpg",
+    "nutrition": {
+      "kcal": 367.0,
+      "protein": 33.0,
+      "carbs": 32.4,
+      "fat": 11.4
+    }
   },
   {
     "id": "i-17",
@@ -1967,7 +3286,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 42,
-    "image": "/pages/internationale/page-42.jpg"
+    "image": "/pages/internationale/page-42.jpg",
+    "nutrition": {
+      "kcal": 244.1,
+      "protein": 28.2,
+      "carbs": 12.9,
+      "fat": 9.1
+    }
   },
   {
     "id": "i-18",
@@ -1977,7 +3302,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 43,
-    "image": "/pages/internationale/page-43.jpg"
+    "image": "/pages/internationale/page-43.jpg",
+    "nutrition": {
+      "kcal": 366.4,
+      "protein": 29.3,
+      "carbs": 38.4,
+      "fat": 10.1
+    }
   },
   {
     "id": "i-19",
@@ -1987,7 +3318,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 44,
-    "image": "/pages/internationale/page-44.jpg"
+    "image": "/pages/internationale/page-44.jpg",
+    "nutrition": {
+      "kcal": 436.5,
+      "protein": 32.7,
+      "carbs": 52.3,
+      "fat": 10.0
+    }
   },
   {
     "id": "i-20",
@@ -1997,7 +3334,13 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 45,
-    "image": "/pages/internationale/page-45.jpg"
+    "image": "/pages/internationale/page-45.jpg",
+    "nutrition": {
+      "kcal": 356.9,
+      "protein": 24.3,
+      "carbs": 34.8,
+      "fat": 12.8
+    }
   },
   {
     "id": "i-21",
@@ -2007,7 +3350,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 46,
-    "image": "/pages/internationale/page-46.jpg"
+    "image": "/pages/internationale/page-46.jpg",
+    "nutrition": {
+      "kcal": 261.7,
+      "protein": 25.2,
+      "carbs": 20.4,
+      "fat": 8.6,
+      "fiber": 0.6
+    }
   },
   {
     "id": "i-22",
@@ -2017,7 +3367,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 48,
-    "image": "/pages/internationale/page-48.jpg"
+    "image": "/pages/internationale/page-48.jpg",
+    "nutrition": {
+      "kcal": 321.2,
+      "protein": 27.0,
+      "carbs": 44.3,
+      "fat": 2.9,
+      "fiber": 6.1
+    }
   },
   {
     "id": "i-23",
@@ -2027,7 +3384,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 49,
-    "image": "/pages/internationale/page-49.jpg"
+    "image": "/pages/internationale/page-49.jpg",
+    "nutrition": {
+      "kcal": 336.1,
+      "protein": 44.8,
+      "carbs": 7.2,
+      "fat": 13.2
+    }
   },
   {
     "id": "i-24",
@@ -2037,7 +3400,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 50,
-    "image": "/pages/internationale/page-50.jpg"
+    "image": "/pages/internationale/page-50.jpg",
+    "nutrition": {
+      "kcal": 153.1,
+      "protein": 17.8,
+      "carbs": 4.9,
+      "fat": 7.0
+    }
   },
   {
     "id": "i-25",
@@ -2047,7 +3416,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 51,
-    "image": "/pages/internationale/page-51.jpg"
+    "image": "/pages/internationale/page-51.jpg",
+    "nutrition": {
+      "kcal": 313.6,
+      "protein": 45.1,
+      "carbs": 16.8,
+      "fat": 7.3
+    }
   },
   {
     "id": "i-26",
@@ -2057,7 +3432,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 52,
-    "image": "/pages/internationale/page-52.jpg"
+    "image": "/pages/internationale/page-52.jpg",
+    "nutrition": {
+      "kcal": 353.7,
+      "protein": 24.5,
+      "carbs": 47.3,
+      "fat": 7.8
+    }
   },
   {
     "id": "i-27",
@@ -2067,7 +3448,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 53,
-    "image": "/pages/internationale/page-53.jpg"
+    "image": "/pages/internationale/page-53.jpg",
+    "nutrition": {
+      "kcal": 325.1,
+      "protein": 36.2,
+      "carbs": 33.2,
+      "fat": 5.3
+    }
   },
   {
     "id": "i-28",
@@ -2077,7 +3464,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 54,
-    "image": "/pages/internationale/page-54.jpg"
+    "image": "/pages/internationale/page-54.jpg",
+    "nutrition": {
+      "kcal": 202.4,
+      "protein": 30.1,
+      "carbs": 4.5,
+      "fat": 6.5
+    }
   },
   {
     "id": "i-29",
@@ -2087,7 +3480,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 55,
-    "image": "/pages/internationale/page-55.jpg"
+    "image": "/pages/internationale/page-55.jpg",
+    "nutrition": {
+      "kcal": 235.6,
+      "protein": 6.6,
+      "carbs": 42.1,
+      "fat": 5.5,
+      "fiber": 4.3
+    }
   },
   {
     "id": "i-30",
@@ -2097,7 +3497,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 56,
-    "image": "/pages/internationale/page-56.jpg"
+    "image": "/pages/internationale/page-56.jpg",
+    "nutrition": {
+      "kcal": 274.2,
+      "protein": 34.5,
+      "carbs": 13.9,
+      "fat": 6.6,
+      "fiber": 4.0
+    }
   },
   {
     "id": "i-31",
@@ -2107,7 +3514,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 57,
-    "image": "/pages/internationale/page-57.jpg"
+    "image": "/pages/internationale/page-57.jpg",
+    "nutrition": {
+      "kcal": 463.9,
+      "protein": 49.0,
+      "carbs": 47.2,
+      "fat": 8.3
+    }
   },
   {
     "id": "i-32",
@@ -2117,7 +3530,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 58,
-    "image": "/pages/internationale/page-58.jpg"
+    "image": "/pages/internationale/page-58.jpg",
+    "nutrition": {
+      "kcal": 347.5,
+      "protein": 30.6,
+      "carbs": 37.3,
+      "fat": 8.0,
+      "fiber": 3.3
+    }
   },
   {
     "id": "i-33",
@@ -2127,7 +3547,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 59,
-    "image": "/pages/internationale/page-59.jpg"
+    "image": "/pages/internationale/page-59.jpg",
+    "nutrition": {
+      "kcal": 458.9,
+      "protein": 42.6,
+      "carbs": 41.4,
+      "fat": 13.0,
+      "fiber": 4.3
+    }
   },
   {
     "id": "i-34",
@@ -2137,7 +3564,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 60,
-    "image": "/pages/internationale/page-60.jpg"
+    "image": "/pages/internationale/page-60.jpg",
+    "nutrition": {
+      "kcal": 314.0,
+      "protein": 16.9,
+      "carbs": 41.3,
+      "fat": 9.5
+    }
   },
   {
     "id": "i-35",
@@ -2147,7 +3580,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 61,
-    "image": "/pages/internationale/page-61.jpg"
+    "image": "/pages/internationale/page-61.jpg",
+    "nutrition": {
+      "kcal": 208.1,
+      "protein": 17.8,
+      "carbs": 19.5,
+      "fat": 7.7
+    }
   },
   {
     "id": "i-36",
@@ -2157,7 +3596,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 62,
-    "image": "/pages/internationale/page-62.jpg"
+    "image": "/pages/internationale/page-62.jpg",
+    "nutrition": {
+      "kcal": 546.3,
+      "protein": 42.5,
+      "carbs": 59.0,
+      "fat": 15.6
+    }
   },
   {
     "id": "i-37",
@@ -2167,7 +3612,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 63,
-    "image": "/pages/internationale/page-63.jpg"
+    "image": "/pages/internationale/page-63.jpg",
+    "nutrition": {
+      "kcal": 335.3,
+      "protein": 33.8,
+      "carbs": 24.5,
+      "fat": 13.4
+    }
   },
   {
     "id": "i-38",
@@ -2177,7 +3628,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 64,
-    "image": "/pages/internationale/page-64.jpg"
+    "image": "/pages/internationale/page-64.jpg",
+    "nutrition": {
+      "kcal": 410.9,
+      "protein": 40.0,
+      "carbs": 43.0,
+      "fat": 8.1,
+      "fiber": 4.6
+    }
   },
   {
     "id": "i-39",
@@ -2187,7 +3645,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 65,
-    "image": "/pages/internationale/page-65.jpg"
+    "image": "/pages/internationale/page-65.jpg",
+    "nutrition": {
+      "kcal": 370.5,
+      "protein": 33.1,
+      "carbs": 38.2,
+      "fat": 9.1,
+      "fiber": 3.2
+    }
   },
   {
     "id": "i-40",
@@ -2197,7 +3662,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 66,
-    "image": "/pages/internationale/page-66.jpg"
+    "image": "/pages/internationale/page-66.jpg",
+    "nutrition": {
+      "kcal": 303.7,
+      "protein": 25.8,
+      "carbs": 41.2,
+      "fat": 3.0
+    }
   },
   {
     "id": "i-41",
@@ -2207,7 +3678,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 67,
-    "image": "/pages/internationale/page-67.jpg"
+    "image": "/pages/internationale/page-67.jpg",
+    "nutrition": {
+      "kcal": 322.6,
+      "protein": 33.2,
+      "carbs": 33.1,
+      "fat": 6.8
+    }
   },
   {
     "id": "i-42",
@@ -2217,7 +3694,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 68,
-    "image": "/pages/internationale/page-68.jpg"
+    "image": "/pages/internationale/page-68.jpg",
+    "nutrition": {
+      "kcal": 329.1,
+      "protein": 32.8,
+      "carbs": 34.8,
+      "fat": 6.5
+    }
   },
   {
     "id": "i-43",
@@ -2227,7 +3710,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 69,
-    "image": "/pages/internationale/page-69.jpg"
+    "image": "/pages/internationale/page-69.jpg",
+    "nutrition": {
+      "kcal": 305.9,
+      "protein": 32.6,
+      "carbs": 28.6,
+      "fat": 6.6
+    }
   },
   {
     "id": "i-44",
@@ -2237,7 +3726,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 70,
-    "image": "/pages/internationale/page-70.jpg"
+    "image": "/pages/internationale/page-70.jpg",
+    "nutrition": {
+      "kcal": 351.7,
+      "protein": 38.6,
+      "carbs": 29.7,
+      "fat": 8.9
+    }
   },
   {
     "id": "i-45",
@@ -2247,7 +3742,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 71,
-    "image": "/pages/internationale/page-71.jpg"
+    "image": "/pages/internationale/page-71.jpg",
+    "nutrition": {
+      "kcal": 301.2,
+      "protein": 31.8,
+      "carbs": 28.9,
+      "fat": 6.5
+    }
   },
   {
     "id": "i-46",
@@ -2257,7 +3758,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 72,
-    "image": "/pages/internationale/page-72.jpg"
+    "image": "/pages/internationale/page-72.jpg",
+    "nutrition": {
+      "kcal": 271.5,
+      "protein": 30.3,
+      "carbs": 29.6,
+      "fat": 3.4
+    }
   },
   {
     "id": "i-47",
@@ -2267,7 +3774,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 73,
-    "image": "/pages/internationale/page-73.jpg"
+    "image": "/pages/internationale/page-73.jpg",
+    "nutrition": {
+      "kcal": 308.1,
+      "protein": 32.7,
+      "carbs": 29.1,
+      "fat": 6.8
+    }
   },
   {
     "id": "i-48",
@@ -2277,7 +3790,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 74,
-    "image": "/pages/internationale/page-74.jpg"
+    "image": "/pages/internationale/page-74.jpg",
+    "nutrition": {
+      "kcal": 279.7,
+      "protein": 32.5,
+      "carbs": 30.4,
+      "fat": 3.1
+    }
   },
   {
     "id": "i-49",
@@ -2287,7 +3806,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 75,
-    "image": "/pages/internationale/page-75.jpg"
+    "image": "/pages/internationale/page-75.jpg",
+    "nutrition": {
+      "kcal": 404.2,
+      "protein": 30.0,
+      "carbs": 31.6,
+      "fat": 18.3
+    }
   },
   {
     "id": "i-50",
@@ -2297,7 +3822,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 76,
-    "image": "/pages/internationale/page-76.jpg"
+    "image": "/pages/internationale/page-76.jpg",
+    "nutrition": {
+      "kcal": 371.2,
+      "protein": 22.1,
+      "carbs": 28.7,
+      "fat": 19.9,
+      "fiber": 7.2
+    }
   },
   {
     "id": "i-51",
@@ -2307,7 +3839,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 77,
-    "image": "/pages/internationale/page-77.jpg"
+    "image": "/pages/internationale/page-77.jpg",
+    "nutrition": {
+      "kcal": 381.1,
+      "protein": 39.0,
+      "carbs": 33.0,
+      "fat": 9.8
+    }
   },
   {
     "id": "i-52",
@@ -2317,7 +3855,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 78,
-    "image": "/pages/internationale/page-78.jpg"
+    "image": "/pages/internationale/page-78.jpg",
+    "nutrition": {
+      "kcal": 226.1,
+      "protein": 18.8,
+      "carbs": 28.0,
+      "fat": 4.2
+    }
   },
   {
     "id": "i-53",
@@ -2327,7 +3871,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 79,
-    "image": "/pages/internationale/page-79.jpg"
+    "image": "/pages/internationale/page-79.jpg",
+    "nutrition": {
+      "kcal": 315.1,
+      "protein": 37.7,
+      "carbs": 27.6,
+      "fat": 5.1
+    }
   },
   {
     "id": "i-54",
@@ -2337,7 +3887,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 80,
-    "image": "/pages/internationale/page-80.jpg"
+    "image": "/pages/internationale/page-80.jpg",
+    "nutrition": {
+      "kcal": 385.4,
+      "protein": 38.9,
+      "carbs": 18.8,
+      "fat": 18.0
+    }
   },
   {
     "id": "i-55",
@@ -2347,7 +3903,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 81,
-    "image": "/pages/internationale/page-81.jpg"
+    "image": "/pages/internationale/page-81.jpg",
+    "nutrition": {
+      "kcal": 325.2,
+      "protein": 33.2,
+      "carbs": 31.6,
+      "fat": 7.3
+    }
   },
   {
     "id": "i-56",
@@ -2357,7 +3919,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 83,
-    "image": "/pages/internationale/page-83.jpg"
+    "image": "/pages/internationale/page-83.jpg",
+    "nutrition": {
+      "kcal": 189.5,
+      "protein": 12.8,
+      "carbs": 21.6,
+      "fat": 5.8,
+      "fiber": 3.7
+    }
   },
   {
     "id": "i-57",
@@ -2367,7 +3936,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 84,
-    "image": "/pages/internationale/page-84.jpg"
+    "image": "/pages/internationale/page-84.jpg",
+    "nutrition": {
+      "kcal": 310.1,
+      "protein": 17.7,
+      "carbs": 39.5,
+      "fat": 9.4,
+      "fiber": 5.2
+    }
   },
   {
     "id": "i-58",
@@ -2377,7 +3953,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 85,
-    "image": "/pages/internationale/page-85.jpg"
+    "image": "/pages/internationale/page-85.jpg",
+    "nutrition": {
+      "kcal": 146.5,
+      "protein": 18.3,
+      "carbs": 4.0,
+      "fat": 6.4,
+      "fiber": 1.3
+    }
   },
   {
     "id": "i-59",
@@ -2387,7 +3970,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 86,
-    "image": "/pages/internationale/page-86.jpg"
+    "image": "/pages/internationale/page-86.jpg",
+    "nutrition": {
+      "kcal": 367.3,
+      "protein": 26.5,
+      "carbs": 33.4,
+      "fat": 14.0,
+      "fiber": 5.6
+    }
   },
   {
     "id": "i-60",
@@ -2397,7 +3987,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 87,
-    "image": "/pages/internationale/page-87.jpg"
+    "image": "/pages/internationale/page-87.jpg",
+    "nutrition": {
+      "kcal": 389.2,
+      "protein": 29.1,
+      "carbs": 32.5,
+      "fat": 15.8,
+      "fiber": 4.2
+    }
   },
   {
     "id": "i-61",
@@ -2407,7 +4004,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 88,
-    "image": "/pages/internationale/page-88.jpg"
+    "image": "/pages/internationale/page-88.jpg",
+    "nutrition": {
+      "kcal": 220.1,
+      "protein": 15.8,
+      "carbs": 6.8,
+      "fat": 15.5,
+      "fiber": 1.5
+    }
   },
   {
     "id": "i-62",
@@ -2417,7 +4021,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 89,
-    "image": "/pages/internationale/page-89.jpg"
+    "image": "/pages/internationale/page-89.jpg",
+    "nutrition": {
+      "kcal": 390.8,
+      "protein": 26.2,
+      "carbs": 15.1,
+      "fat": 25.2,
+      "fiber": 7.1
+    }
   },
   {
     "id": "i-63",
@@ -2427,7 +4038,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 90,
-    "image": "/pages/internationale/page-90.jpg"
+    "image": "/pages/internationale/page-90.jpg",
+    "nutrition": {
+      "kcal": 268.2,
+      "protein": 34.0,
+      "carbs": 10.8,
+      "fat": 9.1,
+      "fiber": 2.7
+    }
   },
   {
     "id": "i-64",
@@ -2437,7 +4055,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 91,
-    "image": "/pages/internationale/page-91.jpg"
+    "image": "/pages/internationale/page-91.jpg",
+    "nutrition": {
+      "kcal": 266.2,
+      "protein": 36.9,
+      "carbs": 18.5,
+      "fat": 5.4,
+      "fiber": 5.0
+    }
   },
   {
     "id": "i-65",
@@ -2447,7 +4072,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 92,
-    "image": "/pages/internationale/page-92.jpg"
+    "image": "/pages/internationale/page-92.jpg",
+    "nutrition": {
+      "kcal": 417.5,
+      "protein": 16.3,
+      "carbs": 41.0,
+      "fat": 21.0,
+      "fiber": 11.1
+    }
   },
   {
     "id": "i-66",
@@ -2457,7 +4089,14 @@ export const recipes = [
     "section": "Pâine și preparate de tip brunch",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 93,
-    "image": "/pages/internationale/page-93.jpg"
+    "image": "/pages/internationale/page-93.jpg",
+    "nutrition": {
+      "kcal": 272.6,
+      "protein": 16.3,
+      "carbs": 39.6,
+      "fat": 5.2,
+      "fiber": 1.2
+    }
   },
   {
     "id": "i-67",
@@ -2467,7 +4106,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 95,
-    "image": "/pages/internationale/page-95.jpg"
+    "image": "/pages/internationale/page-95.jpg",
+    "nutrition": {
+      "kcal": 263.2,
+      "protein": 16.4,
+      "carbs": 28.0,
+      "fat": 10.1,
+      "fiber": 4.4
+    }
   },
   {
     "id": "i-68",
@@ -2477,7 +4123,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 96,
-    "image": "/pages/internationale/page-96.jpg"
+    "image": "/pages/internationale/page-96.jpg",
+    "nutrition": {
+      "kcal": 368.2,
+      "protein": 16.9,
+      "carbs": 26.9,
+      "fat": 21.7,
+      "fiber": 1.6
+    }
   },
   {
     "id": "i-69",
@@ -2487,7 +4140,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 97,
-    "image": "/pages/internationale/page-97.jpg"
+    "image": "/pages/internationale/page-97.jpg",
+    "nutrition": {
+      "kcal": 211.8,
+      "protein": 24.0,
+      "carbs": 18.3,
+      "fat": 4.6,
+      "fiber": 0.8
+    }
   },
   {
     "id": "i-70",
@@ -2497,7 +4157,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 98,
-    "image": "/pages/internationale/page-98.jpg"
+    "image": "/pages/internationale/page-98.jpg",
+    "nutrition": {
+      "kcal": 194.3,
+      "protein": 3.0,
+      "carbs": 37.9,
+      "fat": 2.3,
+      "fiber": 1.2
+    }
   },
   {
     "id": "i-71",
@@ -2507,7 +4174,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 99,
-    "image": "/pages/internationale/page-99.jpg"
+    "image": "/pages/internationale/page-99.jpg",
+    "nutrition": {
+      "kcal": 282.0,
+      "protein": 15.2,
+      "carbs": 26.5,
+      "fat": 12.8,
+      "fiber": 6.0
+    }
   },
   {
     "id": "i-72",
@@ -2517,7 +4191,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 100,
-    "image": "/pages/internationale/page-100.jpg"
+    "image": "/pages/internationale/page-100.jpg",
+    "nutrition": {
+      "kcal": 247.0,
+      "protein": 30.6,
+      "carbs": 20.9,
+      "fat": 4.6,
+      "fiber": 2.8
+    }
   },
   {
     "id": "i-73",
@@ -2527,7 +4208,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 101,
-    "image": "/pages/internationale/page-101.jpg"
+    "image": "/pages/internationale/page-101.jpg",
+    "nutrition": {
+      "kcal": 213.6,
+      "protein": 15.1,
+      "carbs": 15.7,
+      "fat": 10.3,
+      "fiber": 1.0
+    }
   },
   {
     "id": "i-74",
@@ -2537,7 +4225,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 102,
-    "image": "/pages/internationale/page-102.jpg"
+    "image": "/pages/internationale/page-102.jpg",
+    "nutrition": {
+      "kcal": 198.6,
+      "protein": 12.1,
+      "carbs": 19.9,
+      "fat": 7.9,
+      "fiber": 3.6
+    }
   },
   {
     "id": "i-75",
@@ -2547,7 +4242,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 103,
-    "image": "/pages/internationale/page-103.jpg"
+    "image": "/pages/internationale/page-103.jpg",
+    "nutrition": {
+      "kcal": 177.3,
+      "protein": 5.5,
+      "carbs": 21.9,
+      "fat": 7.5,
+      "fiber": 2.6
+    }
   },
   {
     "id": "i-76",
@@ -2557,7 +4259,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 104,
-    "image": "/pages/internationale/page-104.jpg"
+    "image": "/pages/internationale/page-104.jpg",
+    "nutrition": {
+      "kcal": 264.9,
+      "protein": 13.1,
+      "carbs": 21.6,
+      "fat": 14.6,
+      "fiber": 1.5
+    }
   },
   {
     "id": "i-77",
@@ -2567,7 +4276,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 105,
-    "image": "/pages/internationale/page-105.jpg"
+    "image": "/pages/internationale/page-105.jpg",
+    "nutrition": {
+      "kcal": 262.3,
+      "protein": 18.0,
+      "carbs": 31.1,
+      "fat": 7.5,
+      "fiber": 4.6
+    }
   },
   {
     "id": "i-78",
@@ -2577,7 +4293,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 106,
-    "image": "/pages/internationale/page-106.jpg"
+    "image": "/pages/internationale/page-106.jpg",
+    "nutrition": {
+      "kcal": 271.5,
+      "protein": 9.2,
+      "carbs": 21.6,
+      "fat": 16.9,
+      "fiber": 2.9
+    }
   },
   {
     "id": "i-79",
@@ -2587,7 +4310,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 107,
-    "image": "/pages/internationale/page-107.jpg"
+    "image": "/pages/internationale/page-107.jpg",
+    "nutrition": {
+      "kcal": 257.4,
+      "protein": 5.5,
+      "carbs": 35.2,
+      "fat": 10.8,
+      "fiber": 4.0
+    }
   },
   {
     "id": "i-80",
@@ -2597,7 +4327,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 108,
-    "image": "/pages/internationale/page-108.jpg"
+    "image": "/pages/internationale/page-108.jpg",
+    "nutrition": {
+      "kcal": 262.9,
+      "protein": 17.5,
+      "carbs": 28.6,
+      "fat": 8.8,
+      "fiber": 4.8
+    }
   },
   {
     "id": "i-81",
@@ -2607,7 +4344,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 109,
-    "image": "/pages/internationale/page-109.jpg"
+    "image": "/pages/internationale/page-109.jpg",
+    "nutrition": {
+      "kcal": 239.1,
+      "protein": 9.8,
+      "carbs": 34.0,
+      "fat": 6.5,
+      "fiber": 3.1
+    }
   },
   {
     "id": "i-82",
@@ -2617,7 +4361,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 110,
-    "image": "/pages/internationale/page-110.jpg"
+    "image": "/pages/internationale/page-110.jpg",
+    "nutrition": {
+      "kcal": 305.4,
+      "protein": 17.9,
+      "carbs": 16.0,
+      "fat": 19.0,
+      "fiber": 1.9
+    }
   },
   {
     "id": "i-83",
@@ -2627,7 +4378,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 111,
-    "image": "/pages/internationale/page-111.jpg"
+    "image": "/pages/internationale/page-111.jpg",
+    "nutrition": {
+      "kcal": 214.3,
+      "protein": 17.7,
+      "carbs": 17.2,
+      "fat": 8.3,
+      "fiber": 1.2
+    }
   },
   {
     "id": "i-84",
@@ -2637,7 +4395,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 112,
-    "image": "/pages/internationale/page-112.jpg"
+    "image": "/pages/internationale/page-112.jpg",
+    "nutrition": {
+      "kcal": 305.7,
+      "protein": 13.3,
+      "carbs": 28.4,
+      "fat": 16.1,
+      "fiber": 3.4
+    }
   },
   {
     "id": "i-85",
@@ -2647,7 +4412,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 113,
-    "image": "/pages/internationale/page-113.jpg"
+    "image": "/pages/internationale/page-113.jpg",
+    "nutrition": {
+      "kcal": 224.8,
+      "protein": 10.4,
+      "carbs": 30.1,
+      "fat": 7.5,
+      "fiber": 5.0
+    }
   },
   {
     "id": "i-86",
@@ -2657,7 +4429,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 114,
-    "image": "/pages/internationale/page-114.jpg"
+    "image": "/pages/internationale/page-114.jpg",
+    "nutrition": {
+      "kcal": 196.7,
+      "protein": 11.9,
+      "carbs": 19.6,
+      "fat": 7.9,
+      "fiber": 3.6
+    }
   },
   {
     "id": "i-87",
@@ -2667,7 +4446,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 115,
-    "image": "/pages/internationale/page-115.jpg"
+    "image": "/pages/internationale/page-115.jpg",
+    "nutrition": {
+      "kcal": 116.7,
+      "protein": 7.2,
+      "carbs": 12.4,
+      "fat": 4.3,
+      "fiber": 1.9
+    }
   },
   {
     "id": "i-88",
@@ -2677,7 +4463,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 116,
-    "image": "/pages/internationale/page-116.jpg"
+    "image": "/pages/internationale/page-116.jpg",
+    "nutrition": {
+      "kcal": 281.8,
+      "protein": 13.5,
+      "carbs": 27.2,
+      "fat": 13.2,
+      "fiber": 5.0
+    }
   },
   {
     "id": "i-89",
@@ -2687,7 +4480,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 117,
-    "image": "/pages/internationale/page-117.jpg"
+    "image": "/pages/internationale/page-117.jpg",
+    "nutrition": {
+      "kcal": 248.4,
+      "protein": 16.3,
+      "carbs": 31.9,
+      "fat": 6.8,
+      "fiber": 4.7
+    }
   },
   {
     "id": "i-90",
@@ -2697,7 +4497,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 118,
-    "image": "/pages/internationale/page-118.jpg"
+    "image": "/pages/internationale/page-118.jpg",
+    "nutrition": {
+      "kcal": 313.0,
+      "protein": 16.2,
+      "carbs": 25.9,
+      "fat": 15.2,
+      "fiber": 2.4
+    }
   },
   {
     "id": "i-91",
@@ -2707,7 +4514,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 119,
-    "image": "/pages/internationale/page-119.jpg"
+    "image": "/pages/internationale/page-119.jpg",
+    "nutrition": {
+      "kcal": 196.3,
+      "protein": 12.5,
+      "carbs": 21.9,
+      "fat": 7.0,
+      "fiber": 8.1
+    }
   },
   {
     "id": "i-92",
@@ -2717,7 +4531,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 120,
-    "image": "/pages/internationale/page-120.jpg"
+    "image": "/pages/internationale/page-120.jpg",
+    "nutrition": {
+      "kcal": 245.3,
+      "protein": 14.7,
+      "carbs": 16.0,
+      "fat": 13.7,
+      "fiber": 5.8
+    }
   },
   {
     "id": "i-93",
@@ -2727,7 +4548,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 121,
-    "image": "/pages/internationale/page-121.jpg"
+    "image": "/pages/internationale/page-121.jpg",
+    "nutrition": {
+      "kcal": 234.2,
+      "protein": 13.2,
+      "carbs": 26.1,
+      "fat": 9.2,
+      "fiber": 6.5
+    }
   },
   {
     "id": "i-94",
@@ -2737,7 +4565,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 122,
-    "image": "/pages/internationale/page-122.jpg"
+    "image": "/pages/internationale/page-122.jpg",
+    "nutrition": {
+      "kcal": 262.2,
+      "protein": 13.4,
+      "carbs": 31.4,
+      "fat": 9.2,
+      "fiber": 7.0
+    }
   },
   {
     "id": "i-95",
@@ -2747,7 +4582,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 123,
-    "image": "/pages/internationale/page-123.jpg"
+    "image": "/pages/internationale/page-123.jpg",
+    "nutrition": {
+      "kcal": 204.4,
+      "protein": 11.8,
+      "carbs": 23.2,
+      "fat": 6.7,
+      "fiber": 4.8
+    }
   },
   {
     "id": "i-96",
@@ -2757,7 +4599,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 124,
-    "image": "/pages/internationale/page-124.jpg"
+    "image": "/pages/internationale/page-124.jpg",
+    "nutrition": {
+      "kcal": 224.0,
+      "protein": 12.2,
+      "carbs": 24.0,
+      "fat": 8.9,
+      "fiber": 6.0
+    }
   },
   {
     "id": "i-97",
@@ -2767,7 +4616,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 125,
-    "image": "/pages/internationale/page-125.jpg"
+    "image": "/pages/internationale/page-125.jpg",
+    "nutrition": {
+      "kcal": 208.3,
+      "protein": 13.7,
+      "carbs": 19.4,
+      "fat": 8.8,
+      "fiber": 6.8
+    }
   },
   {
     "id": "i-98",
@@ -2777,7 +4633,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 126,
-    "image": "/pages/internationale/page-126.jpg"
+    "image": "/pages/internationale/page-126.jpg",
+    "nutrition": {
+      "kcal": 166.8,
+      "protein": 12.2,
+      "carbs": 12.5,
+      "fat": 7.6,
+      "fiber": 4.9
+    }
   },
   {
     "id": "i-99",
@@ -2787,7 +4650,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 127,
-    "image": "/pages/internationale/page-127.jpg"
+    "image": "/pages/internationale/page-127.jpg",
+    "nutrition": {
+      "kcal": 205.8,
+      "protein": 12.3,
+      "carbs": 22.9,
+      "fat": 7.6,
+      "fiber": 6.0
+    }
   },
   {
     "id": "i-100",
@@ -2797,7 +4667,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 128,
-    "image": "/pages/internationale/page-128.jpg"
+    "image": "/pages/internationale/page-128.jpg",
+    "nutrition": {
+      "kcal": 218.1,
+      "protein": 15.2,
+      "carbs": 16.5,
+      "fat": 10.4,
+      "fiber": 2.2
+    }
   },
   {
     "id": "i-101",
@@ -2807,7 +4684,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 129,
-    "image": "/pages/internationale/page-129.jpg"
+    "image": "/pages/internationale/page-129.jpg",
+    "nutrition": {
+      "kcal": 231.1,
+      "protein": 22.7,
+      "carbs": 21.2,
+      "fat": 6.5,
+      "fiber": 5.8
+    }
   },
   {
     "id": "i-102",
@@ -2817,7 +4701,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 130,
-    "image": "/pages/internationale/page-130.jpg"
+    "image": "/pages/internationale/page-130.jpg",
+    "nutrition": {
+      "kcal": 260.6,
+      "protein": 14.2,
+      "carbs": 38.4,
+      "fat": 5.1,
+      "fiber": 4.7
+    }
   },
   {
     "id": "i-103",
@@ -2827,7 +4718,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 131,
-    "image": "/pages/internationale/page-131.jpg"
+    "image": "/pages/internationale/page-131.jpg",
+    "nutrition": {
+      "kcal": 271.6,
+      "protein": 16.7,
+      "carbs": 28.9,
+      "fat": 9.9,
+      "fiber": 5.2
+    }
   },
   {
     "id": "i-104",
@@ -2837,7 +4735,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 132,
-    "image": "/pages/internationale/page-132.jpg"
+    "image": "/pages/internationale/page-132.jpg",
+    "nutrition": {
+      "kcal": 260.8,
+      "protein": 15.7,
+      "carbs": 24.8,
+      "fat": 11.1,
+      "fiber": 5.2
+    }
   },
   {
     "id": "i-105",
@@ -2847,7 +4752,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 133,
-    "image": "/pages/internationale/page-133.jpg"
+    "image": "/pages/internationale/page-133.jpg",
+    "nutrition": {
+      "kcal": 272.9,
+      "protein": 22.3,
+      "carbs": 30.7,
+      "fat": 6.3,
+      "fiber": 2.5
+    }
   },
   {
     "id": "i-106",
@@ -2857,7 +4769,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 134,
-    "image": "/pages/internationale/page-134.jpg"
+    "image": "/pages/internationale/page-134.jpg",
+    "nutrition": {
+      "kcal": 221.2,
+      "protein": 20.1,
+      "carbs": 24.8,
+      "fat": 5.2,
+      "fiber": 3.8
+    }
   },
   {
     "id": "i-107",
@@ -2867,7 +4786,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 135,
-    "image": "/pages/internationale/page-135.jpg"
+    "image": "/pages/internationale/page-135.jpg",
+    "nutrition": {
+      "kcal": 267.9,
+      "protein": 13.8,
+      "carbs": 37.6,
+      "fat": 7.5,
+      "fiber": 5.4
+    }
   },
   {
     "id": "i-108",
@@ -2877,7 +4803,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 136,
-    "image": "/pages/internationale/page-136.jpg"
+    "image": "/pages/internationale/page-136.jpg",
+    "nutrition": {
+      "kcal": 198.6,
+      "protein": 18.6,
+      "carbs": 24.9,
+      "fat": 2.5,
+      "fiber": 0.6
+    }
   },
   {
     "id": "i-109",
@@ -2887,7 +4820,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 137,
-    "image": "/pages/internationale/page-137.jpg"
+    "image": "/pages/internationale/page-137.jpg",
+    "nutrition": {
+      "kcal": 104.9,
+      "protein": 5.1,
+      "carbs": 13.7,
+      "fat": 3.3,
+      "fiber": 2.0
+    }
   },
   {
     "id": "i-110",
@@ -2897,7 +4837,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 138,
-    "image": "/pages/internationale/page-138.jpg"
+    "image": "/pages/internationale/page-138.jpg",
+    "nutrition": {
+      "kcal": 123.7,
+      "protein": 6.0,
+      "carbs": 13.7,
+      "fat": 5.0,
+      "fiber": 2.2
+    }
   },
   {
     "id": "i-111",
@@ -2907,7 +4854,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 139,
-    "image": "/pages/internationale/page-139.jpg"
+    "image": "/pages/internationale/page-139.jpg",
+    "nutrition": {
+      "kcal": 128.4,
+      "protein": 7.6,
+      "carbs": 12.8,
+      "fat": 5.3,
+      "fiber": 2.0
+    }
   },
   {
     "id": "i-112",
@@ -2917,7 +4871,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 140,
-    "image": "/pages/internationale/page-140.jpg"
+    "image": "/pages/internationale/page-140.jpg",
+    "nutrition": {
+      "kcal": 133.5,
+      "protein": 6.5,
+      "carbs": 12.8,
+      "fat": 6.2,
+      "fiber": 2.4
+    }
   },
   {
     "id": "i-113",
@@ -2927,7 +4888,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 141,
-    "image": "/pages/internationale/page-141.jpg"
+    "image": "/pages/internationale/page-141.jpg",
+    "nutrition": {
+      "kcal": 125.8,
+      "protein": 6.6,
+      "carbs": 15.9,
+      "fat": 4.2,
+      "fiber": 3.0
+    }
   },
   {
     "id": "i-114",
@@ -2937,7 +4905,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 142,
-    "image": "/pages/internationale/page-142.jpg"
+    "image": "/pages/internationale/page-142.jpg",
+    "nutrition": {
+      "kcal": 120.2,
+      "protein": 5.5,
+      "carbs": 17.5,
+      "fat": 3.4,
+      "fiber": 2.5
+    }
   },
   {
     "id": "i-115",
@@ -2947,7 +4922,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 143,
-    "image": "/pages/internationale/page-143.jpg"
+    "image": "/pages/internationale/page-143.jpg",
+    "nutrition": {
+      "kcal": 109.2,
+      "protein": 5.9,
+      "carbs": 13.9,
+      "fat": 3.5,
+      "fiber": 2.3
+    }
   },
   {
     "id": "i-116",
@@ -2957,7 +4939,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 144,
-    "image": "/pages/internationale/page-144.jpg"
+    "image": "/pages/internationale/page-144.jpg",
+    "nutrition": {
+      "kcal": 197.8,
+      "protein": 9.6,
+      "carbs": 27.4,
+      "fat": 6.6,
+      "fiber": 3.2
+    }
   },
   {
     "id": "i-117",
@@ -2967,7 +4956,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 145,
-    "image": "/pages/internationale/page-145.jpg"
+    "image": "/pages/internationale/page-145.jpg",
+    "nutrition": {
+      "kcal": 139.2,
+      "protein": 13.8,
+      "carbs": 16.8,
+      "fat": 2.6,
+      "fiber": 2.5
+    }
   },
   {
     "id": "i-118",
@@ -2977,7 +4973,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-INTERNATIONALE.pdf",
     "pdfPage": 146,
-    "image": "/pages/internationale/page-146.jpg"
+    "image": "/pages/internationale/page-146.jpg",
+    "nutrition": {
+      "kcal": 138.2,
+      "protein": 3.7,
+      "carbs": 24.8,
+      "fat": 3.9,
+      "fiber": 2.5
+    }
   },
   {
     "id": "p-1",
@@ -2987,7 +4990,14 @@ export const recipes = [
     "section": "Mic dejun",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 26,
-    "image": "/pages/post/page-26.jpg"
+    "image": "/pages/post/page-26.jpg",
+    "nutrition": {
+      "kcal": 290.5,
+      "protein": 15.4,
+      "carbs": 9.0,
+      "fat": 36.8,
+      "fiber": 12.8
+    }
   },
   {
     "id": "p-2",
@@ -2997,7 +5007,14 @@ export const recipes = [
     "section": "Mic dejun",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 27,
-    "image": "/pages/post/page-27.jpg"
+    "image": "/pages/post/page-27.jpg",
+    "nutrition": {
+      "kcal": 334.5,
+      "protein": 11.5,
+      "carbs": 26.1,
+      "fat": 20.5,
+      "fiber": 7.0
+    }
   },
   {
     "id": "p-3",
@@ -3007,7 +5024,14 @@ export const recipes = [
     "section": "Mic dejun",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 28,
-    "image": "/pages/post/page-28.jpg"
+    "image": "/pages/post/page-28.jpg",
+    "nutrition": {
+      "kcal": 260.2,
+      "protein": 12.2,
+      "carbs": 26.6,
+      "fat": 11.8,
+      "fiber": 5.1
+    }
   },
   {
     "id": "p-4",
@@ -3017,7 +5041,14 @@ export const recipes = [
     "section": "Mic dejun",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 29,
-    "image": "/pages/post/page-29.jpg"
+    "image": "/pages/post/page-29.jpg",
+    "nutrition": {
+      "kcal": 255.1,
+      "protein": 5.9,
+      "carbs": 25.5,
+      "fat": 14.4,
+      "fiber": 8.7
+    }
   },
   {
     "id": "p-5",
@@ -3027,7 +5058,14 @@ export const recipes = [
     "section": "Mic dejun",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 30,
-    "image": "/pages/post/page-30.jpg"
+    "image": "/pages/post/page-30.jpg",
+    "nutrition": {
+      "kcal": 304.7,
+      "protein": 13.6,
+      "carbs": 23.0,
+      "fat": 17.5,
+      "fiber": 6.7
+    }
   },
   {
     "id": "p-6",
@@ -3037,7 +5075,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 32,
-    "image": "/pages/post/page-32.jpg"
+    "image": "/pages/post/page-32.jpg",
+    "nutrition": {
+      "kcal": 276.8,
+      "protein": 10.7,
+      "carbs": 33.1,
+      "fat": 12.1,
+      "fiber": 8.4
+    }
   },
   {
     "id": "p-7",
@@ -3047,7 +5092,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 33,
-    "image": "/pages/post/page-33.jpg"
+    "image": "/pages/post/page-33.jpg",
+    "nutrition": {
+      "kcal": 256.0,
+      "protein": 6.9,
+      "carbs": 23.9,
+      "fat": 13.7,
+      "fiber": 0.3
+    }
   },
   {
     "id": "p-8",
@@ -3057,7 +5109,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 34,
-    "image": "/pages/post/page-34.jpg"
+    "image": "/pages/post/page-34.jpg",
+    "nutrition": {
+      "kcal": 379.6,
+      "protein": 14.2,
+      "carbs": 41.7,
+      "fat": 17.7,
+      "fiber": 9.1
+    }
   },
   {
     "id": "p-9",
@@ -3067,7 +5126,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 35,
-    "image": "/pages/post/page-35.jpg"
+    "image": "/pages/post/page-35.jpg",
+    "nutrition": {
+      "kcal": 136.6,
+      "protein": 5.6,
+      "carbs": 15.9,
+      "fat": 5.9,
+      "fiber": 5.5
+    }
   },
   {
     "id": "p-10",
@@ -3077,7 +5143,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 36,
-    "image": "/pages/post/page-36.jpg"
+    "image": "/pages/post/page-36.jpg",
+    "nutrition": {
+      "kcal": 311.5,
+      "protein": 13.0,
+      "carbs": 37.7,
+      "fat": 12.6,
+      "fiber": 9.0
+    }
   },
   {
     "id": "p-11",
@@ -3087,7 +5160,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 37,
-    "image": "/pages/post/page-37.jpg"
+    "image": "/pages/post/page-37.jpg",
+    "nutrition": {
+      "kcal": 203.1,
+      "protein": 2.6,
+      "carbs": 11.4,
+      "fat": 16.4,
+      "fiber": 7.0
+    }
   },
   {
     "id": "p-12",
@@ -3097,7 +5177,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 38,
-    "image": "/pages/post/page-38.jpg"
+    "image": "/pages/post/page-38.jpg",
+    "nutrition": {
+      "kcal": 183.9,
+      "protein": 5.6,
+      "carbs": 31.7,
+      "fat": 5.3,
+      "fiber": 8.0
+    }
   },
   {
     "id": "p-13",
@@ -3107,7 +5194,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 39,
-    "image": "/pages/post/page-39.jpg"
+    "image": "/pages/post/page-39.jpg",
+    "nutrition": {
+      "kcal": 138.4,
+      "protein": 4.4,
+      "carbs": 19.4,
+      "fat": 5.1,
+      "fiber": 3.7
+    }
   },
   {
     "id": "p-14",
@@ -3117,7 +5211,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 40,
-    "image": "/pages/post/page-40.jpg"
+    "image": "/pages/post/page-40.jpg",
+    "nutrition": {
+      "kcal": 198.4,
+      "protein": 10.2,
+      "carbs": 27.8,
+      "fat": 5.2,
+      "fiber": 8.7
+    }
   },
   {
     "id": "p-15",
@@ -3127,7 +5228,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 41,
-    "image": "/pages/post/page-41.jpg"
+    "image": "/pages/post/page-41.jpg",
+    "nutrition": {
+      "kcal": 182.3,
+      "protein": 6.5,
+      "carbs": 12.2,
+      "fat": 12.5,
+      "fiber": 5.4
+    }
   },
   {
     "id": "p-16",
@@ -3137,7 +5245,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 42,
-    "image": "/pages/post/page-42.jpg"
+    "image": "/pages/post/page-42.jpg",
+    "nutrition": {
+      "kcal": 164.3,
+      "protein": 6.5,
+      "carbs": 25.7,
+      "fat": 6.0,
+      "fiber": 13.7
+    }
   },
   {
     "id": "p-17",
@@ -3147,7 +5262,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 43,
-    "image": "/pages/post/page-43.jpg"
+    "image": "/pages/post/page-43.jpg",
+    "nutrition": {
+      "kcal": 226.3,
+      "protein": 5.7,
+      "carbs": 38.0,
+      "fat": 6.5,
+      "fiber": 4.1
+    }
   },
   {
     "id": "p-18",
@@ -3157,7 +5279,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 44,
-    "image": "/pages/post/page-44.jpg"
+    "image": "/pages/post/page-44.jpg",
+    "nutrition": {
+      "kcal": 178.0,
+      "protein": 4.7,
+      "carbs": 21.5,
+      "fat": 8.1,
+      "fiber": 6.6
+    }
   },
   {
     "id": "p-19",
@@ -3167,7 +5296,14 @@ export const recipes = [
     "section": "Aperitive și gustări fresh",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 45,
-    "image": "/pages/post/page-45.jpg"
+    "image": "/pages/post/page-45.jpg",
+    "nutrition": {
+      "kcal": 115.3,
+      "protein": 2.2,
+      "carbs": 12.8,
+      "fat": 6.1,
+      "fiber": 2.4
+    }
   },
   {
     "id": "p-20",
@@ -3177,7 +5313,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 47,
-    "image": "/pages/post/page-47.jpg"
+    "image": "/pages/post/page-47.jpg",
+    "nutrition": {
+      "kcal": 175.3,
+      "protein": 8.9,
+      "carbs": 23.8,
+      "fat": 5.1,
+      "fiber": 8.0
+    }
   },
   {
     "id": "p-21",
@@ -3187,7 +5330,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 48,
-    "image": "/pages/post/page-48.jpg"
+    "image": "/pages/post/page-48.jpg",
+    "nutrition": {
+      "kcal": 171.8,
+      "protein": 8.0,
+      "carbs": 22.6,
+      "fat": 5.5,
+      "fiber": 7.9
+    }
   },
   {
     "id": "p-22",
@@ -3197,7 +5347,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 49,
-    "image": "/pages/post/page-49.jpg"
+    "image": "/pages/post/page-49.jpg",
+    "nutrition": {
+      "kcal": 268.7,
+      "protein": 10.0,
+      "carbs": 21.0,
+      "fat": 17.2,
+      "fiber": 5.8
+    }
   },
   {
     "id": "p-23",
@@ -3207,7 +5364,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 50,
-    "image": "/pages/post/page-50.jpg"
+    "image": "/pages/post/page-50.jpg",
+    "nutrition": {
+      "kcal": 364.4,
+      "protein": 4.1,
+      "carbs": 17.7,
+      "fat": 30.8,
+      "fiber": 13.7
+    }
   },
   {
     "id": "p-24",
@@ -3217,7 +5381,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 51,
-    "image": "/pages/post/page-51.jpg"
+    "image": "/pages/post/page-51.jpg",
+    "nutrition": {
+      "kcal": 366.7,
+      "protein": 17.2,
+      "carbs": 54.4,
+      "fat": 9.9,
+      "fiber": 14.6
+    }
   },
   {
     "id": "p-25",
@@ -3227,7 +5398,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 52,
-    "image": "/pages/post/page-52.jpg"
+    "image": "/pages/post/page-52.jpg",
+    "nutrition": {
+      "kcal": 174.0,
+      "protein": 10.4,
+      "carbs": 11.9,
+      "fat": 9.6,
+      "fiber": 1.9
+    }
   },
   {
     "id": "p-26",
@@ -3237,7 +5415,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 53,
-    "image": "/pages/post/page-53.jpg"
+    "image": "/pages/post/page-53.jpg",
+    "nutrition": {
+      "kcal": 325.1,
+      "protein": 8.2,
+      "carbs": 22.0,
+      "fat": 22.8,
+      "fiber": 5.1
+    }
   },
   {
     "id": "p-27",
@@ -3247,7 +5432,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 54,
-    "image": "/pages/post/page-54.jpg"
+    "image": "/pages/post/page-54.jpg",
+    "nutrition": {
+      "kcal": 140.0,
+      "protein": 5.5,
+      "carbs": 18.8,
+      "fat": 5.6,
+      "fiber": 7.1
+    }
   },
   {
     "id": "p-28",
@@ -3257,7 +5449,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 55,
-    "image": "/pages/post/page-55.jpg"
+    "image": "/pages/post/page-55.jpg",
+    "nutrition": {
+      "kcal": 140.0,
+      "protein": 5.5,
+      "carbs": 18.8,
+      "fat": 5.6,
+      "fiber": 7.1
+    }
   },
   {
     "id": "p-29",
@@ -3267,7 +5466,14 @@ export const recipes = [
     "section": "Tartinabile și pateuri vegetale",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 56,
-    "image": "/pages/post/page-56.jpg"
+    "image": "/pages/post/page-56.jpg",
+    "nutrition": {
+      "kcal": 140.0,
+      "protein": 5.5,
+      "carbs": 18.8,
+      "fat": 5.6,
+      "fiber": 7.1
+    }
   },
   {
     "id": "p-30",
@@ -3277,7 +5483,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 58,
-    "image": "/pages/post/page-58.jpg"
+    "image": "/pages/post/page-58.jpg",
+    "nutrition": {
+      "kcal": 319.0,
+      "protein": 16.5,
+      "carbs": 48.6,
+      "fat": 6.5,
+      "fiber": 6.9
+    }
   },
   {
     "id": "p-31",
@@ -3287,7 +5500,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 59,
-    "image": "/pages/post/page-59.jpg"
+    "image": "/pages/post/page-59.jpg",
+    "nutrition": {
+      "kcal": 281.0,
+      "protein": 19.2,
+      "carbs": 25.7,
+      "fat": 12.4,
+      "fiber": 6.0
+    }
   },
   {
     "id": "p-32",
@@ -3297,7 +5517,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 60,
-    "image": "/pages/post/page-60.jpg"
+    "image": "/pages/post/page-60.jpg",
+    "nutrition": {
+      "kcal": 502.7,
+      "protein": 34.8,
+      "carbs": 63.1,
+      "fat": 13.1,
+      "fiber": 12.1
+    }
   },
   {
     "id": "p-33",
@@ -3307,7 +5534,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 61,
-    "image": "/pages/post/page-61.jpg"
+    "image": "/pages/post/page-61.jpg",
+    "nutrition": {
+      "kcal": 385.2,
+      "protein": 15.1,
+      "carbs": 56.2,
+      "fat": 12.7,
+      "fiber": 18.4
+    }
   },
   {
     "id": "p-34",
@@ -3317,7 +5551,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 62,
-    "image": "/pages/post/page-62.jpg"
+    "image": "/pages/post/page-62.jpg",
+    "nutrition": {
+      "kcal": 231.2,
+      "protein": 4.6,
+      "carbs": 41.4,
+      "fat": 5.8,
+      "fiber": 4.4
+    }
   },
   {
     "id": "p-35",
@@ -3327,7 +5568,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 63,
-    "image": "/pages/post/page-63.jpg"
+    "image": "/pages/post/page-63.jpg",
+    "nutrition": {
+      "kcal": 399.7,
+      "protein": 15.4,
+      "carbs": 73.5,
+      "fat": 6.6,
+      "fiber": 10.3
+    }
   },
   {
     "id": "p-36",
@@ -3337,7 +5585,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 64,
-    "image": "/pages/post/page-64.jpg"
+    "image": "/pages/post/page-64.jpg",
+    "nutrition": {
+      "kcal": 275.9,
+      "protein": 18.0,
+      "carbs": 19.5,
+      "fat": 14.9,
+      "fiber": 4.1
+    }
   },
   {
     "id": "p-37",
@@ -3347,7 +5602,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 65,
-    "image": "/pages/post/page-65.jpg"
+    "image": "/pages/post/page-65.jpg",
+    "nutrition": {
+      "kcal": 328.0,
+      "protein": 15.2,
+      "carbs": 41.6,
+      "fat": 11.6,
+      "fiber": 16.0
+    }
   },
   {
     "id": "p-38",
@@ -3357,7 +5619,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 66,
-    "image": "/pages/post/page-66.jpg"
+    "image": "/pages/post/page-66.jpg",
+    "nutrition": {
+      "kcal": 241.4,
+      "protein": 13.6,
+      "carbs": 40.5,
+      "fat": 3.8,
+      "fiber": 13.6
+    }
   },
   {
     "id": "p-39",
@@ -3367,7 +5636,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 67,
-    "image": "/pages/post/page-67.jpg"
+    "image": "/pages/post/page-67.jpg",
+    "nutrition": {
+      "kcal": 370.2,
+      "protein": 15.0,
+      "carbs": 58.2,
+      "fat": 9.3,
+      "fiber": 10.5
+    }
   },
   {
     "id": "p-40",
@@ -3377,7 +5653,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 68,
-    "image": "/pages/post/page-68.jpg"
+    "image": "/pages/post/page-68.jpg",
+    "nutrition": {
+      "kcal": 252.2,
+      "protein": 8.5,
+      "carbs": 48.8,
+      "fat": 3.4,
+      "fiber": 7.2
+    }
   },
   {
     "id": "p-41",
@@ -3387,7 +5670,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 69,
-    "image": "/pages/post/page-69.jpg"
+    "image": "/pages/post/page-69.jpg",
+    "nutrition": {
+      "kcal": 239.7,
+      "protein": 11.5,
+      "carbs": 42.7,
+      "fat": 4.4,
+      "fiber": 8.3
+    }
   },
   {
     "id": "p-42",
@@ -3397,7 +5687,14 @@ export const recipes = [
     "section": "Salate consistente și boluri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 70,
-    "image": "/pages/post/page-70.jpg"
+    "image": "/pages/post/page-70.jpg",
+    "nutrition": {
+      "kcal": 202.4,
+      "protein": 5.7,
+      "carbs": 27.3,
+      "fat": 9.1,
+      "fiber": 7.6
+    }
   },
   {
     "id": "p-43",
@@ -3407,7 +5704,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 72,
-    "image": "/pages/post/page-72.jpg"
+    "image": "/pages/post/page-72.jpg",
+    "nutrition": {
+      "kcal": 149.0,
+      "protein": 5.7,
+      "carbs": 28.6,
+      "fat": 2.5,
+      "fiber": 7.2
+    }
   },
   {
     "id": "p-44",
@@ -3417,7 +5721,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 73,
-    "image": "/pages/post/page-73.jpg"
+    "image": "/pages/post/page-73.jpg",
+    "nutrition": {
+      "kcal": 173.9,
+      "protein": 9.3,
+      "carbs": 29.6,
+      "fat": 3.0,
+      "fiber": 10.3
+    }
   },
   {
     "id": "p-45",
@@ -3427,7 +5738,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 74,
-    "image": "/pages/post/page-74.jpg"
+    "image": "/pages/post/page-74.jpg",
+    "nutrition": {
+      "kcal": 126.0,
+      "protein": 2.8,
+      "carbs": 23.4,
+      "fat": 2.6,
+      "fiber": 3.7
+    }
   },
   {
     "id": "p-46",
@@ -3437,7 +5755,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 75,
-    "image": "/pages/post/page-75.jpg"
+    "image": "/pages/post/page-75.jpg",
+    "nutrition": {
+      "kcal": 329.0,
+      "protein": 8.8,
+      "carbs": 64.7,
+      "fat": 5.6,
+      "fiber": 13.0
+    }
   },
   {
     "id": "p-47",
@@ -3447,7 +5772,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 76,
-    "image": "/pages/post/page-76.jpg"
+    "image": "/pages/post/page-76.jpg",
+    "nutrition": {
+      "kcal": 131.0,
+      "protein": 3.5,
+      "carbs": 24.0,
+      "fat": 3.0,
+      "fiber": 4.3
+    }
   },
   {
     "id": "p-48",
@@ -3457,7 +5789,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 77,
-    "image": "/pages/post/page-77.jpg"
+    "image": "/pages/post/page-77.jpg",
+    "nutrition": {
+      "kcal": 104.8,
+      "protein": 2.9,
+      "carbs": 19.7,
+      "fat": 2.7,
+      "fiber": 2.8
+    }
   },
   {
     "id": "p-49",
@@ -3467,7 +5806,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 78,
-    "image": "/pages/post/page-78.jpg"
+    "image": "/pages/post/page-78.jpg",
+    "nutrition": {
+      "kcal": 289.0,
+      "protein": 18.1,
+      "carbs": 44.0,
+      "fat": 3.8,
+      "fiber": 10.8
+    }
   },
   {
     "id": "p-50",
@@ -3477,7 +5823,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 79,
-    "image": "/pages/post/page-79.jpg"
+    "image": "/pages/post/page-79.jpg",
+    "nutrition": {
+      "kcal": 355.0,
+      "protein": 19.9,
+      "carbs": 61.6,
+      "fat": 4.3,
+      "fiber": 10.6
+    }
   },
   {
     "id": "p-51",
@@ -3487,7 +5840,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 80,
-    "image": "/pages/post/page-80.jpg"
+    "image": "/pages/post/page-80.jpg",
+    "nutrition": {
+      "kcal": 282.7,
+      "protein": 11.2,
+      "carbs": 45.5,
+      "fat": 6.9,
+      "fiber": 5.7
+    }
   },
   {
     "id": "p-52",
@@ -3497,7 +5857,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 81,
-    "image": "/pages/post/page-81.jpg"
+    "image": "/pages/post/page-81.jpg",
+    "nutrition": {
+      "kcal": 180.0,
+      "protein": 9.0,
+      "carbs": 30.0,
+      "fat": 3.3,
+      "fiber": 10.5
+    }
   },
   {
     "id": "p-53",
@@ -3507,7 +5874,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 82,
-    "image": "/pages/post/page-82.jpg"
+    "image": "/pages/post/page-82.jpg",
+    "nutrition": {
+      "kcal": 187.1,
+      "protein": 5.1,
+      "carbs": 36.6,
+      "fat": 3.1,
+      "fiber": 7.3
+    }
   },
   {
     "id": "p-54",
@@ -3517,7 +5891,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 83,
-    "image": "/pages/post/page-83.jpg"
+    "image": "/pages/post/page-83.jpg",
+    "nutrition": {
+      "kcal": 216.4,
+      "protein": 9.5,
+      "carbs": 35.5,
+      "fat": 5.7,
+      "fiber": 7.0
+    }
   },
   {
     "id": "p-55",
@@ -3527,7 +5908,14 @@ export const recipes = [
     "section": "Supe și ciorbe",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 84,
-    "image": "/pages/post/page-84.jpg"
+    "image": "/pages/post/page-84.jpg",
+    "nutrition": {
+      "kcal": 114.5,
+      "protein": 3.9,
+      "carbs": 17.9,
+      "fat": 3.0,
+      "fiber": 4.9
+    }
   },
   {
     "id": "p-56",
@@ -3537,7 +5925,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 86,
-    "image": "/pages/post/page-86.jpg"
+    "image": "/pages/post/page-86.jpg",
+    "nutrition": {
+      "kcal": 353.4,
+      "protein": 13.3,
+      "carbs": 71.5,
+      "fat": 4.3,
+      "fiber": 14.5
+    }
   },
   {
     "id": "p-57",
@@ -3547,7 +5942,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 87,
-    "image": "/pages/post/page-87.jpg"
+    "image": "/pages/post/page-87.jpg",
+    "nutrition": {
+      "kcal": 292.9,
+      "protein": 16.8,
+      "carbs": 51.6,
+      "fat": 3.5,
+      "fiber": 11.6
+    }
   },
   {
     "id": "p-58",
@@ -3557,7 +5959,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 88,
-    "image": "/pages/post/page-88.jpg"
+    "image": "/pages/post/page-88.jpg",
+    "nutrition": {
+      "kcal": 374.2,
+      "protein": 11.2,
+      "carbs": 73.0,
+      "fat": 6.9,
+      "fiber": 11.2
+    }
   },
   {
     "id": "p-59",
@@ -3567,7 +5976,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 89,
-    "image": "/pages/post/page-89.jpg"
+    "image": "/pages/post/page-89.jpg",
+    "nutrition": {
+      "kcal": 415.3,
+      "protein": 29.3,
+      "carbs": 52.7,
+      "fat": 10.3,
+      "fiber": 8.2
+    }
   },
   {
     "id": "p-60",
@@ -3577,7 +5993,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 90,
-    "image": "/pages/post/page-90.jpg"
+    "image": "/pages/post/page-90.jpg",
+    "nutrition": {
+      "kcal": 325.0,
+      "protein": 20.9,
+      "carbs": 38.0,
+      "fat": 9.9,
+      "fiber": 9.3
+    }
   },
   {
     "id": "p-61",
@@ -3587,7 +6010,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 91,
-    "image": "/pages/post/page-91.jpg"
+    "image": "/pages/post/page-91.jpg",
+    "nutrition": {
+      "kcal": 299.3,
+      "protein": 16.8,
+      "carbs": 30.7,
+      "fat": 12.6,
+      "fiber": 6.5
+    }
   },
   {
     "id": "p-62",
@@ -3597,7 +6027,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 92,
-    "image": "/pages/post/page-92.jpg"
+    "image": "/pages/post/page-92.jpg",
+    "nutrition": {
+      "kcal": 391.6,
+      "protein": 18.7,
+      "carbs": 67.8,
+      "fat": 5.3,
+      "fiber": 6.8
+    }
   },
   {
     "id": "p-63",
@@ -3607,7 +6044,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 93,
-    "image": "/pages/post/page-93.jpg"
+    "image": "/pages/post/page-93.jpg",
+    "nutrition": {
+      "kcal": 343.8,
+      "protein": 26.6,
+      "carbs": 43.7,
+      "fat": 8.4,
+      "fiber": 7.2
+    }
   },
   {
     "id": "p-64",
@@ -3617,7 +6061,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 94,
-    "image": "/pages/post/page-94.jpg"
+    "image": "/pages/post/page-94.jpg",
+    "nutrition": {
+      "kcal": 345.5,
+      "protein": 14.7,
+      "carbs": 57.4,
+      "fat": 6.3,
+      "fiber": 2.9
+    }
   },
   {
     "id": "p-65",
@@ -3627,7 +6078,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 95,
-    "image": "/pages/post/page-95.jpg"
+    "image": "/pages/post/page-95.jpg",
+    "nutrition": {
+      "kcal": 339.5,
+      "protein": 26.5,
+      "carbs": 39.3,
+      "fat": 8.2,
+      "fiber": 14.3
+    }
   },
   {
     "id": "p-66",
@@ -3637,7 +6095,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 96,
-    "image": "/pages/post/page-96.jpg"
+    "image": "/pages/post/page-96.jpg",
+    "nutrition": {
+      "kcal": 362.8,
+      "protein": 20.0,
+      "carbs": 47.6,
+      "fat": 10.7,
+      "fiber": 11.0
+    }
   },
   {
     "id": "p-67",
@@ -3647,7 +6112,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 97,
-    "image": "/pages/post/page-97.jpg"
+    "image": "/pages/post/page-97.jpg",
+    "nutrition": {
+      "kcal": 254.9,
+      "protein": 13.8,
+      "carbs": 30.7,
+      "fat": 9.7,
+      "fiber": 7.4
+    }
   },
   {
     "id": "p-68",
@@ -3657,7 +6129,13 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 98,
-    "image": "/pages/post/page-98.jpg"
+    "image": "/pages/post/page-98.jpg",
+    "nutrition": {
+      "kcal": 299.9,
+      "protein": 18.3,
+      "carbs": 11.8,
+      "fat": 8.2
+    }
   },
   {
     "id": "p-69",
@@ -3667,7 +6145,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 99,
-    "image": "/pages/post/page-99.jpg"
+    "image": "/pages/post/page-99.jpg",
+    "nutrition": {
+      "kcal": 341.0,
+      "protein": 16.6,
+      "carbs": 48.2,
+      "fat": 9.7,
+      "fiber": 11.6
+    }
   },
   {
     "id": "p-70",
@@ -3677,7 +6162,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 100,
-    "image": "/pages/post/page-100.jpg"
+    "image": "/pages/post/page-100.jpg",
+    "nutrition": {
+      "kcal": 355.0,
+      "protein": 17.6,
+      "carbs": 56.4,
+      "fat": 6.5,
+      "fiber": 1.6
+    }
   },
   {
     "id": "p-71",
@@ -3687,7 +6179,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 101,
-    "image": "/pages/post/page-101.jpg"
+    "image": "/pages/post/page-101.jpg",
+    "nutrition": {
+      "kcal": 276.7,
+      "protein": 16.8,
+      "carbs": 40.1,
+      "fat": 7.0,
+      "fiber": 8.1
+    }
   },
   {
     "id": "p-72",
@@ -3697,7 +6196,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 102,
-    "image": "/pages/post/page-102.jpg"
+    "image": "/pages/post/page-102.jpg",
+    "nutrition": {
+      "kcal": 346.7,
+      "protein": 21.8,
+      "carbs": 53.3,
+      "fat": 5.8,
+      "fiber": 10.2
+    }
   },
   {
     "id": "p-73",
@@ -3707,7 +6213,14 @@ export const recipes = [
     "section": "Feluri principale reinterpretate",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 103,
-    "image": "/pages/post/page-103.jpg"
+    "image": "/pages/post/page-103.jpg",
+    "nutrition": {
+      "kcal": 323.3,
+      "protein": 25.3,
+      "carbs": 37.3,
+      "fat": 12.4,
+      "fiber": 11.4
+    }
   },
   {
     "id": "p-74",
@@ -3717,7 +6230,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 105,
-    "image": "/pages/post/page-105.jpg"
+    "image": "/pages/post/page-105.jpg",
+    "nutrition": {
+      "kcal": 191.4,
+      "protein": 3.6,
+      "carbs": 35.8,
+      "fat": 4.1,
+      "fiber": 3.5
+    }
   },
   {
     "id": "p-75",
@@ -3727,7 +6247,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 106,
-    "image": "/pages/post/page-106.jpg"
+    "image": "/pages/post/page-106.jpg",
+    "nutrition": {
+      "kcal": 141.4,
+      "protein": 2.8,
+      "carbs": 23.4,
+      "fat": 4.3,
+      "fiber": 7.4
+    }
   },
   {
     "id": "p-76",
@@ -3737,7 +6264,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 107,
-    "image": "/pages/post/page-107.jpg"
+    "image": "/pages/post/page-107.jpg",
+    "nutrition": {
+      "kcal": 91.1,
+      "protein": 2.4,
+      "carbs": 13.6,
+      "fat": 4.2,
+      "fiber": 7.7
+    }
   },
   {
     "id": "p-77",
@@ -3747,7 +6281,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 108,
-    "image": "/pages/post/page-108.jpg"
+    "image": "/pages/post/page-108.jpg",
+    "nutrition": {
+      "kcal": 79.6,
+      "protein": 4.2,
+      "carbs": 9.8,
+      "fat": 3.9,
+      "fiber": 4.4
+    }
   },
   {
     "id": "p-78",
@@ -3757,7 +6298,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 109,
-    "image": "/pages/post/page-109.jpg"
+    "image": "/pages/post/page-109.jpg",
+    "nutrition": {
+      "kcal": 101.6,
+      "protein": 4.7,
+      "carbs": 16.4,
+      "fat": 2.6,
+      "fiber": 5.4
+    }
   },
   {
     "id": "p-79",
@@ -3767,7 +6315,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 110,
-    "image": "/pages/post/page-110.jpg"
+    "image": "/pages/post/page-110.jpg",
+    "nutrition": {
+      "kcal": 186.4,
+      "protein": 2.9,
+      "carbs": 35.6,
+      "fat": 3.9,
+      "fiber": 5.3
+    }
   },
   {
     "id": "p-80",
@@ -3777,7 +6332,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 111,
-    "image": "/pages/post/page-111.jpg"
+    "image": "/pages/post/page-111.jpg",
+    "nutrition": {
+      "kcal": 65.1,
+      "protein": 2.2,
+      "carbs": 6.7,
+      "fat": 4.1,
+      "fiber": 1.9
+    }
   },
   {
     "id": "p-81",
@@ -3787,7 +6349,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 112,
-    "image": "/pages/post/page-112.jpg"
+    "image": "/pages/post/page-112.jpg",
+    "nutrition": {
+      "kcal": 90.6,
+      "protein": 1.9,
+      "carbs": 11.0,
+      "fat": 3.8,
+      "fiber": 3.7
+    }
   },
   {
     "id": "p-82",
@@ -3797,7 +6366,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 113,
-    "image": "/pages/post/page-113.jpg"
+    "image": "/pages/post/page-113.jpg",
+    "nutrition": {
+      "kcal": 103.1,
+      "protein": 3.2,
+      "carbs": 17.7,
+      "fat": 2.7,
+      "fiber": 5.2
+    }
   },
   {
     "id": "p-83",
@@ -3807,7 +6383,14 @@ export const recipes = [
     "section": "Garnituri și legume la cuptor",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 114,
-    "image": "/pages/post/page-114.jpg"
+    "image": "/pages/post/page-114.jpg",
+    "nutrition": {
+      "kcal": 67.7,
+      "protein": 3.8,
+      "carbs": 8.4,
+      "fat": 2.9,
+      "fiber": 2.2
+    }
   },
   {
     "id": "p-84",
@@ -3817,7 +6400,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 116,
-    "image": "/pages/post/page-116.jpg"
+    "image": "/pages/post/page-116.jpg",
+    "nutrition": {
+      "kcal": 216.8,
+      "protein": 7.7,
+      "carbs": 37.6,
+      "fat": 3.9,
+      "fiber": 5.6
+    }
   },
   {
     "id": "p-85",
@@ -3827,7 +6417,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 117,
-    "image": "/pages/post/page-117.jpg"
+    "image": "/pages/post/page-117.jpg",
+    "nutrition": {
+      "kcal": 166.0,
+      "protein": 5.7,
+      "carbs": 30.2,
+      "fat": 2.5,
+      "fiber": 5.1
+    }
   },
   {
     "id": "p-86",
@@ -3837,7 +6434,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 118,
-    "image": "/pages/post/page-118.jpg"
+    "image": "/pages/post/page-118.jpg",
+    "nutrition": {
+      "kcal": 254.1,
+      "protein": 9.4,
+      "carbs": 44.5,
+      "fat": 4.2,
+      "fiber": 6.6
+    }
   },
   {
     "id": "p-87",
@@ -3847,7 +6451,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 119,
-    "image": "/pages/post/page-119.jpg"
+    "image": "/pages/post/page-119.jpg",
+    "nutrition": {
+      "kcal": 216.1,
+      "protein": 6.2,
+      "carbs": 37.2,
+      "fat": 4.7,
+      "fiber": 2.7
+    }
   },
   {
     "id": "p-88",
@@ -3857,7 +6468,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 120,
-    "image": "/pages/post/page-120.jpg"
+    "image": "/pages/post/page-120.jpg",
+    "nutrition": {
+      "kcal": 181.7,
+      "protein": 4.1,
+      "carbs": 28.9,
+      "fat": 5.5,
+      "fiber": 1.8
+    }
   },
   {
     "id": "p-89",
@@ -3867,7 +6485,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 121,
-    "image": "/pages/post/page-121.jpg"
+    "image": "/pages/post/page-121.jpg",
+    "nutrition": {
+      "kcal": 355.1,
+      "protein": 10.3,
+      "carbs": 59.4,
+      "fat": 8.8,
+      "fiber": 4.4
+    }
   },
   {
     "id": "p-90",
@@ -3877,7 +6502,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 122,
-    "image": "/pages/post/page-122.jpg"
+    "image": "/pages/post/page-122.jpg",
+    "nutrition": {
+      "kcal": 249.8,
+      "protein": 7.3,
+      "carbs": 48.9,
+      "fat": 2.5,
+      "fiber": 1.2
+    }
   },
   {
     "id": "p-91",
@@ -3887,7 +6519,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 123,
-    "image": "/pages/post/page-123.jpg"
+    "image": "/pages/post/page-123.jpg",
+    "nutrition": {
+      "kcal": 225.3,
+      "protein": 7.3,
+      "carbs": 42.9,
+      "fat": 2.6,
+      "fiber": 3.1
+    }
   },
   {
     "id": "p-92",
@@ -3897,7 +6536,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 124,
-    "image": "/pages/post/page-124.jpg"
+    "image": "/pages/post/page-124.jpg",
+    "nutrition": {
+      "kcal": 206.2,
+      "protein": 4.2,
+      "carbs": 21.4,
+      "fat": 12.1,
+      "fiber": 1.4
+    }
   },
   {
     "id": "p-93",
@@ -3907,7 +6553,14 @@ export const recipes = [
     "section": "Pâine și patiserie de post",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 125,
-    "image": "/pages/post/page-125.jpg"
+    "image": "/pages/post/page-125.jpg",
+    "nutrition": {
+      "kcal": 58.6,
+      "protein": 1.6,
+      "carbs": 9.3,
+      "fat": 1.6,
+      "fiber": 0.7
+    }
   },
   {
     "id": "p-94",
@@ -3917,7 +6570,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 127,
-    "image": "/pages/post/page-127.jpg"
+    "image": "/pages/post/page-127.jpg",
+    "nutrition": {
+      "kcal": 58.2,
+      "protein": 1.9,
+      "carbs": 6.0,
+      "fat": 2.7,
+      "fiber": 0.6
+    }
   },
   {
     "id": "p-95",
@@ -3927,7 +6587,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 128,
-    "image": "/pages/post/page-128.jpg"
+    "image": "/pages/post/page-128.jpg",
+    "nutrition": {
+      "kcal": 76.7,
+      "protein": 0.3,
+      "carbs": 0.6,
+      "fat": 8.1,
+      "fiber": 0.0
+    }
   },
   {
     "id": "p-96",
@@ -3937,7 +6604,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 129,
-    "image": "/pages/post/page-129.jpg"
+    "image": "/pages/post/page-129.jpg",
+    "nutrition": {
+      "kcal": 105.2,
+      "protein": 3.4,
+      "carbs": 2.6,
+      "fat": 9.1,
+      "fiber": 0.0
+    }
   },
   {
     "id": "p-97",
@@ -3947,7 +6621,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 130,
-    "image": "/pages/post/page-130.jpg"
+    "image": "/pages/post/page-130.jpg",
+    "nutrition": {
+      "kcal": 61.3,
+      "protein": 1.5,
+      "carbs": 0.7,
+      "fat": 5.9,
+      "fiber": 0.3
+    }
   },
   {
     "id": "p-98",
@@ -3957,7 +6638,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 131,
-    "image": "/pages/post/page-131.jpg"
+    "image": "/pages/post/page-131.jpg",
+    "nutrition": {
+      "kcal": 82.6,
+      "protein": 2.8,
+      "carbs": 4.7,
+      "fat": 5.9,
+      "fiber": 2.4
+    }
   },
   {
     "id": "p-99",
@@ -3967,7 +6655,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 132,
-    "image": "/pages/post/page-132.jpg"
+    "image": "/pages/post/page-132.jpg",
+    "nutrition": {
+      "kcal": 39.4,
+      "protein": 2.5,
+      "carbs": 1.3,
+      "fat": 2.6,
+      "fiber": 0.0
+    }
   },
   {
     "id": "p-100",
@@ -3977,7 +6672,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 133,
-    "image": "/pages/post/page-133.jpg"
+    "image": "/pages/post/page-133.jpg",
+    "nutrition": {
+      "kcal": 60.2,
+      "protein": 2.7,
+      "carbs": 5.2,
+      "fat": 3.0,
+      "fiber": 1.3
+    }
   },
   {
     "id": "p-101",
@@ -3987,7 +6689,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 134,
-    "image": "/pages/post/page-134.jpg"
+    "image": "/pages/post/page-134.jpg",
+    "nutrition": {
+      "kcal": 27.8,
+      "protein": 1.1,
+      "carbs": 2.3,
+      "fat": 1.4,
+      "fiber": 0.3
+    }
   },
   {
     "id": "p-102",
@@ -3997,7 +6706,14 @@ export const recipes = [
     "section": "Sosuri și dressinguri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 135,
-    "image": "/pages/post/page-135.jpg"
+    "image": "/pages/post/page-135.jpg",
+    "nutrition": {
+      "kcal": 47.2,
+      "protein": 1.5,
+      "carbs": 2.0,
+      "fat": 3.8,
+      "fiber": 0.4
+    }
   },
   {
     "id": "p-103",
@@ -4007,7 +6723,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 137,
-    "image": "/pages/post/page-137.jpg"
+    "image": "/pages/post/page-137.jpg",
+    "nutrition": {
+      "kcal": 240.2,
+      "protein": 14.2,
+      "carbs": 27.1,
+      "fat": 8.8,
+      "fiber": 8.9
+    }
   },
   {
     "id": "p-104",
@@ -4017,7 +6740,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 138,
-    "image": "/pages/post/page-138.jpg"
+    "image": "/pages/post/page-138.jpg",
+    "nutrition": {
+      "kcal": 173.2,
+      "protein": 10.8,
+      "carbs": 23.5,
+      "fat": 4.1,
+      "fiber": 5.0
+    }
   },
   {
     "id": "p-105",
@@ -4027,7 +6757,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 139,
-    "image": "/pages/post/page-139.jpg"
+    "image": "/pages/post/page-139.jpg",
+    "nutrition": {
+      "kcal": 276.6,
+      "protein": 10.7,
+      "carbs": 39.9,
+      "fat": 9.6,
+      "fiber": 5.2
+    }
   },
   {
     "id": "p-106",
@@ -4037,7 +6774,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 140,
-    "image": "/pages/post/page-140.jpg"
+    "image": "/pages/post/page-140.jpg",
+    "nutrition": {
+      "kcal": 139.8,
+      "protein": 1.4,
+      "carbs": 33.9,
+      "fat": 0.3,
+      "fiber": 6.2
+    }
   },
   {
     "id": "p-107",
@@ -4047,7 +6791,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 141,
-    "image": "/pages/post/page-141.jpg"
+    "image": "/pages/post/page-141.jpg",
+    "nutrition": {
+      "kcal": 272.6,
+      "protein": 16.1,
+      "carbs": 25.6,
+      "fat": 12.2,
+      "fiber": 6.3
+    }
   },
   {
     "id": "p-108",
@@ -4057,7 +6808,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 142,
-    "image": "/pages/post/page-142.jpg"
+    "image": "/pages/post/page-142.jpg",
+    "nutrition": {
+      "kcal": 5.4,
+      "protein": 0.2,
+      "carbs": 1.1,
+      "fat": 0.1,
+      "fiber": 0.3
+    }
   },
   {
     "id": "p-109",
@@ -4067,7 +6825,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 143,
-    "image": "/pages/post/page-143.jpg"
+    "image": "/pages/post/page-143.jpg",
+    "nutrition": {
+      "kcal": 189.9,
+      "protein": 11.3,
+      "carbs": 24.9,
+      "fat": 5.1,
+      "fiber": 5.5
+    }
   },
   {
     "id": "p-110",
@@ -4077,7 +6842,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 144,
-    "image": "/pages/post/page-144.jpg"
+    "image": "/pages/post/page-144.jpg",
+    "nutrition": {
+      "kcal": 299.9,
+      "protein": 18.4,
+      "carbs": 27.7,
+      "fat": 13.3,
+      "fiber": 7.9
+    }
   },
   {
     "id": "p-111",
@@ -4087,7 +6859,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 145,
-    "image": "/pages/post/page-145.jpg"
+    "image": "/pages/post/page-145.jpg",
+    "nutrition": {
+      "kcal": 158.8,
+      "protein": 10.2,
+      "carbs": 21.7,
+      "fat": 4.5,
+      "fiber": 2.9
+    }
   },
   {
     "id": "p-112",
@@ -4097,7 +6876,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 146,
-    "image": "/pages/post/page-146.jpg"
+    "image": "/pages/post/page-146.jpg",
+    "nutrition": {
+      "kcal": 275.1,
+      "protein": 13.1,
+      "carbs": 26.9,
+      "fat": 13.7,
+      "fiber": 8.8
+    }
   },
   {
     "id": "p-113",
@@ -4107,7 +6893,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 147,
-    "image": "/pages/post/page-147.jpg"
+    "image": "/pages/post/page-147.jpg",
+    "nutrition": {
+      "kcal": 92.9,
+      "protein": 0.8,
+      "carbs": 22.5,
+      "fat": 0.2,
+      "fiber": 3.1
+    }
   },
   {
     "id": "p-114",
@@ -4117,7 +6910,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 148,
-    "image": "/pages/post/page-148.jpg"
+    "image": "/pages/post/page-148.jpg",
+    "nutrition": {
+      "kcal": 241.4,
+      "protein": 13.4,
+      "carbs": 27.6,
+      "fat": 9.1,
+      "fiber": 5.8
+    }
   },
   {
     "id": "p-115",
@@ -4127,7 +6927,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 149,
-    "image": "/pages/post/page-149.jpg"
+    "image": "/pages/post/page-149.jpg",
+    "nutrition": {
+      "kcal": 14.4,
+      "protein": 0.0,
+      "carbs": 3.6,
+      "fat": 0.0,
+      "fiber": 0.0
+    }
   },
   {
     "id": "p-116",
@@ -4137,7 +6944,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 150,
-    "image": "/pages/post/page-150.jpg"
+    "image": "/pages/post/page-150.jpg",
+    "nutrition": {
+      "kcal": 285.1,
+      "protein": 16.3,
+      "carbs": 25.9,
+      "fat": 13.7,
+      "fiber": 6.2
+    }
   },
   {
     "id": "p-117",
@@ -4147,7 +6961,14 @@ export const recipes = [
     "section": "Băuturi și smoothie-uri",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 151,
-    "image": "/pages/post/page-151.jpg"
+    "image": "/pages/post/page-151.jpg",
+    "nutrition": {
+      "kcal": 249.3,
+      "protein": 13.0,
+      "carbs": 33.6,
+      "fat": 8.1,
+      "fiber": 7.8
+    }
   },
   {
     "id": "p-118",
@@ -4157,7 +6978,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 153,
-    "image": "/pages/post/page-153.jpg"
+    "image": "/pages/post/page-153.jpg",
+    "nutrition": {
+      "kcal": 265.8,
+      "protein": 13.4,
+      "carbs": 41.3,
+      "fat": 4.7,
+      "fiber": 4.7
+    }
   },
   {
     "id": "p-119",
@@ -4167,7 +6995,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 154,
-    "image": "/pages/post/page-154.jpg"
+    "image": "/pages/post/page-154.jpg",
+    "nutrition": {
+      "kcal": 205.3,
+      "protein": 9.3,
+      "carbs": 34.4,
+      "fat": 3.0,
+      "fiber": 0.9
+    }
   },
   {
     "id": "p-120",
@@ -4177,7 +7012,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 155,
-    "image": "/pages/post/page-155.jpg"
+    "image": "/pages/post/page-155.jpg",
+    "nutrition": {
+      "kcal": 305.4,
+      "protein": 17.2,
+      "carbs": 38.8,
+      "fat": 9.5,
+      "fiber": 8.6
+    }
   },
   {
     "id": "p-121",
@@ -4187,7 +7029,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 156,
-    "image": "/pages/post/page-156.jpg"
+    "image": "/pages/post/page-156.jpg",
+    "nutrition": {
+      "kcal": 191.2,
+      "protein": 8.9,
+      "carbs": 19.6,
+      "fat": 7.5,
+      "fiber": 5.6
+    }
   },
   {
     "id": "p-122",
@@ -4197,7 +7046,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 157,
-    "image": "/pages/post/page-157.jpg"
+    "image": "/pages/post/page-157.jpg",
+    "nutrition": {
+      "kcal": 225.1,
+      "protein": 11.7,
+      "carbs": 33.1,
+      "fat": 4.6,
+      "fiber": 10.0
+    }
   },
   {
     "id": "p-123",
@@ -4207,7 +7063,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 158,
-    "image": "/pages/post/page-158.jpg"
+    "image": "/pages/post/page-158.jpg",
+    "nutrition": {
+      "kcal": 125.8,
+      "protein": 6.6,
+      "carbs": 8.0,
+      "fat": 5.9,
+      "fiber": 1.6
+    }
   },
   {
     "id": "p-124",
@@ -4217,7 +7080,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 159,
-    "image": "/pages/post/page-159.jpg"
+    "image": "/pages/post/page-159.jpg",
+    "nutrition": {
+      "kcal": 277.4,
+      "protein": 12.8,
+      "carbs": 40.2,
+      "fat": 6.7,
+      "fiber": 6.3
+    }
   },
   {
     "id": "p-125",
@@ -4227,7 +7097,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 160,
-    "image": "/pages/post/page-160.jpg"
+    "image": "/pages/post/page-160.jpg",
+    "nutrition": {
+      "kcal": 226.4,
+      "protein": 14.7,
+      "carbs": 28.6,
+      "fat": 6.3,
+      "fiber": 4.8
+    }
   },
   {
     "id": "p-126",
@@ -4237,7 +7114,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 161,
-    "image": "/pages/post/page-161.jpg"
+    "image": "/pages/post/page-161.jpg",
+    "nutrition": {
+      "kcal": 168.7,
+      "protein": 8.9,
+      "carbs": 8.5,
+      "fat": 11.0,
+      "fiber": 4.0
+    }
   },
   {
     "id": "p-127",
@@ -4247,7 +7131,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 162,
-    "image": "/pages/post/page-162.jpg"
+    "image": "/pages/post/page-162.jpg",
+    "nutrition": {
+      "kcal": 111.5,
+      "protein": 2.2,
+      "carbs": 12.2,
+      "fat": 6.0,
+      "fiber": 2.6
+    }
   },
   {
     "id": "p-128",
@@ -4257,7 +7148,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 163,
-    "image": "/pages/post/page-163.jpg"
+    "image": "/pages/post/page-163.jpg",
+    "nutrition": {
+      "kcal": 89.1,
+      "protein": 4.2,
+      "carbs": 12.3,
+      "fat": 2.7,
+      "fiber": 3.5
+    }
   },
   {
     "id": "p-129",
@@ -4267,7 +7165,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 164,
-    "image": "/pages/post/page-164.jpg"
+    "image": "/pages/post/page-164.jpg",
+    "nutrition": {
+      "kcal": 137.8,
+      "protein": 7.1,
+      "carbs": 25.6,
+      "fat": 1.8,
+      "fiber": 2.6
+    }
   },
   {
     "id": "p-130",
@@ -4277,7 +7182,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 165,
-    "image": "/pages/post/page-165.jpg"
+    "image": "/pages/post/page-165.jpg",
+    "nutrition": {
+      "kcal": 260.8,
+      "protein": 15.7,
+      "carbs": 24.8,
+      "fat": 11.1,
+      "fiber": 5.2
+    }
   },
   {
     "id": "p-131",
@@ -4287,7 +7199,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 166,
-    "image": "/pages/post/page-166.jpg"
+    "image": "/pages/post/page-166.jpg",
+    "nutrition": {
+      "kcal": 204.7,
+      "protein": 6.7,
+      "carbs": 16.8,
+      "fat": 12.4,
+      "fiber": 3.8
+    }
   },
   {
     "id": "p-132",
@@ -4297,7 +7216,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 167,
-    "image": "/pages/post/page-167.jpg"
+    "image": "/pages/post/page-167.jpg",
+    "nutrition": {
+      "kcal": 244.8,
+      "protein": 8.9,
+      "carbs": 44.6,
+      "fat": 3.5,
+      "fiber": 2.0
+    }
   },
   {
     "id": "p-133",
@@ -4307,7 +7233,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 168,
-    "image": "/pages/post/page-168.jpg"
+    "image": "/pages/post/page-168.jpg",
+    "nutrition": {
+      "kcal": 132.5,
+      "protein": 6.3,
+      "carbs": 19.5,
+      "fat": 3.5,
+      "fiber": 2.8
+    }
   },
   {
     "id": "p-134",
@@ -4317,7 +7250,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 169,
-    "image": "/pages/post/page-169.jpg"
+    "image": "/pages/post/page-169.jpg",
+    "nutrition": {
+      "kcal": 166.0,
+      "protein": 0.8,
+      "carbs": 36.7,
+      "fat": 3.0,
+      "fiber": 1.7
+    }
   },
   {
     "id": "p-135",
@@ -4327,7 +7267,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 170,
-    "image": "/pages/post/page-170.jpg"
+    "image": "/pages/post/page-170.jpg",
+    "nutrition": {
+      "kcal": 89.8,
+      "protein": 3.8,
+      "carbs": 13.1,
+      "fat": 2.5,
+      "fiber": 2.3
+    }
   },
   {
     "id": "p-136",
@@ -4337,7 +7284,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 171,
-    "image": "/pages/post/page-171.jpg"
+    "image": "/pages/post/page-171.jpg",
+    "nutrition": {
+      "kcal": 140.7,
+      "protein": 8.3,
+      "carbs": 14.8,
+      "fat": 5.5,
+      "fiber": 2.4
+    }
   },
   {
     "id": "p-137",
@@ -4347,7 +7301,14 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 172,
-    "image": "/pages/post/page-172.jpg"
+    "image": "/pages/post/page-172.jpg",
+    "nutrition": {
+      "kcal": 202.2,
+      "protein": 5.3,
+      "carbs": 36.4,
+      "fat": 3.4,
+      "fiber": 3.8
+    }
   },
   {
     "id": "p-138",
@@ -4357,6 +7318,13 @@ export const recipes = [
     "section": "Deserturi fără regrete",
     "pdf": "RETETE-DE-POST.pdf",
     "pdfPage": 173,
-    "image": "/pages/post/page-173.jpg"
+    "image": "/pages/post/page-173.jpg",
+    "nutrition": {
+      "kcal": 125.9,
+      "protein": 7.5,
+      "carbs": 22.5,
+      "fat": 0.8,
+      "fiber": 1.8
+    }
   }
 ];

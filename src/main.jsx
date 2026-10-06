@@ -171,7 +171,7 @@ function App() {
         </header>
 
         {showCalculator ? (
-          <CalorieCalculator />
+          <CalorieCalculator onOpenRecipe={choose} />
         ) : selected ? (
           <>
             <section className="recipeHeader">

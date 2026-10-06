@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Flame, Droplets, Scale, Activity, Target, Info, RotateCcw } from "lucide-react";
+import MealPlan from "./MealPlan";
 
 // Calculul folosește formula Mifflin-St Jeor pentru metabolismul bazal (BMR),
 // înmulțită cu factorul de activitate (TDEE), apoi ajustată după obiectiv.
@@ -114,7 +115,7 @@ function bmiInfo(bmi) {
   return { label: "Obezitate", color: "#ef6f5e" };
 }
 
-export default function CalorieCalculator() {
+export default function CalorieCalculator({ onOpenRecipe }) {
   const [form, setForm] = useState(loadSaved);
   const set = (key) => (value) => setForm((f) => ({ ...f, [key]: value }));
 
@@ -329,6 +330,12 @@ export default function CalorieCalculator() {
           </p>
         </section>
       </div>
+
+      <MealPlan
+        target={r.target}
+        macros={{ protein: r.proteinG, carbs: r.carbsG, fat: r.fatG }}
+        onOpenRecipe={onOpenRecipe}
+      />
     </div>
   );
 }

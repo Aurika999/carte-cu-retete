@@ -13,6 +13,7 @@ button, input { font: inherit; }
 
 .app {
   height: 100vh;
+  height: 100dvh;
   display: grid;
   grid-template-columns: 360px minmax(0, 1fr);
   background: #f4f1e9;
@@ -20,6 +21,7 @@ button, input { font: inherit; }
 }
 .sidebar {
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   background: #173c2b;
@@ -64,7 +66,8 @@ button, input { font: inherit; }
 .search input { width: 100%; border: 0; outline: 0; background: transparent; color: white; font-size: 13px; }
 .search input::placeholder { color: rgba(255,255,255,.45); }
 .searchClear { border: 0; background: transparent; color: rgba(255,255,255,.55); cursor: pointer; padding: 2px; }
-.toc { overflow: auto; padding: 0 10px 14px; scrollbar-width: thin; }
+/* lista ocupă restul înălțimii și se derulează (altfel, pe telefon, partea de jos — inclusiv sloganul — rămâne ascunsă) */
+.toc { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 0 10px calc(14px + env(safe-area-inset-bottom)); scrollbar-width: thin; }
 .tocBook + .tocBook { margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.12); }
 .bookButton {
   width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px;
@@ -94,7 +97,7 @@ button, input { font: inherit; }
 .recipeNumber { font-size: 10px; opacity: .45; padding-top: 2px; text-align: right; }
 .recipeName { font-size: 12.5px; line-height: 1.3; }
 .content {
-  min-width: 0; height: 100vh; display: flex; flex-direction: column;
+  min-width: 0; height: 100vh; height: 100dvh; display: flex; flex-direction: column;
   background: radial-gradient(circle at 80% 0%, rgba(230,184,92,.10), transparent 30%), #f4f1e9;
 }
 .topbar {
@@ -111,6 +114,70 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 }
 .pdfPageWrap { flex: 1; min-height: 0; overflow: auto; padding: 16px; display: flex; justify-content: center; align-items: flex-start; }
 .pdfPageImage { display: block; width: 100%; max-width: 900px; height: auto; background: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.15); border-radius: 4px; }
+/* ---------- pagina unei rețete scrise ca text (/Titlul rețetei) ---------- */
+.rpPage { min-height: 100vh; background: radial-gradient(circle at 85% 0%, rgba(230,184,92,.14), transparent 35%), #f4f1e9; }
+.rpTop {
+  position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px clamp(16px, 4vw, 40px); background: #173c2b; color: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.12);
+}
+.rpBrand { font: 700 17px "Playfair Display", Georgia, serif; color: #e6b85c; }
+.rpBack {
+  display: inline-flex; align-items: center; gap: 8px; border: 0; cursor: pointer; border-radius: 999px;
+  padding: 9px 16px 9px 12px; font-weight: 700; font-size: 14px; color: #173c2b; background: #e6b85c;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.rpBack:hover { transform: translateX(-2px); box-shadow: 0 6px 16px rgba(230,184,92,.4); }
+.rpMain { max-width: 1080px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 40px) 40px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+/* elementele din grile nu au voie să fie mai late decât coloana (altfel pagina iese din ecran pe telefon) */
+.rpMain > *, .rpHero > *, .rpColumns > * { min-width: 0; }
+.rpBrand { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rpHero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+.rpPhoto { display: block; width: 100%; max-width: 100%; aspect-ratio: 763 / 436; object-fit: cover; border-radius: 20px; box-shadow: 0 16px 36px rgba(40,46,38,.2); }
+.rpHeroText h1 { font-size: clamp(30px, 4vw, 46px); margin-bottom: 12px; }
+.rpIntro { margin: 0 0 14px; font-size: 15.5px; line-height: 1.6; color: #405045; }
+.rpServings { display: inline-flex; align-items: center; gap: 6px; padding: 6px 13px; border-radius: 999px; background: #173c2b; color: #fff; font-size: 13px; font-weight: 700; }
+.rpColumns { display: grid; grid-template-columns: minmax(260px, 1fr) minmax(0, 1.7fr); gap: 18px; align-items: start; }
+.rpCard { background: #fffdf8; border: 1px solid #e6e0d2; border-radius: 18px; padding: 20px 22px; box-shadow: 0 8px 24px rgba(40,46,38,.06); }
+.rpCard h2 { margin: 0 0 14px; display: flex; align-items: center; gap: 8px; font: 700 20px "Playfair Display", Georgia, serif; color: #1c2b20; }
+.rpCard h2 small { font: 600 13px "DM Sans", sans-serif; color: #8a9189; }
+.rpGroup + .rpGroup { margin-top: 14px; }
+.rpGroup h3 { margin: 0 0 6px; font-size: 13.5px; color: #2bb3a3; }
+.rpIngredients ul, .rpTips ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14.5px; color: #2c3a30; }
+.rpIngredients li::marker { color: #f5a524; }
+.rpSteps ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.rpSteps li { display: flex; gap: 12px; align-items: flex-start; }
+.rpSteps p { margin: 0; font-size: 14.5px; line-height: 1.6; color: #2c3a30; }
+.rpSteps strong { color: #1c2b20; }
+.rpStepNum { flex: 0 0 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; color: #fff; background: linear-gradient(135deg, #ef6f5e, #f5a524); }
+.rpTips li::marker { color: #2bb3a3; }
+.rpTips p { margin: 12px 0 0; font-size: 14.5px; color: #2c3a30; }
+.rpValues { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.rpValue { background: color-mix(in srgb, var(--c) 10%, #fff); border-radius: 14px; padding: 12px 14px; border-top: 4px solid var(--c); }
+.rpValue small { display: block; font-size: 12px; color: #5b6559; font-weight: 600; }
+.rpValue strong { display: block; font-size: 22px; color: var(--c); margin-top: 2px; }
+.rpBackBottom { justify-self: start; }
+.rpLoading { display: grid; place-content: center; justify-items: center; gap: 14px; color: #405045; font-size: 15px; }
+.rpCrumb { display: block; margin-bottom: 6px; font-size: 11.5px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #2bb3a3; }
+.rpChips { display: flex; flex-wrap: wrap; gap: 8px; }
+.rpTime { background: #f5a524; color: #fff; }
+.rpStepGroup { display: block !important; margin-top: 4px; font-weight: 800; font-size: 14px; color: #2bb3a3; text-transform: uppercase; letter-spacing: .05em; }
+.rpNote p { margin: 12px 0 0; }
+.rpNote ul { margin-top: 6px !important; }
+.rpNutritionGroup + .rpNutritionGroup { margin-top: 14px; }
+.rpNutritionGroup h3 { margin: 0 0 8px; font-size: 13.5px; color: #405045; }
+@media (max-width: 800px) {
+  .rpHero, .rpColumns { grid-template-columns: minmax(0, 1fr); }
+  .rpBack span { display: none; }
+  .rpBack { padding: 9px; }
+  .rpBackBottom span { display: inline; }
+  .rpBackBottom { padding: 9px 16px 9px 12px; }
+}
+
+.slogan {
+  margin: 34px 0 10px; text-align: center; color: #e6b85c;
+  font: italic 600 17px/1.3 "Playfair Display", Georgia, serif; letter-spacing: .01em;
+}
+
 /* ---------- buton calculator în meniu ---------- */
 .calcNav {
   width: 100%; margin-top: 16px; display: flex; align-items: center; gap: 11px;

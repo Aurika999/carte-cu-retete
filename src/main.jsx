@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple } from "lucide-react";
 import { recipes } from "./recipes";
@@ -6,6 +6,8 @@ import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
 import WaterTracker from "./WaterTracker";
 import FruitGrid from "./FruitGrid";
+import RecipePage from "./RecipePage";
+import { hasDetail, detailPath, recipeFromPath, loadDetail } from "./recipeDetails";
 import "./styles.css";
 
 // Cărți → secțiuni → rețete, în ordinea din recipes.js
@@ -23,7 +25,7 @@ function groupRecipes(list) {
 
 const sectionKey = (book, section) => `${book}|${section}`;
 
-function App() {
+function App({ onOpenDetail }) {
   const [selectedId, setSelectedId] = useState(null);
   // "calculator" / "calendar" / "apa" / "fructe" / null (rețetă sau pagina de start);
   // linkurile …/#calculator, …/#calendar, …/#apa și …/#fructe deschid direct pagina
@@ -53,6 +55,11 @@ function App() {
 
   function choose(recipe) {
     setMobileOpen(false);
+    if (hasDetail(recipe)) {
+      // rețetele scrise ca text se deschid pe pagina lor, la /<titlul rețetei>
+      onOpenDetail(recipe);
+      return;
+    }
     if (recipe.isFruit) {
       // un fruct din meniu / calendar deschide pagina lui din „Fructe crude”
       setFruitId(recipe.id);
@@ -186,6 +193,8 @@ function App() {
               <small>Câtă apă să bei și cât ai băut</small>
             </span>
           </button>
+
+          <p className="slogan">Gătește smart, trăiește fit.</p>
         </nav>
       </aside>
 
@@ -241,4 +250,43 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+// Pornirea: adresa din browser decide ce se vede. /<titlul rețetei> deschide pagina
+// rețetei scrise ca text (recipeDetails.js); orice altă adresă, aplicația obișnuită.
+function navigate(path) {
+  window.history.pushState(null, "", path);
+  window.dispatchEvent(new PopStateEvent("popstate"));
+}
+
+function Root() {
+  const [path, setPath] = useState(window.location.pathname);
+  useEffect(() => {
+    const onPop = () => setPath(window.location.pathname);
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  const recipe = recipeFromPath(path);
+  if (recipe) return <RecipeRoute key={recipe.id} recipe={recipe} onBack={() => navigate("/")} />;
+  return <App onOpenDetail={(r) => navigate(detailPath(r))} />;
+}
+
+// descarcă textul rețetei (src/retete/<slug>.js) și o afișează
+function RecipeRoute({ recipe, onBack }) {
+  const [detail, setDetail] = useState(null);
+  const [failed, setFailed] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    loadDetail(recipe).then((d) => alive && setDetail(d)).catch(() => alive && setFailed(true));
+    return () => { alive = false; };
+  }, [recipe]);
+
+  if (detail) return <RecipePage recipe={detail} onBack={onBack} />;
+  return (
+    <div className="rpPage rpLoading">
+      <p>{failed ? "Rețeta nu a putut fi încărcată." : "Se încarcă rețeta…"}</p>
+      <button className="rpBack" onClick={onBack}>Înapoi la meniu</button>
+    </div>
+  );
+}
+
+createRoot(document.getElementById("root")).render(<Root />);

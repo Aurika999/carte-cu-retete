@@ -14,7 +14,8 @@ export const recipes = [
       "carbs": 32.6,
       "fat": 11.2,
       "fiber": 2.0
-    }
+    },
+    "slug": "Mamaliga-cu-branza-si-ou-ochi"
   },
   {
     "id": "t-2",
@@ -31,7 +32,8 @@ export const recipes = [
       "carbs": 3.7,
       "fat": 18.1,
       "fiber": 0.0
-    }
+    },
+    "slug": "Omleta-cu-muschi-file-si-telemea"
   },
   {
     "id": "t-3",
@@ -48,7 +50,8 @@ export const recipes = [
       "carbs": 7.8,
       "fat": 16.1,
       "fiber": 1.5
-    }
+    },
+    "slug": "Omleta-cu-legume-si-piept-de-pui-afumat"
   },
   {
     "id": "t-4",
@@ -65,7 +68,8 @@ export const recipes = [
       "carbs": 10.1,
       "fat": 17.4,
       "fiber": 1.8
-    }
+    },
+    "slug": "Omleta-taraneasca"
   },
   {
     "id": "t-5",
@@ -82,7 +86,8 @@ export const recipes = [
       "carbs": 39.7,
       "fat": 10.7,
       "fiber": 5.5
-    }
+    },
+    "slug": "Lipie-calda-cu-piept-de-pui"
   },
   {
     "id": "t-6",
@@ -99,7 +104,8 @@ export const recipes = [
       "carbs": 48.6,
       "fat": 6.5,
       "fiber": 6.9
-    }
+    },
+    "slug": "Salata-cu-fasole-si-paine-prajita-traditionale"
   },
   {
     "id": "t-7",
@@ -116,7 +122,8 @@ export const recipes = [
       "carbs": 5.7,
       "fat": 1.2,
       "fiber": 0.2
-    }
+    },
+    "slug": "Branza-de-vaci-cu-smantana-si-marar"
   },
   {
     "id": "t-8",
@@ -132,7 +139,8 @@ export const recipes = [
       "protein": 37.6,
       "carbs": 9.1,
       "fat": 19.0
-    }
+    },
+    "slug": "Ciorba-de-burta"
   },
   {
     "id": "t-9",
@@ -148,7 +156,8 @@ export const recipes = [
       "protein": 32.7,
       "carbs": 9.1,
       "fat": 6.8
-    }
+    },
+    "slug": "Ciorba-radauteana"
   },
   {
     "id": "t-10",
@@ -164,7 +173,8 @@ export const recipes = [
       "protein": 31.0,
       "carbs": 20.6,
       "fat": 6.2
-    }
+    },
+    "slug": "Ciorba-ardeleneasca-de-perisoare"
   },
   {
     "id": "t-11",
@@ -180,7 +190,8 @@ export const recipes = [
       "protein": 6.6,
       "carbs": 36.1,
       "fat": 6.1
-    }
+    },
+    "slug": "Ciorba-ardeleneasca-de-cartofi"
   },
   {
     "id": "t-12",
@@ -196,7 +207,8 @@ export const recipes = [
       "protein": 30.8,
       "carbs": 49.1,
       "fat": 5.6
-    }
+    },
+    "slug": "Ciorba-de-fasole-cu-afumatura"
   },
   {
     "id": "t-13",
@@ -212,7 +224,8 @@ export const recipes = [
       "protein": 26.0,
       "carbs": 24.3,
       "fat": 5.9
-    }
+    },
+    "slug": "Ciorba-de-vacuta"
   },
   {
     "id": "t-14",
@@ -229,7 +242,8 @@ export const recipes = [
       "carbs": 22.4,
       "fat": 8.0,
       "fiber": 6.3
-    }
+    },
+    "slug": "Ciorba-de-loboda"
   },
   {
     "id": "t-15",
@@ -246,7 +260,8 @@ export const recipes = [
       "carbs": 22.7,
       "fat": 9.1,
       "fiber": 8.4
-    }
+    },
+    "slug": "Ciorba-de-stevie"
   },
   {
     "id": "t-16",
@@ -263,7 +278,8 @@ export const recipes = [
       "carbs": 24.8,
       "fat": 2.7,
       "fiber": 4.0
-    }
+    },
+    "slug": "Ciorba-taraneasca-de-legume"
   },
   {
     "id": "t-17",
@@ -279,7 +295,8 @@ export const recipes = [
       "protein": 33.8,
       "carbs": 11.6,
       "fat": 5.6
-    }
+    },
+    "slug": "Ciorba-de-potroace"
   },
   {
     "id": "t-18",
@@ -296,7 +313,8 @@ export const recipes = [
       "carbs": 9.0,
       "fat": 3.3,
       "fiber": 2.0
-    }
+    },
+    "slug": "Bors-de-peste"
   },
   {
     "id": "t-19",
@@ -312,7 +330,8 @@ export const recipes = [
       "protein": 10.4,
       "carbs": 17.2,
       "fat": 5.2
-    }
+    },
+    "slug": "Ciorba-de-burta-Fara-Burta-cu-ciuperci-Pleurotus"
   },
   {
     "id": "t-20",
@@ -328,7 +347,8 @@ export const recipes = [
       "protein": 22.8,
       "carbs": 42.2,
       "fat": 8.3
-    }
+    },
+    "slug": "Supa-de-galuste"
   },
   {
     "id": "t-21",
@@ -345,7 +365,8 @@ export const recipes = [
       "carbs": 66.4,
       "fat": 6.6,
       "fiber": 9.1
-    }
+    },
+    "slug": "Sarmale-cu-mamaliga-si-iaurt-traditionale"
   },
   {
     "id": "t-22",
@@ -362,7 +383,8 @@ export const recipes = [
       "carbs": 66.4,
       "fat": 6.6,
       "fiber": 9.1
-    }
+    },
+    "slug": "Sarmale-de-vita"
   },
   {
     "id": "t-23",
@@ -378,7 +400,8 @@ export const recipes = [
       "protein": 35.8,
       "carbs": 1.7,
       "fat": 4.4
-    }
+    },
+    "slug": "Mici-mititei"
   },
   {
     "id": "t-24",
@@ -395,7 +418,8 @@ export const recipes = [
       "carbs": 40.9,
       "fat": 7.0,
       "fiber": 1.9
-    }
+    },
+    "slug": "Tochitura-de-porc-cu-mamaliga"
   },
   {
     "id": "t-25",
@@ -411,7 +435,8 @@ export const recipes = [
       "protein": 36.8,
       "carbs": 39.5,
       "fat": 7.1
-    }
+    },
+    "slug": "Tocanita-de-pui-cu-mamaliga"
   },
   {
     "id": "t-26",
@@ -427,7 +452,8 @@ export const recipes = [
       "protein": 27.6,
       "carbs": 10.4,
       "fat": 5.6
-    }
+    },
+    "slug": "Ostropel-din-piept-de-pui"
   },
   {
     "id": "t-27",
@@ -444,7 +470,8 @@ export const recipes = [
       "carbs": 22.4,
       "fat": 3.6,
       "fiber": 5.5
-    }
+    },
+    "slug": "Varza-a-la-Cluj"
   },
   {
     "id": "t-28",
@@ -460,7 +487,8 @@ export const recipes = [
       "protein": 36.9,
       "carbs": 31.7,
       "fat": 2.4
-    }
+    },
+    "slug": "Dovlecei-umpluti"
   },
   {
     "id": "t-29",
@@ -476,7 +504,8 @@ export const recipes = [
       "protein": 33.6,
       "carbs": 21.4,
       "fat": 6.3
-    }
+    },
+    "slug": "Vinete-umplute"
   },
   {
     "id": "t-30",
@@ -493,7 +522,8 @@ export const recipes = [
       "carbs": 14.1,
       "fat": 4.4,
       "fiber": 0.6
-    }
+    },
+    "slug": "Chiftele-marinate"
   },
   {
     "id": "t-31",
@@ -509,7 +539,8 @@ export const recipes = [
       "protein": 39.3,
       "carbs": 5.3,
       "fat": 15.5
-    }
+    },
+    "slug": "Stufat-moldovenesc"
   },
   {
     "id": "t-32",
@@ -526,7 +557,8 @@ export const recipes = [
       "carbs": 29.7,
       "fat": 3.3,
       "fiber": 4.5
-    }
+    },
+    "slug": "Friptura-la-tava"
   },
   {
     "id": "t-33",
@@ -543,7 +575,8 @@ export const recipes = [
       "carbs": 4.3,
       "fat": 4.8,
       "fiber": 0.1
-    }
+    },
+    "slug": "Pomana-porcului"
   },
   {
     "id": "t-34",
@@ -560,7 +593,8 @@ export const recipes = [
       "carbs": 12.9,
       "fat": 6.4,
       "fiber": 3.8
-    }
+    },
+    "slug": "Rasol-de-vita"
   },
   {
     "id": "t-35",
@@ -577,7 +611,8 @@ export const recipes = [
       "carbs": 49.7,
       "fat": 3.7,
       "fiber": 8.7
-    }
+    },
+    "slug": "Ghiveci-taranesc"
   },
   {
     "id": "t-36",
@@ -594,7 +629,8 @@ export const recipes = [
       "carbs": 61.5,
       "fat": 2.9,
       "fiber": 14.9
-    }
+    },
+    "slug": "Iahnie-de-fasole"
   },
   {
     "id": "t-37",
@@ -611,7 +647,8 @@ export const recipes = [
       "carbs": 39.7,
       "fat": 11.3,
       "fiber": 3.9
-    }
+    },
+    "slug": "Musaca-de-cartofi"
   },
   {
     "id": "t-38",
@@ -627,7 +664,8 @@ export const recipes = [
       "protein": 39.5,
       "carbs": 7.4,
       "fat": 15.4
-    }
+    },
+    "slug": "Tocanita-de-miel-cu-usturoi-si-vin"
   },
   {
     "id": "t-39",
@@ -644,7 +682,8 @@ export const recipes = [
       "carbs": 44.6,
       "fat": 6.8,
       "fiber": 10.5
-    }
+    },
+    "slug": "Mancarica-de-fasole-cu-carne-de-vita"
   },
   {
     "id": "t-40",
@@ -661,7 +700,8 @@ export const recipes = [
       "carbs": 15.0,
       "fat": 6.1,
       "fiber": 5.2
-    }
+    },
+    "slug": "Cotlet-de-porc-cu-fasole-verde-sote"
   },
   {
     "id": "t-41",
@@ -677,7 +717,8 @@ export const recipes = [
       "protein": 37.4,
       "carbs": 43.1,
       "fat": 2.4
-    }
+    },
+    "slug": "Ardei-umpluti-cu-pui-la-cuptor"
   },
   {
     "id": "t-42",
@@ -694,7 +735,8 @@ export const recipes = [
       "carbs": 9.2,
       "fat": 4.2,
       "fiber": 2.4
-    }
+    },
+    "slug": "Saramura-de-crap"
   },
   {
     "id": "t-43",
@@ -711,7 +753,8 @@ export const recipes = [
       "carbs": 14.2,
       "fat": 4.2,
       "fiber": 3.3
-    }
+    },
+    "slug": "Plachie-de-crap"
   },
   {
     "id": "t-44",
@@ -727,7 +770,8 @@ export const recipes = [
       "protein": 38.5,
       "carbs": 16.0,
       "fat": 38.0
-    }
+    },
+    "slug": "Nisetru-cu-legume-la-gratar"
   },
   {
     "id": "t-45",
@@ -744,7 +788,8 @@ export const recipes = [
       "carbs": 1.8,
       "fat": 3.9,
       "fiber": 0.1
-    }
+    },
+    "slug": "Scrumbie-la-gratar-cu-mujdei-light"
   },
   {
     "id": "t-46",
@@ -760,7 +805,8 @@ export const recipes = [
       "protein": 27.5,
       "carbs": 8.5,
       "fat": 4.2
-    }
+    },
+    "slug": "Storceag-traditional"
   },
   {
     "id": "t-47",
@@ -777,7 +823,8 @@ export const recipes = [
       "carbs": 7.7,
       "fat": 2.8,
       "fiber": 1.4
-    }
+    },
+    "slug": "Peste-marinat"
   },
   {
     "id": "t-48",
@@ -794,7 +841,8 @@ export const recipes = [
       "carbs": 18.5,
       "fat": 5.4,
       "fiber": 5.0
-    }
+    },
+    "slug": "Somon-la-cuptor-cu-legume-traditionale"
   },
   {
     "id": "t-49",
@@ -810,7 +858,8 @@ export const recipes = [
       "protein": 36.5,
       "carbs": 18.5,
       "fat": 10.2
-    }
+    },
+    "slug": "Chiftelute-cu-ton"
   },
   {
     "id": "t-50",
@@ -827,7 +876,8 @@ export const recipes = [
       "carbs": 37.0,
       "fat": 5.7,
       "fiber": 0.4
-    }
+    },
+    "slug": "Mamaliguta-cu-branza-si-smantana"
   },
   {
     "id": "t-51",
@@ -844,7 +894,8 @@ export const recipes = [
       "carbs": 43.2,
       "fat": 7.7,
       "fiber": 0.4
-    }
+    },
+    "slug": "Balmos"
   },
   {
     "id": "t-52",
@@ -861,7 +912,8 @@ export const recipes = [
       "carbs": 25.4,
       "fat": 4.5,
       "fiber": 11.0
-    }
+    },
+    "slug": "Zacusca-de-vinete"
   },
   {
     "id": "t-53",
@@ -878,7 +930,8 @@ export const recipes = [
       "carbs": 74.0,
       "fat": 5.2,
       "fiber": 9.5
-    }
+    },
+    "slug": "Tocanita-de-ciuperci-cu-mamaliga"
   },
   {
     "id": "t-54",
@@ -895,7 +948,8 @@ export const recipes = [
       "carbs": 42.1,
       "fat": 5.5,
       "fiber": 4.3
-    }
+    },
+    "slug": "Tocana-de-legume-cu-orez-traditionale"
   },
   {
     "id": "t-55",
@@ -912,7 +966,8 @@ export const recipes = [
       "carbs": 34.3,
       "fat": 10.1,
       "fiber": 15.4
-    }
+    },
+    "slug": "Salata-de-vinete-traditionale"
   },
   {
     "id": "t-56",
@@ -929,7 +984,8 @@ export const recipes = [
       "carbs": 31.5,
       "fat": 6.0,
       "fiber": 11.5
-    }
+    },
+    "slug": "Fasole-batuta"
   },
   {
     "id": "t-57",
@@ -945,7 +1001,8 @@ export const recipes = [
       "protein": 9.4,
       "carbs": 5.7,
       "fat": 10.0
-    }
+    },
+    "slug": "Salata-de-icre"
   },
   {
     "id": "t-58",
@@ -962,7 +1019,8 @@ export const recipes = [
       "carbs": 40.0,
       "fat": 2.9,
       "fiber": 4.5
-    }
+    },
+    "slug": "Cartofi-taranesti"
   },
   {
     "id": "t-59",
@@ -979,7 +1037,8 @@ export const recipes = [
       "carbs": 11.2,
       "fat": 2.8,
       "fiber": 3.5
-    }
+    },
+    "slug": "Salata-de-varza-cu-morcov"
   },
   {
     "id": "t-60",
@@ -996,7 +1055,8 @@ export const recipes = [
       "carbs": 27.4,
       "fat": 0.7,
       "fiber": 7.2
-    }
+    },
+    "slug": "Muraturi-asortate"
   },
   {
     "id": "t-61",
@@ -1013,7 +1073,8 @@ export const recipes = [
       "carbs": 16.3,
       "fat": 4.7,
       "fiber": 4.9
-    }
+    },
+    "slug": "Salata-de-sfecla-cu-hrean"
   },
   {
     "id": "t-62",
@@ -1030,7 +1091,8 @@ export const recipes = [
       "carbs": 10.5,
       "fat": 2.8,
       "fiber": 0.5
-    }
+    },
+    "slug": "Placinta-cu-branza-la-cuptor-Branzoaice"
   },
   {
     "id": "t-63",
@@ -1047,7 +1109,8 @@ export const recipes = [
       "carbs": 37.9,
       "fat": 2.3,
       "fiber": 1.2
-    }
+    },
+    "slug": "Placinta-cu-mere"
   },
   {
     "id": "t-64",
@@ -1064,7 +1127,8 @@ export const recipes = [
       "carbs": 47.2,
       "fat": 5.5,
       "fiber": 2.8
-    }
+    },
+    "slug": "Placinta-cu-varza"
   },
   {
     "id": "t-65",
@@ -1081,7 +1145,8 @@ export const recipes = [
       "carbs": 39.7,
       "fat": 2.3,
       "fiber": 2.0
-    }
+    },
+    "slug": "Placinta-cu-cartofi"
   },
   {
     "id": "t-66",
@@ -1098,7 +1163,8 @@ export const recipes = [
       "carbs": 33.2,
       "fat": 3.9,
       "fiber": 6.3
-    }
+    },
+    "slug": "Placinta-cu-dovleac"
   },
   {
     "id": "t-67",
@@ -1115,7 +1181,8 @@ export const recipes = [
       "carbs": 27.1,
       "fat": 4.1,
       "fiber": 0.7
-    }
+    },
+    "slug": "Poale-n-brau"
   },
   {
     "id": "t-68",
@@ -1132,7 +1199,8 @@ export const recipes = [
       "carbs": 23.4,
       "fat": 6.8,
       "fiber": 0.1
-    }
+    },
+    "slug": "Alivenci-moldovenesti"
   },
   {
     "id": "t-69",
@@ -1149,7 +1217,8 @@ export const recipes = [
       "carbs": 36.5,
       "fat": 2.2,
       "fiber": 6.2
-    }
+    },
+    "slug": "Turte-pe-plita"
   },
   {
     "id": "t-70",
@@ -1166,7 +1235,8 @@ export const recipes = [
       "carbs": 51.4,
       "fat": 8.7,
       "fiber": 0.6
-    }
+    },
+    "slug": "Colaci-de-casa"
   },
   {
     "id": "t-71",
@@ -1183,7 +1253,8 @@ export const recipes = [
       "carbs": 48.9,
       "fat": 2.5,
       "fiber": 1.2
-    }
+    },
+    "slug": "Covrigi-de-casa-traditionale"
   },
   {
     "id": "t-72",
@@ -1200,7 +1271,8 @@ export const recipes = [
       "carbs": 33.3,
       "fat": 3.5,
       "fiber": 0.8
-    }
+    },
+    "slug": "Langosi-light"
   },
   {
     "id": "t-73",
@@ -1217,7 +1289,8 @@ export const recipes = [
       "carbs": 29.4,
       "fat": 4.8,
       "fiber": 1.2
-    }
+    },
+    "slug": "Papanasi-la-cuptor"
   },
   {
     "id": "t-74",
@@ -1234,7 +1307,8 @@ export const recipes = [
       "carbs": 38.1,
       "fat": 6.0,
       "fiber": 0.9
-    }
+    },
+    "slug": "Gogosi-la-cuptor"
   },
   {
     "id": "t-75",
@@ -1251,7 +1325,8 @@ export const recipes = [
       "carbs": 30.5,
       "fat": 6.6,
       "fiber": 4.7
-    }
+    },
+    "slug": "Clatite"
   },
   {
     "id": "t-76",
@@ -1268,7 +1343,8 @@ export const recipes = [
       "carbs": 17.6,
       "fat": 6.0,
       "fiber": 0.5
-    }
+    },
+    "slug": "Prajitura-cu-branza-dulce"
   },
   {
     "id": "t-77",
@@ -1285,7 +1361,8 @@ export const recipes = [
       "carbs": 30.0,
       "fat": 6.1,
       "fiber": 0.6
-    }
+    },
+    "slug": "Cornulete-cu-gem"
   },
   {
     "id": "t-78",
@@ -1302,7 +1379,8 @@ export const recipes = [
       "carbs": 8.2,
       "fat": 8.0,
       "fiber": 1.1
-    }
+    },
+    "slug": "Sarailie"
   },
   {
     "id": "t-79",
@@ -1319,7 +1397,8 @@ export const recipes = [
       "carbs": 25.9,
       "fat": 12.3,
       "fiber": 0.5
-    }
+    },
+    "slug": "Cremsnit"
   },
   {
     "id": "t-80",
@@ -1336,7 +1415,8 @@ export const recipes = [
       "carbs": 11.8,
       "fat": 9.5,
       "fiber": 1.5
-    }
+    },
+    "slug": "Tort-Dobos"
   },
   {
     "id": "t-81",
@@ -1353,7 +1433,8 @@ export const recipes = [
       "carbs": 16.1,
       "fat": 15.6,
       "fiber": 2.4
-    }
+    },
+    "slug": "Amandine"
   },
   {
     "id": "t-82",
@@ -1370,7 +1451,8 @@ export const recipes = [
       "carbs": 17.9,
       "fat": 6.0,
       "fiber": 0.4
-    }
+    },
+    "slug": "Savarine"
   },
   {
     "id": "t-83",
@@ -1387,7 +1469,8 @@ export const recipes = [
       "carbs": 21.4,
       "fat": 3.5,
       "fiber": 0.7
-    }
+    },
+    "slug": "Gris-cu-lapte"
   },
   {
     "id": "t-84",
@@ -1404,7 +1487,8 @@ export const recipes = [
       "carbs": 9.9,
       "fat": 7.9,
       "fiber": 0.0
-    }
+    },
+    "slug": "Lapte-de-pasare"
   },
   {
     "id": "t-85",
@@ -1421,7 +1505,8 @@ export const recipes = [
       "carbs": 24.9,
       "fat": 2.9,
       "fiber": 0.8
-    }
+    },
+    "slug": "Orez-cu-lapte"
   },
   {
     "id": "t-86",
@@ -1438,7 +1523,8 @@ export const recipes = [
       "carbs": 28.4,
       "fat": 10.3,
       "fiber": 0.5
-    }
+    },
+    "slug": "Prajitura-Alba-ca-Zapada"
   },
   {
     "id": "t-87",
@@ -1455,7 +1541,8 @@ export const recipes = [
       "carbs": 20.4,
       "fat": 9.2,
       "fiber": 1.0
-    }
+    },
+    "slug": "Chec-pufos-cu-nuca-si-cacao"
   },
   {
     "id": "t-88",
@@ -1472,7 +1559,8 @@ export const recipes = [
       "carbs": 33.5,
       "fat": 18.9,
       "fiber": 1.8
-    }
+    },
+    "slug": "Cornulete-fragede-cu-nuca"
   },
   {
     "id": "t-89",
@@ -1488,7 +1576,8 @@ export const recipes = [
       "protein": 17.8,
       "carbs": 4.9,
       "fat": 7.0
-    }
+    },
+    "slug": "Drob-de-miel-traditional-traditionale"
   },
   {
     "id": "t-90",
@@ -1504,7 +1593,8 @@ export const recipes = [
       "protein": 44.8,
       "carbs": 7.2,
       "fat": 13.2
-    }
+    },
+    "slug": "Drob-light-cu-ficatei-traditionale"
   },
   {
     "id": "t-91",
@@ -1520,7 +1610,8 @@ export const recipes = [
       "protein": 16.5,
       "carbs": 17.2,
       "fat": 2.6
-    }
+    },
+    "slug": "Salata-boeuf"
   },
   {
     "id": "t-92",
@@ -1537,7 +1628,8 @@ export const recipes = [
       "carbs": 59.0,
       "fat": 17.7,
       "fiber": 2.4
-    }
+    },
+    "slug": "Cozonac-traditional"
   },
   {
     "id": "t-93",
@@ -1554,7 +1646,8 @@ export const recipes = [
       "carbs": 28.4,
       "fat": 5.5,
       "fiber": 0.7
-    }
+    },
+    "slug": "Pasca-traditionala"
   },
   {
     "id": "t-94",
@@ -1570,7 +1663,8 @@ export const recipes = [
       "protein": 22.1,
       "carbs": 109.5,
       "fat": 25.2
-    }
+    },
+    "slug": "Mucenici-moldovenesti-copti"
   },
   {
     "id": "t-95",
@@ -1586,7 +1680,8 @@ export const recipes = [
       "protein": 9.3,
       "carbs": 38.7,
       "fat": 17.8
-    }
+    },
+    "slug": "Mucenici-muntenesti-fierti"
   },
   {
     "id": "t-96",
@@ -1602,7 +1697,8 @@ export const recipes = [
       "protein": 30.8,
       "carbs": 13.4,
       "fat": 5.0
-    }
+    },
+    "slug": "Caltabos-Lebar"
   },
   {
     "id": "t-97",
@@ -1618,7 +1714,8 @@ export const recipes = [
       "protein": 18.4,
       "carbs": 3.2,
       "fat": 5.5
-    }
+    },
+    "slug": "Piftie-de-curcan"
   },
   {
     "id": "t-98",
@@ -1634,7 +1731,8 @@ export const recipes = [
       "protein": 30.1,
       "carbs": 1.7,
       "fat": 7.1
-    }
+    },
+    "slug": "Carnati-de-casa"
   },
   {
     "id": "t-99",
@@ -1651,7 +1749,8 @@ export const recipes = [
       "carbs": 34.0,
       "fat": 3.5,
       "fiber": 4.2
-    }
+    },
+    "slug": "Turte-de-Craciun-cu-miere"
   },
   {
     "id": "r-1",
@@ -1668,7 +1767,8 @@ export const recipes = [
       "carbs": 24.7,
       "fat": 13.0,
       "fiber": 8.2
-    }
+    },
+    "slug": "Shake-anti-pofte"
   },
   {
     "id": "r-2",
@@ -1685,7 +1785,8 @@ export const recipes = [
       "carbs": 24.4,
       "fat": 8.3,
       "fiber": 5.4
-    }
+    },
+    "slug": "Shake-proteic-energizant"
   },
   {
     "id": "r-3",
@@ -1702,7 +1803,8 @@ export const recipes = [
       "carbs": 29.3,
       "fat": 13.9,
       "fiber": 8.2
-    }
+    },
+    "slug": "Shake-pentru-satietate-maxima"
   },
   {
     "id": "r-4",
@@ -1719,7 +1821,8 @@ export const recipes = [
       "carbs": 23.6,
       "fat": 13.5,
       "fiber": 8.6
-    }
+    },
+    "slug": "Shake-pentru-echilibru-hormonal"
   },
   {
     "id": "r-5",
@@ -1736,7 +1839,8 @@ export const recipes = [
       "carbs": 34.4,
       "fat": 9.6,
       "fiber": 7.3
-    }
+    },
+    "slug": "Shake-anti-stres"
   },
   {
     "id": "r-6",
@@ -1753,7 +1857,8 @@ export const recipes = [
       "carbs": 25.6,
       "fat": 8.8,
       "fiber": 7.5
-    }
+    },
+    "slug": "Shake-pentru-frumusete-si-piele"
   },
   {
     "id": "r-7",
@@ -1770,7 +1875,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 11.2,
       "fiber": 7.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-banana"
   },
   {
     "id": "r-8",
@@ -1787,7 +1893,8 @@ export const recipes = [
       "carbs": 23.7,
       "fat": 8.8,
       "fiber": 7.7
-    }
+    },
+    "slug": "Budinca-de-chia-cu-capsuni"
   },
   {
     "id": "r-9",
@@ -1804,7 +1911,8 @@ export const recipes = [
       "carbs": 22.6,
       "fat": 6.8,
       "fiber": 5.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-rapide"
   },
   {
     "id": "r-10",
@@ -1821,7 +1929,8 @@ export const recipes = [
       "carbs": 30.4,
       "fat": 10.2,
       "fiber": 7.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-banana-si-cacao"
   },
   {
     "id": "r-11",
@@ -1838,7 +1947,8 @@ export const recipes = [
       "carbs": 24.6,
       "fat": 9.5,
       "fiber": 8.0
-    }
+    },
+    "slug": "Budinca-de-chia-proteica-cu-vanilie"
   },
   {
     "id": "r-12",
@@ -1855,7 +1965,8 @@ export const recipes = [
       "carbs": 33.6,
       "fat": 14.2,
       "fiber": 7.8
-    }
+    },
+    "slug": "Budinca-de-chia-proteica-arahide-banana"
   },
   {
     "id": "r-13",
@@ -1872,7 +1983,8 @@ export const recipes = [
       "carbs": 31.6,
       "fat": 9.1,
       "fiber": 8.1
-    }
+    },
+    "slug": "Budinca-de-chia-proteica-cu-afine-iaurt"
   },
   {
     "id": "r-14",
@@ -1889,7 +2001,8 @@ export const recipes = [
       "carbs": 21.9,
       "fat": 7.0,
       "fiber": 8.1
-    }
+    },
+    "slug": "Budinca-de-chia-cu-fructe-de-padure-rapide"
   },
   {
     "id": "r-15",
@@ -1906,7 +2019,8 @@ export const recipes = [
       "carbs": 16.0,
       "fat": 13.7,
       "fiber": 5.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-rapide"
   },
   {
     "id": "r-16",
@@ -1923,7 +2037,8 @@ export const recipes = [
       "carbs": 26.1,
       "fat": 9.2,
       "fiber": 6.5
-    }
+    },
+    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-rapide"
   },
   {
     "id": "r-17",
@@ -1940,7 +2055,8 @@ export const recipes = [
       "carbs": 31.4,
       "fat": 9.2,
       "fiber": 7.0
-    }
+    },
+    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-rapide"
   },
   {
     "id": "r-18",
@@ -1957,7 +2073,8 @@ export const recipes = [
       "carbs": 23.2,
       "fat": 6.7,
       "fiber": 4.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-rapide"
   },
   {
     "id": "r-19",
@@ -1974,7 +2091,8 @@ export const recipes = [
       "carbs": 23.9,
       "fat": 11.5,
       "fiber": 5.3
-    }
+    },
+    "slug": "Budinca-de-chia-cu-cocos-si-ananas-rapide"
   },
   {
     "id": "r-20",
@@ -1991,7 +2109,8 @@ export const recipes = [
       "carbs": 18.2,
       "fat": 8.0,
       "fiber": 6.7
-    }
+    },
+    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-rapide"
   },
   {
     "id": "r-21",
@@ -2008,7 +2127,8 @@ export const recipes = [
       "carbs": 12.5,
       "fat": 7.6,
       "fiber": 4.9
-    }
+    },
+    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-rapide"
   },
   {
     "id": "r-22",
@@ -2025,7 +2145,8 @@ export const recipes = [
       "carbs": 21.2,
       "fat": 6.5,
       "fiber": 5.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-rapide"
   },
   {
     "id": "r-23",
@@ -2042,7 +2163,8 @@ export const recipes = [
       "carbs": 28.9,
       "fat": 9.9,
       "fiber": 5.2
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-unt-de-arahide"
   },
   {
     "id": "r-24",
@@ -2059,7 +2181,8 @@ export const recipes = [
       "carbs": 46.3,
       "fat": 10.9,
       "fiber": 7.7
-    }
+    },
+    "slug": "Budinca-de-ovaz-proteica-tip-brownie"
   },
   {
     "id": "r-25",
@@ -2076,7 +2199,8 @@ export const recipes = [
       "carbs": 46.5,
       "fat": 8.4,
       "fiber": 12.0
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-fructe-de-padure-si-iaurt-grecesc"
   },
   {
     "id": "r-26",
@@ -2093,7 +2217,8 @@ export const recipes = [
       "carbs": 38.9,
       "fat": 16.4,
       "fiber": 7.5
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-migdale-si-cocos"
   },
   {
     "id": "r-27",
@@ -2110,7 +2235,8 @@ export const recipes = [
       "carbs": 51.2,
       "fat": 9.0,
       "fiber": 6.2
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-mere-caramelizate-si-scortisoara"
   },
   {
     "id": "r-28",
@@ -2127,7 +2253,8 @@ export const recipes = [
       "carbs": 50.4,
       "fat": 16.1,
       "fiber": 10.4
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-afine-si-nuci"
   },
   {
     "id": "r-29",
@@ -2144,7 +2271,8 @@ export const recipes = [
       "carbs": 37.6,
       "fat": 17.6,
       "fiber": 7.4
-    }
+    },
+    "slug": "Budinca-de-ovaz-crocanta-cu-alune-si-ciocolata"
   },
   {
     "id": "r-30",
@@ -2161,7 +2289,8 @@ export const recipes = [
       "carbs": 28.6,
       "fat": 8.8,
       "fiber": 4.8
-    }
+    },
+    "slug": "Budinca-de-ovaz-tiramisu-sanatos"
   },
   {
     "id": "r-31",
@@ -2178,7 +2307,8 @@ export const recipes = [
       "carbs": 38.4,
       "fat": 5.1,
       "fiber": 4.7
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-mere-si-scortisoara"
   },
   {
     "id": "r-32",
@@ -2195,7 +2325,8 @@ export const recipes = [
       "carbs": 33.1,
       "fat": 4.6,
       "fiber": 10.0
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-rapide"
   },
   {
     "id": "r-33",
@@ -2212,7 +2343,8 @@ export const recipes = [
       "carbs": 41.3,
       "fat": 4.7,
       "fiber": 4.7
-    }
+    },
+    "slug": "Budinca-de-ovaz-si-mere-caramelizate-rapide"
   },
   {
     "id": "r-34",
@@ -2229,7 +2361,8 @@ export const recipes = [
       "carbs": 38.8,
       "fat": 9.5,
       "fiber": 8.6
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-rapide"
   },
   {
     "id": "r-35",
@@ -2246,7 +2379,8 @@ export const recipes = [
       "carbs": 32.8,
       "fat": 9.7,
       "fiber": 6.7
-    }
+    },
+    "slug": "Smoothie-cu-afine-si-unt-de-arahide"
   },
   {
     "id": "r-36",
@@ -2263,7 +2397,8 @@ export const recipes = [
       "carbs": 39.9,
       "fat": 9.6,
       "fiber": 5.2
-    }
+    },
+    "slug": "Smoothie-tropical-cremos-rapide"
   },
   {
     "id": "r-37",
@@ -2280,7 +2415,8 @@ export const recipes = [
       "carbs": 25.9,
       "fat": 7.8,
       "fiber": 6.8
-    }
+    },
+    "slug": "Smoothie-Pumpkin-Spice"
   },
   {
     "id": "r-38",
@@ -2297,7 +2433,8 @@ export const recipes = [
       "carbs": 25.6,
       "fat": 10.9,
       "fiber": 7.0
-    }
+    },
+    "slug": "Smoothie-de-ciocolata-si-banana"
   },
   {
     "id": "r-39",
@@ -2314,7 +2451,8 @@ export const recipes = [
       "carbs": 27.4,
       "fat": 5.2,
       "fiber": 6.1
-    }
+    },
+    "slug": "Smoothie-cu-iaurt-grecesc-si-capsuni"
   },
   {
     "id": "r-40",
@@ -2331,7 +2469,8 @@ export const recipes = [
       "carbs": 39.5,
       "fat": 9.4,
       "fiber": 5.2
-    }
+    },
+    "slug": "French-toast-cu-banane-si-scortisoara-rapide"
   },
   {
     "id": "r-41",
@@ -2348,7 +2487,8 @@ export const recipes = [
       "carbs": 41.0,
       "fat": 21.0,
       "fiber": 11.1
-    }
+    },
+    "slug": "Sandvis-cu-ou-si-avocado-rapide"
   },
   {
     "id": "r-42",
@@ -2365,7 +2505,8 @@ export const recipes = [
       "carbs": 28.0,
       "fat": 10.1,
       "fiber": 4.4
-    }
+    },
+    "slug": "Clatite-cu-banana-si-ou-rapide"
   },
   {
     "id": "r-43",
@@ -2382,7 +2523,8 @@ export const recipes = [
       "carbs": 31.9,
       "fat": 6.8,
       "fiber": 4.7
-    }
+    },
+    "slug": "Bol-proteic-cu-iaurt-si-fructe-rapide"
   },
   {
     "id": "r-44",
@@ -2398,7 +2540,8 @@ export const recipes = [
       "protein": 21.4,
       "carbs": 43.8,
       "fat": 11.4
-    }
+    },
+    "slug": "Salata-cu-naut-si-branza-feta"
   },
   {
     "id": "r-45",
@@ -2414,7 +2557,8 @@ export const recipes = [
       "protein": 22.2,
       "carbs": 41.1,
       "fat": 10.5
-    }
+    },
+    "slug": "Salata-de-fasole-rosie-cu-ceapa-si-porumb"
   },
   {
     "id": "r-46",
@@ -2430,7 +2574,8 @@ export const recipes = [
       "protein": 20.4,
       "carbs": 26.1,
       "fat": 17.4
-    }
+    },
+    "slug": "Salata-de-edamame-cu-avocado"
   },
   {
     "id": "r-47",
@@ -2446,7 +2591,8 @@ export const recipes = [
       "protein": 25.6,
       "carbs": 16.3,
       "fat": 14.5
-    }
+    },
+    "slug": "Salata-cu-somon"
   },
   {
     "id": "r-48",
@@ -2463,7 +2609,8 @@ export const recipes = [
       "carbs": 5.0,
       "fat": 12.3,
       "fiber": 1.8
-    }
+    },
+    "slug": "Salata-cu-ou-masline-si-castravete-rapide"
   },
   {
     "id": "r-49",
@@ -2479,7 +2626,8 @@ export const recipes = [
       "protein": 40.6,
       "carbs": 23.6,
       "fat": 9.4
-    }
+    },
+    "slug": "Salata-de-curcan-cu-rosii-uscate-si-seminte"
   },
   {
     "id": "r-50",
@@ -2495,7 +2643,8 @@ export const recipes = [
       "protein": 30.2,
       "carbs": 13.8,
       "fat": 6.9
-    }
+    },
+    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-rapide"
   },
   {
     "id": "r-51",
@@ -2512,7 +2661,8 @@ export const recipes = [
       "carbs": 4.3,
       "fat": 20.4,
       "fiber": 0.4
-    }
+    },
+    "slug": "Omleta-cu-somon-si-crema-de-branza"
   },
   {
     "id": "r-52",
@@ -2529,7 +2679,8 @@ export const recipes = [
       "carbs": 7.9,
       "fat": 24.4,
       "fiber": 4.4
-    }
+    },
+    "slug": "Omleta-cu-avocado-si-sunca-slaba"
   },
   {
     "id": "r-53",
@@ -2546,7 +2697,8 @@ export const recipes = [
       "carbs": 43.1,
       "fat": 16.1,
       "fiber": 9.3
-    }
+    },
+    "slug": "Wrap-cu-pui-si-avocado"
   },
   {
     "id": "r-54",
@@ -2562,7 +2714,8 @@ export const recipes = [
       "protein": 27.5,
       "carbs": 39.2,
       "fat": 16.5
-    }
+    },
+    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-rapide"
   },
   {
     "id": "r-55",
@@ -2579,7 +2732,8 @@ export const recipes = [
       "carbs": 38.8,
       "fat": 17.9,
       "fiber": 5.0
-    }
+    },
+    "slug": "Wrap-cu-ou-mozzarella-si-ardei-rapide"
   },
   {
     "id": "r-56",
@@ -2596,7 +2750,8 @@ export const recipes = [
       "carbs": 20.4,
       "fat": 8.6,
       "fiber": 0.6
-    }
+    },
+    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-rapide"
   },
   {
     "id": "r-57",
@@ -2613,7 +2768,8 @@ export const recipes = [
       "carbs": 23.8,
       "fat": 10.1,
       "fiber": 1.8
-    }
+    },
+    "slug": "Cottage-cheese-cu-rondele-de-orez-si-castraveti"
   },
   {
     "id": "r-58",
@@ -2630,7 +2786,8 @@ export const recipes = [
       "carbs": 22.9,
       "fat": 6.0,
       "fiber": 2.1
-    }
+    },
+    "slug": "Ton-cu-cottage-cheese-si-rondele-de-orez"
   },
   {
     "id": "r-59",
@@ -2647,7 +2804,8 @@ export const recipes = [
       "carbs": 45.7,
       "fat": 19.9,
       "fiber": 12.3
-    }
+    },
+    "slug": "Paine-cu-avocado-si-cottage-cheese"
   },
   {
     "id": "r-60",
@@ -2664,7 +2822,8 @@ export const recipes = [
       "carbs": 41.7,
       "fat": 17.7,
       "fiber": 9.1
-    }
+    },
+    "slug": "Hummus-cu-morcovi-crocanti-rapide"
   },
   {
     "id": "r-61",
@@ -2681,7 +2840,8 @@ export const recipes = [
       "carbs": 11.4,
       "fat": 16.4,
       "fiber": 7.0
-    }
+    },
+    "slug": "Guacamole-rapid-rapide"
   },
   {
     "id": "r-62",
@@ -2698,7 +2858,8 @@ export const recipes = [
       "carbs": 26.1,
       "fat": 20.5,
       "fiber": 7.0
-    }
+    },
+    "slug": "Granola-crocanta-de-casa-rapide"
   },
   {
     "id": "r-63",
@@ -2715,7 +2876,8 @@ export const recipes = [
       "carbs": 17.2,
       "fat": 8.3,
       "fiber": 1.2
-    }
+    },
+    "slug": "Budinca-proteica-cu-fulgi-de-migdale-rapide"
   },
   {
     "id": "r-64",
@@ -2732,7 +2894,8 @@ export const recipes = [
       "carbs": 23.1,
       "fat": 5.9,
       "fiber": 3.0
-    }
+    },
+    "slug": "Mere-rase-cu-scortisoara-vanilie-si-iaurt-grecesc-proteic"
   },
   {
     "id": "r-65",
@@ -2749,7 +2912,8 @@ export const recipes = [
       "carbs": 12.8,
       "fat": 6.1,
       "fiber": 2.4
-    }
+    },
+    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-rapide"
   },
   {
     "id": "r-66",
@@ -2765,7 +2929,8 @@ export const recipes = [
       "protein": 29.1,
       "carbs": 16.0,
       "fat": 6.3
-    }
+    },
+    "slug": "Bol-proteic-cu-pui-gata-gatit-si-salata-la-punga"
   },
   {
     "id": "r-67",
@@ -2781,7 +2946,8 @@ export const recipes = [
       "protein": 33.5,
       "carbs": 37.5,
       "fat": 5.6
-    }
+    },
+    "slug": "Wrap-din-supermarket-cu-pui-si-legume"
   },
   {
     "id": "r-68",
@@ -2797,7 +2963,8 @@ export const recipes = [
       "protein": 21.2,
       "carbs": 41.3,
       "fat": 18.7
-    }
+    },
+    "slug": "Cutie-oua-fierte-cartofi-fierti-salata"
   },
   {
     "id": "r-69",
@@ -2813,7 +2980,8 @@ export const recipes = [
       "protein": 29.3,
       "carbs": 32.5,
       "fat": 12.5
-    }
+    },
+    "slug": "Sandvis-proteic-cu-sunca-slaba"
   },
   {
     "id": "r-70",
@@ -2829,7 +2997,8 @@ export const recipes = [
       "protein": 33.0,
       "carbs": 3.3,
       "fat": 8.8
-    }
+    },
+    "slug": "Salata-gata-ambalata-cu-proteina-adaugata"
   },
   {
     "id": "r-71",
@@ -2845,7 +3014,8 @@ export const recipes = [
       "protein": 30.5,
       "carbs": 30.5,
       "fat": 20.1
-    }
+    },
+    "slug": "Masa-de-urgenta-baton-proteic-fruct-iaurt"
   },
   {
     "id": "r-72",
@@ -2862,7 +3032,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 6.3,
       "fiber": 2.5
-    }
+    },
+    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-rapide"
   },
   {
     "id": "r-73",
@@ -2879,7 +3050,8 @@ export const recipes = [
       "carbs": 21.6,
       "fat": 16.9,
       "fiber": 2.9
-    }
+    },
+    "slug": "Snickers-light-rapide"
   },
   {
     "id": "r-74",
@@ -2896,7 +3068,8 @@ export const recipes = [
       "carbs": 26.9,
       "fat": 21.7,
       "fiber": 1.6
-    }
+    },
+    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-rapide"
   },
   {
     "id": "r-75",
@@ -2913,7 +3086,8 @@ export const recipes = [
       "carbs": 33.5,
       "fat": 18.2,
       "fiber": 6.3
-    }
+    },
+    "slug": "Bomboane-inghetate-de-banana-cu-unt-de-arahide"
   },
   {
     "id": "r-76",
@@ -2930,7 +3104,8 @@ export const recipes = [
       "carbs": 26.8,
       "fat": 7.3,
       "fiber": 4.9
-    }
+    },
+    "slug": "Budinca-proteica-de-ciocolata-si-banana-in-cana"
   },
   {
     "id": "r-77",
@@ -2947,7 +3122,8 @@ export const recipes = [
       "carbs": 9.4,
       "fat": 6.5,
       "fiber": 0.4
-    }
+    },
+    "slug": "Inghetata-proteica-cu-scortisoara"
   },
   {
     "id": "r-78",
@@ -2964,7 +3140,8 @@ export const recipes = [
       "carbs": 25.7,
       "fat": 6.0,
       "fiber": 13.7
-    }
+    },
+    "slug": "Salata-de-vinete-cu-tahini-rapide"
   },
   {
     "id": "r-79",
@@ -2981,7 +3158,8 @@ export const recipes = [
       "carbs": 12.2,
       "fat": 12.5,
       "fiber": 5.4
-    }
+    },
+    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-rapide"
   },
   {
     "id": "r-80",
@@ -2998,7 +3176,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 12.6,
       "fiber": 6.5
-    }
+    },
+    "slug": "Wrap-cu-tofu-avocado-si-legume-rapide"
   },
   {
     "id": "r-81",
@@ -3015,7 +3194,8 @@ export const recipes = [
       "carbs": 28.7,
       "fat": 19.9,
       "fiber": 7.2
-    }
+    },
+    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-rapide"
   },
   {
     "id": "i-1",
@@ -3031,7 +3211,8 @@ export const recipes = [
       "protein": 16.5,
       "carbs": 17.2,
       "fat": 2.6
-    }
+    },
+    "slug": "Salata-cu-piept-de-pui"
   },
   {
     "id": "i-2",
@@ -3048,7 +3229,8 @@ export const recipes = [
       "carbs": 34.3,
       "fat": 10.1,
       "fiber": 15.4
-    }
+    },
+    "slug": "Salata-de-vinete-internationale"
   },
   {
     "id": "i-3",
@@ -3065,7 +3247,8 @@ export const recipes = [
       "carbs": 5.0,
       "fat": 12.3,
       "fiber": 1.8
-    }
+    },
+    "slug": "Salata-cu-ou-masline-si-castravete-internationale"
   },
   {
     "id": "i-4",
@@ -3082,7 +3265,8 @@ export const recipes = [
       "carbs": 22.9,
       "fat": 11.0,
       "fiber": 5.7
-    }
+    },
+    "slug": "Salata-cu-piept-de-pui-naut-si-ardei"
   },
   {
     "id": "i-5",
@@ -3098,7 +3282,8 @@ export const recipes = [
       "protein": 18.6,
       "carbs": 20.2,
       "fat": 13.8
-    }
+    },
+    "slug": "Salata-cu-ou-naut-si-branza-telemea"
   },
   {
     "id": "i-6",
@@ -3114,7 +3299,8 @@ export const recipes = [
       "protein": 40.6,
       "carbs": 23.6,
       "fat": 9.4
-    }
+    },
+    "slug": "Salata-cu-curcan-rosii-uscate-si-seminte"
   },
   {
     "id": "i-7",
@@ -3130,7 +3316,8 @@ export const recipes = [
       "protein": 35.8,
       "carbs": 3.0,
       "fat": 12.1
-    }
+    },
+    "slug": "Oua-umplute-light"
   },
   {
     "id": "i-8",
@@ -3146,7 +3333,8 @@ export const recipes = [
       "protein": 45.3,
       "carbs": 2.0,
       "fat": 7.1
-    }
+    },
+    "slug": "Salata-de-telina-cu-pui"
   },
   {
     "id": "i-9",
@@ -3162,7 +3350,8 @@ export const recipes = [
       "protein": 30.2,
       "carbs": 13.8,
       "fat": 6.9
-    }
+    },
+    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-internationale"
   },
   {
     "id": "i-10",
@@ -3179,7 +3368,8 @@ export const recipes = [
       "carbs": 28.7,
       "fat": 9.7,
       "fiber": 3.2
-    }
+    },
+    "slug": "Wrap-cu-pui-cremos-branza-si-usturoi"
   },
   {
     "id": "i-11",
@@ -3195,7 +3385,8 @@ export const recipes = [
       "protein": 27.5,
       "carbs": 39.2,
       "fat": 16.5
-    }
+    },
+    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-internationale"
   },
   {
     "id": "i-12",
@@ -3211,7 +3402,8 @@ export const recipes = [
       "protein": 21.8,
       "carbs": 37.7,
       "fat": 14.6
-    }
+    },
+    "slug": "Wrap-cu-ou-sunca-si-legume-crude"
   },
   {
     "id": "i-13",
@@ -3227,7 +3419,8 @@ export const recipes = [
       "protein": 16.4,
       "carbs": 39.1,
       "fat": 8.8
-    }
+    },
+    "slug": "Wrap-cu-crema-de-branza-sunca-si-dovlecel"
   },
   {
     "id": "i-14",
@@ -3244,7 +3437,8 @@ export const recipes = [
       "carbs": 38.8,
       "fat": 17.9,
       "fiber": 5.0
-    }
+    },
+    "slug": "Wrap-cu-ou-mozzarella-si-ardei-internationale"
   },
   {
     "id": "i-15",
@@ -3260,7 +3454,8 @@ export const recipes = [
       "protein": 23.7,
       "carbs": 40.5,
       "fat": 9.2
-    }
+    },
+    "slug": "Wrap-cu-ton-avocado-si-iaurt-grecesc"
   },
   {
     "id": "i-16",
@@ -3276,7 +3471,8 @@ export const recipes = [
       "protein": 33.0,
       "carbs": 32.4,
       "fat": 11.4
-    }
+    },
+    "slug": "Sandwich-cu-pui-si-dressing-Caesar"
   },
   {
     "id": "i-17",
@@ -3292,7 +3488,8 @@ export const recipes = [
       "protein": 28.2,
       "carbs": 12.9,
       "fat": 9.1
-    }
+    },
+    "slug": "Rulouri-de-vinete-cu-carne-de-vita-branza-si-mozzarella"
   },
   {
     "id": "i-18",
@@ -3308,7 +3505,8 @@ export const recipes = [
       "protein": 29.3,
       "carbs": 38.4,
       "fat": 10.1
-    }
+    },
+    "slug": "Pita-greceasca-cu-pui-souvlaki-si-sos-tzatziki"
   },
   {
     "id": "i-19",
@@ -3324,7 +3522,8 @@ export const recipes = [
       "protein": 32.7,
       "carbs": 52.3,
       "fat": 10.0
-    }
+    },
+    "slug": "Taco-bol-sanatos-cu-pui-si-legume"
   },
   {
     "id": "i-20",
@@ -3340,7 +3539,8 @@ export const recipes = [
       "protein": 24.3,
       "carbs": 34.8,
       "fat": 12.8
-    }
+    },
+    "slug": "Pui-crocant-cu-orez-si-usturoi"
   },
   {
     "id": "i-21",
@@ -3357,7 +3557,8 @@ export const recipes = [
       "carbs": 20.4,
       "fat": 8.6,
       "fiber": 0.6
-    }
+    },
+    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-internationale"
   },
   {
     "id": "i-22",
@@ -3374,7 +3575,8 @@ export const recipes = [
       "carbs": 44.3,
       "fat": 2.9,
       "fiber": 6.1
-    }
+    },
+    "slug": "Sarmale-cu-mamaliga-si-iaurt-internationale"
   },
   {
     "id": "i-23",
@@ -3390,7 +3592,8 @@ export const recipes = [
       "protein": 44.8,
       "carbs": 7.2,
       "fat": 13.2
-    }
+    },
+    "slug": "Drob-light-cu-ficatei-internationale"
   },
   {
     "id": "i-24",
@@ -3406,7 +3609,8 @@ export const recipes = [
       "protein": 17.8,
       "carbs": 4.9,
       "fat": 7.0
-    }
+    },
+    "slug": "Drob-de-miel-traditional-internationale"
   },
   {
     "id": "i-25",
@@ -3422,7 +3626,8 @@ export const recipes = [
       "protein": 45.1,
       "carbs": 16.8,
       "fat": 7.3
-    }
+    },
+    "slug": "Chiftelute-de-curcan-cu-dovlecel-la-cuptor"
   },
   {
     "id": "i-26",
@@ -3438,7 +3643,8 @@ export const recipes = [
       "protein": 24.5,
       "carbs": 47.3,
       "fat": 7.8
-    }
+    },
+    "slug": "Sufleu-de-cartofi-cu-branza-si-iaurt"
   },
   {
     "id": "i-27",
@@ -3454,7 +3660,8 @@ export const recipes = [
       "protein": 36.2,
       "carbs": 33.2,
       "fat": 5.3
-    }
+    },
+    "slug": "Lasagna-cu-carne-slaba-si-dovlecel"
   },
   {
     "id": "i-28",
@@ -3470,7 +3677,8 @@ export const recipes = [
       "protein": 30.1,
       "carbs": 4.5,
       "fat": 6.5
-    }
+    },
+    "slug": "Muschi-de-porc-la-cuptor-cu-rozmarin"
   },
   {
     "id": "i-29",
@@ -3487,7 +3695,8 @@ export const recipes = [
       "carbs": 42.1,
       "fat": 5.5,
       "fiber": 4.3
-    }
+    },
+    "slug": "Tocana-de-legume-cu-orez-internationale"
   },
   {
     "id": "i-30",
@@ -3504,7 +3713,8 @@ export const recipes = [
       "carbs": 13.9,
       "fat": 6.6,
       "fiber": 4.0
-    }
+    },
+    "slug": "Tocana-de-pui-cu-legume"
   },
   {
     "id": "i-31",
@@ -3520,7 +3730,8 @@ export const recipes = [
       "protein": 49.0,
       "carbs": 47.2,
       "fat": 8.3
-    }
+    },
+    "slug": "Pui-cremos-cu-cartofi-si-branza"
   },
   {
     "id": "i-32",
@@ -3537,7 +3748,8 @@ export const recipes = [
       "carbs": 37.3,
       "fat": 8.0,
       "fiber": 3.3
-    }
+    },
+    "slug": "Paste-cu-vita-si-sos-cremos-de-parmezan"
   },
   {
     "id": "i-33",
@@ -3554,7 +3766,8 @@ export const recipes = [
       "carbs": 41.4,
       "fat": 13.0,
       "fiber": 4.3
-    }
+    },
+    "slug": "McNuggets-proteici-cu-cartofi-crocanti"
   },
   {
     "id": "i-34",
@@ -3570,7 +3783,8 @@ export const recipes = [
       "protein": 16.9,
       "carbs": 41.3,
       "fat": 9.5
-    }
+    },
+    "slug": "Cartofi-cu-ou-si-telemea-la-cuptor"
   },
   {
     "id": "i-35",
@@ -3586,7 +3800,8 @@ export const recipes = [
       "protein": 17.8,
       "carbs": 19.5,
       "fat": 7.7
-    }
+    },
+    "slug": "Legume-gratinate-cu-branza"
   },
   {
     "id": "i-36",
@@ -3602,7 +3817,8 @@ export const recipes = [
       "protein": 42.5,
       "carbs": 59.0,
       "fat": 15.6
-    }
+    },
+    "slug": "Lasagna-de-cartofi-cu-4-ingrediente"
   },
   {
     "id": "i-37",
@@ -3618,7 +3834,8 @@ export const recipes = [
       "protein": 33.8,
       "carbs": 24.5,
       "fat": 13.4
-    }
+    },
+    "slug": "Pizza-cu-blat-de-conopida"
   },
   {
     "id": "i-38",
@@ -3635,7 +3852,8 @@ export const recipes = [
       "carbs": 43.0,
       "fat": 8.1,
       "fiber": 4.6
-    }
+    },
+    "slug": "Burger-crocant-tip-KFC"
   },
   {
     "id": "i-39",
@@ -3652,7 +3870,8 @@ export const recipes = [
       "carbs": 38.2,
       "fat": 9.1,
       "fiber": 3.2
-    }
+    },
+    "slug": "Mac-cheese-cu-pui-miere-si-usturoi"
   },
   {
     "id": "i-40",
@@ -3668,7 +3887,8 @@ export const recipes = [
       "protein": 25.8,
       "carbs": 41.2,
       "fat": 3.0
-    }
+    },
+    "slug": "Fasii-de-pui-crocante-cu-sos-de-miere-si-usturoi"
   },
   {
     "id": "i-41",
@@ -3684,7 +3904,8 @@ export const recipes = [
       "protein": 33.2,
       "carbs": 33.1,
       "fat": 6.8
-    }
+    },
+    "slug": "Bol-proteic-cu-pulpa-de-vita-cartof-dulce-si-legume"
   },
   {
     "id": "i-42",
@@ -3700,7 +3921,8 @@ export const recipes = [
       "protein": 32.8,
       "carbs": 34.8,
       "fat": 6.5
-    }
+    },
+    "slug": "Bol-cu-piept-de-pui-cartof-dulce-si-legume-colorate"
   },
   {
     "id": "i-43",
@@ -3716,7 +3938,8 @@ export const recipes = [
       "protein": 32.6,
       "carbs": 28.6,
       "fat": 6.6
-    }
+    },
+    "slug": "Bol-cu-piept-de-pui-cu-dressing-de-iaurt-si-mustar"
   },
   {
     "id": "i-44",
@@ -3732,7 +3955,8 @@ export const recipes = [
       "protein": 38.6,
       "carbs": 29.7,
       "fat": 8.9
-    }
+    },
+    "slug": "Bol-cu-piept-de-curcan-cu-dressing-de-tahini-si-usturoi"
   },
   {
     "id": "i-45",
@@ -3748,7 +3972,8 @@ export const recipes = [
       "protein": 31.8,
       "carbs": 28.9,
       "fat": 6.5
-    }
+    },
+    "slug": "Bol-cu-vita-cu-dressing-de-otet-balsamic"
   },
   {
     "id": "i-46",
@@ -3764,7 +3989,8 @@ export const recipes = [
       "protein": 30.3,
       "carbs": 29.6,
       "fat": 3.4
-    }
+    },
+    "slug": "Bol-cu-creveti-cu-dressing-de-lamaie-si-patrunjel"
   },
   {
     "id": "i-47",
@@ -3780,7 +4006,8 @@ export const recipes = [
       "protein": 32.7,
       "carbs": 29.1,
       "fat": 6.8
-    }
+    },
+    "slug": "Bol-cu-carne-tocata-de-vita-cu-dressing-de-iaurt-si-mustar"
   },
   {
     "id": "i-48",
@@ -3796,7 +4023,8 @@ export const recipes = [
       "protein": 32.5,
       "carbs": 30.4,
       "fat": 3.1
-    }
+    },
+    "slug": "Bol-cu-carne-tocata-de-pasare-cu-dressing-de-rosii-coapte"
   },
   {
     "id": "i-49",
@@ -3812,7 +4040,8 @@ export const recipes = [
       "protein": 30.0,
       "carbs": 31.6,
       "fat": 18.3
-    }
+    },
+    "slug": "Bol-cu-legume-oua-si-dressing-de-cottage-cheese"
   },
   {
     "id": "i-50",
@@ -3829,7 +4058,8 @@ export const recipes = [
       "carbs": 28.7,
       "fat": 19.9,
       "fiber": 7.2
-    }
+    },
+    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-internationale"
   },
   {
     "id": "i-51",
@@ -3845,7 +4075,8 @@ export const recipes = [
       "protein": 39.0,
       "carbs": 33.0,
       "fat": 9.8
-    }
+    },
+    "slug": "Orez-fajita-cu-pui-si-mozzarella-light"
   },
   {
     "id": "i-52",
@@ -3861,7 +4092,8 @@ export const recipes = [
       "protein": 18.8,
       "carbs": 28.0,
       "fat": 4.2
-    }
+    },
+    "slug": "Paella-dietetica-cu-fructe-de-mare"
   },
   {
     "id": "i-53",
@@ -3877,7 +4109,8 @@ export const recipes = [
       "protein": 37.7,
       "carbs": 27.6,
       "fat": 5.1
-    }
+    },
+    "slug": "Paella-dietetica-cu-pui-si-creveti"
   },
   {
     "id": "i-54",
@@ -3893,7 +4126,8 @@ export const recipes = [
       "protein": 38.9,
       "carbs": 18.8,
       "fat": 18.0
-    }
+    },
+    "slug": "Rulada-cu-spanac-umpluta-cu-branza-si-sunca-de-curcan"
   },
   {
     "id": "i-55",
@@ -3909,7 +4143,8 @@ export const recipes = [
       "protein": 33.2,
       "carbs": 31.6,
       "fat": 7.3
-    }
+    },
+    "slug": "Salata-calda-cu-piept-de-pui-porumb-si-sos-cremos-de-iaurt"
   },
   {
     "id": "i-56",
@@ -3926,7 +4161,8 @@ export const recipes = [
       "carbs": 21.6,
       "fat": 5.8,
       "fiber": 3.7
-    }
+    },
+    "slug": "Paine-proteica-cu-ovaz-si-branza"
   },
   {
     "id": "i-57",
@@ -3943,7 +4179,8 @@ export const recipes = [
       "carbs": 39.5,
       "fat": 9.4,
       "fiber": 5.2
-    }
+    },
+    "slug": "French-toast-cu-banane-si-scortisoara-internationale"
   },
   {
     "id": "i-58",
@@ -3960,7 +4197,8 @@ export const recipes = [
       "carbs": 4.0,
       "fat": 6.4,
       "fiber": 1.3
-    }
+    },
+    "slug": "Omleta-cu-spanac-si-ceapa-verde"
   },
   {
     "id": "i-59",
@@ -3977,7 +4215,8 @@ export const recipes = [
       "carbs": 33.4,
       "fat": 14.0,
       "fiber": 5.6
-    }
+    },
+    "slug": "Sandvis-cald-cu-ou-si-branza"
   },
   {
     "id": "i-60",
@@ -3994,7 +4233,8 @@ export const recipes = [
       "carbs": 32.5,
       "fat": 15.8,
       "fiber": 4.2
-    }
+    },
+    "slug": "Bagel-cu-ou-bacon-si-branza"
   },
   {
     "id": "i-61",
@@ -4011,7 +4251,8 @@ export const recipes = [
       "carbs": 6.8,
       "fat": 15.5,
       "fiber": 1.5
-    }
+    },
+    "slug": "Ciuperci-cu-halloumi"
   },
   {
     "id": "i-62",
@@ -4028,7 +4269,8 @@ export const recipes = [
       "carbs": 15.1,
       "fat": 25.2,
       "fiber": 7.1
-    }
+    },
+    "slug": "Avocado-umplut"
   },
   {
     "id": "i-63",
@@ -4045,7 +4287,8 @@ export const recipes = [
       "carbs": 10.8,
       "fat": 9.1,
       "fiber": 2.7
-    }
+    },
+    "slug": "Frigarui-de-pui"
   },
   {
     "id": "i-64",
@@ -4062,7 +4305,8 @@ export const recipes = [
       "carbs": 18.5,
       "fat": 5.4,
       "fiber": 5.0
-    }
+    },
+    "slug": "Somon-la-cuptor-cu-legume-internationale"
   },
   {
     "id": "i-65",
@@ -4079,7 +4323,8 @@ export const recipes = [
       "carbs": 41.0,
       "fat": 21.0,
       "fiber": 11.1
-    }
+    },
+    "slug": "Sandvis-cu-ou-si-avocado-internationale"
   },
   {
     "id": "i-66",
@@ -4096,7 +4341,8 @@ export const recipes = [
       "carbs": 39.6,
       "fat": 5.2,
       "fiber": 1.2
-    }
+    },
+    "slug": "Orez-cu-lapte-si-scortisoara"
   },
   {
     "id": "i-67",
@@ -4113,7 +4359,8 @@ export const recipes = [
       "carbs": 28.0,
       "fat": 10.1,
       "fiber": 4.4
-    }
+    },
+    "slug": "Clatite-cu-banana-si-ou-internationale"
   },
   {
     "id": "i-68",
@@ -4130,7 +4377,8 @@ export const recipes = [
       "carbs": 26.9,
       "fat": 21.7,
       "fiber": 1.6
-    }
+    },
+    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-internationale"
   },
   {
     "id": "i-69",
@@ -4147,7 +4395,8 @@ export const recipes = [
       "carbs": 18.3,
       "fat": 4.6,
       "fiber": 0.8
-    }
+    },
+    "slug": "Pasca-light-cu-branza-si-stafide"
   },
   {
     "id": "i-70",
@@ -4164,7 +4413,8 @@ export const recipes = [
       "carbs": 37.9,
       "fat": 2.3,
       "fiber": 1.2
-    }
+    },
+    "slug": "Placinta-cu-mere-light"
   },
   {
     "id": "i-71",
@@ -4181,7 +4431,8 @@ export const recipes = [
       "carbs": 26.5,
       "fat": 12.8,
       "fiber": 6.0
-    }
+    },
+    "slug": "Prajitura-cu-ovaz-cacao-vanilie-si-fulgi-de-ciocolata"
   },
   {
     "id": "i-72",
@@ -4198,7 +4449,8 @@ export const recipes = [
       "carbs": 20.9,
       "fat": 4.6,
       "fiber": 2.8
-    }
+    },
+    "slug": "Papanasi-la-cuptor-cu-branza-si-iaurt"
   },
   {
     "id": "i-73",
@@ -4215,7 +4467,8 @@ export const recipes = [
       "carbs": 15.7,
       "fat": 10.3,
       "fiber": 1.0
-    }
+    },
+    "slug": "Cheesecake-cu-iaurt-grecesc-si-afine"
   },
   {
     "id": "i-74",
@@ -4232,7 +4485,8 @@ export const recipes = [
       "carbs": 19.9,
       "fat": 7.9,
       "fiber": 3.6
-    }
+    },
+    "slug": "Brownie-fara-zahar"
   },
   {
     "id": "i-75",
@@ -4249,7 +4503,8 @@ export const recipes = [
       "carbs": 21.9,
       "fat": 7.5,
       "fiber": 2.6
-    }
+    },
+    "slug": "Mere-coapte-cu-scortisoara-si-nuci"
   },
   {
     "id": "i-76",
@@ -4266,7 +4521,8 @@ export const recipes = [
       "carbs": 21.6,
       "fat": 14.6,
       "fiber": 1.5
-    }
+    },
+    "slug": "Cheesecake-Raffaello-cu-banana-si-cocos"
   },
   {
     "id": "i-77",
@@ -4283,7 +4539,8 @@ export const recipes = [
       "carbs": 31.1,
       "fat": 7.5,
       "fiber": 4.6
-    }
+    },
+    "slug": "Chec-proteic-cu-lamaie-si-afine"
   },
   {
     "id": "i-78",
@@ -4300,7 +4557,8 @@ export const recipes = [
       "carbs": 21.6,
       "fat": 16.9,
       "fiber": 2.9
-    }
+    },
+    "slug": "Snickers-light-internationale"
   },
   {
     "id": "i-79",
@@ -4317,7 +4575,8 @@ export const recipes = [
       "carbs": 35.2,
       "fat": 10.8,
       "fiber": 4.0
-    }
+    },
+    "slug": "Baton-Mars-sanatos"
   },
   {
     "id": "i-80",
@@ -4334,7 +4593,8 @@ export const recipes = [
       "carbs": 28.6,
       "fat": 8.8,
       "fiber": 4.8
-    }
+    },
+    "slug": "Terci-de-ovaz-Tiramisu-sanatos"
   },
   {
     "id": "i-81",
@@ -4351,7 +4611,8 @@ export const recipes = [
       "carbs": 34.0,
       "fat": 6.5,
       "fiber": 3.1
-    }
+    },
+    "slug": "Tort-placinta-cu-mere"
   },
   {
     "id": "i-82",
@@ -4368,7 +4629,8 @@ export const recipes = [
       "carbs": 16.0,
       "fat": 19.0,
       "fiber": 1.9
-    }
+    },
+    "slug": "Budinca-Kinder-Bueno"
   },
   {
     "id": "i-83",
@@ -4385,7 +4647,8 @@ export const recipes = [
       "carbs": 17.2,
       "fat": 8.3,
       "fiber": 1.2
-    }
+    },
+    "slug": "Budinca-proteica-cu-fulgi-de-migdale-internationale"
   },
   {
     "id": "i-84",
@@ -4402,7 +4665,8 @@ export const recipes = [
       "carbs": 28.4,
       "fat": 16.1,
       "fiber": 3.4
-    }
+    },
+    "slug": "Prajitura-cu-capsuni-in-ciocolata"
   },
   {
     "id": "i-85",
@@ -4419,7 +4683,8 @@ export const recipes = [
       "carbs": 30.1,
       "fat": 7.5,
       "fiber": 5.0
-    }
+    },
+    "slug": "Brownie-espresso-cu-banana"
   },
   {
     "id": "i-86",
@@ -4436,7 +4701,8 @@ export const recipes = [
       "carbs": 19.6,
       "fat": 7.9,
       "fiber": 3.6
-    }
+    },
+    "slug": "Prajitura-mocha-pentru-slabit"
   },
   {
     "id": "i-87",
@@ -4453,7 +4719,8 @@ export const recipes = [
       "carbs": 12.4,
       "fat": 4.3,
       "fiber": 1.9
-    }
+    },
+    "slug": "Gogosi-carrot-cake-la-cuptor"
   },
   {
     "id": "i-88",
@@ -4470,7 +4737,8 @@ export const recipes = [
       "carbs": 27.2,
       "fat": 13.2,
       "fiber": 5.0
-    }
+    },
+    "slug": "Loaf-cake-cu-nuci-si-ciocolata"
   },
   {
     "id": "i-89",
@@ -4487,7 +4755,8 @@ export const recipes = [
       "carbs": 31.9,
       "fat": 6.8,
       "fiber": 4.7
-    }
+    },
+    "slug": "Bol-proteic-cu-iaurt-si-fructe-internationale"
   },
   {
     "id": "i-90",
@@ -4504,7 +4773,8 @@ export const recipes = [
       "carbs": 25.9,
       "fat": 15.2,
       "fiber": 2.4
-    }
+    },
+    "slug": "Cheesecake-Kinder-varianta-rapida-si-sanatoasa"
   },
   {
     "id": "i-91",
@@ -4521,7 +4791,8 @@ export const recipes = [
       "carbs": 21.9,
       "fat": 7.0,
       "fiber": 8.1
-    }
+    },
+    "slug": "Budinca-de-chia-cu-fructe-de-padure-internationale"
   },
   {
     "id": "i-92",
@@ -4538,7 +4809,8 @@ export const recipes = [
       "carbs": 16.0,
       "fat": 13.7,
       "fiber": 5.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-internationale"
   },
   {
     "id": "i-93",
@@ -4555,7 +4827,8 @@ export const recipes = [
       "carbs": 26.1,
       "fat": 9.2,
       "fiber": 6.5
-    }
+    },
+    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-internationale"
   },
   {
     "id": "i-94",
@@ -4572,7 +4845,8 @@ export const recipes = [
       "carbs": 31.4,
       "fat": 9.2,
       "fiber": 7.0
-    }
+    },
+    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-internationale"
   },
   {
     "id": "i-95",
@@ -4589,7 +4863,8 @@ export const recipes = [
       "carbs": 23.2,
       "fat": 6.7,
       "fiber": 4.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-internationale"
   },
   {
     "id": "i-96",
@@ -4606,7 +4881,8 @@ export const recipes = [
       "carbs": 24.0,
       "fat": 8.9,
       "fiber": 6.0
-    }
+    },
+    "slug": "Budinca-de-chia-cu-cocos-si-ananas-internationale"
   },
   {
     "id": "i-97",
@@ -4623,7 +4899,8 @@ export const recipes = [
       "carbs": 19.4,
       "fat": 8.8,
       "fiber": 6.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-internationale"
   },
   {
     "id": "i-98",
@@ -4640,7 +4917,8 @@ export const recipes = [
       "carbs": 12.5,
       "fat": 7.6,
       "fiber": 4.9
-    }
+    },
+    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-internationale"
   },
   {
     "id": "i-99",
@@ -4657,7 +4935,8 @@ export const recipes = [
       "carbs": 22.9,
       "fat": 7.6,
       "fiber": 6.0
-    }
+    },
+    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-internationale"
   },
   {
     "id": "i-100",
@@ -4674,7 +4953,8 @@ export const recipes = [
       "carbs": 16.5,
       "fat": 10.4,
       "fiber": 2.2
-    }
+    },
+    "slug": "Cheesecake-cu-iaurt-grecesc-si-fructe-de-padure"
   },
   {
     "id": "i-101",
@@ -4691,7 +4971,8 @@ export const recipes = [
       "carbs": 21.2,
       "fat": 6.5,
       "fiber": 5.8
-    }
+    },
+    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-internationale"
   },
   {
     "id": "i-102",
@@ -4708,7 +4989,8 @@ export const recipes = [
       "carbs": 38.4,
       "fat": 5.1,
       "fiber": 4.7
-    }
+    },
+    "slug": "Terci-de-ovaz-cu-mere-si-scortisoara"
   },
   {
     "id": "i-103",
@@ -4725,7 +5007,8 @@ export const recipes = [
       "carbs": 28.9,
       "fat": 9.9,
       "fiber": 5.2
-    }
+    },
+    "slug": "Terci-de-ovaz-cu-unt-de-arahide"
   },
   {
     "id": "i-104",
@@ -4742,7 +5025,8 @@ export const recipes = [
       "carbs": 24.8,
       "fat": 11.1,
       "fiber": 5.2
-    }
+    },
+    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-internationale"
   },
   {
     "id": "i-105",
@@ -4759,7 +5043,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 6.3,
       "fiber": 2.5
-    }
+    },
+    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-internationale"
   },
   {
     "id": "i-106",
@@ -4776,7 +5061,8 @@ export const recipes = [
       "carbs": 24.8,
       "fat": 5.2,
       "fiber": 3.8
-    }
+    },
+    "slug": "Negresa-proteica-cu-branza-dulce-si-banana"
   },
   {
     "id": "i-107",
@@ -4793,7 +5079,8 @@ export const recipes = [
       "carbs": 37.6,
       "fat": 7.5,
       "fiber": 5.4
-    }
+    },
+    "slug": "Tarta-cu-iaurt-si-para"
   },
   {
     "id": "i-108",
@@ -4810,7 +5097,8 @@ export const recipes = [
       "carbs": 24.9,
       "fat": 2.5,
       "fiber": 0.6
-    }
+    },
+    "slug": "Gris-cu-lapte-branza-si-dulceata-de-afine"
   },
   {
     "id": "i-109",
@@ -4827,7 +5115,8 @@ export const recipes = [
       "carbs": 13.7,
       "fat": 3.3,
       "fiber": 2.0
-    }
+    },
+    "slug": "Muffin-cu-morcov-mar-si-iaurt"
   },
   {
     "id": "i-110",
@@ -4844,7 +5133,8 @@ export const recipes = [
       "carbs": 13.7,
       "fat": 5.0,
       "fiber": 2.2
-    }
+    },
+    "slug": "Briose-cu-bucatele-de-ciocolata"
   },
   {
     "id": "i-111",
@@ -4861,7 +5151,8 @@ export const recipes = [
       "carbs": 12.8,
       "fat": 5.3,
       "fiber": 2.0
-    }
+    },
+    "slug": "Briose-tip-carrot-cake"
   },
   {
     "id": "i-112",
@@ -4878,7 +5169,8 @@ export const recipes = [
       "carbs": 12.8,
       "fat": 6.2,
       "fiber": 2.4
-    }
+    },
+    "slug": "Briose-ciocolata-dubla"
   },
   {
     "id": "i-113",
@@ -4895,7 +5187,8 @@ export const recipes = [
       "carbs": 15.9,
       "fat": 4.2,
       "fiber": 3.0
-    }
+    },
+    "slug": "Briose-cu-ovaz-si-afine"
   },
   {
     "id": "i-114",
@@ -4912,7 +5205,8 @@ export const recipes = [
       "carbs": 17.5,
       "fat": 3.4,
       "fiber": 2.5
-    }
+    },
+    "slug": "Briose-cu-banane"
   },
   {
     "id": "i-115",
@@ -4929,7 +5223,8 @@ export const recipes = [
       "carbs": 13.9,
       "fat": 3.5,
       "fiber": 2.3
-    }
+    },
+    "slug": "Briose-cu-capsuni"
   },
   {
     "id": "i-116",
@@ -4946,7 +5241,8 @@ export const recipes = [
       "carbs": 27.4,
       "fat": 6.6,
       "fiber": 3.2
-    }
+    },
+    "slug": "Inghetata-cu-banane-iaurt-grecesc-si-unt-de-arahide"
   },
   {
     "id": "i-117",
@@ -4963,7 +5259,8 @@ export const recipes = [
       "carbs": 16.8,
       "fat": 2.6,
       "fiber": 2.5
-    }
+    },
+    "slug": "Inghetata-cu-capsuni-cottage-cheese-si-miere"
   },
   {
     "id": "i-118",
@@ -4980,7 +5277,8 @@ export const recipes = [
       "carbs": 24.8,
       "fat": 3.9,
       "fiber": 2.5
-    }
+    },
+    "slug": "Inghetata-cu-mango-si-iaurt-de-capra"
   },
   {
     "id": "p-1",
@@ -4997,7 +5295,8 @@ export const recipes = [
       "carbs": 9.0,
       "fat": 36.8,
       "fiber": 12.8
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-seminte-de-chia"
   },
   {
     "id": "p-2",
@@ -5014,7 +5313,8 @@ export const recipes = [
       "carbs": 26.1,
       "fat": 20.5,
       "fiber": 7.0
-    }
+    },
+    "slug": "Granola-crocanta-de-casa-post"
   },
   {
     "id": "p-3",
@@ -5031,7 +5331,8 @@ export const recipes = [
       "carbs": 26.6,
       "fat": 11.8,
       "fiber": 5.1
-    }
+    },
+    "slug": "Toast-vegan-cu-pasta-de-mazare-edamame-si-seminte"
   },
   {
     "id": "p-4",
@@ -5048,7 +5349,8 @@ export const recipes = [
       "carbs": 25.5,
       "fat": 14.4,
       "fiber": 8.7
-    }
+    },
+    "slug": "Toast-cu-avocado-si-rosii"
   },
   {
     "id": "p-5",
@@ -5065,7 +5367,8 @@ export const recipes = [
       "carbs": 23.0,
       "fat": 17.5,
       "fiber": 6.7
-    }
+    },
+    "slug": "Tartine-proteice-cu-sunca-vegana-afumata-si-avocado"
   },
   {
     "id": "p-6",
@@ -5082,7 +5385,8 @@ export const recipes = [
       "carbs": 33.1,
       "fat": 12.1,
       "fiber": 8.4
-    }
+    },
+    "slug": "Pasta-de-naut-cu-bastonase-de-legume"
   },
   {
     "id": "p-7",
@@ -5099,7 +5403,8 @@ export const recipes = [
       "carbs": 23.9,
       "fat": 13.7,
       "fiber": 0.3
-    }
+    },
+    "slug": "Mar-cu-unt-de-arahide"
   },
   {
     "id": "p-8",
@@ -5116,7 +5421,8 @@ export const recipes = [
       "carbs": 41.7,
       "fat": 17.7,
       "fiber": 9.1
-    }
+    },
+    "slug": "Hummus-cu-morcovi-crocanti-post"
   },
   {
     "id": "p-9",
@@ -5133,7 +5439,8 @@ export const recipes = [
       "carbs": 15.9,
       "fat": 5.9,
       "fiber": 5.5
-    }
+    },
+    "slug": "Naut-si-mazare-crunchy-la-cuptor"
   },
   {
     "id": "p-10",
@@ -5150,7 +5457,8 @@ export const recipes = [
       "carbs": 37.7,
       "fat": 12.6,
       "fiber": 9.0
-    }
+    },
+    "slug": "Hummus-clasic-cu-lamaie-si-usturoi"
   },
   {
     "id": "p-11",
@@ -5167,7 +5475,8 @@ export const recipes = [
       "carbs": 11.4,
       "fat": 16.4,
       "fiber": 7.0
-    }
+    },
+    "slug": "Guacamole-rapid-post"
   },
   {
     "id": "p-12",
@@ -5184,7 +5493,8 @@ export const recipes = [
       "carbs": 31.7,
       "fat": 5.3,
       "fiber": 8.0
-    }
+    },
+    "slug": "Salata-de-rosii-cu-patrunjel-si-bulgur"
   },
   {
     "id": "p-13",
@@ -5201,7 +5511,8 @@ export const recipes = [
       "carbs": 19.4,
       "fat": 5.1,
       "fiber": 3.7
-    }
+    },
+    "slug": "Bruschete-cu-rosii-si-busuioc"
   },
   {
     "id": "p-14",
@@ -5218,7 +5529,8 @@ export const recipes = [
       "carbs": 27.8,
       "fat": 5.2,
       "fiber": 8.7
-    }
+    },
+    "slug": "Pasta-de-linte-cu-chimen"
   },
   {
     "id": "p-15",
@@ -5235,7 +5547,8 @@ export const recipes = [
       "carbs": 12.2,
       "fat": 12.5,
       "fiber": 5.4
-    }
+    },
+    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-post"
   },
   {
     "id": "p-16",
@@ -5252,7 +5565,8 @@ export const recipes = [
       "carbs": 25.7,
       "fat": 6.0,
       "fiber": 13.7
-    }
+    },
+    "slug": "Salata-de-vinete-cu-tahini-post"
   },
   {
     "id": "p-17",
@@ -5269,7 +5583,8 @@ export const recipes = [
       "carbs": 38.0,
       "fat": 6.5,
       "fiber": 4.1
-    }
+    },
+    "slug": "Rulouri-de-primavara-cu-legume"
   },
   {
     "id": "p-18",
@@ -5286,7 +5601,8 @@ export const recipes = [
       "carbs": 21.5,
       "fat": 8.1,
       "fiber": 6.6
-    }
+    },
+    "slug": "Tartine-cu-pasta-de-avocado-si-ridichi"
   },
   {
     "id": "p-19",
@@ -5303,7 +5619,8 @@ export const recipes = [
       "carbs": 12.8,
       "fat": 6.1,
       "fiber": 2.4
-    }
+    },
+    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-post"
   },
   {
     "id": "p-20",
@@ -5320,7 +5637,8 @@ export const recipes = [
       "carbs": 23.8,
       "fat": 5.1,
       "fiber": 8.0
-    }
+    },
+    "slug": "Pate-de-linte-si-ceapa-caramelizata"
   },
   {
     "id": "p-21",
@@ -5337,7 +5655,8 @@ export const recipes = [
       "carbs": 22.6,
       "fat": 5.5,
       "fiber": 7.9
-    }
+    },
+    "slug": "Pasta-de-fasole-alba-cu-usturoi"
   },
   {
     "id": "p-22",
@@ -5354,7 +5673,8 @@ export const recipes = [
       "carbs": 21.0,
       "fat": 17.2,
       "fiber": 5.8
-    }
+    },
+    "slug": "Pate-de-ciuperci-cu-nuci"
   },
   {
     "id": "p-23",
@@ -5371,7 +5691,8 @@ export const recipes = [
       "carbs": 17.7,
       "fat": 30.8,
       "fiber": 13.7
-    }
+    },
+    "slug": "Crema-de-avocado-cu-lamaie-si-busuioc"
   },
   {
     "id": "p-24",
@@ -5388,7 +5709,8 @@ export const recipes = [
       "carbs": 54.4,
       "fat": 9.9,
       "fiber": 14.6
-    }
+    },
+    "slug": "Pasta-de-naut-cu-rosii-uscate"
   },
   {
     "id": "p-25",
@@ -5405,7 +5727,8 @@ export const recipes = [
       "carbs": 11.9,
       "fat": 9.6,
       "fiber": 1.9
-    }
+    },
+    "slug": "Pate-de-tofu-afumat-si-verdeturi"
   },
   {
     "id": "p-26",
@@ -5422,7 +5745,8 @@ export const recipes = [
       "carbs": 22.0,
       "fat": 22.8,
       "fiber": 5.1
-    }
+    },
+    "slug": "Crema-de-nuci-si-usturoi-copt"
   },
   {
     "id": "p-27",
@@ -5439,7 +5763,8 @@ export const recipes = [
       "carbs": 18.8,
       "fat": 5.6,
       "fiber": 7.1
-    }
+    },
+    "slug": "Pate-de-ardei-copti"
   },
   {
     "id": "p-28",
@@ -5456,7 +5781,8 @@ export const recipes = [
       "carbs": 18.8,
       "fat": 5.6,
       "fiber": 7.1
-    }
+    },
+    "slug": "Crema-de-mazare-verde-cu-menta"
   },
   {
     "id": "p-29",
@@ -5473,7 +5799,8 @@ export const recipes = [
       "carbs": 18.8,
       "fat": 5.6,
       "fiber": 7.1
-    }
+    },
+    "slug": "Sfecla-rosie-rasa-cu-hrean"
   },
   {
     "id": "p-30",
@@ -5490,7 +5817,8 @@ export const recipes = [
       "carbs": 48.6,
       "fat": 6.5,
       "fiber": 6.9
-    }
+    },
+    "slug": "Salata-cu-fasole-si-paine-prajita-post"
   },
   {
     "id": "p-31",
@@ -5507,7 +5835,8 @@ export const recipes = [
       "carbs": 25.7,
       "fat": 12.4,
       "fiber": 6.0
-    }
+    },
+    "slug": "Salata-proteica-cu-tofu-si-legume-crocante"
   },
   {
     "id": "p-32",
@@ -5524,7 +5853,8 @@ export const recipes = [
       "carbs": 63.1,
       "fat": 13.1,
       "fiber": 12.1
-    }
+    },
+    "slug": "Salata-de-paste-proteica"
   },
   {
     "id": "p-33",
@@ -5541,7 +5871,8 @@ export const recipes = [
       "carbs": 56.2,
       "fat": 12.7,
       "fiber": 18.4
-    }
+    },
+    "slug": "Bol-Salata-Buddha-cu-naut-crocant"
   },
   {
     "id": "p-34",
@@ -5558,7 +5889,8 @@ export const recipes = [
       "carbs": 41.4,
       "fat": 5.8,
       "fiber": 4.4
-    }
+    },
+    "slug": "Salata-de-cartofi-cu-ceapa-verde"
   },
   {
     "id": "p-35",
@@ -5575,7 +5907,8 @@ export const recipes = [
       "carbs": 73.5,
       "fat": 6.6,
       "fiber": 10.3
-    }
+    },
+    "slug": "Bol-cu-orez-integral-si-legume-asiatice"
   },
   {
     "id": "p-36",
@@ -5592,7 +5925,8 @@ export const recipes = [
       "carbs": 19.5,
       "fat": 14.9,
       "fiber": 4.1
-    }
+    },
+    "slug": "Salata-mediteraneana-cu-tofu"
   },
   {
     "id": "p-37",
@@ -5609,7 +5943,8 @@ export const recipes = [
       "carbs": 41.6,
       "fat": 11.6,
       "fiber": 16.0
-    }
+    },
+    "slug": "Bol-mexican-cu-fasole-si-porumb"
   },
   {
     "id": "p-38",
@@ -5626,7 +5961,8 @@ export const recipes = [
       "carbs": 40.5,
       "fat": 3.8,
       "fiber": 13.6
-    }
+    },
+    "slug": "Salata-de-linte-cu-legume-si-patrunjel"
   },
   {
     "id": "p-39",
@@ -5643,7 +5979,8 @@ export const recipes = [
       "carbs": 58.2,
       "fat": 9.3,
       "fiber": 10.5
-    }
+    },
+    "slug": "Bol-cu-paste-integrale-si-pesto-de-busuioc"
   },
   {
     "id": "p-40",
@@ -5660,7 +5997,8 @@ export const recipes = [
       "carbs": 48.8,
       "fat": 3.4,
       "fiber": 7.2
-    }
+    },
+    "slug": "Salata-de-couscous-cu-legume-coapte"
   },
   {
     "id": "p-41",
@@ -5677,7 +6015,8 @@ export const recipes = [
       "carbs": 42.7,
       "fat": 4.4,
       "fiber": 8.3
-    }
+    },
+    "slug": "Bol-cu-hrisca-si-ciuperci"
   },
   {
     "id": "p-42",
@@ -5694,7 +6033,8 @@ export const recipes = [
       "carbs": 27.3,
       "fat": 9.1,
       "fiber": 7.6
-    }
+    },
+    "slug": "Salata-de-sfecla-rosie-portocala-si-nuci"
   },
   {
     "id": "p-43",
@@ -5711,7 +6051,8 @@ export const recipes = [
       "carbs": 28.6,
       "fat": 2.5,
       "fiber": 7.2
-    }
+    },
+    "slug": "Supa-crema-de-conopida-cu-orez"
   },
   {
     "id": "p-44",
@@ -5728,7 +6069,8 @@ export const recipes = [
       "carbs": 29.6,
       "fat": 3.0,
       "fiber": 10.3
-    }
+    },
+    "slug": "Supa-crema-de-broccoli-si-mazare"
   },
   {
     "id": "p-45",
@@ -5745,7 +6087,8 @@ export const recipes = [
       "carbs": 23.4,
       "fat": 2.6,
       "fiber": 3.7
-    }
+    },
+    "slug": "Supa-crema-de-legume"
   },
   {
     "id": "p-46",
@@ -5762,7 +6105,8 @@ export const recipes = [
       "carbs": 64.7,
       "fat": 5.6,
       "fiber": 13.0
-    }
+    },
+    "slug": "Supa-crema-de-rosii-cu-busuioc"
   },
   {
     "id": "p-47",
@@ -5779,7 +6123,8 @@ export const recipes = [
       "carbs": 24.0,
       "fat": 3.0,
       "fiber": 4.3
-    }
+    },
+    "slug": "Ciorba-de-legume-cu-bors"
   },
   {
     "id": "p-48",
@@ -5796,7 +6141,8 @@ export const recipes = [
       "carbs": 19.7,
       "fat": 2.7,
       "fiber": 2.8
-    }
+    },
+    "slug": "Supa-crema-de-dovleac"
   },
   {
     "id": "p-49",
@@ -5813,7 +6159,8 @@ export const recipes = [
       "carbs": 44.0,
       "fat": 3.8,
       "fiber": 10.8
-    }
+    },
+    "slug": "Ciorba-de-fasole-boabe-cu-tarhon"
   },
   {
     "id": "p-50",
@@ -5830,7 +6177,8 @@ export const recipes = [
       "carbs": 61.6,
       "fat": 4.3,
       "fiber": 10.6
-    }
+    },
+    "slug": "Supa-crema-de-linte-rosie"
   },
   {
     "id": "p-51",
@@ -5847,7 +6195,8 @@ export const recipes = [
       "carbs": 45.5,
       "fat": 6.9,
       "fiber": 5.7
-    }
+    },
+    "slug": "Ciorba-de-cartofi-cu-afumatura-vegetala"
   },
   {
     "id": "p-52",
@@ -5864,7 +6213,8 @@ export const recipes = [
       "carbs": 30.0,
       "fat": 3.3,
       "fiber": 10.5
-    }
+    },
+    "slug": "Supa-crema-de-mazare-verde"
   },
   {
     "id": "p-53",
@@ -5881,7 +6231,8 @@ export const recipes = [
       "carbs": 36.6,
       "fat": 3.1,
       "fiber": 7.3
-    }
+    },
+    "slug": "Ciorba-de-sfecla-rosie"
   },
   {
     "id": "p-54",
@@ -5898,7 +6249,8 @@ export const recipes = [
       "carbs": 35.5,
       "fat": 5.7,
       "fiber": 7.0
-    }
+    },
+    "slug": "Supa-de-ciuperci-cu-usturoi"
   },
   {
     "id": "p-55",
@@ -5915,7 +6267,8 @@ export const recipes = [
       "carbs": 17.9,
       "fat": 3.0,
       "fiber": 4.9
-    }
+    },
+    "slug": "Ciorba-de-varza-dulce"
   },
   {
     "id": "p-56",
@@ -5932,7 +6285,8 @@ export const recipes = [
       "carbs": 71.5,
       "fat": 4.3,
       "fiber": 14.5
-    }
+    },
+    "slug": "Tocanita-de-ciuperci-cu-cartofi-fierti"
   },
   {
     "id": "p-57",
@@ -5949,7 +6303,8 @@ export const recipes = [
       "carbs": 51.6,
       "fat": 3.5,
       "fiber": 11.6
-    }
+    },
+    "slug": "Tocanita-de-cartofi-cu-legume-si-fasole-verde"
   },
   {
     "id": "p-58",
@@ -5966,7 +6321,8 @@ export const recipes = [
       "carbs": 73.0,
       "fat": 6.9,
       "fiber": 11.2
-    }
+    },
+    "slug": "Ghiveci-de-legume-cu-orez"
   },
   {
     "id": "p-59",
@@ -5983,7 +6339,8 @@ export const recipes = [
       "carbs": 52.7,
       "fat": 10.3,
       "fiber": 8.2
-    }
+    },
+    "slug": "Mancare-de-linte-cu-tofu-afumat"
   },
   {
     "id": "p-60",
@@ -6000,7 +6357,8 @@ export const recipes = [
       "carbs": 38.0,
       "fat": 9.9,
       "fiber": 9.3
-    }
+    },
+    "slug": "Quinoa-cu-fasole-rosie-si-legume"
   },
   {
     "id": "p-61",
@@ -6017,7 +6375,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 12.6,
       "fiber": 6.5
-    }
+    },
+    "slug": "Wrap-cu-tofu-avocado-si-legume-post"
   },
   {
     "id": "p-62",
@@ -6034,7 +6393,8 @@ export const recipes = [
       "carbs": 67.8,
       "fat": 5.3,
       "fiber": 6.8
-    }
+    },
+    "slug": "Paste-integrale-cu-sos-de-rosii"
   },
   {
     "id": "p-63",
@@ -6051,7 +6411,8 @@ export const recipes = [
       "carbs": 43.7,
       "fat": 8.4,
       "fiber": 7.2
-    }
+    },
+    "slug": "Mancare-de-mazare-cu-baby-morcovi-si-tofu"
   },
   {
     "id": "p-64",
@@ -6068,7 +6429,8 @@ export const recipes = [
       "carbs": 57.4,
       "fat": 6.3,
       "fiber": 2.9
-    }
+    },
+    "slug": "Pilaf-cu-morcovi"
   },
   {
     "id": "p-65",
@@ -6085,7 +6447,8 @@ export const recipes = [
       "carbs": 39.3,
       "fat": 8.2,
       "fiber": 14.3
-    }
+    },
+    "slug": "Paste-Fusilli-High-Protein"
   },
   {
     "id": "p-66",
@@ -6102,7 +6465,8 @@ export const recipes = [
       "carbs": 47.6,
       "fat": 10.7,
       "fiber": 11.0
-    }
+    },
+    "slug": "Burger-vegan"
   },
   {
     "id": "p-67",
@@ -6119,7 +6483,8 @@ export const recipes = [
       "carbs": 30.7,
       "fat": 9.7,
       "fiber": 7.4
-    }
+    },
+    "slug": "Salata-de-vinete-cu-tofu-si-lipie-integrala"
   },
   {
     "id": "p-68",
@@ -6135,7 +6500,8 @@ export const recipes = [
       "protein": 18.3,
       "carbs": 11.8,
       "fat": 8.2
-    }
+    },
+    "slug": "Burger-vegetal-cu-salata-calda-de-legume"
   },
   {
     "id": "p-69",
@@ -6152,7 +6518,8 @@ export const recipes = [
       "carbs": 48.2,
       "fat": 9.7,
       "fiber": 11.6
-    }
+    },
+    "slug": "Falafel-la-cuptor"
   },
   {
     "id": "p-70",
@@ -6169,7 +6536,8 @@ export const recipes = [
       "carbs": 56.4,
       "fat": 6.5,
       "fiber": 1.6
-    }
+    },
+    "slug": "Tocana-de-naut-cu-rosii-si-usturoi"
   },
   {
     "id": "p-71",
@@ -6186,7 +6554,8 @@ export const recipes = [
       "carbs": 40.1,
       "fat": 7.0,
       "fiber": 8.1
-    }
+    },
+    "slug": "Wrap-rece-cu-crenvursti-vegetali-si-vinete-coapte"
   },
   {
     "id": "p-72",
@@ -6203,7 +6572,8 @@ export const recipes = [
       "carbs": 53.3,
       "fat": 5.8,
       "fiber": 10.2
-    }
+    },
+    "slug": "Sandwich-cu-sunca-vegetala-si-crema-de-naut"
   },
   {
     "id": "p-73",
@@ -6220,7 +6590,8 @@ export const recipes = [
       "carbs": 37.3,
       "fat": 12.4,
       "fiber": 11.4
-    }
+    },
+    "slug": "Fasole-pastai-sotate-cu-tofu-afumat"
   },
   {
     "id": "p-74",
@@ -6237,7 +6608,8 @@ export const recipes = [
       "carbs": 35.8,
       "fat": 4.1,
       "fiber": 3.5
-    }
+    },
+    "slug": "Cartofi-copti-cu-rozmarin-si-usturoi"
   },
   {
     "id": "p-75",
@@ -6254,7 +6626,8 @@ export const recipes = [
       "carbs": 23.4,
       "fat": 4.3,
       "fiber": 7.4
-    }
+    },
+    "slug": "Legume-radacinoase-la-cuptor"
   },
   {
     "id": "p-76",
@@ -6271,7 +6644,8 @@ export const recipes = [
       "carbs": 13.6,
       "fat": 4.2,
       "fiber": 7.7
-    }
+    },
+    "slug": "Vinete-coapte-cu-usturoi-si-patrunjel"
   },
   {
     "id": "p-77",
@@ -6288,7 +6662,8 @@ export const recipes = [
       "carbs": 9.8,
       "fat": 3.9,
       "fiber": 4.4
-    }
+    },
+    "slug": "Conopida-la-cuptor-cu-turmeric"
   },
   {
     "id": "p-78",
@@ -6305,7 +6680,8 @@ export const recipes = [
       "carbs": 16.4,
       "fat": 2.6,
       "fiber": 5.4
-    }
+    },
+    "slug": "Broccoli-si-morcovi-copti-cu-sos-de-soia"
   },
   {
     "id": "p-79",
@@ -6322,7 +6698,8 @@ export const recipes = [
       "carbs": 35.6,
       "fat": 3.9,
       "fiber": 5.3
-    }
+    },
+    "slug": "Cartofi-dulci-copti-cu-chimen"
   },
   {
     "id": "p-80",
@@ -6339,7 +6716,8 @@ export const recipes = [
       "carbs": 6.7,
       "fat": 4.1,
       "fiber": 1.9
-    }
+    },
+    "slug": "Dovlecel-la-cuptor-cu-ierburi-aromate"
   },
   {
     "id": "p-81",
@@ -6356,7 +6734,8 @@ export const recipes = [
       "carbs": 11.0,
       "fat": 3.8,
       "fiber": 3.7
-    }
+    },
+    "slug": "Ardei-copti-cu-usturoi"
   },
   {
     "id": "p-82",
@@ -6373,7 +6752,8 @@ export const recipes = [
       "carbs": 17.7,
       "fat": 2.7,
       "fiber": 5.2
-    }
+    },
+    "slug": "Sfecla-rosie-coapta-cu-hrean"
   },
   {
     "id": "p-83",
@@ -6390,7 +6770,8 @@ export const recipes = [
       "carbs": 8.4,
       "fat": 2.9,
       "fiber": 2.2
-    }
+    },
+    "slug": "Ciuperci-umplute-cu-legume"
   },
   {
     "id": "p-84",
@@ -6407,7 +6788,8 @@ export const recipes = [
       "carbs": 37.6,
       "fat": 3.9,
       "fiber": 5.6
-    }
+    },
+    "slug": "Paine-rustica-integrala"
   },
   {
     "id": "p-85",
@@ -6424,7 +6806,8 @@ export const recipes = [
       "carbs": 30.2,
       "fat": 2.5,
       "fiber": 5.1
-    }
+    },
+    "slug": "Lipii-de-post-la-tigaie"
   },
   {
     "id": "p-86",
@@ -6441,7 +6824,8 @@ export const recipes = [
       "carbs": 44.5,
       "fat": 4.2,
       "fiber": 6.6
-    }
+    },
+    "slug": "Chifle-cu-seminte-mixte"
   },
   {
     "id": "p-87",
@@ -6458,7 +6842,8 @@ export const recipes = [
       "carbs": 37.2,
       "fat": 4.7,
       "fiber": 2.7
-    }
+    },
+    "slug": "Focaccia-de-post-cu-masline-si-rozmarin"
   },
   {
     "id": "p-88",
@@ -6475,7 +6860,8 @@ export const recipes = [
       "carbs": 28.9,
       "fat": 5.5,
       "fiber": 1.8
-    }
+    },
+    "slug": "Pogacele-de-post-cu-cartofi"
   },
   {
     "id": "p-89",
@@ -6492,7 +6878,8 @@ export const recipes = [
       "carbs": 59.4,
       "fat": 8.8,
       "fiber": 4.4
-    }
+    },
+    "slug": "Pateuri-de-post-cu-spanac-si-ceapa"
   },
   {
     "id": "p-90",
@@ -6509,7 +6896,8 @@ export const recipes = [
       "carbs": 48.9,
       "fat": 2.5,
       "fiber": 1.2
-    }
+    },
+    "slug": "Covrigi-de-casa-post"
   },
   {
     "id": "p-91",
@@ -6526,7 +6914,8 @@ export const recipes = [
       "carbs": 42.9,
       "fat": 2.6,
       "fiber": 3.1
-    }
+    },
+    "slug": "Turte-ardelenesti-de-post"
   },
   {
     "id": "p-92",
@@ -6543,7 +6932,8 @@ export const recipes = [
       "carbs": 21.4,
       "fat": 12.1,
       "fiber": 1.4
-    }
+    },
+    "slug": "Placinta-sarata-cu-varza-calita"
   },
   {
     "id": "p-93",
@@ -6560,7 +6950,8 @@ export const recipes = [
       "carbs": 9.3,
       "fat": 1.6,
       "fiber": 0.7
-    }
+    },
+    "slug": "Batoane-sarate-de-post-grisine"
   },
   {
     "id": "p-94",
@@ -6577,7 +6968,8 @@ export const recipes = [
       "carbs": 6.0,
       "fat": 2.7,
       "fiber": 0.6
-    }
+    },
+    "slug": "Sos-de-rosii-rapid-pentru-paste"
   },
   {
     "id": "p-95",
@@ -6594,7 +6986,8 @@ export const recipes = [
       "carbs": 0.6,
       "fat": 8.1,
       "fiber": 0.0
-    }
+    },
+    "slug": "Vinegreta-de-mustar"
   },
   {
     "id": "p-96",
@@ -6611,7 +7004,8 @@ export const recipes = [
       "carbs": 2.6,
       "fat": 9.1,
       "fiber": 0.0
-    }
+    },
+    "slug": "Sos-tahini-cu-lamaie"
   },
   {
     "id": "p-97",
@@ -6628,7 +7022,8 @@ export const recipes = [
       "carbs": 0.7,
       "fat": 5.9,
       "fiber": 0.3
-    }
+    },
+    "slug": "Sos-pesto-de-busuioc"
   },
   {
     "id": "p-98",
@@ -6645,7 +7040,8 @@ export const recipes = [
       "carbs": 4.7,
       "fat": 5.9,
       "fiber": 2.4
-    }
+    },
+    "slug": "Dressing-cremos-cu-avocado"
   },
   {
     "id": "p-99",
@@ -6662,7 +7058,8 @@ export const recipes = [
       "carbs": 1.3,
       "fat": 2.6,
       "fiber": 0.0
-    }
+    },
+    "slug": "Sos-de-iaurt-vegetal-cu-usturoi-si-marar"
   },
   {
     "id": "p-100",
@@ -6679,7 +7076,8 @@ export const recipes = [
       "carbs": 5.2,
       "fat": 3.0,
       "fiber": 1.3
-    }
+    },
+    "slug": "Sos-de-ardei-copt"
   },
   {
     "id": "p-101",
@@ -6696,7 +7094,8 @@ export const recipes = [
       "carbs": 2.3,
       "fat": 1.4,
       "fiber": 0.3
-    }
+    },
+    "slug": "Sos-picant-de-post"
   },
   {
     "id": "p-102",
@@ -6713,7 +7112,8 @@ export const recipes = [
       "carbs": 2.0,
       "fat": 3.8,
       "fiber": 0.4
-    }
+    },
+    "slug": "Dressing-oriental-cu-susan-si-soia"
   },
   {
     "id": "p-103",
@@ -6730,7 +7130,8 @@ export const recipes = [
       "carbs": 27.1,
       "fat": 8.8,
       "fiber": 8.9
-    }
+    },
+    "slug": "Smoothie-cu-fructe-de-padure-si-banana"
   },
   {
     "id": "p-104",
@@ -6747,7 +7148,8 @@ export const recipes = [
       "carbs": 23.5,
       "fat": 4.1,
       "fiber": 5.0
-    }
+    },
+    "slug": "Smoothie-verde-detox"
   },
   {
     "id": "p-105",
@@ -6764,7 +7166,8 @@ export const recipes = [
       "carbs": 39.9,
       "fat": 9.6,
       "fiber": 5.2
-    }
+    },
+    "slug": "Smoothie-tropical-cremos-post"
   },
   {
     "id": "p-106",
@@ -6781,7 +7184,8 @@ export const recipes = [
       "carbs": 33.9,
       "fat": 0.3,
       "fiber": 6.2
-    }
+    },
+    "slug": "Suc-fresh-de-morcov-mar-si-ghimbir"
   },
   {
     "id": "p-107",
@@ -6798,7 +7202,8 @@ export const recipes = [
       "carbs": 25.6,
       "fat": 12.2,
       "fiber": 6.3
-    }
+    },
+    "slug": "Smoothie-proteic-cu-banana-si-unt-de-arahide"
   },
   {
     "id": "p-108",
@@ -6815,7 +7220,8 @@ export const recipes = [
       "carbs": 1.1,
       "fat": 0.1,
       "fiber": 0.3
-    }
+    },
+    "slug": "Apa-infuzata-cu-castravete-si-menta"
   },
   {
     "id": "p-109",
@@ -6832,7 +7238,8 @@ export const recipes = [
       "carbs": 24.9,
       "fat": 5.1,
       "fiber": 5.5
-    }
+    },
+    "slug": "Smoothie-cu-ananas-si-spanac"
   },
   {
     "id": "p-110",
@@ -6849,7 +7256,8 @@ export const recipes = [
       "carbs": 27.7,
       "fat": 13.3,
       "fiber": 7.9
-    }
+    },
+    "slug": "Smoothie-cu-cacao-si-lapte-de-migdale"
   },
   {
     "id": "p-111",
@@ -6866,7 +7274,8 @@ export const recipes = [
       "carbs": 21.7,
       "fat": 4.5,
       "fiber": 2.9
-    }
+    },
+    "slug": "Smoothie-racoritor-cu-pepene-rosu"
   },
   {
     "id": "p-112",
@@ -6883,7 +7292,8 @@ export const recipes = [
       "carbs": 26.9,
       "fat": 13.7,
       "fiber": 8.8
-    }
+    },
+    "slug": "Smoothie-cu-cocos-si-zmeura"
   },
   {
     "id": "p-113",
@@ -6900,7 +7310,8 @@ export const recipes = [
       "carbs": 22.5,
       "fat": 0.2,
       "fiber": 3.1
-    }
+    },
+    "slug": "Suc-detox-cu-mar-telina-si-castravete"
   },
   {
     "id": "p-114",
@@ -6917,7 +7328,8 @@ export const recipes = [
       "carbs": 27.6,
       "fat": 9.1,
       "fiber": 5.8
-    }
+    },
+    "slug": "Smoothie-cu-piersici-si-lapte-de-ovaz"
   },
   {
     "id": "p-115",
@@ -6934,7 +7346,8 @@ export const recipes = [
       "carbs": 3.6,
       "fat": 0.0,
       "fiber": 0.0
-    }
+    },
+    "slug": "Limonada-cu-menta-si-ghimbir"
   },
   {
     "id": "p-116",
@@ -6951,7 +7364,8 @@ export const recipes = [
       "carbs": 25.9,
       "fat": 13.7,
       "fiber": 6.2
-    }
+    },
+    "slug": "Smoothie-cu-afine-si-seminte-de-canepa"
   },
   {
     "id": "p-117",
@@ -6968,7 +7382,8 @@ export const recipes = [
       "carbs": 33.6,
       "fat": 8.1,
       "fiber": 7.8
-    }
+    },
+    "slug": "Smoothie-cremos-cu-para-si-scortisoara"
   },
   {
     "id": "p-118",
@@ -6985,7 +7400,8 @@ export const recipes = [
       "carbs": 41.3,
       "fat": 4.7,
       "fiber": 4.7
-    }
+    },
+    "slug": "Budinca-de-ovaz-si-mere-caramelizate-post"
   },
   {
     "id": "p-119",
@@ -7002,7 +7418,8 @@ export const recipes = [
       "carbs": 34.4,
       "fat": 3.0,
       "fiber": 0.9
-    }
+    },
+    "slug": "Orez-cu-lapte-mar-si-scortisoara"
   },
   {
     "id": "p-120",
@@ -7019,7 +7436,8 @@ export const recipes = [
       "carbs": 38.8,
       "fat": 9.5,
       "fiber": 8.6
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-post"
   },
   {
     "id": "p-121",
@@ -7036,7 +7454,8 @@ export const recipes = [
       "carbs": 19.6,
       "fat": 7.5,
       "fiber": 5.6
-    }
+    },
+    "slug": "Iaurt-vegetal-cu-seminte-si-afine"
   },
   {
     "id": "p-122",
@@ -7053,7 +7472,8 @@ export const recipes = [
       "carbs": 33.1,
       "fat": 4.6,
       "fiber": 10.0
-    }
+    },
+    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-post"
   },
   {
     "id": "p-123",
@@ -7070,7 +7490,8 @@ export const recipes = [
       "carbs": 8.0,
       "fat": 5.9,
       "fiber": 1.6
-    }
+    },
+    "slug": "Iaurt-vegetal-cu-scortisoara-si-ciocolata-neagra"
   },
   {
     "id": "p-124",
@@ -7087,7 +7508,8 @@ export const recipes = [
       "carbs": 40.2,
       "fat": 6.7,
       "fiber": 6.3
-    }
+    },
+    "slug": "Cheesecake-vegan-la-pahar-cu-ovaz-si-cirese"
   },
   {
     "id": "p-125",
@@ -7104,7 +7526,8 @@ export const recipes = [
       "carbs": 28.6,
       "fat": 6.3,
       "fiber": 4.8
-    }
+    },
+    "slug": "Parfait-proteic-cu-fructe-de-padure-si-granola-crocanta"
   },
   {
     "id": "p-126",
@@ -7121,7 +7544,8 @@ export const recipes = [
       "carbs": 8.5,
       "fat": 11.0,
       "fiber": 4.0
-    }
+    },
+    "slug": "Mousse-proteic-de-ciocolata-cu-avocado"
   },
   {
     "id": "p-127",
@@ -7138,7 +7562,8 @@ export const recipes = [
       "carbs": 12.2,
       "fat": 6.0,
       "fiber": 2.6
-    }
+    },
+    "slug": "Bilute-energizante-cu-nuca-si-curmale"
   },
   {
     "id": "p-128",
@@ -7155,7 +7580,8 @@ export const recipes = [
       "carbs": 12.3,
       "fat": 2.7,
       "fiber": 3.5
-    }
+    },
+    "slug": "Brownies-de-post-cu-fasole-neagra"
   },
   {
     "id": "p-129",
@@ -7172,7 +7598,8 @@ export const recipes = [
       "carbs": 25.6,
       "fat": 1.8,
       "fiber": 2.6
-    }
+    },
+    "slug": "Inghetata-cu-banane"
   },
   {
     "id": "p-130",
@@ -7189,7 +7616,8 @@ export const recipes = [
       "carbs": 24.8,
       "fat": 11.1,
       "fiber": 5.2
-    }
+    },
+    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-post"
   },
   {
     "id": "p-131",
@@ -7206,7 +7634,8 @@ export const recipes = [
       "carbs": 16.8,
       "fat": 12.4,
       "fiber": 3.8
-    }
+    },
+    "slug": "Tarta-cu-nuci-si-zmeura"
   },
   {
     "id": "p-132",
@@ -7223,7 +7652,8 @@ export const recipes = [
       "carbs": 44.6,
       "fat": 3.5,
       "fiber": 2.0
-    }
+    },
+    "slug": "Clatite-de-post-cu-lapte-vegetal"
   },
   {
     "id": "p-133",
@@ -7240,7 +7670,8 @@ export const recipes = [
       "carbs": 19.5,
       "fat": 3.5,
       "fiber": 2.8
-    }
+    },
+    "slug": "Chec-cu-banane"
   },
   {
     "id": "p-134",
@@ -7257,7 +7688,8 @@ export const recipes = [
       "carbs": 36.7,
       "fat": 3.0,
       "fiber": 1.7
-    }
+    },
+    "slug": "Budinca-de-tapioca-cu-cocos-si-mango"
   },
   {
     "id": "p-135",
@@ -7274,7 +7706,8 @@ export const recipes = [
       "carbs": 13.1,
       "fat": 2.5,
       "fiber": 2.3
-    }
+    },
+    "slug": "Fursecuri-de-ovaz-si-stafide"
   },
   {
     "id": "p-136",
@@ -7291,7 +7724,8 @@ export const recipes = [
       "carbs": 14.8,
       "fat": 5.5,
       "fiber": 2.4
-    }
+    },
+    "slug": "Prajitura-de-morcovi"
   },
   {
     "id": "p-137",
@@ -7308,7 +7742,8 @@ export const recipes = [
       "carbs": 36.4,
       "fat": 3.4,
       "fiber": 3.8
-    }
+    },
+    "slug": "Tarta-cu-mere-si-scortisoara"
   },
   {
     "id": "p-138",
@@ -7325,6 +7760,7 @@ export const recipes = [
       "carbs": 22.5,
       "fat": 0.8,
       "fiber": 1.8
-    }
+    },
+    "slug": "Crema-de-gris-cu-lapte-vegetal"
   }
 ];

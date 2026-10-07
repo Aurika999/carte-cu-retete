@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { BookOpen, Menu, X, UtensilsCrossed, CalendarDays, Droplets, ChefHat, LogIn, LogOut } from "lucide-react";
+import { BookOpen, Menu, X, UtensilsCrossed, CalendarDays, Droplets, ChefHat, Dumbbell, LogIn, LogOut } from "lucide-react";
 import { AuthProvider, Avatar, useAuth } from "./auth";
 import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
@@ -10,6 +10,7 @@ import RecipeBuilder from "./RecipeBuilder";
 import AccountPage from "./AccountPage";
 import RecipesHub from "./RecipesHub";
 import Home from "./Home";
+import Exercises from "./Exercises";
 import { FavoritesProvider } from "./favorites";
 import { getMyRecipe } from "./myRecipes";
 import { CalcDataProvider } from "./calcData";
@@ -72,6 +73,7 @@ function App({ route, state }) {
           {navButton("calculator", "", UtensilsCrossed, "Planificator de meniuri", "Meniul recomandat pentru caloriile tale")}
           {navButton("calendar", "calNav", CalendarDays, "Calendarul meu", "Meniurile salvate pe zile")}
           {navButton("apa", "waterNav", Droplets, "Jurnal de apă", "Câtă apă să bei și cât ai băut")}
+          {navButton("exercitii", "exNav", Dumbbell, "Exerciții zilnice", "Rutină acasă și calorii arse")}
           {navButton("reteta", "rbNav", ChefHat, "Creează-ți rețeta", "Alege ingredientele, vezi caloriile")}
           <p className="slogan">Gătește smart, trăiește fit.</p>
         </nav>
@@ -93,6 +95,8 @@ function App({ route, state }) {
             onOpenRecipe={choose}
             onOpenCalendar={() => openTool("calendar")}
           />
+        ) : tool === "exercitii" ? (
+          <Exercises onEditData={() => openTool("cont", { scrollTo: "calculator" })} />
         ) : tool === "apa" ? (
           <WaterTracker />
         ) : tool === "calendar" ? (

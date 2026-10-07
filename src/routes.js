@@ -10,6 +10,7 @@ export const TOOL_PATHS = {
   calculator: "/planificator-meniuri",
   calendar: "/calendarul-meu",
   apa: "/jurnal-de-apa",
+  exercitii: "/exercitii-zilnice",
   reteta: "/creeaza-ti-reteta",
   cont: "/contul-meu",
 };

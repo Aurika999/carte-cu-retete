@@ -10,7 +10,8 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { LogIn, Mail, Lock, UserRound, X } from "lucide-react";
-import { auth, firebaseReady } from "./firebase";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { auth, db, firebaseReady } from "./firebase";
 import { migrateLocalMenus } from "./menuStorage";
 
 const AuthContext = createContext(null);
@@ -36,6 +37,7 @@ export function AuthProvider({ children }) {
   const [ready, setReady] = useState(!firebaseReady);
   const [loginOpen, setLoginOpen] = useState(false);
   const [, setVersion] = useState(0);   // la schimbarea numelui, obiectul user rămâne același: forțăm redesenarea
+  const [photo, setPhotoState] = useState(null);   // poza de profil (data URL) din Firestore
 
   useEffect(() => {
     if (!auth) return undefined;
@@ -50,8 +52,19 @@ export function AuthProvider({ children }) {
       }
       setUser(u);
       setReady(true);
+      setPhotoState(null);
+      if (u && db) {
+        getDoc(profileRef(u)).then((snap) => setPhotoState(snap.data()?.photo ?? null)).catch(() => {});
+      }
     });
   }, []);
+
+  // salvează (sau, cu null, șterge) poza de profil în users/<uid>/data/profile
+  async function setPhoto(dataUrl) {
+    if (!user || !db) return;
+    await setDoc(profileRef(user), { photo: dataUrl ?? null }, { merge: true });
+    setPhotoState(dataUrl ?? null);
+  }
 
   const refreshUser = async () => {
     if (auth?.currentUser) await auth.currentUser.reload();
@@ -68,6 +81,8 @@ export function AuthProvider({ children }) {
     openLogin: () => setLoginOpen(true),
     logout: () => auth && signOut(auth),
     refreshUser,
+    photo,
+    setPhoto,
   };
 
   return (
@@ -79,6 +94,36 @@ export function AuthProvider({ children }) {
 }
 
 export { message as authErrorMessage };
+
+const profileRef = (u) => doc(db, "users", u.uid, "data", "profile");
+
+// avatarul: poza de profil sau, fără poză, inițiala numelui
+export function Avatar({ className = "", size }) {
+  const { photo, displayName } = useAuth();
+  const style = size ? { width: size, height: size, flexBasis: size } : undefined;
+  return photo
+    ? <img className={`${className} avatarImg`} src={photo} alt="" style={style} />
+    : <span className={className} style={style}>{(displayName?.[0] ?? "?").toUpperCase()}</span>;
+}
+
+// imaginea aleasă → pătrat de 256×256 px, JPEG (cam 20–30 KB, încape ușor în Firestore)
+export function resizeToAvatar(file, size = 256) {
+  return new Promise((resolve, reject) => {
+    if (!file.type.startsWith("image/")) return reject(new Error("not-image"));
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const side = Math.min(img.width, img.height);
+      const canvas = document.createElement("canvas");
+      canvas.width = canvas.height = size;
+      canvas.getContext("2d").drawImage(img, (img.width - side) / 2, (img.height - side) / 2, side, side, 0, 0, size, size);
+      URL.revokeObjectURL(url);
+      resolve(canvas.toDataURL("image/jpeg", 0.85));
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error("bad-image")); };
+    img.src = url;
+  });
+}
 
 function LoginDialog({ onClose, onSignedUp }) {
   const [mode, setMode] = useState("login");   // "login" | "signup" | "reset"

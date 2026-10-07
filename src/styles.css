@@ -683,6 +683,20 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 /* ---------- pagina „Contul meu” ---------- */
 .accHero { background: linear-gradient(120deg, #173c2b 0%, #2bb3a3 60%, #e6b85c 100%); }
 .accBigAvatar { width: 58px; height: 58px; flex: 0 0 58px; border-radius: 50%; display: grid; place-items: center; font: 800 26px "DM Sans", sans-serif; color: #173c2b; background: #e6b85c; box-shadow: 0 0 0 4px rgba(255,255,255,.25); }
+.avatarImg { object-fit: cover; padding: 0 !important; }
+.accAvatarWrap { flex: 0 0 auto; }
+.accAvatarBtn { position: relative; border: 0; padding: 0; background: none; cursor: pointer; border-radius: 50%; }
+.accAvatarBtn .accBigAvatar { width: 78px; height: 78px; flex-basis: 78px; font-size: 32px; }
+.accAvatarBtn:hover .accAvatarCam { transform: scale(1.1); }
+.accAvatarCam { position: absolute; right: -2px; bottom: -2px; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: #fff; color: #173c2b; box-shadow: 0 2px 8px rgba(0,0,0,.25); transition: transform .12s ease; }
+.accHeroText { min-width: 0; }
+.accPhotoBtns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.accPhotoBtns button { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; padding: 6px 13px; font-weight: 700; font-size: 12.5px; color: #173c2b; background: #fff; cursor: pointer; }
+.accPhotoBtns button.ghost { background: rgba(255,255,255,.2); color: #fff; }
+.accPhotoBtns button:disabled { opacity: .6; cursor: default; }
+.accPhotoOk, .accPhotoError { margin: 8px 0 0 !important; font-size: 12.5px !important; font-weight: 700; }
+.accPhotoOk { color: #d8f5e6 !important; }
+.accPhotoError { color: #ffe1e1 !important; }
 .accGrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: start; }
 .accSide { display: grid; gap: 18px; }
 .accForm { display: grid; gap: 10px; }
@@ -878,3 +892,20 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
   .recipeHeader { padding: 10px 18px 8px; }
   .viewerCard { margin: 0 12px 12px; border-radius: 10px; }
 }
+
+/* ---------- calculatorul din „Contul meu” și rezumatul din „Calculator calorii” ---------- */
+.accCalc { margin-top: 26px; scroll-margin-top: 12px; }
+.accCalcTitle { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; font: 700 22px "Playfair Display", Georgia, serif; color: #1c2b20; }
+.accCalc > .accHint { margin-bottom: 14px; }
+.calcSummary { display: flex; align-items: center; gap: 22px; margin-bottom: 18px; background: linear-gradient(135deg, #fffdf8 40%, color-mix(in srgb, var(--goal) 14%, #fffdf8)); }
+.calcSummary .calcMainText p { margin: 10px 0 14px; font-size: 14.5px; line-height: 1.5; color: #405045; }
+@media (max-width: 600px) { .calcSummary { flex-direction: column; text-align: center; } }
+.genActions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.homeFridgeRow .mealShuffle:disabled { opacity: .5; cursor: default; transform: none; }
+.myRec { margin-bottom: 18px; }
+.myRec .mealHead p { max-width: 640px; }
+.myRec .hubGrid { margin-top: 14px; }
+.myRecDel { color: #c2405e; }
+.myRec .hubRecipeText small { display: inline-flex; align-items: center; gap: 3px; flex-wrap: wrap; }
+.genSaved { align-self: center; font-size: 13px; font-weight: 700; color: #1f8a7d; background: #e9f8f5; padding: 7px 12px; border-radius: 999px; }
+#frigider { scroll-margin-top: 12px; }

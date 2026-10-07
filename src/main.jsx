@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { BookOpen, Menu, X, Calculator, CalendarDays, Droplets, ChefHat, LogIn, LogOut } from "lucide-react";
-import { AuthProvider, useAuth } from "./auth";
+import { BookOpen, Menu, X, UtensilsCrossed, CalendarDays, Droplets, ChefHat, LogIn, LogOut } from "lucide-react";
+import { AuthProvider, Avatar, useAuth } from "./auth";
 import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
 import WaterTracker from "./WaterTracker";
@@ -11,6 +11,8 @@ import AccountPage from "./AccountPage";
 import RecipesHub from "./RecipesHub";
 import Home from "./Home";
 import { FavoritesProvider } from "./favorites";
+import { getMyRecipe } from "./myRecipes";
+import { CalcDataProvider } from "./calcData";
 import RecipePage from "./RecipePage";
 import { hasDetail, detailPath, recipeFromPath, loadDetail } from "./recipeDetails";
 import { TOOL_PATHS, bookPath, navigate, parseRoute, redirectOldHash } from "./routes";
@@ -67,7 +69,7 @@ function App({ route, state }) {
         <nav className="toc" aria-label="Meniu">
           {navButton("retete", "hubNav", BookOpen, "Rețete pentru Fit From Home", "Cărțile de rețete, fructe și legume crude",
             ["retete", "fructe", "legume"].includes(tool))}
-          {navButton("calculator", "", Calculator, "Calculator calorii", "Câte calorii îți trebuie pe zi")}
+          {navButton("calculator", "", UtensilsCrossed, "Planificator de meniuri", "Meniul recomandat pentru caloriile tale")}
           {navButton("calendar", "calNav", CalendarDays, "Calendarul meu", "Meniurile salvate pe zile")}
           {navButton("apa", "waterNav", Droplets, "Jurnal de apă", "Câtă apă să bei și cât ai băut")}
           {navButton("reteta", "rbNav", ChefHat, "Creează-ți rețeta", "Alege ingredientele, vezi caloriile")}
@@ -85,6 +87,7 @@ function App({ route, state }) {
 
         {tool === "calculator" ? (
           <CalorieCalculator
+            onEditData={() => openTool("cont", { scrollTo: "calculator" })}
             key={state.planDay ?? "azi"}
             initialDay={state.planDay}
             onOpenRecipe={choose}
@@ -102,7 +105,7 @@ function App({ route, state }) {
             onOpenTool={openTool}
           />
         ) : tool === "cont" ? (
-          <AccountPage onOpenCalendar={() => openTool("calendar")} />
+          <AccountPage key={state.t ?? 0} scrollTo={state.scrollTo} onOpenCalendar={() => openTool("calendar")} />
         ) : tool === "reteta" ? (
           <RecipeBuilder />
         ) : tool === "fructe" || tool === "legume" ? (
@@ -121,7 +124,7 @@ function App({ route, state }) {
 }
 
 // Pornirea: adresa din browser decide ce se vede — o rețetă (/Salata-cu-piept-de-pui),
-// o pagină a aplicației (/retete-traditionale, /calculator-calorii...) sau pagina de start.
+// o pagină a aplicației (/retete-traditionale, /planificator-meniuri...) sau pagina de start.
 redirectOldHash();
 
 function Root() {
@@ -133,6 +136,13 @@ function Root() {
     return () => window.removeEventListener("popstate", onPop);
   }, []);
 
+  // rețetele create din „Ce ai în frigider?”: /reteta-mea/<id> (salvate) sau /reteta-mea (ultima creată)
+  const mine = loc.path.match(/^\/reteta-mea(?:\/([\w-]+))?\/?$/);
+  if (mine) {
+    const back = () => (loc.state.fromApp ? window.history.back() : navigate(TOOL_PATHS.calculator));
+    return <GeneratedRecipe key={mine[1] ?? "ultima"} id={mine[1]} onBack={back} />;
+  }
+
   const route = parseRoute(loc.path);
   const recipe = !route && recipeFromPath(loc.path);
   if (recipe) {
@@ -142,6 +152,60 @@ function Root() {
     return <RecipeRoute key={recipe.id} recipe={recipe} onBack={back} />;
   }
   return <App route={route} state={loc.state} />;
+}
+
+// rețeta creată din ingredientele alese, cu „Salvează în Rețetele mele” (Creează-ți rețeta)
+function GeneratedRecipe({ id, onBack }) {
+  const { user, ready } = useAuth();
+  const [recipe, setRecipe] = useState(() => {
+    try {
+      const last = JSON.parse(sessionStorage.getItem("reteta-generata") || "null");
+      return last && (!id || last.id === id) ? last : null;
+    } catch {
+      return null;
+    }
+  });
+  const [status, setStatus] = useState(recipe ? "ready" : "loading");
+  const [savedToBuilder, setSavedToBuilder] = useState(false);
+
+  useEffect(() => {
+    if (recipe || !id || !ready) {
+      if (!recipe && !id) setStatus("missing");
+      return undefined;
+    }
+    let alive = true;
+    getMyRecipe(user, id)
+      .then((r) => { if (!alive) return; setRecipe(r); setStatus(r ? "ready" : "missing"); })
+      .catch(() => alive && setStatus("missing"));
+    return () => { alive = false; };
+  }, [id, user, ready]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  if (!recipe) {
+    return (
+      <div className="rpPage rpLoading">
+        <p>{status === "loading" ? "Se încarcă rețeta…" : "Rețeta nu a fost găsită. Poate a fost ștearsă sau e salvată în alt cont."}</p>
+        <button className="rpBack" onClick={() => navigate(TOOL_PATHS.calculator)}>Rețetele create</button>
+      </div>
+    );
+  }
+  function saveToBuilder() {
+    try {
+      const list = JSON.parse(localStorage.getItem("retetele-mele") || "[]");
+      const entry = { id: `r${Date.now()}`, name: recipe.title, servings: recipe.servings, items: recipe.builderItems, savedAt: new Date().toISOString() };
+      localStorage.setItem("retetele-mele", JSON.stringify([entry, ...list]));
+      setSavedToBuilder(true);
+    } catch { /* fără stocare */ }
+  }
+  const extra = (
+    <div className="genActions">
+      {recipe.id && <span className="genSaved">✓ Salvată în „Rețetele create” (Planificator de meniuri)</span>}
+      <button className="mealBook" onClick={saveToBuilder} disabled={savedToBuilder}>
+        {savedToBuilder ? "✓ Adăugată în Rețetele mele" : "Modifică gramajele în Creează-ți rețeta"}
+      </button>
+      {savedToBuilder && <button className="mealBook" onClick={() => navigate(TOOL_PATHS.reteta)}>Deschide Creează-ți rețeta →</button>}
+    </div>
+  );
+  return <RecipePage recipe={{ ...recipe, book: "Rețeta mea", section: "creată din ingredientele tale" }} onBack={onBack} extra={extra} />;
 }
 
 // descarcă textul rețetei (src/retete/<slug>.js) și o afișează
@@ -177,7 +241,7 @@ function AccountButton({ onOpenAccount }) {
   return (
     <div className="accountBox">
       <button className="accountMe" onClick={onOpenAccount} title="Contul meu">
-        <span className="accountAvatar">{(displayName?.[0] ?? "?").toUpperCase()}</span>
+        <Avatar className="accountAvatar" />
         <span className="accountEmail">{displayName}</span>
       </button>
       <button className="accountOut" onClick={logout} title="Ieși din cont"><LogOut size={15} /> Ieși</button>
@@ -187,8 +251,10 @@ function AccountButton({ onOpenAccount }) {
 
 createRoot(document.getElementById("root")).render(
   <AuthProvider>
-    <FavoritesProvider>
-      <Root />
-    </FavoritesProvider>
+    <CalcDataProvider>
+      <FavoritesProvider>
+        <Root />
+      </FavoritesProvider>
+    </CalcDataProvider>
   </AuthProvider>
 );

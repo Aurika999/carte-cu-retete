@@ -1,14 +1,17 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { CalendarPlus, ChefHat, ChevronLeft, ChevronRight, Clock, Droplets, Flame, Plus, Refrigerator, Search, X } from "lucide-react";
+import { CalendarPlus, ChefHat, ChevronLeft, ChevronRight, Clock, Droplets, Flame, Plus, Refrigerator, Search, Sparkles, X } from "lucide-react";
 import { recipes } from "./recipes";
 import { useAuth } from "./auth";
 import { HeartButton, useFavorites } from "./favorites";
 import { FILTERS, applyFilter, filterById } from "./recipeFilters";
 import { MEALS, suggestMeal } from "./MealPlan";
 import { planItemById } from "./planItems";
-import { calcTargets, savedCalcForm } from "./calories";
+import { useCalcData } from "./calcData";
 import { GLASS, addWaterToday, todayEntry } from "./waterStorage";
 import { dateKey, loadMenus, saveMenu } from "./menuStorage";
+import { drawCover, generateRecipe } from "./recipeGenerator";
+import { navigate } from "./routes";
+import { saveMyRecipe } from "./myRecipes";
 
 const photoOf = (r) => `/recipes/${r.slug}.jpg`;
 const fmt = (n) => Math.round(n).toLocaleString("ro-RO");
@@ -91,8 +94,9 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
 
   // ---- panou: apă și calorii ----
   const [water, setWater] = useState(todayEntry);
-  const form = savedCalcForm();
-  const target = form ? calcTargets(form).target : null;
+  const { form: calcForm, results: calc, hasData } = useCalcData();
+  const form = hasData ? calcForm : null;
+  const target = hasData ? calc.target : null;
   const [todayMenu, setTodayMenu] = useState(null);
   useEffect(() => {
     if (!ready) return;
@@ -132,7 +136,34 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
   const favorites = favoriteIds.map((id) => recipes.find((r) => r.id === id)).filter(Boolean);
 
   // ---- ce ai în frigider ----
-  const [fridge, setFridge] = useState([]);       // [{ label, re }]
+  // selecția rămâne și după „Înapoi” de pe rețeta creată
+  const [fridge, setFridgeState] = useState(() => {
+    try { return JSON.parse(sessionStorage.getItem("frigider-selectie") || "[]"); } catch { return []; }
+  });                                               // [{ label, re }]
+  const setFridge = (update) => setFridgeState((f) => {
+    const next = typeof update === "function" ? update(f) : update;
+    try { sessionStorage.setItem("frigider-selectie", JSON.stringify(next)); } catch { /* fără stocare */ }
+    return next;
+  });
+  const [creating, setCreating] = useState(false);
+
+  // „Creează rețeta mea”: rețetă nouă din ingredientele alese, deschisă pe pagina ei
+  async function createRecipe() {
+    const recipe = generateRecipe(fridge);
+    if (!recipe) return;
+    setCreating(true);
+    recipe.photo = await drawCover(recipe.photoIngredients, recipe.title);
+    // se salvează automat în „Rețetele create” (Planificator de meniuri)
+    let saved = recipe;
+    try {
+      saved = await saveMyRecipe(user, recipe);
+    } catch {
+      /* fără conexiune: se deschide oricum, din sesiune */
+    }
+    try { sessionStorage.setItem("reteta-generata", JSON.stringify(saved)); } catch { /* fără stocare */ }
+    setCreating(false);
+    navigate(saved.id ? `/reteta-mea/${saved.id}` : "/reteta-mea");
+  }
   const [custom, setCustom] = useState("");
   const [fridgeResults, setFridgeResults] = useState(null);
   const [searching, setSearching] = useState(false);
@@ -160,6 +191,12 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
   }
 
   const [query, setQuery] = useState("");
+  // din Planificator → „Creează una nouă”: pagina se deschide direct la „Ce ai în frigider?”
+  useEffect(() => {
+    if (window.location.hash !== "#frigider") return undefined;
+    const t = setTimeout(() => document.getElementById("frigider")?.scrollIntoView({ behavior: "smooth", block: "start" }), 200);
+    return () => clearTimeout(t);
+  }, []);
   const waterPct = Math.min(100, (water.ml / water.goal) * 100);
 
   return (
@@ -191,8 +228,8 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
         <div className="homeDashCard kcal">
           <div className="homeDashTop">
             <span><Flame size={16} /> Calorii azi</span>
-            <button className="homeDashLink" onClick={() => onOpenTool(todayMenu ? "calendar" : "calculator")}>
-              {todayMenu ? "Meniul de azi →" : "Calculator →"}
+            <button className="homeDashLink" onClick={() => (todayMenu ? onOpenTool("calendar") : target ? onOpenTool("calculator") : onOpenTool("cont", { scrollTo: "calculator" }))}>
+              {todayMenu ? "Meniul de azi →" : target ? "Creează meniul →" : "Datele mele →"}
             </button>
           </div>
           {target ? (
@@ -271,9 +308,9 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
       <Carousel title="❤️ Favoritele mele" items={favorites} onOpen={onOpenRecipe} />
 
       {/* ---------- ce ai în frigider ---------- */}
-      <section className="homeSection calcCard homeFridge">
+      <section id="frigider" className="homeSection calcCard homeFridge">
         <h2><Refrigerator size={18} /> Ce ai în frigider?</h2>
-        <p>Alege 2–3 ingrediente pe care le ai acasă și îți arătăm ce poți găti cu ele.</p>
+        <p>Alege 2–3 ingrediente pe care le ai acasă: îți arătăm rețetele din cărți cu ele sau îți creăm o rețetă nouă, cu calorii calculate.</p>
         <div className="homeChips">
           {FRIDGE.map(([label, re]) => (
             <button key={label} className={`mealBook ${fridge.some((f) => f.label === label) ? "active" : ""}`} onClick={() => toggleFridge(label, re)}>
@@ -292,13 +329,16 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
           <button className="mealSaveBtn" onClick={findRecipes} disabled={!fridge.length || searching}>
             <Search size={16} /> {searching ? "Caut…" : "Caută rețete"}
           </button>
+          <button className="mealShuffle" onClick={createRecipe} disabled={!fridge.length || creating}>
+            <Sparkles size={16} /> {creating ? "Creez…" : "Creează rețeta mea"}
+          </button>
         </div>
         {fridgeResults && (
           <>
             <h3 className="homeFridgeCount">
               {fridgeResults.length
                 ? `${fridgeResults.length} rețete cu ${fridge.map((f) => f.label.toLowerCase()).join(" + ")}`
-                : "Nicio rețetă cu toate ingredientele alese — încearcă mai puține."}
+                : "Nicio rețetă din cărți cu toate ingredientele alese — apasă „Creează rețeta mea” și îți facem una din ele."}
             </h3>
             <div className="hubGrid">
               {fridgeResults.slice(0, 24).map((r) => <RecipeTile key={r.id} recipe={r} onOpen={onOpenRecipe} />)}

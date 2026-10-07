@@ -7,7 +7,7 @@ export const TOOL_PATHS = {
   retete: "/retete-fit-from-home",
   fructe: "/fructe-crude",
   legume: "/legume-crude",
-  calculator: "/calculator-calorii",
+  calculator: "/planificator-meniuri",
   calendar: "/calendarul-meu",
   apa: "/jurnal-de-apa",
   reteta: "/creeaza-ti-reteta",
@@ -34,6 +34,7 @@ export function parseRoute(pathname) {
   const path = "/" + pathname.replace(/^\/+|\/+$/g, "").toLowerCase();
   const tool = Object.keys(TOOL_PATHS).find((t) => TOOL_PATHS[t] === path);
   if (tool) return { tool, book: null };
+  if (path === "/calculator-calorii") return { tool: "calculator", book: null };   // adresa veche
   const book = BOOKS.find((b) => bookPath(b) === path);
   if (book) return { tool: "retete", book };
   return null;

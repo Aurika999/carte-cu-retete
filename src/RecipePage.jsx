@@ -11,7 +11,8 @@ const VALUES = [
 ];
 
 // Pagina întreagă a unei rețete scrise ca text (fișierele din src/retete/)
-export default function RecipePage({ recipe, onBack }) {
+// „extra”: butoane suplimentare sub titlu (ex. „Salvează în Rețetele mele” la rețeta generată)
+export default function RecipePage({ recipe, onBack, extra }) {
   useEffect(() => {
     const previous = document.title;
     document.title = `${recipe.title} — Be Fit From Home`;
@@ -45,6 +46,7 @@ export default function RecipePage({ recipe, onBack }) {
               {recipe.servings && <span className="rpServings"><Users size={15} /> {recipe.servings} porții</span>}
               {recipe.time && <span className="rpServings rpTime"><Clock size={15} /> {recipe.time}</span>}
             </div>
+            {extra}
           </div>
         </section>
 

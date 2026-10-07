@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { deleteDoc, doc } from "firebase/firestore";
+import { db } from "./firebase";
 import {
   EmailAuthProvider,
   deleteUser,
@@ -6,9 +8,10 @@ import {
   updatePassword,
   updateProfile,
 } from "firebase/auth";
-import { CalendarDays, KeyRound, LogIn, LogOut, Mail, Save, Trash2, UserRound } from "lucide-react";
-import { authErrorMessage, useAuth } from "./auth";
+import { CalendarDays, Camera, Flame, KeyRound, LogIn, LogOut, Mail, Save, Trash2, UserRound } from "lucide-react";
+import { Avatar, authErrorMessage, resizeToAvatar, useAuth } from "./auth";
 import { deleteAllMenus, loadMenus } from "./menuStorage";
+import { CalorieForm } from "./CalorieCalculator";
 
 const fmtDate = (s) =>
   s ? new Date(s).toLocaleString("ro-RO", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" }) : "–";
@@ -21,8 +24,17 @@ function Notice({ state }) {
   return <p className={state.error ? "authError" : "authInfo"}>{state.error || state.ok}</p>;
 }
 
-export default function AccountPage({ onOpenCalendar }) {
-  const { user, ready, configured, displayName, openLogin, logout, refreshUser } = useAuth();
+export default function AccountPage({ onOpenCalendar, scrollTo }) {
+  // din „Planificator de meniuri” → „Modifică datele”: pagina se deschide direct la calculator
+  useEffect(() => {
+    if (scrollTo !== "calculator") return undefined;
+    const t = setTimeout(() => document.getElementById("calculator")?.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
+    return () => clearTimeout(t);
+  }, [scrollTo]);
+
+  const { user, ready, configured, openLogin, logout, refreshUser, photo, setPhoto } = useAuth();
+  const fileRef = useRef(null);
+  const [photoState, setPhotoState] = useState(null);
   const [name, setName] = useState(user?.displayName ?? "");
   const [nameState, setNameState] = useState(null);
   const [menuCount, setMenuCount] = useState(null);
@@ -53,8 +65,39 @@ export default function AccountPage({ onOpenCalendar }) {
           </p>
           {configured && <button className="mealSaveBtn" onClick={openLogin}><LogIn size={16} /> Intră în cont</button>}
         </div>
+        <CalcSection guest />
       </div>
     );
+  }
+
+  async function onPickPhoto(e) {
+    const file = e.target.files?.[0];
+    e.target.value = "";   // aceeași poză poate fi aleasă din nou
+    if (!file) return;
+    setBusy("photo");
+    setPhotoState(null);
+    try {
+      await setPhoto(await resizeToAvatar(file));
+      setPhotoState({ ok: "Poza de profil a fost salvată." });
+    } catch (err) {
+      setPhotoState({
+        error: err.message === "not-image" || err.message === "bad-image"
+          ? "Alege o imagine (JPG, PNG, WEBP)."
+          : "Poza nu a putut fi salvată. Verifică conexiunea și încearcă din nou.",
+      });
+    }
+    setBusy("");
+  }
+
+  async function removePhoto() {
+    setBusy("photo");
+    try {
+      await setPhoto(null);
+      setPhotoState({ ok: "Poza a fost ștearsă." });
+    } catch {
+      setPhotoState({ error: "Poza nu a putut fi ștearsă." });
+    }
+    setBusy("");
   }
 
   async function saveName(e) {
@@ -92,6 +135,8 @@ export default function AccountPage({ onOpenCalendar }) {
     try {
       await reauth(user, delPw);
       await deleteAllMenus(user);
+      // poza de profil și favoritele
+      await Promise.all(["profile", "favorites"].map((d) => deleteDoc(doc(db, "users", user.uid, "data", d))));
       await deleteUser(user);
     } catch (err) {
       setDelState({ error: authErrorMessage(err) });
@@ -102,10 +147,23 @@ export default function AccountPage({ onOpenCalendar }) {
   return (
     <div className="calcPage">
       <header className="calcHero accHero">
-        <div className="accBigAvatar">{(displayName?.[0] ?? "?").toUpperCase()}</div>
-        <div>
+        <div className="accAvatarWrap">
+          <button className="accAvatarBtn" onClick={() => fileRef.current?.click()} title="Schimbă poza de profil" disabled={busy === "photo"}>
+            <Avatar className="accBigAvatar" />
+            <span className="accAvatarCam"><Camera size={15} /></span>
+          </button>
+          <input ref={fileRef} type="file" accept="image/*" hidden onChange={onPickPhoto} />
+        </div>
+        <div className="accHeroText">
           <h1>{user.displayName || "Contul meu"}</h1>
           <p>{user.email}</p>
+          <div className="accPhotoBtns">
+            <button onClick={() => fileRef.current?.click()} disabled={busy === "photo"}>
+              <Camera size={14} /> {busy === "photo" ? "Se încarcă…" : photo ? "Schimbă poza" : "Încarcă o poză"}
+            </button>
+            {photo && <button className="ghost" onClick={removePhoto} disabled={busy === "photo"}>Șterge poza</button>}
+          </div>
+          {photoState && <p className={photoState.error ? "accPhotoError" : "accPhotoOk"}>{photoState.error || photoState.ok}</p>}
         </div>
       </header>
 
@@ -177,6 +235,23 @@ export default function AccountPage({ onOpenCalendar }) {
           </section>
         </div>
       </div>
+
+      <CalcSection />
     </div>
+  );
+}
+
+// Datele pentru calculatorul de calorii, cu rezultatele (mutat din pagina „Planificator de meniuri”)
+function CalcSection({ guest = false }) {
+  return (
+    <section id="calculator" className="accCalc">
+      <h2 className="accCalcTitle"><Flame size={19} /> Calculatorul meu de calorii</h2>
+      <p className="accHint">
+        {guest
+          ? "Datele se salvează în acest browser. Intră în cont ca să le păstrezi pe orice dispozitiv."
+          : "Datele se salvează în contul tău și sunt folosite pentru meniul recomandat, pagina de start și jurnalul de apă."}
+      </p>
+      <CalorieForm />
+    </section>
   );
 }

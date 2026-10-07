@@ -982,7 +982,7 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 .muscleMap { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; flex: 0 0 auto; }
 .mmViews { display: flex; gap: 4px; padding: 6px 8px; border-radius: 16px; background: #fff; box-shadow: inset 0 0 0 1.5px #ece6d8; }
 .mmView { display: block; height: 100%; width: auto; }
-.mm-sm .mmViews { height: 64px; padding: 4px 5px; border-radius: 12px; }
+.mm-sm .mmViews { height: 84px; padding: 4px 5px; border-radius: 12px; }
 .mm-md .mmViews { height: 130px; }
 .mm-lg .mmViews { height: 230px; padding: 10px 14px; border-radius: 20px; box-shadow: inset 0 0 0 1.5px #ece6d8, 0 8px 22px rgba(40,46,38,.08); }
 .mmLabels { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px; }

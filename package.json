@@ -13,6 +13,7 @@
     "firebase": "^12.19.0",
     "lucide-react": "^0.468.0",
     "react": "^19.1.1",
+    "react-body-highlighter": "^2.0.5",
     "react-dom": "^19.1.1",
     "vite": "^7.1.7"
   }

@@ -2,7 +2,8 @@ import React, { useMemo, useState } from "react";
 import { Shuffle, RefreshCw, UtensilsCrossed, CalendarPlus, CalendarDays, Check } from "lucide-react";
 import { recipes } from "./recipes";
 import { fruitItems, vegetableItems, amountLabel } from "./planItems";
-import { dateKey, formatDay, loadMenus, saveMenu } from "./menuStorage";
+import { dateKey, formatDay, hasMenu, saveMenu } from "./menuStorage";
+import { useAuth } from "./auth";
 
 // Ce secțiuni din cărți se potrivesc la fiecare masă.
 // "side" = garnituri / salate mici, folosite ca al doilea fel la prânz și cină.
@@ -58,6 +59,16 @@ function rolesOf(r) {
   if (r.isVeg) return ["veg"];
   if (r.section === "Sărbători „ușoare”" && HOLIDAY_SWEETS.test(r.title)) return ["snack"];
   return ROLES[r.book]?.[r.section] || [];
+}
+
+// masa potrivită pentru o rețetă (ex. la „Adaugă în calendar” de pe pagina de start)
+export function suggestMeal(recipe) {
+  const roles = rolesOf(recipe);
+  if (roles.includes("breakfast")) return "breakfast";
+  if (roles.includes("snack") || roles.includes("fruit")) return "snack";
+  if (roles.includes("soup") || roles.includes("lunch") || roles.includes("side")) return "lunch";
+  if (roles.includes("dinner")) return "dinner";
+  return "lunch";
 }
 
 // primul fel al fiecărei mese: la gustare, mereu un fruct
@@ -186,15 +197,23 @@ export default function MealPlan({ target, macros, onOpenRecipe, onOpenCalendar,
   const plan = useMemo(() => buildPlan(target, book, round, seeds), [target, book, round, seeds]);
   const [day, setDay] = useState(() => initialDay || dateKey(new Date()));
   const [saved, setSaved] = useState(null);   // mesajul de confirmare după salvare
+  const [saving, setSaving] = useState(false);
+  const { user, configured, openLogin } = useAuth();
 
-  function save() {
-    const replaced = Boolean(loadMenus()[day]);
-    const ok = saveMenu(day, {
-      target: Math.round(target),
-      book,
-      meals: plan.map((m) => ({ key: m.key, items: m.items.map((i) => ({ id: i.recipe.id, portions: i.portions })) })),
-    });
-    setSaved(ok ? { day, replaced } : { error: true });
+  async function save() {
+    setSaving(true);
+    try {
+      const replaced = await hasMenu(user, day);
+      const ok = await saveMenu(user, day, {
+        target: Math.round(target),
+        book,
+        meals: plan.map((m) => ({ key: m.key, items: m.items.map((i) => ({ id: i.recipe.id, portions: i.portions })) })),
+      });
+      setSaved(ok ? { day, replaced } : { error: "browserul blochează stocarea" });
+    } catch {
+      setSaved({ error: "verifică conexiunea la internet și încearcă din nou" });
+    }
+    setSaving(false);
   }
 
   const total = plan.reduce(
@@ -293,16 +312,22 @@ export default function MealPlan({ target, macros, onOpenRecipe, onOpenCalendar,
           <span>Ziua:</span>
           <input type="date" value={day} onChange={(e) => { setDay(e.target.value); setSaved(null); }} />
         </label>
-        <button className="mealSaveBtn" onClick={save} disabled={!day}>
-          <CalendarPlus size={17} /> Salvează în calendar
+        <button className="mealSaveBtn" onClick={save} disabled={!day || saving}>
+          <CalendarPlus size={17} /> {saving ? "Se salvează…" : "Salvează în calendar"}
         </button>
         {saved && !saved.error && (
           <span className="mealSaved">
-            <Check size={15} /> {saved.replaced ? "Meniul a fost înlocuit" : "Salvat"} pentru {formatDay(saved.day)}.
+            <Check size={15} /> {saved.replaced ? "Meniul a fost înlocuit" : "Salvat"} pentru {formatDay(saved.day)}
+            {user ? " în contul tău" : ""}.
             {onOpenCalendar && <button onClick={onOpenCalendar}>Vezi calendarul →</button>}
           </span>
         )}
-        {saved?.error && <span className="mealSaved error">Nu s-a putut salva: browserul blochează stocarea.</span>}
+        {saved?.error && <span className="mealSaved error">Nu s-a putut salva: {saved.error}.</span>}
+        {!user && configured && (
+          <span className="mealHint">
+            Salvezi doar în acest browser. <button onClick={openLogin}>Intră în cont</button> ca să-l găsești pe orice dispozitiv.
+          </span>
+        )}
       </div>
     </div>
   );

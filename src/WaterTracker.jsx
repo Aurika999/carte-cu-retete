@@ -1,38 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Droplets, ChevronLeft, ChevronRight, Minus, Plus, Trophy, Settings2 } from "lucide-react";
 import { dateKey, formatDay } from "./menuStorage";
+import { GLASS, defaultGoal, loadLog, storeLog } from "./waterStorage";
 
-// Jurnalul de apă, păstrat în browser: { "2026-10-06": { ml: 1500, goal: 2450 } }
-const KEY = "jurnal-apa";
-const GLASS = 250;
 const WEEKDAYS = ["Lu", "Ma", "Mi", "Jo", "Vi", "Sâ", "Du"];
-
-function loadLog() {
-  try {
-    return JSON.parse(localStorage.getItem(KEY) || "{}");
-  } catch {
-    return {};
-  }
-}
-
-function storeLog(log) {
-  try {
-    localStorage.setItem(KEY, JSON.stringify(log));
-  } catch {
-    /* stocarea poate fi blocată; jurnalul merge până închizi pagina */
-  }
-}
-
-// ținta implicită: 35 ml pe kg, după greutatea din calculatorul de calorii
-function defaultGoal() {
-  try {
-    const weight = JSON.parse(localStorage.getItem("calculator-calorii") || "{}").weight;
-    if (weight) return Math.round((weight * 35) / 50) * 50;
-  } catch {
-    /* fără date din calculator */
-  }
-  return 2000;
-}
 
 const liters = (ml) => (ml / 1000).toLocaleString("ro-RO", { maximumFractionDigits: 2 });
 

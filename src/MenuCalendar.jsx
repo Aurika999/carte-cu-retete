@@ -1,8 +1,9 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { CalendarDays, ChevronLeft, ChevronRight, Trash2, Plus, Flame } from "lucide-react";
 import { MEALS } from "./MealPlan";
 import { planItemById as byId, amountLabel } from "./planItems";
 import { dateKey, deleteMenu, formatDay, loadMenus } from "./menuStorage";
+import { useAuth } from "./auth";
 
 const WEEKDAYS = ["Lu", "Ma", "Mi", "Jo", "Vi", "Sâ", "Du"];
 const fmt = (n) => Math.round(n).toLocaleString("ro-RO");
@@ -23,7 +24,20 @@ function expand(menu) {
 
 export default function MenuCalendar({ onOpenRecipe, onOpenCalculator }) {
   const today = dateKey(new Date());
-  const [menus, setMenus] = useState(loadMenus);
+  const { user, ready, configured, displayName, openLogin } = useAuth();
+  const [menus, setMenus] = useState({});
+  const [status, setStatus] = useState("loading");   // "loading" | "ready" | "error"
+
+  // meniurile vin din cont (Firestore) sau, fără cont, din browser; se reîncarcă la schimbarea contului
+  useEffect(() => {
+    if (!ready) return undefined;
+    let alive = true;
+    setStatus("loading");
+    loadMenus(user)
+      .then((m) => { if (alive) { setMenus(m); setStatus("ready"); } })
+      .catch(() => alive && setStatus("error"));
+    return () => { alive = false; };
+  }, [user, ready]);
   const [month, setMonth] = useState(() => {
     const d = new Date();
     return new Date(d.getFullYear(), d.getMonth(), 1);
@@ -49,10 +63,14 @@ export default function MenuCalendar({ onOpenRecipe, onOpenCalculator }) {
   const menu = menus[selected] ? expand(menus[selected]) : null;
   const shift = (n) => setMonth((m) => new Date(m.getFullYear(), m.getMonth() + n, 1));
 
-  function remove() {
+  async function remove() {
     if (!window.confirm(`Ștergi meniul din ${formatDay(selected)}?`)) return;
-    deleteMenu(selected);
-    setMenus(loadMenus());
+    try {
+      await deleteMenu(user, selected);
+      setMenus(await loadMenus(user));
+    } catch {
+      window.alert("Meniul nu a putut fi șters. Verifică conexiunea la internet.");
+    }
   }
 
   return (
@@ -64,6 +82,23 @@ export default function MenuCalendar({ onOpenRecipe, onOpenCalculator }) {
           <p>Meniurile salvate din calculatorul de calorii, pe zile. Apasă pe o zi ca să vezi ce ai de mâncat.</p>
         </div>
       </header>
+
+      {ready && (
+        <div className={`calAccount ${user ? "in" : ""}`}>
+          {user ? (
+            <>☁️ Meniurile tale sunt salvate în contul <strong>{displayName}</strong> și le găsești pe orice dispozitiv.</>
+          ) : configured ? (
+            <>
+              💾 Meniurile sunt salvate doar în acest browser.{" "}
+              <button onClick={openLogin}>Intră în cont</button> ca să le păstrezi în contul tău.
+            </>
+          ) : (
+            <>💾 Meniurile sunt salvate în acest browser.</>
+          )}
+          {status === "loading" && <span className="calStatus">Se încarcă…</span>}
+          {status === "error" && <span className="calStatus error">Meniurile nu au putut fi încărcate.</span>}
+        </div>
+      )}
 
       <div className="calGrid">
         <section className="calcCard">

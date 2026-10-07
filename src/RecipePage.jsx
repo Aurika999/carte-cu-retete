@@ -27,9 +27,9 @@ export default function RecipePage({ recipe, onBack }) {
   return (
     <div className="rpPage">
       <header className="rpTop">
-        <button className="rpBack" onClick={onBack} aria-label="Înapoi la meniul principal">
+        <button className="rpBack" onClick={onBack} aria-label="Înapoi la pagina anterioară">
           <ArrowLeft size={20} />
-          <span>Înapoi la meniu</span>
+          <span>Înapoi</span>
         </button>
         <span className="rpBrand">Be Fit From Home</span>
       </header>
@@ -119,7 +119,7 @@ export default function RecipePage({ recipe, onBack }) {
         )}
 
         <button className="rpBack rpBackBottom" onClick={onBack}>
-          <ArrowLeft size={18} /> <span>Înapoi la meniu</span>
+          <ArrowLeft size={18} /> <span>Înapoi</span>
         </button>
       </main>
     </div>

@@ -1,102 +1,52 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { Search, ChevronDown, BookOpen, Menu, X, Calculator, CalendarDays, Droplets, Apple, Carrot, ChefHat } from "lucide-react";
-import { recipes } from "./recipes";
+import { BookOpen, Menu, X, Calculator, CalendarDays, Droplets, ChefHat, LogIn, LogOut } from "lucide-react";
+import { AuthProvider, useAuth } from "./auth";
 import CalorieCalculator from "./CalorieCalculator";
 import MenuCalendar from "./MenuCalendar";
 import WaterTracker from "./WaterTracker";
 import ProduceGrid from "./ProduceGrid";
 import RecipeBuilder from "./RecipeBuilder";
+import AccountPage from "./AccountPage";
+import RecipesHub from "./RecipesHub";
+import Home from "./Home";
+import { FavoritesProvider } from "./favorites";
 import RecipePage from "./RecipePage";
 import { hasDetail, detailPath, recipeFromPath, loadDetail } from "./recipeDetails";
+import { TOOL_PATHS, bookPath, navigate, parseRoute, redirectOldHash } from "./routes";
 import "./styles.css";
 
-// Cărți → secțiuni → rețete, în ordinea din recipes.js
-function groupRecipes(list) {
-  const books = [];
-  for (const recipe of list) {
-    let book = books.find((b) => b.title === recipe.book);
-    if (!book) books.push((book = { title: recipe.book, sections: [] }));
-    let section = book.sections.find((s) => s.title === recipe.section);
-    if (!section) book.sections.push((section = { title: recipe.section, items: [] }));
-    section.items.push(recipe);
-  }
-  return books;
-}
-
-const sectionKey = (book, section) => `${book}|${section}`;
-
-function App({ onOpenDetail }) {
-  const [selectedId, setSelectedId] = useState(null);
-  // "calculator" / "calendar" / "apa" / "fructe" / "legume" / null (rețetă sau pagina de start);
-  // linkurile …/#calculator, …/#calendar, …/#apa, …/#fructe și …/#legume deschid direct pagina
-  const [tool, setTool] = useState(
-    () =>
-      ({ "#calculator": "calculator", "#calendar": "calendar", "#apa": "apa", "#fructe": "fructe", "#legume": "legume", "#reteta": "reteta" })[
-        window.location.hash
-      ] ?? null
-  );
-  const [planDay, setPlanDay] = useState(null);   // ziua aleasă din calendar pentru un meniu nou
-  const [visit, setVisit] = useState(0);          // la fiecare apăsare în meniu, pagina pornește de la început
-  const [fruitId, setFruitId] = useState(null);   // fructul de deschis în „Fructe crude”
-  const [query, setQuery] = useState("");
+// Aplicația cu meniul din stânga. Pagina afișată vine din adresa din browser (route):
+// { tool, book } — ex. /retete-traditionale → { tool: "retete", book: "Rețete tradiționale" }.
+function App({ route, state }) {
   const [mobileOpen, setMobileOpen] = useState(false);
-  // Cărțile și secțiunile pornesc închise; la căutare se deschid toate
-  const [openItems, setOpenItems] = useState({});
-  const isOpen = (key) => Boolean(query.trim()) || Boolean(openItems[key]);
-
-  // null = pagina de start, cu poza de copertă
-  const selected = recipes.find((r) => r.id === selectedId) ?? null;
-
-  const filtered = useMemo(() => {
-    const q = query.trim().toLocaleLowerCase("ro");
-    if (!q) return recipes;
-    return recipes.filter((r) =>
-      r.title.toLocaleLowerCase("ro").includes(q)
-    );
-  }, [query]);
-  const grouped = useMemo(() => groupRecipes(filtered), [filtered]);
+  const tool = route?.tool ?? null;
 
   function choose(recipe) {
     setMobileOpen(false);
-    if (hasDetail(recipe)) {
-      // rețetele scrise ca text se deschid pe pagina lor, la /<titlul rețetei>
-      onOpenDetail(recipe);
-      return;
-    }
     if (recipe.isProduce) {
       // un fruct / o legumă din meniu sau calendar deschide pagina lui din „Fructe crude” / „Legume crude”
-      setFruitId(recipe.id);
-      setSelectedId(null);
-      setTool(recipe.isVeg ? "legume" : "fructe");
-      setVisit((v) => v + 1);
-      return;
+      navigate(TOOL_PATHS[recipe.isVeg ? "legume" : "fructe"], { fruitId: recipe.id });
+    } else if (hasDetail(recipe)) {
+      navigate(detailPath(recipe));
     }
-    setSelectedId(recipe.id);
-    setTool(null);
   }
 
-  function goHome() {
-    setSelectedId(null);
-    setTool(null);
+  function openTool(name, extra = {}) {
     setMobileOpen(false);
+    navigate(TOOL_PATHS[name], extra);
   }
 
-  function openTool(name, day = null) {
-    setSelectedId(null);
-    setFruitId(null);
-    setTool(name);
-    setPlanDay(day);
-    setVisit((v) => v + 1);
-    setMobileOpen(false);
-  }
-
-  function toggle(key) {
-    setOpenItems((current) => ({
-      ...current,
-      [key]: !current[key],
-    }));
-  }
+  const goHome = () => { setMobileOpen(false); navigate("/"); };
+  const navButton = (name, className, Icon, title, subtitle, active = tool === name) => (
+    <button className={`calcNav ${className} ${active ? "active" : ""}`} onClick={() => openTool(name)}>
+      <span className="calcNavIcon"><Icon size={18} /></span>
+      <span>
+        <strong>{title}</strong>
+        <small>{subtitle}</small>
+      </span>
+    </button>
+  );
 
   return (
     <div className="app">
@@ -114,103 +64,13 @@ function App({ onOpenDetail }) {
           </button>
         </div>
 
-        <div className="tocIntro">
-          <div className="tocTitle">Cuprins</div>
-        </div>
-
-        <div className="search">
-          <Search size={17} />
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Caută o rețetă..."
-            aria-label="Caută o rețetă"
-          />
-          {query && (
-            <button className="searchClear" onClick={() => setQuery("")} aria-label="Șterge căutarea">
-              <X size={15} />
-            </button>
-          )}
-        </div>
-
-        <nav className="toc" aria-label="Cuprins rețete">
-          {grouped.map((book) => (
-            <div className="tocBook" key={book.title}>
-              <button className="bookButton" onClick={() => toggle(book.title)}>
-                <span>{book.title}</span>
-                <ChevronDown size={18} className={isOpen(book.title) ? "chevron open" : "chevron"} />
-              </button>
-              {isOpen(book.title) && book.sections.map(({ title: section, items }) => {
-                const key = sectionKey(book.title, section);
-                const open = isOpen(key);
-                return (
-                  <div className="tocSection" key={key}>
-                    <button className="sectionButton" onClick={() => toggle(key)}>
-                      <span>{section}</span>
-                      <ChevronDown size={16} className={open ? "chevron open" : "chevron"} />
-                    </button>
-                    {open && (
-                      <div className="recipeList">
-                        {items.map((recipe) => (
-                          <button
-                            key={recipe.id}
-                            className={`recipeItem ${selected?.id === recipe.id ? "active" : ""}`}
-                            onClick={() => choose(recipe)}
-                          >
-                            <span className="recipeNumber">{recipe.number}</span>
-                            <span className="recipeName">{recipe.title}</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          ))}
-
-          <div className="tocBook">
-            <button className={`bookButton ${tool === "fructe" ? "bookActive" : ""}`} onClick={() => openTool("fructe")}>
-              <span>Fructe crude</span>
-              <Apple size={17} />
-            </button>
-          </div>
-          <div className="tocBook">
-            <button className={`bookButton ${tool === "legume" ? "bookActive" : ""}`} onClick={() => openTool("legume")}>
-              <span>Legume crude</span>
-              <Carrot size={17} />
-            </button>
-          </div>
-
-          <button className={`calcNav ${tool === "calculator" ? "active" : ""}`} onClick={() => openTool("calculator")}>
-            <span className="calcNavIcon"><Calculator size={18} /></span>
-            <span>
-              <strong>Calculator calorii</strong>
-              <small>Câte calorii îți trebuie pe zi</small>
-            </span>
-          </button>
-          <button className={`calcNav calNav ${tool === "calendar" ? "active" : ""}`} onClick={() => openTool("calendar")}>
-            <span className="calcNavIcon"><CalendarDays size={18} /></span>
-            <span>
-              <strong>Calendarul meu</strong>
-              <small>Meniurile salvate pe zile</small>
-            </span>
-          </button>
-          <button className={`calcNav waterNav ${tool === "apa" ? "active" : ""}`} onClick={() => openTool("apa")}>
-            <span className="calcNavIcon"><Droplets size={18} /></span>
-            <span>
-              <strong>Jurnal de apă</strong>
-              <small>Câtă apă să bei și cât ai băut</small>
-            </span>
-          </button>
-          <button className={`calcNav rbNav ${tool === "reteta" ? "active" : ""}`} onClick={() => openTool("reteta")}>
-            <span className="calcNavIcon"><ChefHat size={18} /></span>
-            <span>
-              <strong>Creează-ți rețeta</strong>
-              <small>Alege ingredientele, vezi caloriile</small>
-            </span>
-          </button>
-
+        <nav className="toc" aria-label="Meniu">
+          {navButton("retete", "hubNav", BookOpen, "Rețete pentru Fit From Home", "Cărțile de rețete, fructe și legume crude",
+            ["retete", "fructe", "legume"].includes(tool))}
+          {navButton("calculator", "", Calculator, "Calculator calorii", "Câte calorii îți trebuie pe zi")}
+          {navButton("calendar", "calNav", CalendarDays, "Calendarul meu", "Meniurile salvate pe zile")}
+          {navButton("apa", "waterNav", Droplets, "Jurnal de apă", "Câtă apă să bei și cât ai băut")}
+          {navButton("reteta", "rbNav", ChefHat, "Creează-ți rețeta", "Alege ingredientele, vezi caloriile")}
           <p className="slogan">Gătește smart, trăiește fit.</p>
         </nav>
       </aside>
@@ -220,73 +80,68 @@ function App({ onOpenDetail }) {
           <button className="mobileMenu iconButton" onClick={() => setMobileOpen(true)} aria-label="Deschide cuprinsul">
             <Menu size={21} />
           </button>
+          <AccountButton onOpenAccount={() => openTool("cont")} />
         </header>
 
         {tool === "calculator" ? (
           <CalorieCalculator
-            key={planDay ?? "azi"}
-            initialDay={planDay}
+            key={state.planDay ?? "azi"}
+            initialDay={state.planDay}
             onOpenRecipe={choose}
             onOpenCalendar={() => openTool("calendar")}
           />
         ) : tool === "apa" ? (
           <WaterTracker />
         ) : tool === "calendar" ? (
-          <MenuCalendar onOpenRecipe={choose} onOpenCalculator={(day) => openTool("calculator", day)} />
+          <MenuCalendar onOpenRecipe={choose} onOpenCalculator={(day) => openTool("calculator", { planDay: day })} />
+        ) : tool === "retete" ? (
+          <RecipesHub
+            book={route.book}
+            onOpenRecipe={choose}
+            onOpenBook={(b) => navigate(b ? bookPath(b) : TOOL_PATHS.retete)}
+            onOpenTool={openTool}
+          />
+        ) : tool === "cont" ? (
+          <AccountPage onOpenCalendar={() => openTool("calendar")} />
         ) : tool === "reteta" ? (
           <RecipeBuilder />
         ) : tool === "fructe" || tool === "legume" ? (
-          <ProduceGrid key={`${tool}-${visit}`} type={tool} initialId={fruitId} />
-        ) : selected ? (
-          <>
-            <section className="recipeHeader">
-              <div>
-                <h1>{selected.title}</h1>
-              </div>
-            </section>
-
-            <section className="viewerCard">
-              <div className="pdfPageWrap">
-                <img
-                  key={selected.id}
-                  className="pdfPageImage"
-                  src={selected.image}
-                  alt={`Rețeta ${selected.title}`}
-                />
-              </div>
-            </section>
-          </>
+          <ProduceGrid key={`${tool}-${state.t ?? 0}`} type={tool} initialId={state.fruitId} />
         ) : (
-          <section className="homeCover">
-            <h1 className="homeTitle">
-              Carte de rețete online: „Gusturi Tradiționale și Moderne”
-            </h1>
-            <img src="/cover.png" alt="Be Fit From Home — Rețete Sănătoase" />
-          </section>
+          <Home
+            onOpenRecipe={choose}
+            onSearch={(q) => navigate(`${TOOL_PATHS.retete}?q=${encodeURIComponent(q)}`)}
+            onFilter={(f) => navigate(`${TOOL_PATHS.retete}?f=${f}`)}
+            onOpenTool={openTool}
+          />
         )}
       </main>
     </div>
   );
 }
 
-// Pornirea: adresa din browser decide ce se vede. /<titlul rețetei> deschide pagina
-// rețetei scrise ca text (recipeDetails.js); orice altă adresă, aplicația obișnuită.
-function navigate(path) {
-  window.history.pushState(null, "", path);
-  window.dispatchEvent(new PopStateEvent("popstate"));
-}
+// Pornirea: adresa din browser decide ce se vede — o rețetă (/Salata-cu-piept-de-pui),
+// o pagină a aplicației (/retete-traditionale, /calculator-calorii...) sau pagina de start.
+redirectOldHash();
 
 function Root() {
-  const [path, setPath] = useState(window.location.pathname);
+  const read = () => ({ path: window.location.pathname, state: window.history.state ?? {} });
+  const [loc, setLoc] = useState(read);
   useEffect(() => {
-    const onPop = () => setPath(window.location.pathname);
+    const onPop = () => setLoc(read());
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
 
-  const recipe = recipeFromPath(path);
-  if (recipe) return <RecipeRoute key={recipe.id} recipe={recipe} onBack={() => navigate("/")} />;
-  return <App onOpenDetail={(r) => navigate(detailPath(r))} />;
+  const route = parseRoute(loc.path);
+  const recipe = !route && recipeFromPath(loc.path);
+  if (recipe) {
+    // „Înapoi”: la pagina din aplicație de unde a fost deschisă rețeta (cu tot cu poziția derulării);
+    // dacă rețeta a fost deschisă direct dintr-un link, la cartea ei
+    const back = () => (loc.state.fromApp ? window.history.back() : navigate(bookPath(recipe.book)));
+    return <RecipeRoute key={recipe.id} recipe={recipe} onBack={back} />;
+  }
+  return <App route={route} state={loc.state} />;
 }
 
 // descarcă textul rețetei (src/retete/<slug>.js) și o afișează
@@ -303,9 +158,37 @@ function RecipeRoute({ recipe, onBack }) {
   return (
     <div className="rpPage rpLoading">
       <p>{failed ? "Rețeta nu a putut fi încărcată." : "Se încarcă rețeta…"}</p>
-      <button className="rpBack" onClick={onBack}>Înapoi la meniu</button>
+      <button className="rpBack" onClick={onBack}>Înapoi</button>
     </div>
   );
 }
 
-createRoot(document.getElementById("root")).render(<Root />);
+// butonul din bara de sus: „Intră în cont” sau numele utilizatorului (deschide „Contul meu”) + „Ieși”
+function AccountButton({ onOpenAccount }) {
+  const { user, ready, configured, displayName, openLogin, logout } = useAuth();
+  if (!ready || !configured) return null;
+  if (!user) {
+    return (
+      <button className="accountBtn" onClick={openLogin}>
+        <LogIn size={16} /> Intră în cont
+      </button>
+    );
+  }
+  return (
+    <div className="accountBox">
+      <button className="accountMe" onClick={onOpenAccount} title="Contul meu">
+        <span className="accountAvatar">{(displayName?.[0] ?? "?").toUpperCase()}</span>
+        <span className="accountEmail">{displayName}</span>
+      </button>
+      <button className="accountOut" onClick={logout} title="Ieși din cont"><LogOut size={15} /> Ieși</button>
+    </div>
+  );
+}
+
+createRoot(document.getElementById("root")).render(
+  <AuthProvider>
+    <FavoritesProvider>
+      <Root />
+    </FavoritesProvider>
+  </AuthProvider>
+);

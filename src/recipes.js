@@ -15,7 +15,8 @@ export const recipes = [
       "fat": 11.2,
       "fiber": 2.0
     },
-    "slug": "Mamaliga-cu-branza-si-ou-ochi"
+    "slug": "Mamaliga-cu-branza-si-ou-ochi",
+    "minutes": 15
   },
   {
     "id": "t-2",
@@ -33,7 +34,8 @@ export const recipes = [
       "fat": 18.1,
       "fiber": 0.0
     },
-    "slug": "Omleta-cu-muschi-file-si-telemea"
+    "slug": "Omleta-cu-muschi-file-si-telemea",
+    "minutes": 10
   },
   {
     "id": "t-3",
@@ -51,7 +53,8 @@ export const recipes = [
       "fat": 16.1,
       "fiber": 1.5
     },
-    "slug": "Omleta-cu-legume-si-piept-de-pui-afumat"
+    "slug": "Omleta-cu-legume-si-piept-de-pui-afumat",
+    "minutes": 10
   },
   {
     "id": "t-4",
@@ -69,7 +72,8 @@ export const recipes = [
       "fat": 17.4,
       "fiber": 1.8
     },
-    "slug": "Omleta-taraneasca"
+    "slug": "Omleta-taraneasca",
+    "minutes": 10
   },
   {
     "id": "t-5",
@@ -87,7 +91,8 @@ export const recipes = [
       "fat": 10.7,
       "fiber": 5.5
     },
-    "slug": "Lipie-calda-cu-piept-de-pui"
+    "slug": "Lipie-calda-cu-piept-de-pui",
+    "minutes": 15
   },
   {
     "id": "t-6",
@@ -105,7 +110,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 6.9
     },
-    "slug": "Salata-cu-fasole-si-paine-prajita-traditionale"
+    "slug": "Salata-cu-fasole-si-paine-prajita-traditionale",
+    "minutes": 35
   },
   {
     "id": "t-7",
@@ -123,7 +129,8 @@ export const recipes = [
       "fat": 1.2,
       "fiber": 0.2
     },
-    "slug": "Branza-de-vaci-cu-smantana-si-marar"
+    "slug": "Branza-de-vaci-cu-smantana-si-marar",
+    "minutes": 10
   },
   {
     "id": "t-8",
@@ -140,7 +147,8 @@ export const recipes = [
       "carbs": 9.1,
       "fat": 19.0
     },
-    "slug": "Ciorba-de-burta"
+    "slug": "Ciorba-de-burta",
+    "minutes": 240
   },
   {
     "id": "t-9",
@@ -157,7 +165,8 @@ export const recipes = [
       "carbs": 9.1,
       "fat": 6.8
     },
-    "slug": "Ciorba-radauteana"
+    "slug": "Ciorba-radauteana",
+    "minutes": 240
   },
   {
     "id": "t-10",
@@ -174,7 +183,8 @@ export const recipes = [
       "carbs": 20.6,
       "fat": 6.2
     },
-    "slug": "Ciorba-ardeleneasca-de-perisoare"
+    "slug": "Ciorba-ardeleneasca-de-perisoare",
+    "minutes": 45
   },
   {
     "id": "t-11",
@@ -191,7 +201,8 @@ export const recipes = [
       "carbs": 36.1,
       "fat": 6.1
     },
-    "slug": "Ciorba-ardeleneasca-de-cartofi"
+    "slug": "Ciorba-ardeleneasca-de-cartofi",
+    "minutes": 45
   },
   {
     "id": "t-12",
@@ -208,7 +219,8 @@ export const recipes = [
       "carbs": 49.1,
       "fat": 5.6
     },
-    "slug": "Ciorba-de-fasole-cu-afumatura"
+    "slug": "Ciorba-de-fasole-cu-afumatura",
+    "minutes": 100
   },
   {
     "id": "t-13",
@@ -225,7 +237,8 @@ export const recipes = [
       "carbs": 24.3,
       "fat": 5.9
     },
-    "slug": "Ciorba-de-vacuta"
+    "slug": "Ciorba-de-vacuta",
+    "minutes": 70
   },
   {
     "id": "t-14",
@@ -243,7 +256,8 @@ export const recipes = [
       "fat": 8.0,
       "fiber": 6.3
     },
-    "slug": "Ciorba-de-loboda"
+    "slug": "Ciorba-de-loboda",
+    "minutes": 70
   },
   {
     "id": "t-15",
@@ -261,7 +275,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 8.4
     },
-    "slug": "Ciorba-de-stevie"
+    "slug": "Ciorba-de-stevie",
+    "minutes": 70
   },
   {
     "id": "t-16",
@@ -279,7 +294,8 @@ export const recipes = [
       "fat": 2.7,
       "fiber": 4.0
     },
-    "slug": "Ciorba-taraneasca-de-legume"
+    "slug": "Ciorba-taraneasca-de-legume",
+    "minutes": 70
   },
   {
     "id": "t-17",
@@ -296,7 +312,8 @@ export const recipes = [
       "carbs": 11.6,
       "fat": 5.6
     },
-    "slug": "Ciorba-de-potroace"
+    "slug": "Ciorba-de-potroace",
+    "minutes": 70
   },
   {
     "id": "t-18",
@@ -314,7 +331,8 @@ export const recipes = [
       "fat": 3.3,
       "fiber": 2.0
     },
-    "slug": "Bors-de-peste"
+    "slug": "Bors-de-peste",
+    "minutes": 40
   },
   {
     "id": "t-19",
@@ -331,7 +349,8 @@ export const recipes = [
       "carbs": 17.2,
       "fat": 5.2
     },
-    "slug": "Ciorba-de-burta-Fara-Burta-cu-ciuperci-Pleurotus"
+    "slug": "Ciorba-de-burta-Fara-Burta-cu-ciuperci-Pleurotus",
+    "minutes": 240
   },
   {
     "id": "t-20",
@@ -348,7 +367,8 @@ export const recipes = [
       "carbs": 42.2,
       "fat": 8.3
     },
-    "slug": "Supa-de-galuste"
+    "slug": "Supa-de-galuste",
+    "minutes": 240
   },
   {
     "id": "t-21",
@@ -366,7 +386,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 9.1
     },
-    "slug": "Sarmale-cu-mamaliga-si-iaurt-traditionale"
+    "slug": "Sarmale-cu-mamaliga-si-iaurt-traditionale",
+    "minutes": 90
   },
   {
     "id": "t-22",
@@ -384,7 +405,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 9.1
     },
-    "slug": "Sarmale-de-vita"
+    "slug": "Sarmale-de-vita",
+    "minutes": 90
   },
   {
     "id": "t-23",
@@ -401,7 +423,8 @@ export const recipes = [
       "carbs": 1.7,
       "fat": 4.4
     },
-    "slug": "Mici-mititei"
+    "slug": "Mici-mititei",
+    "minutes": 50
   },
   {
     "id": "t-24",
@@ -419,7 +442,8 @@ export const recipes = [
       "fat": 7.0,
       "fiber": 1.9
     },
-    "slug": "Tochitura-de-porc-cu-mamaliga"
+    "slug": "Tochitura-de-porc-cu-mamaliga",
+    "minutes": 50
   },
   {
     "id": "t-25",
@@ -436,7 +460,8 @@ export const recipes = [
       "carbs": 39.5,
       "fat": 7.1
     },
-    "slug": "Tocanita-de-pui-cu-mamaliga"
+    "slug": "Tocanita-de-pui-cu-mamaliga",
+    "minutes": 50
   },
   {
     "id": "t-26",
@@ -453,7 +478,8 @@ export const recipes = [
       "carbs": 10.4,
       "fat": 5.6
     },
-    "slug": "Ostropel-din-piept-de-pui"
+    "slug": "Ostropel-din-piept-de-pui",
+    "minutes": 50
   },
   {
     "id": "t-27",
@@ -471,7 +497,8 @@ export const recipes = [
       "fat": 3.6,
       "fiber": 5.5
     },
-    "slug": "Varza-a-la-Cluj"
+    "slug": "Varza-a-la-Cluj",
+    "minutes": 70
   },
   {
     "id": "t-28",
@@ -488,7 +515,8 @@ export const recipes = [
       "carbs": 31.7,
       "fat": 2.4
     },
-    "slug": "Dovlecei-umpluti"
+    "slug": "Dovlecei-umpluti",
+    "minutes": 60
   },
   {
     "id": "t-29",
@@ -505,7 +533,8 @@ export const recipes = [
       "carbs": 21.4,
       "fat": 6.3
     },
-    "slug": "Vinete-umplute"
+    "slug": "Vinete-umplute",
+    "minutes": 60
   },
   {
     "id": "t-30",
@@ -523,7 +552,8 @@ export const recipes = [
       "fat": 4.4,
       "fiber": 0.6
     },
-    "slug": "Chiftele-marinate"
+    "slug": "Chiftele-marinate",
+    "minutes": 70
   },
   {
     "id": "t-31",
@@ -540,7 +570,8 @@ export const recipes = [
       "carbs": 5.3,
       "fat": 15.5
     },
-    "slug": "Stufat-moldovenesc"
+    "slug": "Stufat-moldovenesc",
+    "minutes": 60
   },
   {
     "id": "t-32",
@@ -558,7 +589,8 @@ export const recipes = [
       "fat": 3.3,
       "fiber": 4.5
     },
-    "slug": "Friptura-la-tava"
+    "slug": "Friptura-la-tava",
+    "minutes": 80
   },
   {
     "id": "t-33",
@@ -576,7 +608,8 @@ export const recipes = [
       "fat": 4.8,
       "fiber": 0.1
     },
-    "slug": "Pomana-porcului"
+    "slug": "Pomana-porcului",
+    "minutes": 80
   },
   {
     "id": "t-34",
@@ -594,7 +627,8 @@ export const recipes = [
       "fat": 6.4,
       "fiber": 3.8
     },
-    "slug": "Rasol-de-vita"
+    "slug": "Rasol-de-vita",
+    "minutes": 90
   },
   {
     "id": "t-35",
@@ -612,7 +646,8 @@ export const recipes = [
       "fat": 3.7,
       "fiber": 8.7
     },
-    "slug": "Ghiveci-taranesc"
+    "slug": "Ghiveci-taranesc",
+    "minutes": 90
   },
   {
     "id": "t-36",
@@ -630,7 +665,8 @@ export const recipes = [
       "fat": 2.9,
       "fiber": 14.9
     },
-    "slug": "Iahnie-de-fasole"
+    "slug": "Iahnie-de-fasole",
+    "minutes": 90
   },
   {
     "id": "t-37",
@@ -648,7 +684,8 @@ export const recipes = [
       "fat": 11.3,
       "fiber": 3.9
     },
-    "slug": "Musaca-de-cartofi"
+    "slug": "Musaca-de-cartofi",
+    "minutes": 90
   },
   {
     "id": "t-38",
@@ -665,7 +702,8 @@ export const recipes = [
       "carbs": 7.4,
       "fat": 15.4
     },
-    "slug": "Tocanita-de-miel-cu-usturoi-si-vin"
+    "slug": "Tocanita-de-miel-cu-usturoi-si-vin",
+    "minutes": 90
   },
   {
     "id": "t-39",
@@ -683,7 +721,8 @@ export const recipes = [
       "fat": 6.8,
       "fiber": 10.5
     },
-    "slug": "Mancarica-de-fasole-cu-carne-de-vita"
+    "slug": "Mancarica-de-fasole-cu-carne-de-vita",
+    "minutes": 90
   },
   {
     "id": "t-40",
@@ -701,7 +740,8 @@ export const recipes = [
       "fat": 6.1,
       "fiber": 5.2
     },
-    "slug": "Cotlet-de-porc-cu-fasole-verde-sote"
+    "slug": "Cotlet-de-porc-cu-fasole-verde-sote",
+    "minutes": 35
   },
   {
     "id": "t-41",
@@ -718,7 +758,8 @@ export const recipes = [
       "carbs": 43.1,
       "fat": 2.4
     },
-    "slug": "Ardei-umpluti-cu-pui-la-cuptor"
+    "slug": "Ardei-umpluti-cu-pui-la-cuptor",
+    "minutes": 60
   },
   {
     "id": "t-42",
@@ -736,7 +777,8 @@ export const recipes = [
       "fat": 4.2,
       "fiber": 2.4
     },
-    "slug": "Saramura-de-crap"
+    "slug": "Saramura-de-crap",
+    "minutes": 45
   },
   {
     "id": "t-43",
@@ -754,7 +796,8 @@ export const recipes = [
       "fat": 4.2,
       "fiber": 3.3
     },
-    "slug": "Plachie-de-crap"
+    "slug": "Plachie-de-crap",
+    "minutes": 50
   },
   {
     "id": "t-44",
@@ -771,7 +814,8 @@ export const recipes = [
       "carbs": 16.0,
       "fat": 38.0
     },
-    "slug": "Nisetru-cu-legume-la-gratar"
+    "slug": "Nisetru-cu-legume-la-gratar",
+    "minutes": 50
   },
   {
     "id": "t-45",
@@ -789,7 +833,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 0.1
     },
-    "slug": "Scrumbie-la-gratar-cu-mujdei-light"
+    "slug": "Scrumbie-la-gratar-cu-mujdei-light",
+    "minutes": 25
   },
   {
     "id": "t-46",
@@ -806,7 +851,8 @@ export const recipes = [
       "carbs": 8.5,
       "fat": 4.2
     },
-    "slug": "Storceag-traditional"
+    "slug": "Storceag-traditional",
+    "minutes": 55
   },
   {
     "id": "t-47",
@@ -824,7 +870,8 @@ export const recipes = [
       "fat": 2.8,
       "fiber": 1.4
     },
-    "slug": "Peste-marinat"
+    "slug": "Peste-marinat",
+    "minutes": 60
   },
   {
     "id": "t-48",
@@ -842,7 +889,8 @@ export const recipes = [
       "fat": 5.4,
       "fiber": 5.0
     },
-    "slug": "Somon-la-cuptor-cu-legume-traditionale"
+    "slug": "Somon-la-cuptor-cu-legume-traditionale",
+    "minutes": 30
   },
   {
     "id": "t-49",
@@ -859,7 +907,8 @@ export const recipes = [
       "carbs": 18.5,
       "fat": 10.2
     },
-    "slug": "Chiftelute-cu-ton"
+    "slug": "Chiftelute-cu-ton",
+    "minutes": 30
   },
   {
     "id": "t-50",
@@ -877,7 +926,8 @@ export const recipes = [
       "fat": 5.7,
       "fiber": 0.4
     },
-    "slug": "Mamaliguta-cu-branza-si-smantana"
+    "slug": "Mamaliguta-cu-branza-si-smantana",
+    "minutes": 30
   },
   {
     "id": "t-51",
@@ -895,7 +945,8 @@ export const recipes = [
       "fat": 7.7,
       "fiber": 0.4
     },
-    "slug": "Balmos"
+    "slug": "Balmos",
+    "minutes": 30
   },
   {
     "id": "t-52",
@@ -913,7 +964,8 @@ export const recipes = [
       "fat": 4.5,
       "fiber": 11.0
     },
-    "slug": "Zacusca-de-vinete"
+    "slug": "Zacusca-de-vinete",
+    "minutes": 60
   },
   {
     "id": "t-53",
@@ -931,7 +983,8 @@ export const recipes = [
       "fat": 5.2,
       "fiber": 9.5
     },
-    "slug": "Tocanita-de-ciuperci-cu-mamaliga"
+    "slug": "Tocanita-de-ciuperci-cu-mamaliga",
+    "minutes": 35
   },
   {
     "id": "t-54",
@@ -949,7 +1002,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 4.3
     },
-    "slug": "Tocana-de-legume-cu-orez-traditionale"
+    "slug": "Tocana-de-legume-cu-orez-traditionale",
+    "minutes": 45
   },
   {
     "id": "t-55",
@@ -967,7 +1021,8 @@ export const recipes = [
       "fat": 10.1,
       "fiber": 15.4
     },
-    "slug": "Salata-de-vinete-traditionale"
+    "slug": "Salata-de-vinete-traditionale",
+    "minutes": 45
   },
   {
     "id": "t-56",
@@ -985,7 +1040,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 11.5
     },
-    "slug": "Fasole-batuta"
+    "slug": "Fasole-batuta",
+    "minutes": 50
   },
   {
     "id": "t-57",
@@ -1002,7 +1058,8 @@ export const recipes = [
       "carbs": 5.7,
       "fat": 10.0
     },
-    "slug": "Salata-de-icre"
+    "slug": "Salata-de-icre",
+    "minutes": 35
   },
   {
     "id": "t-58",
@@ -1020,7 +1077,8 @@ export const recipes = [
       "fat": 2.9,
       "fiber": 4.5
     },
-    "slug": "Cartofi-taranesti"
+    "slug": "Cartofi-taranesti",
+    "minutes": 40
   },
   {
     "id": "t-59",
@@ -1038,7 +1096,8 @@ export const recipes = [
       "fat": 2.8,
       "fiber": 3.5
     },
-    "slug": "Salata-de-varza-cu-morcov"
+    "slug": "Salata-de-varza-cu-morcov",
+    "minutes": 20
   },
   {
     "id": "t-60",
@@ -1056,7 +1115,8 @@ export const recipes = [
       "fat": 0.7,
       "fiber": 7.2
     },
-    "slug": "Muraturi-asortate"
+    "slug": "Muraturi-asortate",
+    "minutes": 20
   },
   {
     "id": "t-61",
@@ -1074,7 +1134,8 @@ export const recipes = [
       "fat": 4.7,
       "fiber": 4.9
     },
-    "slug": "Salata-de-sfecla-cu-hrean"
+    "slug": "Salata-de-sfecla-cu-hrean",
+    "minutes": 25
   },
   {
     "id": "t-62",
@@ -1092,7 +1153,8 @@ export const recipes = [
       "fat": 2.8,
       "fiber": 0.5
     },
-    "slug": "Placinta-cu-branza-la-cuptor-Branzoaice"
+    "slug": "Placinta-cu-branza-la-cuptor-Branzoaice",
+    "minutes": 45
   },
   {
     "id": "t-63",
@@ -1110,7 +1172,8 @@ export const recipes = [
       "fat": 2.3,
       "fiber": 1.2
     },
-    "slug": "Placinta-cu-mere"
+    "slug": "Placinta-cu-mere",
+    "minutes": 55
   },
   {
     "id": "t-64",
@@ -1128,7 +1191,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 2.8
     },
-    "slug": "Placinta-cu-varza"
+    "slug": "Placinta-cu-varza",
+    "minutes": 55
   },
   {
     "id": "t-65",
@@ -1146,7 +1210,8 @@ export const recipes = [
       "fat": 2.3,
       "fiber": 2.0
     },
-    "slug": "Placinta-cu-cartofi"
+    "slug": "Placinta-cu-cartofi",
+    "minutes": 55
   },
   {
     "id": "t-66",
@@ -1164,7 +1229,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 6.3
     },
-    "slug": "Placinta-cu-dovleac"
+    "slug": "Placinta-cu-dovleac",
+    "minutes": 60
   },
   {
     "id": "t-67",
@@ -1182,7 +1248,8 @@ export const recipes = [
       "fat": 4.1,
       "fiber": 0.7
     },
-    "slug": "Poale-n-brau"
+    "slug": "Poale-n-brau",
+    "minutes": 60
   },
   {
     "id": "t-68",
@@ -1200,7 +1267,8 @@ export const recipes = [
       "fat": 6.8,
       "fiber": 0.1
     },
-    "slug": "Alivenci-moldovenesti"
+    "slug": "Alivenci-moldovenesti",
+    "minutes": 45
   },
   {
     "id": "t-69",
@@ -1218,7 +1286,8 @@ export const recipes = [
       "fat": 2.2,
       "fiber": 6.2
     },
-    "slug": "Turte-pe-plita"
+    "slug": "Turte-pe-plita",
+    "minutes": 50
   },
   {
     "id": "t-70",
@@ -1236,7 +1305,8 @@ export const recipes = [
       "fat": 8.7,
       "fiber": 0.6
     },
-    "slug": "Colaci-de-casa"
+    "slug": "Colaci-de-casa",
+    "minutes": 55
   },
   {
     "id": "t-71",
@@ -1254,7 +1324,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 1.2
     },
-    "slug": "Covrigi-de-casa-traditionale"
+    "slug": "Covrigi-de-casa-traditionale",
+    "minutes": 40
   },
   {
     "id": "t-72",
@@ -1272,7 +1343,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 0.8
     },
-    "slug": "Langosi-light"
+    "slug": "Langosi-light",
+    "minutes": 50
   },
   {
     "id": "t-73",
@@ -1290,7 +1362,8 @@ export const recipes = [
       "fat": 4.8,
       "fiber": 1.2
     },
-    "slug": "Papanasi-la-cuptor"
+    "slug": "Papanasi-la-cuptor",
+    "minutes": 40
   },
   {
     "id": "t-74",
@@ -1308,7 +1381,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 0.9
     },
-    "slug": "Gogosi-la-cuptor"
+    "slug": "Gogosi-la-cuptor",
+    "minutes": 40
   },
   {
     "id": "t-75",
@@ -1326,7 +1400,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 4.7
     },
-    "slug": "Clatite"
+    "slug": "Clatite",
+    "minutes": 20
   },
   {
     "id": "t-76",
@@ -1344,7 +1419,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 0.5
     },
-    "slug": "Prajitura-cu-branza-dulce"
+    "slug": "Prajitura-cu-branza-dulce",
+    "minutes": 60
   },
   {
     "id": "t-77",
@@ -1362,7 +1438,8 @@ export const recipes = [
       "fat": 6.1,
       "fiber": 0.6
     },
-    "slug": "Cornulete-cu-gem"
+    "slug": "Cornulete-cu-gem",
+    "minutes": 40
   },
   {
     "id": "t-78",
@@ -1380,7 +1457,8 @@ export const recipes = [
       "fat": 8.0,
       "fiber": 1.1
     },
-    "slug": "Sarailie"
+    "slug": "Sarailie",
+    "minutes": 55
   },
   {
     "id": "t-79",
@@ -1398,7 +1476,8 @@ export const recipes = [
       "fat": 12.3,
       "fiber": 0.5
     },
-    "slug": "Cremsnit"
+    "slug": "Cremsnit",
+    "minutes": 55
   },
   {
     "id": "t-80",
@@ -1416,7 +1495,8 @@ export const recipes = [
       "fat": 9.5,
       "fiber": 1.5
     },
-    "slug": "Tort-Dobos"
+    "slug": "Tort-Dobos",
+    "minutes": 90
   },
   {
     "id": "t-81",
@@ -1434,7 +1514,8 @@ export const recipes = [
       "fat": 15.6,
       "fiber": 2.4
     },
-    "slug": "Amandine"
+    "slug": "Amandine",
+    "minutes": 65
   },
   {
     "id": "t-82",
@@ -1452,7 +1533,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 0.4
     },
-    "slug": "Savarine"
+    "slug": "Savarine",
+    "minutes": 60
   },
   {
     "id": "t-83",
@@ -1470,7 +1552,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 0.7
     },
-    "slug": "Gris-cu-lapte"
+    "slug": "Gris-cu-lapte",
+    "minutes": 12
   },
   {
     "id": "t-84",
@@ -1488,7 +1571,8 @@ export const recipes = [
       "fat": 7.9,
       "fiber": 0.0
     },
-    "slug": "Lapte-de-pasare"
+    "slug": "Lapte-de-pasare",
+    "minutes": 20
   },
   {
     "id": "t-85",
@@ -1506,7 +1590,8 @@ export const recipes = [
       "fat": 2.9,
       "fiber": 0.8
     },
-    "slug": "Orez-cu-lapte"
+    "slug": "Orez-cu-lapte",
+    "minutes": 20
   },
   {
     "id": "t-86",
@@ -1524,7 +1609,8 @@ export const recipes = [
       "fat": 10.3,
       "fiber": 0.5
     },
-    "slug": "Prajitura-Alba-ca-Zapada"
+    "slug": "Prajitura-Alba-ca-Zapada",
+    "minutes": 70
   },
   {
     "id": "t-87",
@@ -1542,7 +1628,8 @@ export const recipes = [
       "fat": 9.2,
       "fiber": 1.0
     },
-    "slug": "Chec-pufos-cu-nuca-si-cacao"
+    "slug": "Chec-pufos-cu-nuca-si-cacao",
+    "minutes": 55
   },
   {
     "id": "t-88",
@@ -1560,7 +1647,8 @@ export const recipes = [
       "fat": 18.9,
       "fiber": 1.8
     },
-    "slug": "Cornulete-fragede-cu-nuca"
+    "slug": "Cornulete-fragede-cu-nuca",
+    "minutes": 40
   },
   {
     "id": "t-89",
@@ -1577,7 +1665,8 @@ export const recipes = [
       "carbs": 4.9,
       "fat": 7.0
     },
-    "slug": "Drob-de-miel-traditional-traditionale"
+    "slug": "Drob-de-miel-traditional-traditionale",
+    "minutes": 90
   },
   {
     "id": "t-90",
@@ -1594,7 +1683,8 @@ export const recipes = [
       "carbs": 7.2,
       "fat": 13.2
     },
-    "slug": "Drob-light-cu-ficatei-traditionale"
+    "slug": "Drob-light-cu-ficatei-traditionale",
+    "minutes": 60
   },
   {
     "id": "t-91",
@@ -1611,7 +1701,8 @@ export const recipes = [
       "carbs": 17.2,
       "fat": 2.6
     },
-    "slug": "Salata-boeuf"
+    "slug": "Salata-boeuf",
+    "minutes": 35
   },
   {
     "id": "t-92",
@@ -1629,7 +1720,8 @@ export const recipes = [
       "fat": 17.7,
       "fiber": 2.4
     },
-    "slug": "Cozonac-traditional"
+    "slug": "Cozonac-traditional",
+    "minutes": 80
   },
   {
     "id": "t-93",
@@ -1647,7 +1739,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 0.7
     },
-    "slug": "Pasca-traditionala"
+    "slug": "Pasca-traditionala",
+    "minutes": 110
   },
   {
     "id": "t-94",
@@ -1664,7 +1757,8 @@ export const recipes = [
       "carbs": 109.5,
       "fat": 25.2
     },
-    "slug": "Mucenici-moldovenesti-copti"
+    "slug": "Mucenici-moldovenesti-copti",
+    "minutes": 110
   },
   {
     "id": "t-95",
@@ -1681,7 +1775,8 @@ export const recipes = [
       "carbs": 38.7,
       "fat": 17.8
     },
-    "slug": "Mucenici-muntenesti-fierti"
+    "slug": "Mucenici-muntenesti-fierti",
+    "minutes": 110
   },
   {
     "id": "t-96",
@@ -1698,7 +1793,8 @@ export const recipes = [
       "carbs": 13.4,
       "fat": 5.0
     },
-    "slug": "Caltabos-Lebar"
+    "slug": "Caltabos-Lebar",
+    "minutes": 90
   },
   {
     "id": "t-97",
@@ -1715,7 +1811,8 @@ export const recipes = [
       "carbs": 3.2,
       "fat": 5.5
     },
-    "slug": "Piftie-de-curcan"
+    "slug": "Piftie-de-curcan",
+    "minutes": 180
   },
   {
     "id": "t-98",
@@ -1732,7 +1829,8 @@ export const recipes = [
       "carbs": 1.7,
       "fat": 7.1
     },
-    "slug": "Carnati-de-casa"
+    "slug": "Carnati-de-casa",
+    "minutes": 60
   },
   {
     "id": "t-99",
@@ -1750,7 +1848,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 4.2
     },
-    "slug": "Turte-de-Craciun-cu-miere"
+    "slug": "Turte-de-Craciun-cu-miere",
+    "minutes": 25
   },
   {
     "id": "r-1",
@@ -1768,7 +1867,8 @@ export const recipes = [
       "fat": 13.0,
       "fiber": 8.2
     },
-    "slug": "Shake-anti-pofte"
+    "slug": "Shake-anti-pofte",
+    "minutes": 10
   },
   {
     "id": "r-2",
@@ -1786,7 +1886,8 @@ export const recipes = [
       "fat": 8.3,
       "fiber": 5.4
     },
-    "slug": "Shake-proteic-energizant"
+    "slug": "Shake-proteic-energizant",
+    "minutes": 10
   },
   {
     "id": "r-3",
@@ -1804,7 +1905,8 @@ export const recipes = [
       "fat": 13.9,
       "fiber": 8.2
     },
-    "slug": "Shake-pentru-satietate-maxima"
+    "slug": "Shake-pentru-satietate-maxima",
+    "minutes": 10
   },
   {
     "id": "r-4",
@@ -1822,7 +1924,8 @@ export const recipes = [
       "fat": 13.5,
       "fiber": 8.6
     },
-    "slug": "Shake-pentru-echilibru-hormonal"
+    "slug": "Shake-pentru-echilibru-hormonal",
+    "minutes": 10
   },
   {
     "id": "r-5",
@@ -1840,7 +1943,8 @@ export const recipes = [
       "fat": 9.6,
       "fiber": 7.3
     },
-    "slug": "Shake-anti-stres"
+    "slug": "Shake-anti-stres",
+    "minutes": 10
   },
   {
     "id": "r-6",
@@ -1858,7 +1962,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 7.5
     },
-    "slug": "Shake-pentru-frumusete-si-piele"
+    "slug": "Shake-pentru-frumusete-si-piele",
+    "minutes": 10
   },
   {
     "id": "r-7",
@@ -1876,7 +1981,8 @@ export const recipes = [
       "fat": 11.2,
       "fiber": 7.8
     },
-    "slug": "Budinca-de-chia-cu-banana"
+    "slug": "Budinca-de-chia-cu-banana",
+    "minutes": 10
   },
   {
     "id": "r-8",
@@ -1894,7 +2000,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 7.7
     },
-    "slug": "Budinca-de-chia-cu-capsuni"
+    "slug": "Budinca-de-chia-cu-capsuni",
+    "minutes": 10
   },
   {
     "id": "r-9",
@@ -1912,7 +2019,8 @@ export const recipes = [
       "fat": 6.8,
       "fiber": 5.8
     },
-    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-rapide"
+    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-rapide",
+    "minutes": 10
   },
   {
     "id": "r-10",
@@ -1930,7 +2038,8 @@ export const recipes = [
       "fat": 10.2,
       "fiber": 7.8
     },
-    "slug": "Budinca-de-chia-cu-banana-si-cacao"
+    "slug": "Budinca-de-chia-cu-banana-si-cacao",
+    "minutes": 10
   },
   {
     "id": "r-11",
@@ -1948,7 +2057,8 @@ export const recipes = [
       "fat": 9.5,
       "fiber": 8.0
     },
-    "slug": "Budinca-de-chia-proteica-cu-vanilie"
+    "slug": "Budinca-de-chia-proteica-cu-vanilie",
+    "minutes": 10
   },
   {
     "id": "r-12",
@@ -1966,7 +2076,8 @@ export const recipes = [
       "fat": 14.2,
       "fiber": 7.8
     },
-    "slug": "Budinca-de-chia-proteica-arahide-banana"
+    "slug": "Budinca-de-chia-proteica-arahide-banana",
+    "minutes": 10
   },
   {
     "id": "r-13",
@@ -1984,7 +2095,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 8.1
     },
-    "slug": "Budinca-de-chia-proteica-cu-afine-iaurt"
+    "slug": "Budinca-de-chia-proteica-cu-afine-iaurt",
+    "minutes": 10
   },
   {
     "id": "r-14",
@@ -2002,7 +2114,8 @@ export const recipes = [
       "fat": 7.0,
       "fiber": 8.1
     },
-    "slug": "Budinca-de-chia-cu-fructe-de-padure-rapide"
+    "slug": "Budinca-de-chia-cu-fructe-de-padure-rapide",
+    "minutes": 10
   },
   {
     "id": "r-15",
@@ -2020,7 +2133,8 @@ export const recipes = [
       "fat": 13.7,
       "fiber": 5.8
     },
-    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-rapide"
+    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-rapide",
+    "minutes": 10
   },
   {
     "id": "r-16",
@@ -2038,7 +2152,8 @@ export const recipes = [
       "fat": 9.2,
       "fiber": 6.5
     },
-    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-rapide"
+    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-rapide",
+    "minutes": 10
   },
   {
     "id": "r-17",
@@ -2056,7 +2171,8 @@ export const recipes = [
       "fat": 9.2,
       "fiber": 7.0
     },
-    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-rapide"
+    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-rapide",
+    "minutes": 15
   },
   {
     "id": "r-18",
@@ -2074,7 +2190,8 @@ export const recipes = [
       "fat": 6.7,
       "fiber": 4.8
     },
-    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-rapide"
+    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-rapide",
+    "minutes": 15
   },
   {
     "id": "r-19",
@@ -2092,7 +2209,8 @@ export const recipes = [
       "fat": 11.5,
       "fiber": 5.3
     },
-    "slug": "Budinca-de-chia-cu-cocos-si-ananas-rapide"
+    "slug": "Budinca-de-chia-cu-cocos-si-ananas-rapide",
+    "minutes": 10
   },
   {
     "id": "r-20",
@@ -2110,7 +2228,8 @@ export const recipes = [
       "fat": 8.0,
       "fiber": 6.7
     },
-    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-rapide"
+    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-rapide",
+    "minutes": 10
   },
   {
     "id": "r-21",
@@ -2128,7 +2247,8 @@ export const recipes = [
       "fat": 7.6,
       "fiber": 4.9
     },
-    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-rapide"
+    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-rapide",
+    "minutes": 10
   },
   {
     "id": "r-22",
@@ -2146,7 +2266,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 5.8
     },
-    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-rapide"
+    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-rapide",
+    "minutes": 10
   },
   {
     "id": "r-23",
@@ -2164,7 +2285,8 @@ export const recipes = [
       "fat": 9.9,
       "fiber": 5.2
     },
-    "slug": "Budinca-de-ovaz-cu-unt-de-arahide"
+    "slug": "Budinca-de-ovaz-cu-unt-de-arahide",
+    "minutes": 10
   },
   {
     "id": "r-24",
@@ -2182,7 +2304,8 @@ export const recipes = [
       "fat": 10.9,
       "fiber": 7.7
     },
-    "slug": "Budinca-de-ovaz-proteica-tip-brownie"
+    "slug": "Budinca-de-ovaz-proteica-tip-brownie",
+    "minutes": 10
   },
   {
     "id": "r-25",
@@ -2200,7 +2323,8 @@ export const recipes = [
       "fat": 8.4,
       "fiber": 12.0
     },
-    "slug": "Budinca-de-ovaz-cu-fructe-de-padure-si-iaurt-grecesc"
+    "slug": "Budinca-de-ovaz-cu-fructe-de-padure-si-iaurt-grecesc",
+    "minutes": 10
   },
   {
     "id": "r-26",
@@ -2218,7 +2342,8 @@ export const recipes = [
       "fat": 16.4,
       "fiber": 7.5
     },
-    "slug": "Budinca-de-ovaz-cu-migdale-si-cocos"
+    "slug": "Budinca-de-ovaz-cu-migdale-si-cocos",
+    "minutes": 10
   },
   {
     "id": "r-27",
@@ -2236,7 +2361,8 @@ export const recipes = [
       "fat": 9.0,
       "fiber": 6.2
     },
-    "slug": "Budinca-de-ovaz-cu-mere-caramelizate-si-scortisoara"
+    "slug": "Budinca-de-ovaz-cu-mere-caramelizate-si-scortisoara",
+    "minutes": 10
   },
   {
     "id": "r-28",
@@ -2254,7 +2380,8 @@ export const recipes = [
       "fat": 16.1,
       "fiber": 10.4
     },
-    "slug": "Budinca-de-ovaz-cu-afine-si-nuci"
+    "slug": "Budinca-de-ovaz-cu-afine-si-nuci",
+    "minutes": 10
   },
   {
     "id": "r-29",
@@ -2272,7 +2399,8 @@ export const recipes = [
       "fat": 17.6,
       "fiber": 7.4
     },
-    "slug": "Budinca-de-ovaz-crocanta-cu-alune-si-ciocolata"
+    "slug": "Budinca-de-ovaz-crocanta-cu-alune-si-ciocolata",
+    "minutes": 10
   },
   {
     "id": "r-30",
@@ -2290,7 +2418,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 4.8
     },
-    "slug": "Budinca-de-ovaz-tiramisu-sanatos"
+    "slug": "Budinca-de-ovaz-tiramisu-sanatos",
+    "minutes": 10
   },
   {
     "id": "r-31",
@@ -2308,7 +2437,8 @@ export const recipes = [
       "fat": 5.1,
       "fiber": 4.7
     },
-    "slug": "Budinca-de-ovaz-cu-mere-si-scortisoara"
+    "slug": "Budinca-de-ovaz-cu-mere-si-scortisoara",
+    "minutes": 10
   },
   {
     "id": "r-32",
@@ -2326,7 +2456,8 @@ export const recipes = [
       "fat": 4.6,
       "fiber": 10.0
     },
-    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-rapide"
+    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-rapide",
+    "minutes": 5
   },
   {
     "id": "r-33",
@@ -2344,7 +2475,8 @@ export const recipes = [
       "fat": 4.7,
       "fiber": 4.7
     },
-    "slug": "Budinca-de-ovaz-si-mere-caramelizate-rapide"
+    "slug": "Budinca-de-ovaz-si-mere-caramelizate-rapide",
+    "minutes": 15
   },
   {
     "id": "r-34",
@@ -2362,7 +2494,8 @@ export const recipes = [
       "fat": 9.5,
       "fiber": 8.6
     },
-    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-rapide"
+    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-rapide",
+    "minutes": 10
   },
   {
     "id": "r-35",
@@ -2380,7 +2513,8 @@ export const recipes = [
       "fat": 9.7,
       "fiber": 6.7
     },
-    "slug": "Smoothie-cu-afine-si-unt-de-arahide"
+    "slug": "Smoothie-cu-afine-si-unt-de-arahide",
+    "minutes": 10
   },
   {
     "id": "r-36",
@@ -2398,7 +2532,8 @@ export const recipes = [
       "fat": 9.6,
       "fiber": 5.2
     },
-    "slug": "Smoothie-tropical-cremos-rapide"
+    "slug": "Smoothie-tropical-cremos-rapide",
+    "minutes": 10
   },
   {
     "id": "r-37",
@@ -2416,7 +2551,8 @@ export const recipes = [
       "fat": 7.8,
       "fiber": 6.8
     },
-    "slug": "Smoothie-Pumpkin-Spice"
+    "slug": "Smoothie-Pumpkin-Spice",
+    "minutes": 10
   },
   {
     "id": "r-38",
@@ -2434,7 +2570,8 @@ export const recipes = [
       "fat": 10.9,
       "fiber": 7.0
     },
-    "slug": "Smoothie-de-ciocolata-si-banana"
+    "slug": "Smoothie-de-ciocolata-si-banana",
+    "minutes": 10
   },
   {
     "id": "r-39",
@@ -2452,7 +2589,8 @@ export const recipes = [
       "fat": 5.2,
       "fiber": 6.1
     },
-    "slug": "Smoothie-cu-iaurt-grecesc-si-capsuni"
+    "slug": "Smoothie-cu-iaurt-grecesc-si-capsuni",
+    "minutes": 5
   },
   {
     "id": "r-40",
@@ -2470,7 +2608,8 @@ export const recipes = [
       "fat": 9.4,
       "fiber": 5.2
     },
-    "slug": "French-toast-cu-banane-si-scortisoara-rapide"
+    "slug": "French-toast-cu-banane-si-scortisoara-rapide",
+    "minutes": 15
   },
   {
     "id": "r-41",
@@ -2488,7 +2627,8 @@ export const recipes = [
       "fat": 21.0,
       "fiber": 11.1
     },
-    "slug": "Sandvis-cu-ou-si-avocado-rapide"
+    "slug": "Sandvis-cu-ou-si-avocado-rapide",
+    "minutes": 10
   },
   {
     "id": "r-42",
@@ -2506,7 +2646,8 @@ export const recipes = [
       "fat": 10.1,
       "fiber": 4.4
     },
-    "slug": "Clatite-cu-banana-si-ou-rapide"
+    "slug": "Clatite-cu-banana-si-ou-rapide",
+    "minutes": 18
   },
   {
     "id": "r-43",
@@ -2524,7 +2665,8 @@ export const recipes = [
       "fat": 6.8,
       "fiber": 4.7
     },
-    "slug": "Bol-proteic-cu-iaurt-si-fructe-rapide"
+    "slug": "Bol-proteic-cu-iaurt-si-fructe-rapide",
+    "minutes": 10
   },
   {
     "id": "r-44",
@@ -2541,7 +2683,8 @@ export const recipes = [
       "carbs": 43.8,
       "fat": 11.4
     },
-    "slug": "Salata-cu-naut-si-branza-feta"
+    "slug": "Salata-cu-naut-si-branza-feta",
+    "minutes": 10
   },
   {
     "id": "r-45",
@@ -2558,7 +2701,8 @@ export const recipes = [
       "carbs": 41.1,
       "fat": 10.5
     },
-    "slug": "Salata-de-fasole-rosie-cu-ceapa-si-porumb"
+    "slug": "Salata-de-fasole-rosie-cu-ceapa-si-porumb",
+    "minutes": 10
   },
   {
     "id": "r-46",
@@ -2575,7 +2719,8 @@ export const recipes = [
       "carbs": 26.1,
       "fat": 17.4
     },
-    "slug": "Salata-de-edamame-cu-avocado"
+    "slug": "Salata-de-edamame-cu-avocado",
+    "minutes": 10
   },
   {
     "id": "r-47",
@@ -2592,7 +2737,8 @@ export const recipes = [
       "carbs": 16.3,
       "fat": 14.5
     },
-    "slug": "Salata-cu-somon"
+    "slug": "Salata-cu-somon",
+    "minutes": 10
   },
   {
     "id": "r-48",
@@ -2610,7 +2756,8 @@ export const recipes = [
       "fat": 12.3,
       "fiber": 1.8
     },
-    "slug": "Salata-cu-ou-masline-si-castravete-rapide"
+    "slug": "Salata-cu-ou-masline-si-castravete-rapide",
+    "minutes": 10
   },
   {
     "id": "r-49",
@@ -2627,7 +2774,8 @@ export const recipes = [
       "carbs": 23.6,
       "fat": 9.4
     },
-    "slug": "Salata-de-curcan-cu-rosii-uscate-si-seminte"
+    "slug": "Salata-de-curcan-cu-rosii-uscate-si-seminte",
+    "minutes": 10
   },
   {
     "id": "r-50",
@@ -2644,7 +2792,8 @@ export const recipes = [
       "carbs": 13.8,
       "fat": 6.9
     },
-    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-rapide"
+    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-rapide",
+    "minutes": 30
   },
   {
     "id": "r-51",
@@ -2662,7 +2811,8 @@ export const recipes = [
       "fat": 20.4,
       "fiber": 0.4
     },
-    "slug": "Omleta-cu-somon-si-crema-de-branza"
+    "slug": "Omleta-cu-somon-si-crema-de-branza",
+    "minutes": 10
   },
   {
     "id": "r-52",
@@ -2680,7 +2830,8 @@ export const recipes = [
       "fat": 24.4,
       "fiber": 4.4
     },
-    "slug": "Omleta-cu-avocado-si-sunca-slaba"
+    "slug": "Omleta-cu-avocado-si-sunca-slaba",
+    "minutes": 10
   },
   {
     "id": "r-53",
@@ -2698,7 +2849,8 @@ export const recipes = [
       "fat": 16.1,
       "fiber": 9.3
     },
-    "slug": "Wrap-cu-pui-si-avocado"
+    "slug": "Wrap-cu-pui-si-avocado",
+    "minutes": 10
   },
   {
     "id": "r-54",
@@ -2715,7 +2867,8 @@ export const recipes = [
       "carbs": 39.2,
       "fat": 16.5
     },
-    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-rapide"
+    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-rapide",
+    "minutes": 30
   },
   {
     "id": "r-55",
@@ -2733,7 +2886,8 @@ export const recipes = [
       "fat": 17.9,
       "fiber": 5.0
     },
-    "slug": "Wrap-cu-ou-mozzarella-si-ardei-rapide"
+    "slug": "Wrap-cu-ou-mozzarella-si-ardei-rapide",
+    "minutes": 10
   },
   {
     "id": "r-56",
@@ -2751,7 +2905,8 @@ export const recipes = [
       "fat": 8.6,
       "fiber": 0.6
     },
-    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-rapide"
+    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-rapide",
+    "minutes": 10
   },
   {
     "id": "r-57",
@@ -2769,7 +2924,8 @@ export const recipes = [
       "fat": 10.1,
       "fiber": 1.8
     },
-    "slug": "Cottage-cheese-cu-rondele-de-orez-si-castraveti"
+    "slug": "Cottage-cheese-cu-rondele-de-orez-si-castraveti",
+    "minutes": 10
   },
   {
     "id": "r-58",
@@ -2787,7 +2943,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 2.1
     },
-    "slug": "Ton-cu-cottage-cheese-si-rondele-de-orez"
+    "slug": "Ton-cu-cottage-cheese-si-rondele-de-orez",
+    "minutes": 10
   },
   {
     "id": "r-59",
@@ -2805,7 +2962,8 @@ export const recipes = [
       "fat": 19.9,
       "fiber": 12.3
     },
-    "slug": "Paine-cu-avocado-si-cottage-cheese"
+    "slug": "Paine-cu-avocado-si-cottage-cheese",
+    "minutes": 10
   },
   {
     "id": "r-60",
@@ -2823,7 +2981,8 @@ export const recipes = [
       "fat": 17.7,
       "fiber": 9.1
     },
-    "slug": "Hummus-cu-morcovi-crocanti-rapide"
+    "slug": "Hummus-cu-morcovi-crocanti-rapide",
+    "minutes": 10
   },
   {
     "id": "r-61",
@@ -2841,7 +3000,8 @@ export const recipes = [
       "fat": 16.4,
       "fiber": 7.0
     },
-    "slug": "Guacamole-rapid-rapide"
+    "slug": "Guacamole-rapid-rapide",
+    "minutes": 10
   },
   {
     "id": "r-62",
@@ -2859,7 +3019,8 @@ export const recipes = [
       "fat": 20.5,
       "fiber": 7.0
     },
-    "slug": "Granola-crocanta-de-casa-rapide"
+    "slug": "Granola-crocanta-de-casa-rapide",
+    "minutes": 35
   },
   {
     "id": "r-63",
@@ -2877,7 +3038,8 @@ export const recipes = [
       "fat": 8.3,
       "fiber": 1.2
     },
-    "slug": "Budinca-proteica-cu-fulgi-de-migdale-rapide"
+    "slug": "Budinca-proteica-cu-fulgi-de-migdale-rapide",
+    "minutes": 10
   },
   {
     "id": "r-64",
@@ -2895,7 +3057,8 @@ export const recipes = [
       "fat": 5.9,
       "fiber": 3.0
     },
-    "slug": "Mere-rase-cu-scortisoara-vanilie-si-iaurt-grecesc-proteic"
+    "slug": "Mere-rase-cu-scortisoara-vanilie-si-iaurt-grecesc-proteic",
+    "minutes": 10
   },
   {
     "id": "r-65",
@@ -2913,7 +3076,8 @@ export const recipes = [
       "fat": 6.1,
       "fiber": 2.4
     },
-    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-rapide"
+    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-rapide",
+    "minutes": 10
   },
   {
     "id": "r-66",
@@ -2930,7 +3094,8 @@ export const recipes = [
       "carbs": 16.0,
       "fat": 6.3
     },
-    "slug": "Bol-proteic-cu-pui-gata-gatit-si-salata-la-punga"
+    "slug": "Bol-proteic-cu-pui-gata-gatit-si-salata-la-punga",
+    "minutes": 10
   },
   {
     "id": "r-67",
@@ -2947,7 +3112,8 @@ export const recipes = [
       "carbs": 37.5,
       "fat": 5.6
     },
-    "slug": "Wrap-din-supermarket-cu-pui-si-legume"
+    "slug": "Wrap-din-supermarket-cu-pui-si-legume",
+    "minutes": 10
   },
   {
     "id": "r-68",
@@ -2964,7 +3130,8 @@ export const recipes = [
       "carbs": 41.3,
       "fat": 18.7
     },
-    "slug": "Cutie-oua-fierte-cartofi-fierti-salata"
+    "slug": "Cutie-oua-fierte-cartofi-fierti-salata",
+    "minutes": 10
   },
   {
     "id": "r-69",
@@ -2981,7 +3148,8 @@ export const recipes = [
       "carbs": 32.5,
       "fat": 12.5
     },
-    "slug": "Sandvis-proteic-cu-sunca-slaba"
+    "slug": "Sandvis-proteic-cu-sunca-slaba",
+    "minutes": 10
   },
   {
     "id": "r-70",
@@ -2998,7 +3166,8 @@ export const recipes = [
       "carbs": 3.3,
       "fat": 8.8
     },
-    "slug": "Salata-gata-ambalata-cu-proteina-adaugata"
+    "slug": "Salata-gata-ambalata-cu-proteina-adaugata",
+    "minutes": 10
   },
   {
     "id": "r-71",
@@ -3015,7 +3184,8 @@ export const recipes = [
       "carbs": 30.5,
       "fat": 20.1
     },
-    "slug": "Masa-de-urgenta-baton-proteic-fruct-iaurt"
+    "slug": "Masa-de-urgenta-baton-proteic-fruct-iaurt",
+    "minutes": 10
   },
   {
     "id": "r-72",
@@ -3033,7 +3203,8 @@ export const recipes = [
       "fat": 6.3,
       "fiber": 2.5
     },
-    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-rapide"
+    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-rapide",
+    "minutes": 30
   },
   {
     "id": "r-73",
@@ -3051,7 +3222,8 @@ export const recipes = [
       "fat": 16.9,
       "fiber": 2.9
     },
-    "slug": "Snickers-light-rapide"
+    "slug": "Snickers-light-rapide",
+    "minutes": 15
   },
   {
     "id": "r-74",
@@ -3069,7 +3241,8 @@ export const recipes = [
       "fat": 21.7,
       "fiber": 1.6
     },
-    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-rapide"
+    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-rapide",
+    "minutes": 30
   },
   {
     "id": "r-75",
@@ -3087,7 +3260,8 @@ export const recipes = [
       "fat": 18.2,
       "fiber": 6.3
     },
-    "slug": "Bomboane-inghetate-de-banana-cu-unt-de-arahide"
+    "slug": "Bomboane-inghetate-de-banana-cu-unt-de-arahide",
+    "minutes": 10
   },
   {
     "id": "r-76",
@@ -3105,7 +3279,8 @@ export const recipes = [
       "fat": 7.3,
       "fiber": 4.9
     },
-    "slug": "Budinca-proteica-de-ciocolata-si-banana-in-cana"
+    "slug": "Budinca-proteica-de-ciocolata-si-banana-in-cana",
+    "minutes": 10
   },
   {
     "id": "r-77",
@@ -3123,7 +3298,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 0.4
     },
-    "slug": "Inghetata-proteica-cu-scortisoara"
+    "slug": "Inghetata-proteica-cu-scortisoara",
+    "minutes": 10
   },
   {
     "id": "r-78",
@@ -3141,7 +3317,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 13.7
     },
-    "slug": "Salata-de-vinete-cu-tahini-rapide"
+    "slug": "Salata-de-vinete-cu-tahini-rapide",
+    "minutes": 35
   },
   {
     "id": "r-79",
@@ -3159,7 +3336,8 @@ export const recipes = [
       "fat": 12.5,
       "fiber": 5.4
     },
-    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-rapide"
+    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-rapide",
+    "minutes": 20
   },
   {
     "id": "r-80",
@@ -3177,7 +3355,8 @@ export const recipes = [
       "fat": 12.6,
       "fiber": 6.5
     },
-    "slug": "Wrap-cu-tofu-avocado-si-legume-rapide"
+    "slug": "Wrap-cu-tofu-avocado-si-legume-rapide",
+    "minutes": 10
   },
   {
     "id": "r-81",
@@ -3195,7 +3374,8 @@ export const recipes = [
       "fat": 19.9,
       "fiber": 7.2
     },
-    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-rapide"
+    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-rapide",
+    "minutes": 20
   },
   {
     "id": "i-1",
@@ -3212,7 +3392,8 @@ export const recipes = [
       "carbs": 17.2,
       "fat": 2.6
     },
-    "slug": "Salata-cu-piept-de-pui"
+    "slug": "Salata-cu-piept-de-pui",
+    "minutes": 35
   },
   {
     "id": "i-2",
@@ -3230,7 +3411,8 @@ export const recipes = [
       "fat": 10.1,
       "fiber": 15.4
     },
-    "slug": "Salata-de-vinete-internationale"
+    "slug": "Salata-de-vinete-internationale",
+    "minutes": 45
   },
   {
     "id": "i-3",
@@ -3248,7 +3430,8 @@ export const recipes = [
       "fat": 12.3,
       "fiber": 1.8
     },
-    "slug": "Salata-cu-ou-masline-si-castravete-internationale"
+    "slug": "Salata-cu-ou-masline-si-castravete-internationale",
+    "minutes": 10
   },
   {
     "id": "i-4",
@@ -3266,7 +3449,8 @@ export const recipes = [
       "fat": 11.0,
       "fiber": 5.7
     },
-    "slug": "Salata-cu-piept-de-pui-naut-si-ardei"
+    "slug": "Salata-cu-piept-de-pui-naut-si-ardei",
+    "minutes": 30
   },
   {
     "id": "i-5",
@@ -3283,7 +3467,8 @@ export const recipes = [
       "carbs": 20.2,
       "fat": 13.8
     },
-    "slug": "Salata-cu-ou-naut-si-branza-telemea"
+    "slug": "Salata-cu-ou-naut-si-branza-telemea",
+    "minutes": 30
   },
   {
     "id": "i-6",
@@ -3300,7 +3485,8 @@ export const recipes = [
       "carbs": 23.6,
       "fat": 9.4
     },
-    "slug": "Salata-cu-curcan-rosii-uscate-si-seminte"
+    "slug": "Salata-cu-curcan-rosii-uscate-si-seminte",
+    "minutes": 10
   },
   {
     "id": "i-7",
@@ -3317,7 +3503,8 @@ export const recipes = [
       "carbs": 3.0,
       "fat": 12.1
     },
-    "slug": "Oua-umplute-light"
+    "slug": "Oua-umplute-light",
+    "minutes": 60
   },
   {
     "id": "i-8",
@@ -3334,7 +3521,8 @@ export const recipes = [
       "carbs": 2.0,
       "fat": 7.1
     },
-    "slug": "Salata-de-telina-cu-pui"
+    "slug": "Salata-de-telina-cu-pui",
+    "minutes": 30
   },
   {
     "id": "i-9",
@@ -3351,7 +3539,8 @@ export const recipes = [
       "carbs": 13.8,
       "fat": 6.9
     },
-    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-internationale"
+    "slug": "Salata-de-ton-cu-porumb-si-maioneza-light-internationale",
+    "minutes": 30
   },
   {
     "id": "i-10",
@@ -3369,7 +3558,8 @@ export const recipes = [
       "fat": 9.7,
       "fiber": 3.2
     },
-    "slug": "Wrap-cu-pui-cremos-branza-si-usturoi"
+    "slug": "Wrap-cu-pui-cremos-branza-si-usturoi",
+    "minutes": 10
   },
   {
     "id": "i-11",
@@ -3386,7 +3576,8 @@ export const recipes = [
       "carbs": 39.2,
       "fat": 16.5
     },
-    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-internationale"
+    "slug": "Burrito-cu-pui-bacon-si-crema-ranch-internationale",
+    "minutes": 30
   },
   {
     "id": "i-12",
@@ -3403,7 +3594,8 @@ export const recipes = [
       "carbs": 37.7,
       "fat": 14.6
     },
-    "slug": "Wrap-cu-ou-sunca-si-legume-crude"
+    "slug": "Wrap-cu-ou-sunca-si-legume-crude",
+    "minutes": 30
   },
   {
     "id": "i-13",
@@ -3420,7 +3612,8 @@ export const recipes = [
       "carbs": 39.1,
       "fat": 8.8
     },
-    "slug": "Wrap-cu-crema-de-branza-sunca-si-dovlecel"
+    "slug": "Wrap-cu-crema-de-branza-sunca-si-dovlecel",
+    "minutes": 30
   },
   {
     "id": "i-14",
@@ -3438,7 +3631,8 @@ export const recipes = [
       "fat": 17.9,
       "fiber": 5.0
     },
-    "slug": "Wrap-cu-ou-mozzarella-si-ardei-internationale"
+    "slug": "Wrap-cu-ou-mozzarella-si-ardei-internationale",
+    "minutes": 10
   },
   {
     "id": "i-15",
@@ -3455,7 +3649,8 @@ export const recipes = [
       "carbs": 40.5,
       "fat": 9.2
     },
-    "slug": "Wrap-cu-ton-avocado-si-iaurt-grecesc"
+    "slug": "Wrap-cu-ton-avocado-si-iaurt-grecesc",
+    "minutes": 25
   },
   {
     "id": "i-16",
@@ -3472,7 +3667,8 @@ export const recipes = [
       "carbs": 32.4,
       "fat": 11.4
     },
-    "slug": "Sandwich-cu-pui-si-dressing-Caesar"
+    "slug": "Sandwich-cu-pui-si-dressing-Caesar",
+    "minutes": 30
   },
   {
     "id": "i-17",
@@ -3489,7 +3685,8 @@ export const recipes = [
       "carbs": 12.9,
       "fat": 9.1
     },
-    "slug": "Rulouri-de-vinete-cu-carne-de-vita-branza-si-mozzarella"
+    "slug": "Rulouri-de-vinete-cu-carne-de-vita-branza-si-mozzarella",
+    "minutes": 40
   },
   {
     "id": "i-18",
@@ -3506,7 +3703,8 @@ export const recipes = [
       "carbs": 38.4,
       "fat": 10.1
     },
-    "slug": "Pita-greceasca-cu-pui-souvlaki-si-sos-tzatziki"
+    "slug": "Pita-greceasca-cu-pui-souvlaki-si-sos-tzatziki",
+    "minutes": 30
   },
   {
     "id": "i-19",
@@ -3523,7 +3721,8 @@ export const recipes = [
       "carbs": 52.3,
       "fat": 10.0
     },
-    "slug": "Taco-bol-sanatos-cu-pui-si-legume"
+    "slug": "Taco-bol-sanatos-cu-pui-si-legume",
+    "minutes": 30
   },
   {
     "id": "i-20",
@@ -3540,7 +3739,8 @@ export const recipes = [
       "carbs": 34.8,
       "fat": 12.8
     },
-    "slug": "Pui-crocant-cu-orez-si-usturoi"
+    "slug": "Pui-crocant-cu-orez-si-usturoi",
+    "minutes": 30
   },
   {
     "id": "i-21",
@@ -3558,7 +3758,8 @@ export const recipes = [
       "fat": 8.6,
       "fiber": 0.6
     },
-    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-internationale"
+    "slug": "Rulada-proteica-cu-sunca-si-mozzarella-in-foaie-de-orez-internationale",
+    "minutes": 10
   },
   {
     "id": "i-22",
@@ -3576,7 +3777,8 @@ export const recipes = [
       "fat": 2.9,
       "fiber": 6.1
     },
-    "slug": "Sarmale-cu-mamaliga-si-iaurt-internationale"
+    "slug": "Sarmale-cu-mamaliga-si-iaurt-internationale",
+    "minutes": 90
   },
   {
     "id": "i-23",
@@ -3593,7 +3795,8 @@ export const recipes = [
       "carbs": 7.2,
       "fat": 13.2
     },
-    "slug": "Drob-light-cu-ficatei-internationale"
+    "slug": "Drob-light-cu-ficatei-internationale",
+    "minutes": 60
   },
   {
     "id": "i-24",
@@ -3610,7 +3813,8 @@ export const recipes = [
       "carbs": 4.9,
       "fat": 7.0
     },
-    "slug": "Drob-de-miel-traditional-internationale"
+    "slug": "Drob-de-miel-traditional-internationale",
+    "minutes": 90
   },
   {
     "id": "i-25",
@@ -3627,7 +3831,8 @@ export const recipes = [
       "carbs": 16.8,
       "fat": 7.3
     },
-    "slug": "Chiftelute-de-curcan-cu-dovlecel-la-cuptor"
+    "slug": "Chiftelute-de-curcan-cu-dovlecel-la-cuptor",
+    "minutes": 40
   },
   {
     "id": "i-26",
@@ -3644,7 +3849,8 @@ export const recipes = [
       "carbs": 47.3,
       "fat": 7.8
     },
-    "slug": "Sufleu-de-cartofi-cu-branza-si-iaurt"
+    "slug": "Sufleu-de-cartofi-cu-branza-si-iaurt",
+    "minutes": 45
   },
   {
     "id": "i-27",
@@ -3661,7 +3867,8 @@ export const recipes = [
       "carbs": 33.2,
       "fat": 5.3
     },
-    "slug": "Lasagna-cu-carne-slaba-si-dovlecel"
+    "slug": "Lasagna-cu-carne-slaba-si-dovlecel",
+    "minutes": 80
   },
   {
     "id": "i-28",
@@ -3678,7 +3885,8 @@ export const recipes = [
       "carbs": 4.5,
       "fat": 6.5
     },
-    "slug": "Muschi-de-porc-la-cuptor-cu-rozmarin"
+    "slug": "Muschi-de-porc-la-cuptor-cu-rozmarin",
+    "minutes": 120
   },
   {
     "id": "i-29",
@@ -3696,7 +3904,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 4.3
     },
-    "slug": "Tocana-de-legume-cu-orez-internationale"
+    "slug": "Tocana-de-legume-cu-orez-internationale",
+    "minutes": 45
   },
   {
     "id": "i-30",
@@ -3714,7 +3923,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 4.0
     },
-    "slug": "Tocana-de-pui-cu-legume"
+    "slug": "Tocana-de-pui-cu-legume",
+    "minutes": 45
   },
   {
     "id": "i-31",
@@ -3731,7 +3941,8 @@ export const recipes = [
       "carbs": 47.2,
       "fat": 8.3
     },
-    "slug": "Pui-cremos-cu-cartofi-si-branza"
+    "slug": "Pui-cremos-cu-cartofi-si-branza",
+    "minutes": 45
   },
   {
     "id": "i-32",
@@ -3749,7 +3960,8 @@ export const recipes = [
       "fat": 8.0,
       "fiber": 3.3
     },
-    "slug": "Paste-cu-vita-si-sos-cremos-de-parmezan"
+    "slug": "Paste-cu-vita-si-sos-cremos-de-parmezan",
+    "minutes": 30
   },
   {
     "id": "i-33",
@@ -3767,7 +3979,8 @@ export const recipes = [
       "fat": 13.0,
       "fiber": 4.3
     },
-    "slug": "McNuggets-proteici-cu-cartofi-crocanti"
+    "slug": "McNuggets-proteici-cu-cartofi-crocanti",
+    "minutes": 45
   },
   {
     "id": "i-34",
@@ -3784,7 +3997,8 @@ export const recipes = [
       "carbs": 41.3,
       "fat": 9.5
     },
-    "slug": "Cartofi-cu-ou-si-telemea-la-cuptor"
+    "slug": "Cartofi-cu-ou-si-telemea-la-cuptor",
+    "minutes": 30
   },
   {
     "id": "i-35",
@@ -3801,7 +4015,8 @@ export const recipes = [
       "carbs": 19.5,
       "fat": 7.7
     },
-    "slug": "Legume-gratinate-cu-branza"
+    "slug": "Legume-gratinate-cu-branza",
+    "minutes": 30
   },
   {
     "id": "i-36",
@@ -3818,7 +4033,8 @@ export const recipes = [
       "carbs": 59.0,
       "fat": 15.6
     },
-    "slug": "Lasagna-de-cartofi-cu-4-ingrediente"
+    "slug": "Lasagna-de-cartofi-cu-4-ingrediente",
+    "minutes": 65
   },
   {
     "id": "i-37",
@@ -3835,7 +4051,8 @@ export const recipes = [
       "carbs": 24.5,
       "fat": 13.4
     },
-    "slug": "Pizza-cu-blat-de-conopida"
+    "slug": "Pizza-cu-blat-de-conopida",
+    "minutes": 35
   },
   {
     "id": "i-38",
@@ -3853,7 +4070,8 @@ export const recipes = [
       "fat": 8.1,
       "fiber": 4.6
     },
-    "slug": "Burger-crocant-tip-KFC"
+    "slug": "Burger-crocant-tip-KFC",
+    "minutes": 45
   },
   {
     "id": "i-39",
@@ -3871,7 +4089,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 3.2
     },
-    "slug": "Mac-cheese-cu-pui-miere-si-usturoi"
+    "slug": "Mac-cheese-cu-pui-miere-si-usturoi",
+    "minutes": 35
   },
   {
     "id": "i-40",
@@ -3888,7 +4107,8 @@ export const recipes = [
       "carbs": 41.2,
       "fat": 3.0
     },
-    "slug": "Fasii-de-pui-crocante-cu-sos-de-miere-si-usturoi"
+    "slug": "Fasii-de-pui-crocante-cu-sos-de-miere-si-usturoi",
+    "minutes": 35
   },
   {
     "id": "i-41",
@@ -3905,7 +4125,8 @@ export const recipes = [
       "carbs": 33.1,
       "fat": 6.8
     },
-    "slug": "Bol-proteic-cu-pulpa-de-vita-cartof-dulce-si-legume"
+    "slug": "Bol-proteic-cu-pulpa-de-vita-cartof-dulce-si-legume",
+    "minutes": 30
   },
   {
     "id": "i-42",
@@ -3922,7 +4143,8 @@ export const recipes = [
       "carbs": 34.8,
       "fat": 6.5
     },
-    "slug": "Bol-cu-piept-de-pui-cartof-dulce-si-legume-colorate"
+    "slug": "Bol-cu-piept-de-pui-cartof-dulce-si-legume-colorate",
+    "minutes": 30
   },
   {
     "id": "i-43",
@@ -3939,7 +4161,8 @@ export const recipes = [
       "carbs": 28.6,
       "fat": 6.6
     },
-    "slug": "Bol-cu-piept-de-pui-cu-dressing-de-iaurt-si-mustar"
+    "slug": "Bol-cu-piept-de-pui-cu-dressing-de-iaurt-si-mustar",
+    "minutes": 30
   },
   {
     "id": "i-44",
@@ -3956,7 +4179,8 @@ export const recipes = [
       "carbs": 29.7,
       "fat": 8.9
     },
-    "slug": "Bol-cu-piept-de-curcan-cu-dressing-de-tahini-si-usturoi"
+    "slug": "Bol-cu-piept-de-curcan-cu-dressing-de-tahini-si-usturoi",
+    "minutes": 45
   },
   {
     "id": "i-45",
@@ -3973,7 +4197,8 @@ export const recipes = [
       "carbs": 28.9,
       "fat": 6.5
     },
-    "slug": "Bol-cu-vita-cu-dressing-de-otet-balsamic"
+    "slug": "Bol-cu-vita-cu-dressing-de-otet-balsamic",
+    "minutes": 30
   },
   {
     "id": "i-46",
@@ -3990,7 +4215,8 @@ export const recipes = [
       "carbs": 29.6,
       "fat": 3.4
     },
-    "slug": "Bol-cu-creveti-cu-dressing-de-lamaie-si-patrunjel"
+    "slug": "Bol-cu-creveti-cu-dressing-de-lamaie-si-patrunjel",
+    "minutes": 25
   },
   {
     "id": "i-47",
@@ -4007,7 +4233,8 @@ export const recipes = [
       "carbs": 29.1,
       "fat": 6.8
     },
-    "slug": "Bol-cu-carne-tocata-de-vita-cu-dressing-de-iaurt-si-mustar"
+    "slug": "Bol-cu-carne-tocata-de-vita-cu-dressing-de-iaurt-si-mustar",
+    "minutes": 35
   },
   {
     "id": "i-48",
@@ -4024,7 +4251,8 @@ export const recipes = [
       "carbs": 30.4,
       "fat": 3.1
     },
-    "slug": "Bol-cu-carne-tocata-de-pasare-cu-dressing-de-rosii-coapte"
+    "slug": "Bol-cu-carne-tocata-de-pasare-cu-dressing-de-rosii-coapte",
+    "minutes": 45
   },
   {
     "id": "i-49",
@@ -4041,7 +4269,8 @@ export const recipes = [
       "carbs": 31.6,
       "fat": 18.3
     },
-    "slug": "Bol-cu-legume-oua-si-dressing-de-cottage-cheese"
+    "slug": "Bol-cu-legume-oua-si-dressing-de-cottage-cheese",
+    "minutes": 35
   },
   {
     "id": "i-50",
@@ -4059,7 +4288,8 @@ export const recipes = [
       "fat": 19.9,
       "fiber": 7.2
     },
-    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-internationale"
+    "slug": "Bol-cu-halloumi-si-naut-cu-dressing-cu-otet-balsamic-internationale",
+    "minutes": 20
   },
   {
     "id": "i-51",
@@ -4076,7 +4306,8 @@ export const recipes = [
       "carbs": 33.0,
       "fat": 9.8
     },
-    "slug": "Orez-fajita-cu-pui-si-mozzarella-light"
+    "slug": "Orez-fajita-cu-pui-si-mozzarella-light",
+    "minutes": 40
   },
   {
     "id": "i-52",
@@ -4093,7 +4324,8 @@ export const recipes = [
       "carbs": 28.0,
       "fat": 4.2
     },
-    "slug": "Paella-dietetica-cu-fructe-de-mare"
+    "slug": "Paella-dietetica-cu-fructe-de-mare",
+    "minutes": 35
   },
   {
     "id": "i-53",
@@ -4110,7 +4342,8 @@ export const recipes = [
       "carbs": 27.6,
       "fat": 5.1
     },
-    "slug": "Paella-dietetica-cu-pui-si-creveti"
+    "slug": "Paella-dietetica-cu-pui-si-creveti",
+    "minutes": 35
   },
   {
     "id": "i-54",
@@ -4127,7 +4360,8 @@ export const recipes = [
       "carbs": 18.8,
       "fat": 18.0
     },
-    "slug": "Rulada-cu-spanac-umpluta-cu-branza-si-sunca-de-curcan"
+    "slug": "Rulada-cu-spanac-umpluta-cu-branza-si-sunca-de-curcan",
+    "minutes": 30
   },
   {
     "id": "i-55",
@@ -4144,7 +4378,8 @@ export const recipes = [
       "carbs": 31.6,
       "fat": 7.3
     },
-    "slug": "Salata-calda-cu-piept-de-pui-porumb-si-sos-cremos-de-iaurt"
+    "slug": "Salata-calda-cu-piept-de-pui-porumb-si-sos-cremos-de-iaurt",
+    "minutes": 20
   },
   {
     "id": "i-56",
@@ -4162,7 +4397,8 @@ export const recipes = [
       "fat": 5.8,
       "fiber": 3.7
     },
-    "slug": "Paine-proteica-cu-ovaz-si-branza"
+    "slug": "Paine-proteica-cu-ovaz-si-branza",
+    "minutes": 60
   },
   {
     "id": "i-57",
@@ -4180,7 +4416,8 @@ export const recipes = [
       "fat": 9.4,
       "fiber": 5.2
     },
-    "slug": "French-toast-cu-banane-si-scortisoara-internationale"
+    "slug": "French-toast-cu-banane-si-scortisoara-internationale",
+    "minutes": 15
   },
   {
     "id": "i-58",
@@ -4198,7 +4435,8 @@ export const recipes = [
       "fat": 6.4,
       "fiber": 1.3
     },
-    "slug": "Omleta-cu-spanac-si-ceapa-verde"
+    "slug": "Omleta-cu-spanac-si-ceapa-verde",
+    "minutes": 10
   },
   {
     "id": "i-59",
@@ -4216,7 +4454,8 @@ export const recipes = [
       "fat": 14.0,
       "fiber": 5.6
     },
-    "slug": "Sandvis-cald-cu-ou-si-branza"
+    "slug": "Sandvis-cald-cu-ou-si-branza",
+    "minutes": 10
   },
   {
     "id": "i-60",
@@ -4234,7 +4473,8 @@ export const recipes = [
       "fat": 15.8,
       "fiber": 4.2
     },
-    "slug": "Bagel-cu-ou-bacon-si-branza"
+    "slug": "Bagel-cu-ou-bacon-si-branza",
+    "minutes": 25
   },
   {
     "id": "i-61",
@@ -4252,7 +4492,8 @@ export const recipes = [
       "fat": 15.5,
       "fiber": 1.5
     },
-    "slug": "Ciuperci-cu-halloumi"
+    "slug": "Ciuperci-cu-halloumi",
+    "minutes": 15
   },
   {
     "id": "i-62",
@@ -4270,7 +4511,8 @@ export const recipes = [
       "fat": 25.2,
       "fiber": 7.1
     },
-    "slug": "Avocado-umplut"
+    "slug": "Avocado-umplut",
+    "minutes": 25
   },
   {
     "id": "i-63",
@@ -4288,7 +4530,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 2.7
     },
-    "slug": "Frigarui-de-pui"
+    "slug": "Frigarui-de-pui",
+    "minutes": 25
   },
   {
     "id": "i-64",
@@ -4306,7 +4549,8 @@ export const recipes = [
       "fat": 5.4,
       "fiber": 5.0
     },
-    "slug": "Somon-la-cuptor-cu-legume-internationale"
+    "slug": "Somon-la-cuptor-cu-legume-internationale",
+    "minutes": 30
   },
   {
     "id": "i-65",
@@ -4324,7 +4568,8 @@ export const recipes = [
       "fat": 21.0,
       "fiber": 11.1
     },
-    "slug": "Sandvis-cu-ou-si-avocado-internationale"
+    "slug": "Sandvis-cu-ou-si-avocado-internationale",
+    "minutes": 10
   },
   {
     "id": "i-66",
@@ -4342,7 +4587,8 @@ export const recipes = [
       "fat": 5.2,
       "fiber": 1.2
     },
-    "slug": "Orez-cu-lapte-si-scortisoara"
+    "slug": "Orez-cu-lapte-si-scortisoara",
+    "minutes": 20
   },
   {
     "id": "i-67",
@@ -4360,7 +4606,8 @@ export const recipes = [
       "fat": 10.1,
       "fiber": 4.4
     },
-    "slug": "Clatite-cu-banana-si-ou-internationale"
+    "slug": "Clatite-cu-banana-si-ou-internationale",
+    "minutes": 18
   },
   {
     "id": "i-68",
@@ -4378,7 +4625,8 @@ export const recipes = [
       "fat": 21.7,
       "fiber": 1.6
     },
-    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-internationale"
+    "slug": "Mini-cheesecake-cu-iaurt-grecesc-si-fulgi-de-ciocolata-internationale",
+    "minutes": 30
   },
   {
     "id": "i-69",
@@ -4396,7 +4644,8 @@ export const recipes = [
       "fat": 4.6,
       "fiber": 0.8
     },
-    "slug": "Pasca-light-cu-branza-si-stafide"
+    "slug": "Pasca-light-cu-branza-si-stafide",
+    "minutes": 60
   },
   {
     "id": "i-70",
@@ -4414,7 +4663,8 @@ export const recipes = [
       "fat": 2.3,
       "fiber": 1.2
     },
-    "slug": "Placinta-cu-mere-light"
+    "slug": "Placinta-cu-mere-light",
+    "minutes": 65
   },
   {
     "id": "i-71",
@@ -4432,7 +4682,8 @@ export const recipes = [
       "fat": 12.8,
       "fiber": 6.0
     },
-    "slug": "Prajitura-cu-ovaz-cacao-vanilie-si-fulgi-de-ciocolata"
+    "slug": "Prajitura-cu-ovaz-cacao-vanilie-si-fulgi-de-ciocolata",
+    "minutes": 30
   },
   {
     "id": "i-72",
@@ -4450,7 +4701,8 @@ export const recipes = [
       "fat": 4.6,
       "fiber": 2.8
     },
-    "slug": "Papanasi-la-cuptor-cu-branza-si-iaurt"
+    "slug": "Papanasi-la-cuptor-cu-branza-si-iaurt",
+    "minutes": 30
   },
   {
     "id": "i-73",
@@ -4468,7 +4720,8 @@ export const recipes = [
       "fat": 10.3,
       "fiber": 1.0
     },
-    "slug": "Cheesecake-cu-iaurt-grecesc-si-afine"
+    "slug": "Cheesecake-cu-iaurt-grecesc-si-afine",
+    "minutes": 30
   },
   {
     "id": "i-74",
@@ -4486,7 +4739,8 @@ export const recipes = [
       "fat": 7.9,
       "fiber": 3.6
     },
-    "slug": "Brownie-fara-zahar"
+    "slug": "Brownie-fara-zahar",
+    "minutes": 30
   },
   {
     "id": "i-75",
@@ -4504,7 +4758,8 @@ export const recipes = [
       "fat": 7.5,
       "fiber": 2.6
     },
-    "slug": "Mere-coapte-cu-scortisoara-si-nuci"
+    "slug": "Mere-coapte-cu-scortisoara-si-nuci",
+    "minutes": 35
   },
   {
     "id": "i-76",
@@ -4522,7 +4777,8 @@ export const recipes = [
       "fat": 14.6,
       "fiber": 1.5
     },
-    "slug": "Cheesecake-Raffaello-cu-banana-si-cocos"
+    "slug": "Cheesecake-Raffaello-cu-banana-si-cocos",
+    "minutes": 50
   },
   {
     "id": "i-77",
@@ -4540,7 +4796,8 @@ export const recipes = [
       "fat": 7.5,
       "fiber": 4.6
     },
-    "slug": "Chec-proteic-cu-lamaie-si-afine"
+    "slug": "Chec-proteic-cu-lamaie-si-afine",
+    "minutes": 50
   },
   {
     "id": "i-78",
@@ -4558,7 +4815,8 @@ export const recipes = [
       "fat": 16.9,
       "fiber": 2.9
     },
-    "slug": "Snickers-light-internationale"
+    "slug": "Snickers-light-internationale",
+    "minutes": 15
   },
   {
     "id": "i-79",
@@ -4576,7 +4834,8 @@ export const recipes = [
       "fat": 10.8,
       "fiber": 4.0
     },
-    "slug": "Baton-Mars-sanatos"
+    "slug": "Baton-Mars-sanatos",
+    "minutes": 15
   },
   {
     "id": "i-80",
@@ -4594,7 +4853,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 4.8
     },
-    "slug": "Terci-de-ovaz-Tiramisu-sanatos"
+    "slug": "Terci-de-ovaz-Tiramisu-sanatos",
+    "minutes": 10
   },
   {
     "id": "i-81",
@@ -4612,7 +4872,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 3.1
     },
-    "slug": "Tort-placinta-cu-mere"
+    "slug": "Tort-placinta-cu-mere",
+    "minutes": 40
   },
   {
     "id": "i-82",
@@ -4630,7 +4891,8 @@ export const recipes = [
       "fat": 19.0,
       "fiber": 1.9
     },
-    "slug": "Budinca-Kinder-Bueno"
+    "slug": "Budinca-Kinder-Bueno",
+    "minutes": 10
   },
   {
     "id": "i-83",
@@ -4648,7 +4910,8 @@ export const recipes = [
       "fat": 8.3,
       "fiber": 1.2
     },
-    "slug": "Budinca-proteica-cu-fulgi-de-migdale-internationale"
+    "slug": "Budinca-proteica-cu-fulgi-de-migdale-internationale",
+    "minutes": 10
   },
   {
     "id": "i-84",
@@ -4666,7 +4929,8 @@ export const recipes = [
       "fat": 16.1,
       "fiber": 3.4
     },
-    "slug": "Prajitura-cu-capsuni-in-ciocolata"
+    "slug": "Prajitura-cu-capsuni-in-ciocolata",
+    "minutes": 15
   },
   {
     "id": "i-85",
@@ -4684,7 +4948,8 @@ export const recipes = [
       "fat": 7.5,
       "fiber": 5.0
     },
-    "slug": "Brownie-espresso-cu-banana"
+    "slug": "Brownie-espresso-cu-banana",
+    "minutes": 30
   },
   {
     "id": "i-86",
@@ -4702,7 +4967,8 @@ export const recipes = [
       "fat": 7.9,
       "fiber": 3.6
     },
-    "slug": "Prajitura-mocha-pentru-slabit"
+    "slug": "Prajitura-mocha-pentru-slabit",
+    "minutes": 30
   },
   {
     "id": "i-87",
@@ -4720,7 +4986,8 @@ export const recipes = [
       "fat": 4.3,
       "fiber": 1.9
     },
-    "slug": "Gogosi-carrot-cake-la-cuptor"
+    "slug": "Gogosi-carrot-cake-la-cuptor",
+    "minutes": 30
   },
   {
     "id": "i-88",
@@ -4738,7 +5005,8 @@ export const recipes = [
       "fat": 13.2,
       "fiber": 5.0
     },
-    "slug": "Loaf-cake-cu-nuci-si-ciocolata"
+    "slug": "Loaf-cake-cu-nuci-si-ciocolata",
+    "minutes": 40
   },
   {
     "id": "i-89",
@@ -4756,7 +5024,8 @@ export const recipes = [
       "fat": 6.8,
       "fiber": 4.7
     },
-    "slug": "Bol-proteic-cu-iaurt-si-fructe-internationale"
+    "slug": "Bol-proteic-cu-iaurt-si-fructe-internationale",
+    "minutes": 10
   },
   {
     "id": "i-90",
@@ -4774,7 +5043,8 @@ export const recipes = [
       "fat": 15.2,
       "fiber": 2.4
     },
-    "slug": "Cheesecake-Kinder-varianta-rapida-si-sanatoasa"
+    "slug": "Cheesecake-Kinder-varianta-rapida-si-sanatoasa",
+    "minutes": 10
   },
   {
     "id": "i-91",
@@ -4792,7 +5062,8 @@ export const recipes = [
       "fat": 7.0,
       "fiber": 8.1
     },
-    "slug": "Budinca-de-chia-cu-fructe-de-padure-internationale"
+    "slug": "Budinca-de-chia-cu-fructe-de-padure-internationale",
+    "minutes": 10
   },
   {
     "id": "i-92",
@@ -4810,7 +5081,8 @@ export const recipes = [
       "fat": 13.7,
       "fiber": 5.8
     },
-    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-internationale"
+    "slug": "Budinca-de-chia-cu-unt-de-arahide-si-fulgi-de-ciocolata-internationale",
+    "minutes": 10
   },
   {
     "id": "i-93",
@@ -4828,7 +5100,8 @@ export const recipes = [
       "fat": 9.2,
       "fiber": 6.5
     },
-    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-internationale"
+    "slug": "Budinca-de-chia-cu-piure-de-mango-si-fistic-internationale",
+    "minutes": 10
   },
   {
     "id": "i-94",
@@ -4846,7 +5119,8 @@ export const recipes = [
       "fat": 9.2,
       "fiber": 7.0
     },
-    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-internationale"
+    "slug": "Budinca-de-chia-cu-sos-caramel-de-curmale-internationale",
+    "minutes": 15
   },
   {
     "id": "i-95",
@@ -4864,7 +5138,8 @@ export const recipes = [
       "fat": 6.7,
       "fiber": 4.8
     },
-    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-internationale"
+    "slug": "Budinca-de-chia-cu-mere-si-scortisoara-internationale",
+    "minutes": 15
   },
   {
     "id": "i-96",
@@ -4882,7 +5157,8 @@ export const recipes = [
       "fat": 8.9,
       "fiber": 6.0
     },
-    "slug": "Budinca-de-chia-cu-cocos-si-ananas-internationale"
+    "slug": "Budinca-de-chia-cu-cocos-si-ananas-internationale",
+    "minutes": 10
   },
   {
     "id": "i-97",
@@ -4900,7 +5176,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 6.8
     },
-    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-internationale"
+    "slug": "Budinca-de-chia-cu-cacao-si-capsuni-internationale",
+    "minutes": 10
   },
   {
     "id": "i-98",
@@ -4918,7 +5195,8 @@ export const recipes = [
       "fat": 7.6,
       "fiber": 4.9
     },
-    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-internationale"
+    "slug": "Budinca-de-chia-cu-lamaie-si-seminte-de-mac-internationale",
+    "minutes": 10
   },
   {
     "id": "i-99",
@@ -4936,7 +5214,8 @@ export const recipes = [
       "fat": 7.6,
       "fiber": 6.0
     },
-    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-internationale"
+    "slug": "Budinca-de-chia-cu-piure-de-fructe-tropicale-internationale",
+    "minutes": 10
   },
   {
     "id": "i-100",
@@ -4954,7 +5233,8 @@ export const recipes = [
       "fat": 10.4,
       "fiber": 2.2
     },
-    "slug": "Cheesecake-cu-iaurt-grecesc-si-fructe-de-padure"
+    "slug": "Cheesecake-cu-iaurt-grecesc-si-fructe-de-padure",
+    "minutes": 35
   },
   {
     "id": "i-101",
@@ -4972,7 +5252,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 5.8
     },
-    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-internationale"
+    "slug": "Budinca-de-chia-cu-branza-dulce-si-banana-internationale",
+    "minutes": 10
   },
   {
     "id": "i-102",
@@ -4990,7 +5271,8 @@ export const recipes = [
       "fat": 5.1,
       "fiber": 4.7
     },
-    "slug": "Terci-de-ovaz-cu-mere-si-scortisoara"
+    "slug": "Terci-de-ovaz-cu-mere-si-scortisoara",
+    "minutes": 10
   },
   {
     "id": "i-103",
@@ -5008,7 +5290,8 @@ export const recipes = [
       "fat": 9.9,
       "fiber": 5.2
     },
-    "slug": "Terci-de-ovaz-cu-unt-de-arahide"
+    "slug": "Terci-de-ovaz-cu-unt-de-arahide",
+    "minutes": 10
   },
   {
     "id": "i-104",
@@ -5026,7 +5309,8 @@ export const recipes = [
       "fat": 11.1,
       "fiber": 5.2
     },
-    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-internationale"
+    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-internationale",
+    "minutes": 30
   },
   {
     "id": "i-105",
@@ -5044,7 +5328,8 @@ export const recipes = [
       "fat": 6.3,
       "fiber": 2.5
     },
-    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-internationale"
+    "slug": "Clatite-dulci-cu-branza-si-mere-coapte-internationale",
+    "minutes": 30
   },
   {
     "id": "i-106",
@@ -5062,7 +5347,8 @@ export const recipes = [
       "fat": 5.2,
       "fiber": 3.8
     },
-    "slug": "Negresa-proteica-cu-branza-dulce-si-banana"
+    "slug": "Negresa-proteica-cu-branza-dulce-si-banana",
+    "minutes": 30
   },
   {
     "id": "i-107",
@@ -5080,7 +5366,8 @@ export const recipes = [
       "fat": 7.5,
       "fiber": 5.4
     },
-    "slug": "Tarta-cu-iaurt-si-para"
+    "slug": "Tarta-cu-iaurt-si-para",
+    "minutes": 35
   },
   {
     "id": "i-108",
@@ -5098,7 +5385,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 0.6
     },
-    "slug": "Gris-cu-lapte-branza-si-dulceata-de-afine"
+    "slug": "Gris-cu-lapte-branza-si-dulceata-de-afine",
+    "minutes": 10
   },
   {
     "id": "i-109",
@@ -5116,7 +5404,8 @@ export const recipes = [
       "fat": 3.3,
       "fiber": 2.0
     },
-    "slug": "Muffin-cu-morcov-mar-si-iaurt"
+    "slug": "Muffin-cu-morcov-mar-si-iaurt",
+    "minutes": 30
   },
   {
     "id": "i-110",
@@ -5134,7 +5423,8 @@ export const recipes = [
       "fat": 5.0,
       "fiber": 2.2
     },
-    "slug": "Briose-cu-bucatele-de-ciocolata"
+    "slug": "Briose-cu-bucatele-de-ciocolata",
+    "minutes": 30
   },
   {
     "id": "i-111",
@@ -5152,7 +5442,8 @@ export const recipes = [
       "fat": 5.3,
       "fiber": 2.0
     },
-    "slug": "Briose-tip-carrot-cake"
+    "slug": "Briose-tip-carrot-cake",
+    "minutes": 30
   },
   {
     "id": "i-112",
@@ -5170,7 +5461,8 @@ export const recipes = [
       "fat": 6.2,
       "fiber": 2.4
     },
-    "slug": "Briose-ciocolata-dubla"
+    "slug": "Briose-ciocolata-dubla",
+    "minutes": 30
   },
   {
     "id": "i-113",
@@ -5188,7 +5480,8 @@ export const recipes = [
       "fat": 4.2,
       "fiber": 3.0
     },
-    "slug": "Briose-cu-ovaz-si-afine"
+    "slug": "Briose-cu-ovaz-si-afine",
+    "minutes": 30
   },
   {
     "id": "i-114",
@@ -5206,7 +5499,8 @@ export const recipes = [
       "fat": 3.4,
       "fiber": 2.5
     },
-    "slug": "Briose-cu-banane"
+    "slug": "Briose-cu-banane",
+    "minutes": 30
   },
   {
     "id": "i-115",
@@ -5224,7 +5518,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 2.3
     },
-    "slug": "Briose-cu-capsuni"
+    "slug": "Briose-cu-capsuni",
+    "minutes": 30
   },
   {
     "id": "i-116",
@@ -5242,7 +5537,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 3.2
     },
-    "slug": "Inghetata-cu-banane-iaurt-grecesc-si-unt-de-arahide"
+    "slug": "Inghetata-cu-banane-iaurt-grecesc-si-unt-de-arahide",
+    "minutes": 10
   },
   {
     "id": "i-117",
@@ -5260,7 +5556,8 @@ export const recipes = [
       "fat": 2.6,
       "fiber": 2.5
     },
-    "slug": "Inghetata-cu-capsuni-cottage-cheese-si-miere"
+    "slug": "Inghetata-cu-capsuni-cottage-cheese-si-miere",
+    "minutes": 10
   },
   {
     "id": "i-118",
@@ -5278,7 +5575,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 2.5
     },
-    "slug": "Inghetata-cu-mango-si-iaurt-de-capra"
+    "slug": "Inghetata-cu-mango-si-iaurt-de-capra",
+    "minutes": 10
   },
   {
     "id": "p-1",
@@ -5296,7 +5594,8 @@ export const recipes = [
       "fat": 36.8,
       "fiber": 12.8
     },
-    "slug": "Budinca-de-ovaz-cu-seminte-de-chia"
+    "slug": "Budinca-de-ovaz-cu-seminte-de-chia",
+    "minutes": 10
   },
   {
     "id": "p-2",
@@ -5314,7 +5613,8 @@ export const recipes = [
       "fat": 20.5,
       "fiber": 7.0
     },
-    "slug": "Granola-crocanta-de-casa-post"
+    "slug": "Granola-crocanta-de-casa-post",
+    "minutes": 35
   },
   {
     "id": "p-3",
@@ -5332,7 +5632,8 @@ export const recipes = [
       "fat": 11.8,
       "fiber": 5.1
     },
-    "slug": "Toast-vegan-cu-pasta-de-mazare-edamame-si-seminte"
+    "slug": "Toast-vegan-cu-pasta-de-mazare-edamame-si-seminte",
+    "minutes": 10
   },
   {
     "id": "p-4",
@@ -5350,7 +5651,8 @@ export const recipes = [
       "fat": 14.4,
       "fiber": 8.7
     },
-    "slug": "Toast-cu-avocado-si-rosii"
+    "slug": "Toast-cu-avocado-si-rosii",
+    "minutes": 10
   },
   {
     "id": "p-5",
@@ -5368,7 +5670,8 @@ export const recipes = [
       "fat": 17.5,
       "fiber": 6.7
     },
-    "slug": "Tartine-proteice-cu-sunca-vegana-afumata-si-avocado"
+    "slug": "Tartine-proteice-cu-sunca-vegana-afumata-si-avocado",
+    "minutes": 10
   },
   {
     "id": "p-6",
@@ -5386,7 +5689,8 @@ export const recipes = [
       "fat": 12.1,
       "fiber": 8.4
     },
-    "slug": "Pasta-de-naut-cu-bastonase-de-legume"
+    "slug": "Pasta-de-naut-cu-bastonase-de-legume",
+    "minutes": 15
   },
   {
     "id": "p-7",
@@ -5404,7 +5708,8 @@ export const recipes = [
       "fat": 13.7,
       "fiber": 0.3
     },
-    "slug": "Mar-cu-unt-de-arahide"
+    "slug": "Mar-cu-unt-de-arahide",
+    "minutes": 5
   },
   {
     "id": "p-8",
@@ -5422,7 +5727,8 @@ export const recipes = [
       "fat": 17.7,
       "fiber": 9.1
     },
-    "slug": "Hummus-cu-morcovi-crocanti-post"
+    "slug": "Hummus-cu-morcovi-crocanti-post",
+    "minutes": 10
   },
   {
     "id": "p-9",
@@ -5440,7 +5746,8 @@ export const recipes = [
       "fat": 5.9,
       "fiber": 5.5
     },
-    "slug": "Naut-si-mazare-crunchy-la-cuptor"
+    "slug": "Naut-si-mazare-crunchy-la-cuptor",
+    "minutes": 30
   },
   {
     "id": "p-10",
@@ -5458,7 +5765,8 @@ export const recipes = [
       "fat": 12.6,
       "fiber": 9.0
     },
-    "slug": "Hummus-clasic-cu-lamaie-si-usturoi"
+    "slug": "Hummus-clasic-cu-lamaie-si-usturoi",
+    "minutes": 10
   },
   {
     "id": "p-11",
@@ -5476,7 +5784,8 @@ export const recipes = [
       "fat": 16.4,
       "fiber": 7.0
     },
-    "slug": "Guacamole-rapid-post"
+    "slug": "Guacamole-rapid-post",
+    "minutes": 10
   },
   {
     "id": "p-12",
@@ -5494,7 +5803,8 @@ export const recipes = [
       "fat": 5.3,
       "fiber": 8.0
     },
-    "slug": "Salata-de-rosii-cu-patrunjel-si-bulgur"
+    "slug": "Salata-de-rosii-cu-patrunjel-si-bulgur",
+    "minutes": 25
   },
   {
     "id": "p-13",
@@ -5512,7 +5822,8 @@ export const recipes = [
       "fat": 5.1,
       "fiber": 3.7
     },
-    "slug": "Bruschete-cu-rosii-si-busuioc"
+    "slug": "Bruschete-cu-rosii-si-busuioc",
+    "minutes": 20
   },
   {
     "id": "p-14",
@@ -5530,7 +5841,8 @@ export const recipes = [
       "fat": 5.2,
       "fiber": 8.7
     },
-    "slug": "Pasta-de-linte-cu-chimen"
+    "slug": "Pasta-de-linte-cu-chimen",
+    "minutes": 5
   },
   {
     "id": "p-15",
@@ -5548,7 +5860,8 @@ export const recipes = [
       "fat": 12.5,
       "fiber": 5.4
     },
-    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-post"
+    "slug": "Rulouri-de-dovlecel-cu-crema-de-nuci-post",
+    "minutes": 20
   },
   {
     "id": "p-16",
@@ -5566,7 +5879,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 13.7
     },
-    "slug": "Salata-de-vinete-cu-tahini-post"
+    "slug": "Salata-de-vinete-cu-tahini-post",
+    "minutes": 35
   },
   {
     "id": "p-17",
@@ -5584,7 +5898,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 4.1
     },
-    "slug": "Rulouri-de-primavara-cu-legume"
+    "slug": "Rulouri-de-primavara-cu-legume",
+    "minutes": 10
   },
   {
     "id": "p-18",
@@ -5602,7 +5917,8 @@ export const recipes = [
       "fat": 8.1,
       "fiber": 6.6
     },
-    "slug": "Tartine-cu-pasta-de-avocado-si-ridichi"
+    "slug": "Tartine-cu-pasta-de-avocado-si-ridichi",
+    "minutes": 10
   },
   {
     "id": "p-19",
@@ -5620,7 +5936,8 @@ export const recipes = [
       "fat": 6.1,
       "fiber": 2.4
     },
-    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-post"
+    "slug": "Bilute-crude-din-nuci-si-fructe-uscate-post",
+    "minutes": 10
   },
   {
     "id": "p-20",
@@ -5638,7 +5955,8 @@ export const recipes = [
       "fat": 5.1,
       "fiber": 8.0
     },
-    "slug": "Pate-de-linte-si-ceapa-caramelizata"
+    "slug": "Pate-de-linte-si-ceapa-caramelizata",
+    "minutes": 35
   },
   {
     "id": "p-21",
@@ -5656,7 +5974,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 7.9
     },
-    "slug": "Pasta-de-fasole-alba-cu-usturoi"
+    "slug": "Pasta-de-fasole-alba-cu-usturoi",
+    "minutes": 10
   },
   {
     "id": "p-22",
@@ -5674,7 +5993,8 @@ export const recipes = [
       "fat": 17.2,
       "fiber": 5.8
     },
-    "slug": "Pate-de-ciuperci-cu-nuci"
+    "slug": "Pate-de-ciuperci-cu-nuci",
+    "minutes": 30
   },
   {
     "id": "p-23",
@@ -5692,7 +6012,8 @@ export const recipes = [
       "fat": 30.8,
       "fiber": 13.7
     },
-    "slug": "Crema-de-avocado-cu-lamaie-si-busuioc"
+    "slug": "Crema-de-avocado-cu-lamaie-si-busuioc",
+    "minutes": 10
   },
   {
     "id": "p-24",
@@ -5710,7 +6031,8 @@ export const recipes = [
       "fat": 9.9,
       "fiber": 14.6
     },
-    "slug": "Pasta-de-naut-cu-rosii-uscate"
+    "slug": "Pasta-de-naut-cu-rosii-uscate",
+    "minutes": 20
   },
   {
     "id": "p-25",
@@ -5728,7 +6050,8 @@ export const recipes = [
       "fat": 9.6,
       "fiber": 1.9
     },
-    "slug": "Pate-de-tofu-afumat-si-verdeturi"
+    "slug": "Pate-de-tofu-afumat-si-verdeturi",
+    "minutes": 10
   },
   {
     "id": "p-26",
@@ -5746,7 +6069,8 @@ export const recipes = [
       "fat": 22.8,
       "fiber": 5.1
     },
-    "slug": "Crema-de-nuci-si-usturoi-copt"
+    "slug": "Crema-de-nuci-si-usturoi-copt",
+    "minutes": 10
   },
   {
     "id": "p-27",
@@ -5764,7 +6088,8 @@ export const recipes = [
       "fat": 5.6,
       "fiber": 7.1
     },
-    "slug": "Pate-de-ardei-copti"
+    "slug": "Pate-de-ardei-copti",
+    "minutes": 25
   },
   {
     "id": "p-28",
@@ -5782,7 +6107,8 @@ export const recipes = [
       "fat": 5.6,
       "fiber": 7.1
     },
-    "slug": "Crema-de-mazare-verde-cu-menta"
+    "slug": "Crema-de-mazare-verde-cu-menta",
+    "minutes": 10
   },
   {
     "id": "p-29",
@@ -5800,7 +6126,8 @@ export const recipes = [
       "fat": 5.6,
       "fiber": 7.1
     },
-    "slug": "Sfecla-rosie-rasa-cu-hrean"
+    "slug": "Sfecla-rosie-rasa-cu-hrean",
+    "minutes": 60
   },
   {
     "id": "p-30",
@@ -5818,7 +6145,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 6.9
     },
-    "slug": "Salata-cu-fasole-si-paine-prajita-post"
+    "slug": "Salata-cu-fasole-si-paine-prajita-post",
+    "minutes": 35
   },
   {
     "id": "p-31",
@@ -5836,7 +6164,8 @@ export const recipes = [
       "fat": 12.4,
       "fiber": 6.0
     },
-    "slug": "Salata-proteica-cu-tofu-si-legume-crocante"
+    "slug": "Salata-proteica-cu-tofu-si-legume-crocante",
+    "minutes": 10
   },
   {
     "id": "p-32",
@@ -5854,7 +6183,8 @@ export const recipes = [
       "fat": 13.1,
       "fiber": 12.1
     },
-    "slug": "Salata-de-paste-proteica"
+    "slug": "Salata-de-paste-proteica",
+    "minutes": 15
   },
   {
     "id": "p-33",
@@ -5872,7 +6202,8 @@ export const recipes = [
       "fat": 12.7,
       "fiber": 18.4
     },
-    "slug": "Bol-Salata-Buddha-cu-naut-crocant"
+    "slug": "Bol-Salata-Buddha-cu-naut-crocant",
+    "minutes": 30
   },
   {
     "id": "p-34",
@@ -5890,7 +6221,8 @@ export const recipes = [
       "fat": 5.8,
       "fiber": 4.4
     },
-    "slug": "Salata-de-cartofi-cu-ceapa-verde"
+    "slug": "Salata-de-cartofi-cu-ceapa-verde",
+    "minutes": 20
   },
   {
     "id": "p-35",
@@ -5908,7 +6240,8 @@ export const recipes = [
       "fat": 6.6,
       "fiber": 10.3
     },
-    "slug": "Bol-cu-orez-integral-si-legume-asiatice"
+    "slug": "Bol-cu-orez-integral-si-legume-asiatice",
+    "minutes": 15
   },
   {
     "id": "p-36",
@@ -5926,7 +6259,8 @@ export const recipes = [
       "fat": 14.9,
       "fiber": 4.1
     },
-    "slug": "Salata-mediteraneana-cu-tofu"
+    "slug": "Salata-mediteraneana-cu-tofu",
+    "minutes": 15
   },
   {
     "id": "p-37",
@@ -5944,7 +6278,8 @@ export const recipes = [
       "fat": 11.6,
       "fiber": 16.0
     },
-    "slug": "Bol-mexican-cu-fasole-si-porumb"
+    "slug": "Bol-mexican-cu-fasole-si-porumb",
+    "minutes": 10
   },
   {
     "id": "p-38",
@@ -5962,7 +6297,8 @@ export const recipes = [
       "fat": 3.8,
       "fiber": 13.6
     },
-    "slug": "Salata-de-linte-cu-legume-si-patrunjel"
+    "slug": "Salata-de-linte-cu-legume-si-patrunjel",
+    "minutes": 20
   },
   {
     "id": "p-39",
@@ -5980,7 +6316,8 @@ export const recipes = [
       "fat": 9.3,
       "fiber": 10.5
     },
-    "slug": "Bol-cu-paste-integrale-si-pesto-de-busuioc"
+    "slug": "Bol-cu-paste-integrale-si-pesto-de-busuioc",
+    "minutes": 15
   },
   {
     "id": "p-40",
@@ -5998,7 +6335,8 @@ export const recipes = [
       "fat": 3.4,
       "fiber": 7.2
     },
-    "slug": "Salata-de-couscous-cu-legume-coapte"
+    "slug": "Salata-de-couscous-cu-legume-coapte",
+    "minutes": 30
   },
   {
     "id": "p-41",
@@ -6016,7 +6354,8 @@ export const recipes = [
       "fat": 4.4,
       "fiber": 8.3
     },
-    "slug": "Bol-cu-hrisca-si-ciuperci"
+    "slug": "Bol-cu-hrisca-si-ciuperci",
+    "minutes": 15
   },
   {
     "id": "p-42",
@@ -6034,7 +6373,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 7.6
     },
-    "slug": "Salata-de-sfecla-rosie-portocala-si-nuci"
+    "slug": "Salata-de-sfecla-rosie-portocala-si-nuci",
+    "minutes": 10
   },
   {
     "id": "p-43",
@@ -6052,7 +6392,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 7.2
     },
-    "slug": "Supa-crema-de-conopida-cu-orez"
+    "slug": "Supa-crema-de-conopida-cu-orez",
+    "minutes": 35
   },
   {
     "id": "p-44",
@@ -6070,7 +6411,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 10.3
     },
-    "slug": "Supa-crema-de-broccoli-si-mazare"
+    "slug": "Supa-crema-de-broccoli-si-mazare",
+    "minutes": 30
   },
   {
     "id": "p-45",
@@ -6088,7 +6430,8 @@ export const recipes = [
       "fat": 2.6,
       "fiber": 3.7
     },
-    "slug": "Supa-crema-de-legume"
+    "slug": "Supa-crema-de-legume",
+    "minutes": 40
   },
   {
     "id": "p-46",
@@ -6106,7 +6449,8 @@ export const recipes = [
       "fat": 5.6,
       "fiber": 13.0
     },
-    "slug": "Supa-crema-de-rosii-cu-busuioc"
+    "slug": "Supa-crema-de-rosii-cu-busuioc",
+    "minutes": 35
   },
   {
     "id": "p-47",
@@ -6124,7 +6468,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 4.3
     },
-    "slug": "Ciorba-de-legume-cu-bors"
+    "slug": "Ciorba-de-legume-cu-bors",
+    "minutes": 50
   },
   {
     "id": "p-48",
@@ -6142,7 +6487,8 @@ export const recipes = [
       "fat": 2.7,
       "fiber": 2.8
     },
-    "slug": "Supa-crema-de-dovleac"
+    "slug": "Supa-crema-de-dovleac",
+    "minutes": 35
   },
   {
     "id": "p-49",
@@ -6160,7 +6506,8 @@ export const recipes = [
       "fat": 3.8,
       "fiber": 10.8
     },
-    "slug": "Ciorba-de-fasole-boabe-cu-tarhon"
+    "slug": "Ciorba-de-fasole-boabe-cu-tarhon",
+    "minutes": 90
   },
   {
     "id": "p-50",
@@ -6178,7 +6525,8 @@ export const recipes = [
       "fat": 4.3,
       "fiber": 10.6
     },
-    "slug": "Supa-crema-de-linte-rosie"
+    "slug": "Supa-crema-de-linte-rosie",
+    "minutes": 35
   },
   {
     "id": "p-51",
@@ -6196,7 +6544,8 @@ export const recipes = [
       "fat": 6.9,
       "fiber": 5.7
     },
-    "slug": "Ciorba-de-cartofi-cu-afumatura-vegetala"
+    "slug": "Ciorba-de-cartofi-cu-afumatura-vegetala",
+    "minutes": 40
   },
   {
     "id": "p-52",
@@ -6214,7 +6563,8 @@ export const recipes = [
       "fat": 3.3,
       "fiber": 10.5
     },
-    "slug": "Supa-crema-de-mazare-verde"
+    "slug": "Supa-crema-de-mazare-verde",
+    "minutes": 35
   },
   {
     "id": "p-53",
@@ -6232,7 +6582,8 @@ export const recipes = [
       "fat": 3.1,
       "fiber": 7.3
     },
-    "slug": "Ciorba-de-sfecla-rosie"
+    "slug": "Ciorba-de-sfecla-rosie",
+    "minutes": 45
   },
   {
     "id": "p-54",
@@ -6250,7 +6601,8 @@ export const recipes = [
       "fat": 5.7,
       "fiber": 7.0
     },
-    "slug": "Supa-de-ciuperci-cu-usturoi"
+    "slug": "Supa-de-ciuperci-cu-usturoi",
+    "minutes": 40
   },
   {
     "id": "p-55",
@@ -6268,7 +6620,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 4.9
     },
-    "slug": "Ciorba-de-varza-dulce"
+    "slug": "Ciorba-de-varza-dulce",
+    "minutes": 40
   },
   {
     "id": "p-56",
@@ -6286,7 +6639,8 @@ export const recipes = [
       "fat": 4.3,
       "fiber": 14.5
     },
-    "slug": "Tocanita-de-ciuperci-cu-cartofi-fierti"
+    "slug": "Tocanita-de-ciuperci-cu-cartofi-fierti",
+    "minutes": 35
   },
   {
     "id": "p-57",
@@ -6304,7 +6658,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 11.6
     },
-    "slug": "Tocanita-de-cartofi-cu-legume-si-fasole-verde"
+    "slug": "Tocanita-de-cartofi-cu-legume-si-fasole-verde",
+    "minutes": 35
   },
   {
     "id": "p-58",
@@ -6322,7 +6677,8 @@ export const recipes = [
       "fat": 6.9,
       "fiber": 11.2
     },
-    "slug": "Ghiveci-de-legume-cu-orez"
+    "slug": "Ghiveci-de-legume-cu-orez",
+    "minutes": 40
   },
   {
     "id": "p-59",
@@ -6340,7 +6696,8 @@ export const recipes = [
       "fat": 10.3,
       "fiber": 8.2
     },
-    "slug": "Mancare-de-linte-cu-tofu-afumat"
+    "slug": "Mancare-de-linte-cu-tofu-afumat",
+    "minutes": 35
   },
   {
     "id": "p-60",
@@ -6358,7 +6715,8 @@ export const recipes = [
       "fat": 9.9,
       "fiber": 9.3
     },
-    "slug": "Quinoa-cu-fasole-rosie-si-legume"
+    "slug": "Quinoa-cu-fasole-rosie-si-legume",
+    "minutes": 25
   },
   {
     "id": "p-61",
@@ -6376,7 +6734,8 @@ export const recipes = [
       "fat": 12.6,
       "fiber": 6.5
     },
-    "slug": "Wrap-cu-tofu-avocado-si-legume-post"
+    "slug": "Wrap-cu-tofu-avocado-si-legume-post",
+    "minutes": 10
   },
   {
     "id": "p-62",
@@ -6394,7 +6753,8 @@ export const recipes = [
       "fat": 5.3,
       "fiber": 6.8
     },
-    "slug": "Paste-integrale-cu-sos-de-rosii"
+    "slug": "Paste-integrale-cu-sos-de-rosii",
+    "minutes": 15
   },
   {
     "id": "p-63",
@@ -6412,7 +6772,8 @@ export const recipes = [
       "fat": 8.4,
       "fiber": 7.2
     },
-    "slug": "Mancare-de-mazare-cu-baby-morcovi-si-tofu"
+    "slug": "Mancare-de-mazare-cu-baby-morcovi-si-tofu",
+    "minutes": 30
   },
   {
     "id": "p-64",
@@ -6430,7 +6791,8 @@ export const recipes = [
       "fat": 6.3,
       "fiber": 2.9
     },
-    "slug": "Pilaf-cu-morcovi"
+    "slug": "Pilaf-cu-morcovi",
+    "minutes": 30
   },
   {
     "id": "p-65",
@@ -6448,7 +6810,8 @@ export const recipes = [
       "fat": 8.2,
       "fiber": 14.3
     },
-    "slug": "Paste-Fusilli-High-Protein"
+    "slug": "Paste-Fusilli-High-Protein",
+    "minutes": 15
   },
   {
     "id": "p-66",
@@ -6466,7 +6829,8 @@ export const recipes = [
       "fat": 10.7,
       "fiber": 11.0
     },
-    "slug": "Burger-vegan"
+    "slug": "Burger-vegan",
+    "minutes": 15
   },
   {
     "id": "p-67",
@@ -6484,7 +6848,8 @@ export const recipes = [
       "fat": 9.7,
       "fiber": 7.4
     },
-    "slug": "Salata-de-vinete-cu-tofu-si-lipie-integrala"
+    "slug": "Salata-de-vinete-cu-tofu-si-lipie-integrala",
+    "minutes": 15
   },
   {
     "id": "p-68",
@@ -6501,7 +6866,8 @@ export const recipes = [
       "carbs": 11.8,
       "fat": 8.2
     },
-    "slug": "Burger-vegetal-cu-salata-calda-de-legume"
+    "slug": "Burger-vegetal-cu-salata-calda-de-legume",
+    "minutes": 15
   },
   {
     "id": "p-69",
@@ -6519,7 +6885,8 @@ export const recipes = [
       "fat": 9.7,
       "fiber": 11.6
     },
-    "slug": "Falafel-la-cuptor"
+    "slug": "Falafel-la-cuptor",
+    "minutes": 30
   },
   {
     "id": "p-70",
@@ -6537,7 +6904,8 @@ export const recipes = [
       "fat": 6.5,
       "fiber": 1.6
     },
-    "slug": "Tocana-de-naut-cu-rosii-si-usturoi"
+    "slug": "Tocana-de-naut-cu-rosii-si-usturoi",
+    "minutes": 10
   },
   {
     "id": "p-71",
@@ -6555,7 +6923,8 @@ export const recipes = [
       "fat": 7.0,
       "fiber": 8.1
     },
-    "slug": "Wrap-rece-cu-crenvursti-vegetali-si-vinete-coapte"
+    "slug": "Wrap-rece-cu-crenvursti-vegetali-si-vinete-coapte",
+    "minutes": 10
   },
   {
     "id": "p-72",
@@ -6573,7 +6942,8 @@ export const recipes = [
       "fat": 5.8,
       "fiber": 10.2
     },
-    "slug": "Sandwich-cu-sunca-vegetala-si-crema-de-naut"
+    "slug": "Sandwich-cu-sunca-vegetala-si-crema-de-naut",
+    "minutes": 10
   },
   {
     "id": "p-73",
@@ -6591,7 +6961,8 @@ export const recipes = [
       "fat": 12.4,
       "fiber": 11.4
     },
-    "slug": "Fasole-pastai-sotate-cu-tofu-afumat"
+    "slug": "Fasole-pastai-sotate-cu-tofu-afumat",
+    "minutes": 15
   },
   {
     "id": "p-74",
@@ -6609,7 +6980,8 @@ export const recipes = [
       "fat": 4.1,
       "fiber": 3.5
     },
-    "slug": "Cartofi-copti-cu-rozmarin-si-usturoi"
+    "slug": "Cartofi-copti-cu-rozmarin-si-usturoi",
+    "minutes": 50
   },
   {
     "id": "p-75",
@@ -6627,7 +6999,8 @@ export const recipes = [
       "fat": 4.3,
       "fiber": 7.4
     },
-    "slug": "Legume-radacinoase-la-cuptor"
+    "slug": "Legume-radacinoase-la-cuptor",
+    "minutes": 45
   },
   {
     "id": "p-76",
@@ -6645,7 +7018,8 @@ export const recipes = [
       "fat": 4.2,
       "fiber": 7.7
     },
-    "slug": "Vinete-coapte-cu-usturoi-si-patrunjel"
+    "slug": "Vinete-coapte-cu-usturoi-si-patrunjel",
+    "minutes": 40
   },
   {
     "id": "p-77",
@@ -6663,7 +7037,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 4.4
     },
-    "slug": "Conopida-la-cuptor-cu-turmeric"
+    "slug": "Conopida-la-cuptor-cu-turmeric",
+    "minutes": 35
   },
   {
     "id": "p-78",
@@ -6681,7 +7056,8 @@ export const recipes = [
       "fat": 2.6,
       "fiber": 5.4
     },
-    "slug": "Broccoli-si-morcovi-copti-cu-sos-de-soia"
+    "slug": "Broccoli-si-morcovi-copti-cu-sos-de-soia",
+    "minutes": 30
   },
   {
     "id": "p-79",
@@ -6699,7 +7075,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 5.3
     },
-    "slug": "Cartofi-dulci-copti-cu-chimen"
+    "slug": "Cartofi-dulci-copti-cu-chimen",
+    "minutes": 40
   },
   {
     "id": "p-80",
@@ -6717,7 +7094,8 @@ export const recipes = [
       "fat": 4.1,
       "fiber": 1.9
     },
-    "slug": "Dovlecel-la-cuptor-cu-ierburi-aromate"
+    "slug": "Dovlecel-la-cuptor-cu-ierburi-aromate",
+    "minutes": 35
   },
   {
     "id": "p-81",
@@ -6735,7 +7113,8 @@ export const recipes = [
       "fat": 3.8,
       "fiber": 3.7
     },
-    "slug": "Ardei-copti-cu-usturoi"
+    "slug": "Ardei-copti-cu-usturoi",
+    "minutes": 35
   },
   {
     "id": "p-82",
@@ -6753,7 +7132,8 @@ export const recipes = [
       "fat": 2.7,
       "fiber": 5.2
     },
-    "slug": "Sfecla-rosie-coapta-cu-hrean"
+    "slug": "Sfecla-rosie-coapta-cu-hrean",
+    "minutes": 70
   },
   {
     "id": "p-83",
@@ -6771,7 +7151,8 @@ export const recipes = [
       "fat": 2.9,
       "fiber": 2.2
     },
-    "slug": "Ciuperci-umplute-cu-legume"
+    "slug": "Ciuperci-umplute-cu-legume",
+    "minutes": 30
   },
   {
     "id": "p-84",
@@ -6789,7 +7170,8 @@ export const recipes = [
       "fat": 3.9,
       "fiber": 5.6
     },
-    "slug": "Paine-rustica-integrala"
+    "slug": "Paine-rustica-integrala",
+    "minutes": 120
   },
   {
     "id": "p-85",
@@ -6807,7 +7189,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 5.1
     },
-    "slug": "Lipii-de-post-la-tigaie"
+    "slug": "Lipii-de-post-la-tigaie",
+    "minutes": 40
   },
   {
     "id": "p-86",
@@ -6825,7 +7208,8 @@ export const recipes = [
       "fat": 4.2,
       "fiber": 6.6
     },
-    "slug": "Chifle-cu-seminte-mixte"
+    "slug": "Chifle-cu-seminte-mixte",
+    "minutes": 90
   },
   {
     "id": "p-87",
@@ -6843,7 +7227,8 @@ export const recipes = [
       "fat": 4.7,
       "fiber": 2.7
     },
-    "slug": "Focaccia-de-post-cu-masline-si-rozmarin"
+    "slug": "Focaccia-de-post-cu-masline-si-rozmarin",
+    "minutes": 90
   },
   {
     "id": "p-88",
@@ -6861,7 +7246,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 1.8
     },
-    "slug": "Pogacele-de-post-cu-cartofi"
+    "slug": "Pogacele-de-post-cu-cartofi",
+    "minutes": 90
   },
   {
     "id": "p-89",
@@ -6879,7 +7265,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 4.4
     },
-    "slug": "Pateuri-de-post-cu-spanac-si-ceapa"
+    "slug": "Pateuri-de-post-cu-spanac-si-ceapa",
+    "minutes": 40
   },
   {
     "id": "p-90",
@@ -6897,7 +7284,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 1.2
     },
-    "slug": "Covrigi-de-casa-post"
+    "slug": "Covrigi-de-casa-post",
+    "minutes": 40
   },
   {
     "id": "p-91",
@@ -6915,7 +7303,8 @@ export const recipes = [
       "fat": 2.6,
       "fiber": 3.1
     },
-    "slug": "Turte-ardelenesti-de-post"
+    "slug": "Turte-ardelenesti-de-post",
+    "minutes": 40
   },
   {
     "id": "p-92",
@@ -6933,7 +7322,8 @@ export const recipes = [
       "fat": 12.1,
       "fiber": 1.4
     },
-    "slug": "Placinta-sarata-cu-varza-calita"
+    "slug": "Placinta-sarata-cu-varza-calita",
+    "minutes": 75
   },
   {
     "id": "p-93",
@@ -6951,7 +7341,8 @@ export const recipes = [
       "fat": 1.6,
       "fiber": 0.7
     },
-    "slug": "Batoane-sarate-de-post-grisine"
+    "slug": "Batoane-sarate-de-post-grisine",
+    "minutes": 60
   },
   {
     "id": "p-94",
@@ -6969,7 +7360,8 @@ export const recipes = [
       "fat": 2.7,
       "fiber": 0.6
     },
-    "slug": "Sos-de-rosii-rapid-pentru-paste"
+    "slug": "Sos-de-rosii-rapid-pentru-paste",
+    "minutes": 25
   },
   {
     "id": "p-95",
@@ -6987,7 +7379,8 @@ export const recipes = [
       "fat": 8.1,
       "fiber": 0.0
     },
-    "slug": "Vinegreta-de-mustar"
+    "slug": "Vinegreta-de-mustar",
+    "minutes": 5
   },
   {
     "id": "p-96",
@@ -7005,7 +7398,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 0.0
     },
-    "slug": "Sos-tahini-cu-lamaie"
+    "slug": "Sos-tahini-cu-lamaie",
+    "minutes": 5
   },
   {
     "id": "p-97",
@@ -7023,7 +7417,8 @@ export const recipes = [
       "fat": 5.9,
       "fiber": 0.3
     },
-    "slug": "Sos-pesto-de-busuioc"
+    "slug": "Sos-pesto-de-busuioc",
+    "minutes": 10
   },
   {
     "id": "p-98",
@@ -7041,7 +7436,8 @@ export const recipes = [
       "fat": 5.9,
       "fiber": 2.4
     },
-    "slug": "Dressing-cremos-cu-avocado"
+    "slug": "Dressing-cremos-cu-avocado",
+    "minutes": 5
   },
   {
     "id": "p-99",
@@ -7059,7 +7455,8 @@ export const recipes = [
       "fat": 2.6,
       "fiber": 0.0
     },
-    "slug": "Sos-de-iaurt-vegetal-cu-usturoi-si-marar"
+    "slug": "Sos-de-iaurt-vegetal-cu-usturoi-si-marar",
+    "minutes": 15
   },
   {
     "id": "p-100",
@@ -7077,7 +7474,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 1.3
     },
-    "slug": "Sos-de-ardei-copt"
+    "slug": "Sos-de-ardei-copt",
+    "minutes": 10
   },
   {
     "id": "p-101",
@@ -7095,7 +7493,8 @@ export const recipes = [
       "fat": 1.4,
       "fiber": 0.3
     },
-    "slug": "Sos-picant-de-post"
+    "slug": "Sos-picant-de-post",
+    "minutes": 5
   },
   {
     "id": "p-102",
@@ -7113,7 +7512,8 @@ export const recipes = [
       "fat": 3.8,
       "fiber": 0.4
     },
-    "slug": "Dressing-oriental-cu-susan-si-soia"
+    "slug": "Dressing-oriental-cu-susan-si-soia",
+    "minutes": 5
   },
   {
     "id": "p-103",
@@ -7131,7 +7531,8 @@ export const recipes = [
       "fat": 8.8,
       "fiber": 8.9
     },
-    "slug": "Smoothie-cu-fructe-de-padure-si-banana"
+    "slug": "Smoothie-cu-fructe-de-padure-si-banana",
+    "minutes": 5
   },
   {
     "id": "p-104",
@@ -7149,7 +7550,8 @@ export const recipes = [
       "fat": 4.1,
       "fiber": 5.0
     },
-    "slug": "Smoothie-verde-detox"
+    "slug": "Smoothie-verde-detox",
+    "minutes": 5
   },
   {
     "id": "p-105",
@@ -7167,7 +7569,8 @@ export const recipes = [
       "fat": 9.6,
       "fiber": 5.2
     },
-    "slug": "Smoothie-tropical-cremos-post"
+    "slug": "Smoothie-tropical-cremos-post",
+    "minutes": 10
   },
   {
     "id": "p-106",
@@ -7185,7 +7588,8 @@ export const recipes = [
       "fat": 0.3,
       "fiber": 6.2
     },
-    "slug": "Suc-fresh-de-morcov-mar-si-ghimbir"
+    "slug": "Suc-fresh-de-morcov-mar-si-ghimbir",
+    "minutes": 10
   },
   {
     "id": "p-107",
@@ -7203,7 +7607,8 @@ export const recipes = [
       "fat": 12.2,
       "fiber": 6.3
     },
-    "slug": "Smoothie-proteic-cu-banana-si-unt-de-arahide"
+    "slug": "Smoothie-proteic-cu-banana-si-unt-de-arahide",
+    "minutes": 5
   },
   {
     "id": "p-108",
@@ -7221,7 +7626,8 @@ export const recipes = [
       "fat": 0.1,
       "fiber": 0.3
     },
-    "slug": "Apa-infuzata-cu-castravete-si-menta"
+    "slug": "Apa-infuzata-cu-castravete-si-menta",
+    "minutes": 20
   },
   {
     "id": "p-109",
@@ -7239,7 +7645,8 @@ export const recipes = [
       "fat": 5.1,
       "fiber": 5.5
     },
-    "slug": "Smoothie-cu-ananas-si-spanac"
+    "slug": "Smoothie-cu-ananas-si-spanac",
+    "minutes": 5
   },
   {
     "id": "p-110",
@@ -7257,7 +7664,8 @@ export const recipes = [
       "fat": 13.3,
       "fiber": 7.9
     },
-    "slug": "Smoothie-cu-cacao-si-lapte-de-migdale"
+    "slug": "Smoothie-cu-cacao-si-lapte-de-migdale",
+    "minutes": 5
   },
   {
     "id": "p-111",
@@ -7275,7 +7683,8 @@ export const recipes = [
       "fat": 4.5,
       "fiber": 2.9
     },
-    "slug": "Smoothie-racoritor-cu-pepene-rosu"
+    "slug": "Smoothie-racoritor-cu-pepene-rosu",
+    "minutes": 5
   },
   {
     "id": "p-112",
@@ -7293,7 +7702,8 @@ export const recipes = [
       "fat": 13.7,
       "fiber": 8.8
     },
-    "slug": "Smoothie-cu-cocos-si-zmeura"
+    "slug": "Smoothie-cu-cocos-si-zmeura",
+    "minutes": 5
   },
   {
     "id": "p-113",
@@ -7311,7 +7721,8 @@ export const recipes = [
       "fat": 0.2,
       "fiber": 3.1
     },
-    "slug": "Suc-detox-cu-mar-telina-si-castravete"
+    "slug": "Suc-detox-cu-mar-telina-si-castravete",
+    "minutes": 10
   },
   {
     "id": "p-114",
@@ -7329,7 +7740,8 @@ export const recipes = [
       "fat": 9.1,
       "fiber": 5.8
     },
-    "slug": "Smoothie-cu-piersici-si-lapte-de-ovaz"
+    "slug": "Smoothie-cu-piersici-si-lapte-de-ovaz",
+    "minutes": 5
   },
   {
     "id": "p-115",
@@ -7347,7 +7759,8 @@ export const recipes = [
       "fat": 0.0,
       "fiber": 0.0
     },
-    "slug": "Limonada-cu-menta-si-ghimbir"
+    "slug": "Limonada-cu-menta-si-ghimbir",
+    "minutes": 5
   },
   {
     "id": "p-116",
@@ -7365,7 +7778,8 @@ export const recipes = [
       "fat": 13.7,
       "fiber": 6.2
     },
-    "slug": "Smoothie-cu-afine-si-seminte-de-canepa"
+    "slug": "Smoothie-cu-afine-si-seminte-de-canepa",
+    "minutes": 5
   },
   {
     "id": "p-117",
@@ -7383,7 +7797,8 @@ export const recipes = [
       "fat": 8.1,
       "fiber": 7.8
     },
-    "slug": "Smoothie-cremos-cu-para-si-scortisoara"
+    "slug": "Smoothie-cremos-cu-para-si-scortisoara",
+    "minutes": 5
   },
   {
     "id": "p-118",
@@ -7401,7 +7816,8 @@ export const recipes = [
       "fat": 4.7,
       "fiber": 4.7
     },
-    "slug": "Budinca-de-ovaz-si-mere-caramelizate-post"
+    "slug": "Budinca-de-ovaz-si-mere-caramelizate-post",
+    "minutes": 15
   },
   {
     "id": "p-119",
@@ -7419,7 +7835,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 0.9
     },
-    "slug": "Orez-cu-lapte-mar-si-scortisoara"
+    "slug": "Orez-cu-lapte-mar-si-scortisoara",
+    "minutes": 20
   },
   {
     "id": "p-120",
@@ -7437,7 +7854,8 @@ export const recipes = [
       "fat": 9.5,
       "fiber": 8.6
     },
-    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-post"
+    "slug": "Budinca-de-ovaz-cu-ciocolata-si-fructe-post",
+    "minutes": 10
   },
   {
     "id": "p-121",
@@ -7455,7 +7873,8 @@ export const recipes = [
       "fat": 7.5,
       "fiber": 5.6
     },
-    "slug": "Iaurt-vegetal-cu-seminte-si-afine"
+    "slug": "Iaurt-vegetal-cu-seminte-si-afine",
+    "minutes": 5
   },
   {
     "id": "p-122",
@@ -7473,7 +7892,8 @@ export const recipes = [
       "fat": 4.6,
       "fiber": 10.0
     },
-    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-post"
+    "slug": "Budinca-de-ovaz-cu-iaurt-de-soia-si-zmeura-post",
+    "minutes": 5
   },
   {
     "id": "p-123",
@@ -7491,7 +7911,8 @@ export const recipes = [
       "fat": 5.9,
       "fiber": 1.6
     },
-    "slug": "Iaurt-vegetal-cu-scortisoara-si-ciocolata-neagra"
+    "slug": "Iaurt-vegetal-cu-scortisoara-si-ciocolata-neagra",
+    "minutes": 5
   },
   {
     "id": "p-124",
@@ -7509,7 +7930,8 @@ export const recipes = [
       "fat": 6.7,
       "fiber": 6.3
     },
-    "slug": "Cheesecake-vegan-la-pahar-cu-ovaz-si-cirese"
+    "slug": "Cheesecake-vegan-la-pahar-cu-ovaz-si-cirese",
+    "minutes": 15
   },
   {
     "id": "p-125",
@@ -7527,7 +7949,8 @@ export const recipes = [
       "fat": 6.3,
       "fiber": 4.8
     },
-    "slug": "Parfait-proteic-cu-fructe-de-padure-si-granola-crocanta"
+    "slug": "Parfait-proteic-cu-fructe-de-padure-si-granola-crocanta",
+    "minutes": 10
   },
   {
     "id": "p-126",
@@ -7545,7 +7968,8 @@ export const recipes = [
       "fat": 11.0,
       "fiber": 4.0
     },
-    "slug": "Mousse-proteic-de-ciocolata-cu-avocado"
+    "slug": "Mousse-proteic-de-ciocolata-cu-avocado",
+    "minutes": 10
   },
   {
     "id": "p-127",
@@ -7563,7 +7987,8 @@ export const recipes = [
       "fat": 6.0,
       "fiber": 2.6
     },
-    "slug": "Bilute-energizante-cu-nuca-si-curmale"
+    "slug": "Bilute-energizante-cu-nuca-si-curmale",
+    "minutes": 15
   },
   {
     "id": "p-128",
@@ -7581,7 +8006,8 @@ export const recipes = [
       "fat": 2.7,
       "fiber": 3.5
     },
-    "slug": "Brownies-de-post-cu-fasole-neagra"
+    "slug": "Brownies-de-post-cu-fasole-neagra",
+    "minutes": 30
   },
   {
     "id": "p-129",
@@ -7599,7 +8025,8 @@ export const recipes = [
       "fat": 1.8,
       "fiber": 2.6
     },
-    "slug": "Inghetata-cu-banane"
+    "slug": "Inghetata-cu-banane",
+    "minutes": 10
   },
   {
     "id": "p-130",
@@ -7617,7 +8044,8 @@ export const recipes = [
       "fat": 11.1,
       "fiber": 5.2
     },
-    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-post"
+    "slug": "Prajitura-cu-ovaz-si-unt-de-arahide-post",
+    "minutes": 30
   },
   {
     "id": "p-131",
@@ -7635,7 +8063,8 @@ export const recipes = [
       "fat": 12.4,
       "fiber": 3.8
     },
-    "slug": "Tarta-cu-nuci-si-zmeura"
+    "slug": "Tarta-cu-nuci-si-zmeura",
+    "minutes": 50
   },
   {
     "id": "p-132",
@@ -7653,7 +8082,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 2.0
     },
-    "slug": "Clatite-de-post-cu-lapte-vegetal"
+    "slug": "Clatite-de-post-cu-lapte-vegetal",
+    "minutes": 20
   },
   {
     "id": "p-133",
@@ -7671,7 +8101,8 @@ export const recipes = [
       "fat": 3.5,
       "fiber": 2.8
     },
-    "slug": "Chec-cu-banane"
+    "slug": "Chec-cu-banane",
+    "minutes": 40
   },
   {
     "id": "p-134",
@@ -7689,7 +8120,8 @@ export const recipes = [
       "fat": 3.0,
       "fiber": 1.7
     },
-    "slug": "Budinca-de-tapioca-cu-cocos-si-mango"
+    "slug": "Budinca-de-tapioca-cu-cocos-si-mango",
+    "minutes": 20
   },
   {
     "id": "p-135",
@@ -7707,7 +8139,8 @@ export const recipes = [
       "fat": 2.5,
       "fiber": 2.3
     },
-    "slug": "Fursecuri-de-ovaz-si-stafide"
+    "slug": "Fursecuri-de-ovaz-si-stafide",
+    "minutes": 25
   },
   {
     "id": "p-136",
@@ -7725,7 +8158,8 @@ export const recipes = [
       "fat": 5.5,
       "fiber": 2.4
     },
-    "slug": "Prajitura-de-morcovi"
+    "slug": "Prajitura-de-morcovi",
+    "minutes": 40
   },
   {
     "id": "p-137",
@@ -7743,7 +8177,8 @@ export const recipes = [
       "fat": 3.4,
       "fiber": 3.8
     },
-    "slug": "Tarta-cu-mere-si-scortisoara"
+    "slug": "Tarta-cu-mere-si-scortisoara",
+    "minutes": 45
   },
   {
     "id": "p-138",
@@ -7761,6 +8196,7 @@ export const recipes = [
       "fat": 0.8,
       "fiber": 1.8
     },
-    "slug": "Crema-de-gris-cu-lapte-vegetal"
+    "slug": "Crema-de-gris-cu-lapte-vegetal",
+    "minutes": 15
   }
 ];

@@ -1,27 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Flame, Droplets, Scale, Activity, Target, Info, RotateCcw } from "lucide-react";
 import MealPlan from "./MealPlan";
-
-// Calculul folosește formula Mifflin-St Jeor pentru metabolismul bazal (BMR),
-// înmulțită cu factorul de activitate (TDEE), apoi ajustată după obiectiv.
-
-const ACTIVITY = [
-  { id: "sedentar", label: "Sedentar", desc: "Birou, fără sport", factor: 1.2, emoji: "🛋️" },
-  { id: "usor", label: "Ușor activ", desc: "Sport 1–3 zile/săpt.", factor: 1.375, emoji: "🚶" },
-  { id: "moderat", label: "Moderat activ", desc: "Sport 3–5 zile/săpt.", factor: 1.55, emoji: "🏃" },
-  { id: "activ", label: "Foarte activ", desc: "Sport 6–7 zile/săpt.", factor: 1.725, emoji: "🏋️" },
-  { id: "extrem", label: "Extrem de activ", desc: "Muncă fizică + antrenamente", factor: 1.9, emoji: "🔥" },
-];
-
-const GOALS = [
-  { id: "slabire", label: "Slăbire", desc: "−20%", factor: 0.8, color: "#ef6f5e" },
-  { id: "slabire-lenta", label: "Slăbire lentă", desc: "−10%", factor: 0.9, color: "#f5a524" },
-  { id: "mentinere", label: "Menținere", desc: "0%", factor: 1, color: "#2bb3a3" },
-  { id: "masa", label: "Masă musculară", desc: "+10%", factor: 1.1, color: "#7b6cf6" },
-];
-
-const DEFAULTS = { sex: "femeie", age: 30, weight: 70, height: 165, activity: "usor", goal: "slabire-lenta" };
-const STORAGE_KEY = "calculator-calorii";
+import { ACTIVITY, GOALS, DEFAULTS, STORAGE_KEY, calcTargets } from "./calories";
 
 function loadSaved() {
   try {
@@ -128,12 +108,8 @@ export default function CalorieCalculator({ onOpenRecipe, onOpenCalendar, initia
   }, [form]);
 
   const r = useMemo(() => {
-    const { sex, age, weight, height } = form;
-    const bmr = 10 * weight + 6.25 * height - 5 * age + (sex === "barbat" ? 5 : -161);
-    const activity = ACTIVITY.find((a) => a.id === form.activity);
-    const goal = GOALS.find((g) => g.id === form.goal);
-    const tdee = bmr * activity.factor;
-    const target = tdee * goal.factor;
+    const { weight, height } = form;
+    const { bmr, tdee, target, activity, goal } = calcTargets(form);
 
     // proteine după greutate, grăsimi 25% din calorii, restul carbohidrați
     const proteinG = weight * (goal.id.startsWith("slabire") ? 2 : goal.id === "masa" ? 1.8 : 1.6);

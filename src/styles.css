@@ -49,11 +49,11 @@ button, input { font: inherit; }
   max-width: 100%; min-height: 0; flex: 0 1 auto; object-fit: contain;
   border-radius: 14px; box-shadow: 0 10px 35px rgba(40,46,38,.15);
 }
-.brandMark {
-  width: 38px; height: 38px; border-radius: 11px;
-  display: grid; place-items: center;
-  background: #e6b85c; color: #173c2b;
+.brandLogo {
+  width: 46px; height: 46px; flex: 0 0 46px; border-radius: 13px; display: block;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25); transition: transform .2s ease;
 }
+.brandHome:hover .brandLogo { transform: rotate(-6deg) scale(1.05); }
 .brandTitle { font: 700 17px/1.15 "Playfair Display", Georgia, serif; letter-spacing: .01em; }
 .brandEyebrow { margin-top: 3px; font-size: 10.5px; letter-spacing: .14em; font-weight: 700; text-transform: uppercase; color: #e6b85c; }
 .tocIntro { padding: 20px 20px 13px; }
@@ -224,8 +224,15 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 
 .calcSlider { display: block; margin-top: 16px; }
 .calcSliderTop { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 600; color: #405045; margin-bottom: 8px; }
-.calcSliderValue { display: inline-flex; align-items: baseline; gap: 4px; font-weight: 700; }
-.calcSliderValue input { width: 56px; border: 0; background: transparent; font-weight: 800; font-size: 20px; color: inherit; text-align: right; outline: 0; -moz-appearance: textfield; }
+.calcSliderValue { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; }
+/* câmpul se vede ca un câmp de scris: chenar, iar la clic se evidențiază */
+.calcSliderValue input {
+  width: 64px; padding: 3px 8px; border: 1.5px solid #e2dccd; border-radius: 10px; background: #fff;
+  font-weight: 800; font-size: 19px; color: inherit; text-align: center; outline: 0; cursor: text;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.calcSliderValue input:hover { border-color: currentColor; }
+.calcSliderValue input:focus { border-color: currentColor; box-shadow: 0 0 0 3px color-mix(in srgb, currentColor 18%, transparent); }
 .calcSliderValue input::-webkit-inner-spin-button { -webkit-appearance: none; }
 .calcSlider input[type=range] {
   width: 100%; height: 8px; border-radius: 999px; appearance: none; -webkit-appearance: none; cursor: pointer;
@@ -492,6 +499,34 @@ h1 { margin: 0; max-width: 850px; font: 700 clamp(22px, 2.2vw, 32px)/1.1 "Playfa
 .fruitCredits li { margin-bottom: 3px; break-inside: avoid; }
 .fruitCredits a { color: inherit; }
 @media (max-width: 700px) { .fruitCredits ul { columns: 1; } }
+
+/* ---------- bara de căutare (SearchBar), folosită peste tot ---------- */
+.searchBar {
+  display: flex; align-items: center; gap: 8px; width: 100%; margin-bottom: 18px; padding: 6px 6px 6px 16px;
+  border: 1.5px solid #e2dccd; border-radius: 999px; background: #fffdf8; color: #8a9189;
+  box-shadow: 0 6px 18px rgba(40,46,38,.05); transition: border-color .15s ease;
+}
+.searchBar:focus-within { border-color: #2bb3a3; }
+.searchBarIcon { flex: 0 0 auto; }
+.searchBar input {
+  flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: 15px; color: #1c2b20; padding: 6px 0;
+}
+.searchBar input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.searchBarClear { flex: 0 0 auto; border: 0; background: none; color: #8a9189; cursor: pointer; display: grid; place-items: center; padding: 4px; border-radius: 50%; }
+.searchBarClear:hover { background: #f1ece0; color: #405045; }
+.searchBarBtn {
+  flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 999px; cursor: pointer;
+  padding: 9px 18px; font-weight: 800; font-size: 14px; color: #fff; background: linear-gradient(135deg, #173c2b, #2c6b4a);
+  transition: transform .12s ease, opacity .15s ease;
+}
+.searchBarBtn:hover:not(:disabled) { transform: translateY(-1px); }
+.searchBarBtn:disabled { opacity: .45; cursor: default; }
+.searchBar.compact { margin-bottom: 0; padding: 4px 4px 4px 12px; }
+.searchBar.compact input { font-size: 13.5px; }
+.searchBar.compact .searchBarBtn { padding: 7px 14px; font-size: 13px; }
+.searchBar.fridgeAdd .searchBarBtn { background: linear-gradient(135deg, #2bb3a3, #4f9d3a); }
+.homeFridgeRow .searchBar { flex: 1; min-width: 240px; }
+@media (max-width: 480px) { .searchBarBtn span { display: none; } .searchBarBtn { padding: 9px 12px; } }
 
 /* ---------- pagina de start (panou) ---------- */
 .homePage { max-width: 1240px; width: 100%; margin: 0 auto; }

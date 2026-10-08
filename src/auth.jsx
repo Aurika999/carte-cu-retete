@@ -6,6 +6,8 @@ import {
   onAuthStateChanged,
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
+  browserLocalPersistence,
+  setPersistence,
   signOut,
   updateProfile,
 } from "firebase/auth";
@@ -41,8 +43,12 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     if (!auth) return undefined;
+    // sesiunea rămâne activă și după închiderea browserului, până la „Ieși”
+    setPersistence(auth, browserLocalPersistence).catch(() => {});
     return onAuthStateChanged(auth, async (u) => {
       if (u) {
+        // fișa utilizatorului în baza de date (users/<uid>) se creează / actualizează la fiecare intrare
+        saveUserRecord(u, { lastLoginAt: new Date().toISOString() }).catch(() => {});
         // meniurile salvate în browser înainte de autentificare trec în cont
         try {
           await migrateLocalMenus(u);
@@ -96,6 +102,24 @@ export function AuthProvider({ children }) {
 export { message as authErrorMessage };
 
 const profileRef = (u) => doc(db, "users", u.uid, "data", "profile");
+
+// Fișa utilizatorului în Firestore, la users/<uid>: nume, email, data creării contului,
+// ultima autentificare. Se completează la înregistrare și se actualizează la fiecare intrare
+// sau schimbare de nume (merge: câmpurile nespecificate rămân neschimbate).
+export function saveUserRecord(u, extra = {}) {
+  if (!db || !u) return Promise.resolve();
+  return setDoc(
+    doc(db, "users", u.uid),
+    {
+      uid: u.uid,
+      email: u.email ?? null,
+      displayName: u.displayName ?? null,
+      createdAt: u.metadata?.creationTime ? new Date(u.metadata.creationTime).toISOString() : null,
+      ...extra,
+    },
+    { merge: true }
+  );
+}
 
 // avatarul: poza de profil sau, fără poză, inițiala numelui
 export function Avatar({ className = "", size }) {
@@ -159,6 +183,7 @@ function LoginDialog({ onClose, onSignedUp }) {
       else if (mode === "signup") {
         const { user } = await createUserWithEmailAndPassword(auth, email.trim(), password);
         await updateProfile(user, { displayName: name.trim() });
+        await saveUserRecord(user, { displayName: name.trim(), lastLoginAt: new Date().toISOString() }).catch(() => {});
         await onSignedUp();
       } else {
         await sendPasswordResetEmail(auth, email.trim());

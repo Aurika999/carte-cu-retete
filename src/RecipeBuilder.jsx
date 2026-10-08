@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { ChefHat, Info, Minus, Plus, Save, Search, Trash2, Users, X, FilePlus2 } from "lucide-react";
+import { ChefHat, Info, Minus, Plus, Save, Trash2, Users, FilePlus2 } from "lucide-react";
 import { CATEGORIES, ingredients, ingredientById } from "./ingredients";
+import SearchBar from "./SearchBar";
 
 // Rețeta în lucru și rețetele salvate se păstrează în browser (localStorage)
 const DRAFT_KEY = "reteta-in-lucru";
@@ -106,11 +107,19 @@ export default function RecipeBuilder() {
         {/* ---------- ingrediente disponibile ---------- */}
         <section className="calcCard rbPicker">
           <h2>Adaugă ingrediente</h2>
-          <label className="fruitSearch rbSearch">
-            <Search size={15} />
-            <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Caută un ingredient (ex. pui, orez, roșii)..." />
-            {query && <button onClick={() => setQuery("")} aria-label="Șterge căutarea"><X size={14} /></button>}
-          </label>
+          {/* lista se filtrează pe loc; „Caută” (sau Enter) caută în toate categoriile și urcă la începutul listei */}
+          <SearchBar
+            className="compact"
+            value={query}
+            onChange={setQuery}
+            onSubmit={() => {
+              setCategory("toate");
+              const list = document.querySelector(".rbResults");
+              if (list) list.scrollTop = 0;
+              list?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            }}
+            placeholder="Caută un ingredient (ex. pui, orez, roșii)..."
+          />
           <div className="mealBooks rbCats">
             <button className={`mealBook ${category === "toate" ? "active" : ""}`} onClick={() => setCategory("toate")}>Toate</button>
             {CATEGORIES.map((c) => (

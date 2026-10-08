@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { CalendarPlus, ChefHat, ChevronLeft, ChevronRight, Clock, Droplets, Flame, Plus, Refrigerator, Search, Sparkles, X } from "lucide-react";
+import { CalendarPlus, ChefHat, ChevronLeft, ChevronRight, Clock, Droplets, Flame, Plus, Refrigerator, Search, Sparkles } from "lucide-react";
 import { recipes } from "./recipes";
 import { useAuth } from "./auth";
 import { HeartButton, useFavorites } from "./favorites";
@@ -11,6 +11,7 @@ import { GLASS, addWaterToday, todayEntry } from "./waterStorage";
 import { dateKey, loadMenus, saveMenu } from "./menuStorage";
 import { drawCover, generateRecipe } from "./recipeGenerator";
 import { navigate } from "./routes";
+import SearchBar from "./SearchBar";
 import { saveMyRecipe } from "./myRecipes";
 
 const photoOf = (r) => `/recipes/${r.slug}.jpg`;
@@ -171,8 +172,7 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
     setFridgeResults(null);
     setFridge((f) => (f.some((x) => x.label === label) ? f.filter((x) => x.label !== label) : [...f, { label, re }]));
   };
-  function addCustom(e) {
-    e.preventDefault();
+  function addCustom() {
     const t = norm(custom.trim());
     if (!t) return;
     toggleFridge(custom.trim(), `\\b${t.slice(0, Math.max(3, Math.min(5, t.length)))}`);
@@ -205,11 +205,13 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
         {firstName ? `Bine ai venit, ${firstName}!` : "Bine ai venit!"} <span>Ce gătim sănătos astăzi?</span>
       </h1>
 
-      <form className="hubSearch homeSearch" onSubmit={(e) => { e.preventDefault(); if (query.trim()) onSearch(query.trim()); }}>
-        <Search size={18} />
-        <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Caută o rețetă (ex. ciorbă, clătite, pui)..." />
-        {query && <button type="button" onClick={() => setQuery("")} aria-label="Șterge"><X size={16} /></button>}
-      </form>
+      <SearchBar
+        className="homeSearch"
+        value={query}
+        onChange={setQuery}
+        onSubmit={(q) => q && onSearch(q)}
+        placeholder="Caută o rețetă (ex. ciorbă, clătite, pui)..."
+      />
 
       {/* ---------- panou: apă + calorii ---------- */}
       <div className="homeDash">
@@ -322,10 +324,16 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
           ))}
         </div>
         <div className="homeFridgeRow">
-          <form className="fruitSearch rbSearch" onSubmit={addCustom}>
-            <Plus size={15} />
-            <input value={custom} onChange={(e) => setCustom(e.target.value)} placeholder="Alt ingredient (ex. dovleac) + Enter" />
-          </form>
+          <SearchBar
+            className="compact fridgeAdd"
+            icon={Plus}
+            buttonLabel="Adaugă"
+            autoBlur={false}
+            value={custom}
+            onChange={setCustom}
+            onSubmit={addCustom}
+            placeholder="Alt ingredient (ex. dovleac)"
+          />
           <button className="mealSaveBtn" onClick={findRecipes} disabled={!fridge.length || searching}>
             <Search size={16} /> {searching ? "Caut…" : "Caută rețete"}
           </button>

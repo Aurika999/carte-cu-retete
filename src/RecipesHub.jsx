@@ -1,8 +1,9 @@
 import React, { useLayoutEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, BookOpen, Search, X } from "lucide-react";
+import { ArrowLeft, BookOpen } from "lucide-react";
 import { recipes } from "./recipes";
 import { readScroll, replaceSearch, saveScroll } from "./routes";
 import { HeartButton } from "./favorites";
+import SearchBar from "./SearchBar";
 import { FILTERS, applyFilter, filterById } from "./recipeFilters";
 import { fruits } from "./fruits";
 import { vegetables } from "./vegetables";
@@ -83,11 +84,13 @@ export default function RecipesHub({ book, onOpenRecipe, onOpenBook, onOpenTool 
         </div>
       </header>
 
-      <label className="hubSearch">
-        <Search size={18} />
-        <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Caută o rețetă (ex. ciorbă, clătite, pui)..." />
-        {query && <button onClick={() => setQuery("")} aria-label="Șterge căutarea"><X size={16} /></button>}
-      </label>
+      {/* rezultatele se filtrează pe loc; „Caută” (sau Enter) duce la ele */}
+      <SearchBar
+        value={query}
+        onChange={setQuery}
+        onSubmit={() => document.getElementById("hubResults")?.scrollIntoView({ behavior: "smooth", block: "start" })}
+        placeholder="Caută o rețetă (ex. ciorbă, clătite, pui)..."
+      />
 
       <div className="mealBooks hubFilters">
         {FILTERS.map((f) => (
@@ -98,7 +101,7 @@ export default function RecipesHub({ book, onOpenRecipe, onOpenBook, onOpenTool 
       </div>
 
       {q || filter ? (
-        <section className="calcCard">
+        <section className="calcCard" id="hubResults">
           <h2>
             {results.length ? `${results.length} rețete` : "Nicio rețetă găsită"}
             {filter && <small className="hubFilterNote"> · {filter.title} ({filter.subtitle.toLowerCase()})</small>}

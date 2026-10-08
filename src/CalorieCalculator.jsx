@@ -14,7 +14,8 @@ function useAnimatedNumber(target, duration = 450) {
     const initial = from.current;
     let frame;
     const tick = (now) => {
-      const t = Math.min(1, (now - start) / duration);
+      // timpul cadrului poate fi puțin înaintea lui „start”: fără limita de jos, animația o ia razna
+      const t = Math.min(1, Math.max(0, (now - start) / duration));
       const eased = 1 - Math.pow(1 - t, 3);
       const v = initial + (target - initial) * eased;
       setValue(v);
@@ -22,28 +23,49 @@ function useAnimatedNumber(target, duration = 450) {
       if (t < 1) frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
+    // siguranță: dacă browserul nu rulează animația (filă în fundal etc.), cifra ajunge oricum la valoarea finală
+    const done = setTimeout(() => { cancelAnimationFrame(frame); setValue(target); from.current = target; }, duration + 100);
+    return () => { cancelAnimationFrame(frame); clearTimeout(done); };
   }, [target, duration]);
   return Math.round(value);
 }
 
+// Glisor + câmp în care valoarea se poate scrie direct. Textul scris se aplică pe loc dacă e
+// între min și max; în afara limitelor se corectează abia la ieșirea din câmp (sau Enter),
+// ca să poți scrie liniștit ex. „52” după ce ai șters „49”.
 function Slider({ label, unit, value, min, max, step = 1, onChange, color }) {
   const pct = ((value - min) / (max - min)) * 100;
+  const [text, setText] = useState(String(value));
+  const [editing, setEditing] = useState(false);
+  useEffect(() => { if (!editing) setText(String(value)); }, [value, editing]);
+
+  const commit = () => {
+    setEditing(false);
+    const v = Number(text.replace(",", "."));
+    const next = Number.isNaN(v) || text.trim() === "" ? value : Math.min(max, Math.max(min, Math.round(v)));
+    onChange(next);
+    setText(String(next));
+  };
+
   return (
     <label className="calcSlider">
       <div className="calcSliderTop">
         <span>{label}</span>
         <span className="calcSliderValue" style={{ color }}>
           <input
-            type="number"
-            value={value}
-            min={min}
-            max={max}
-            step={step}
+            type="text"
+            inputMode="numeric"
+            value={text}
+            aria-label={`${label} (${unit}), între ${min} și ${max}`}
+            onFocus={(e) => { setEditing(true); e.target.select(); }}
             onChange={(e) => {
-              const v = Number(e.target.value);
-              if (!Number.isNaN(v)) onChange(Math.min(max, Math.max(min, v)));
+              const t = e.target.value.replace(/[^\d.,]/g, "").slice(0, 3);
+              setText(t);
+              const v = Number(t.replace(",", "."));
+              if (t && !Number.isNaN(v) && v >= min && v <= max) onChange(Math.round(v));
             }}
+            onBlur={commit}
+            onKeyDown={(e) => { if (e.key === "Enter") e.currentTarget.blur(); }}
           />
           {unit}
         </span>

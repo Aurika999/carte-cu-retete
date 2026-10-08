@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { deleteDoc, doc } from "firebase/firestore";
+import { collection, deleteDoc, doc, getDocs } from "firebase/firestore";
 import { db } from "./firebase";
 import {
   EmailAuthProvider,
@@ -9,7 +9,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { CalendarDays, Camera, Flame, KeyRound, LogIn, LogOut, Mail, Save, Trash2, UserRound } from "lucide-react";
-import { Avatar, authErrorMessage, resizeToAvatar, useAuth } from "./auth";
+import { Avatar, authErrorMessage, resizeToAvatar, saveUserRecord, useAuth } from "./auth";
 import { deleteAllMenus, loadMenus } from "./menuStorage";
 import { CalorieForm } from "./CalorieCalculator";
 
@@ -105,6 +105,7 @@ export default function AccountPage({ onOpenCalendar, scrollTo }) {
     setBusy("name");
     try {
       await updateProfile(user, { displayName: name.trim() });
+      await saveUserRecord(user, { displayName: name.trim() });
       await refreshUser();
       setNameState({ ok: "Numele a fost salvat." });
     } catch (err) {
@@ -137,6 +138,10 @@ export default function AccountPage({ onOpenCalendar, scrollTo }) {
       await deleteAllMenus(user);
       // poza de profil și favoritele
       await Promise.all(["profile", "favorites"].map((d) => deleteDoc(doc(db, "users", user.uid, "data", d))));
+      // rețetele create și fișa utilizatorului (users/<uid>)
+      const created = await getDocs(collection(db, "users", user.uid, "myRecipes"));
+      await Promise.all(created.docs.map((d) => deleteDoc(d.ref)));
+      await deleteDoc(doc(db, "users", user.uid));
       await deleteUser(user);
     } catch (err) {
       setDelState({ error: authErrorMessage(err) });

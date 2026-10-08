@@ -56,7 +56,7 @@ function App({ route, state }) {
       <aside className={`sidebar ${mobileOpen ? "sidebar--open" : ""}`}>
         <div className="brand">
           <button className="brandHome" onClick={goHome} aria-label="Pagina de start">
-            <div className="brandMark"><BookOpen size={19} /></div>
+            <img className="brandLogo" src="/logo.svg" alt="" width="46" height="46" />
             <div>
               <div className="brandTitle">Be Fit From Home</div>
               <div className="brandEyebrow">Rețete Sănătoase</div>

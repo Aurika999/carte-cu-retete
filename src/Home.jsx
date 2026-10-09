@@ -12,6 +12,7 @@ import { dateKey, loadMenus, saveMenu } from "./menuStorage";
 import { drawCover, generateRecipe } from "./recipeGenerator";
 import { navigate } from "./routes";
 import SearchBar from "./SearchBar";
+import { InstallBanner } from "./installApp";
 import { saveMyRecipe } from "./myRecipes";
 
 const photoOf = (r) => `/recipes/${r.slug}.jpg`;
@@ -201,6 +202,7 @@ export default function Home({ onOpenRecipe, onSearch, onFilter, onOpenTool }) {
 
   return (
     <div className="calcPage homePage">
+      <InstallBanner />
       <h1 className="homeGreeting">
         {firstName ? `Bine ai venit, ${firstName}!` : "Bine ai venit!"} <span>Ce gătim sănătos astăzi?</span>
       </h1>

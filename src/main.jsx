@@ -11,6 +11,9 @@ import AccountPage from "./AccountPage";
 import RecipesHub from "./RecipesHub";
 import Home from "./Home";
 import Exercises from "./Exercises";
+import { InstallButton, registerServiceWorker } from "./installApp";
+
+registerServiceWorker();
 import { FavoritesProvider } from "./favorites";
 import { getMyRecipe } from "./myRecipes";
 import { CalcDataProvider } from "./calcData";
@@ -75,6 +78,7 @@ function App({ route, state }) {
           {navButton("apa", "waterNav", Droplets, "Jurnal de apă", "Câtă apă să bei și cât ai băut")}
           {navButton("exercitii", "exNav", Dumbbell, "Exerciții zilnice", "Rutină acasă și calorii arse")}
           {navButton("reteta", "rbNav", ChefHat, "Creează-ți rețeta", "Alege ingredientele, vezi caloriile")}
+          <InstallButton />
           <p className="slogan">Gătește smart, trăiește fit.</p>
         </nav>
       </aside>
